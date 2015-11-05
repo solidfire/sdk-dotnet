@@ -6,6 +6,7 @@
     <HelpKINode Title="CloneMultipleVolumesRequest.Access Property " Url="html/P_SolidFire_Element_Api_CloneMultipleVolumesRequest_Access.htm" />
     <HelpKINode Title="CloneVolumeRequest.Access Property " Url="html/P_SolidFire_Element_Api_CloneVolumeRequest_Access.htm" />
     <HelpKINode Title="ClusterAdmin.Access Property " Url="html/P_SolidFire_Element_Api_ClusterAdmin_Access.htm" />
+    <HelpKINode Title="ModifyClusterAdminRequest.Access Property " Url="html/P_SolidFire_Element_Api_ModifyClusterAdminRequest_Access.htm" />
     <HelpKINode Title="ModifyVolumeRequest.Access Property " Url="html/P_SolidFire_Element_Api_ModifyVolumeRequest_Access.htm" />
     <HelpKINode Title="SnmpNetwork.Access Property " Url="html/P_SolidFire_Element_Api_SnmpNetwork_Access.htm" />
     <HelpKINode Title="SnmpV3UsmUser.Access Property " Url="html/P_SolidFire_Element_Api_SnmpV3UsmUser_Access.htm" />
@@ -217,6 +218,7 @@
     <HelpKINode Title="DrivesInfo.Attributes Property " Url="html/P_SolidFire_Element_Api_DrivesInfo_Attributes.htm" />
     <HelpKINode Title="GroupSnapshot.Attributes Property " Url="html/P_SolidFire_Element_Api_GroupSnapshot_Attributes.htm" />
     <HelpKINode Title="ModifyAccountRequest.Attributes Property " Url="html/P_SolidFire_Element_Api_ModifyAccountRequest_Attributes.htm" />
+    <HelpKINode Title="ModifyClusterAdminRequest.Attributes Property " Url="html/P_SolidFire_Element_Api_ModifyClusterAdminRequest_Attributes.htm" />
     <HelpKINode Title="ModifyVolumeAccessGroupRequest.Attributes Property " Url="html/P_SolidFire_Element_Api_ModifyVolumeAccessGroupRequest_Attributes.htm" />
     <HelpKINode Title="ModifyVolumeRequest.Attributes Property " Url="html/P_SolidFire_Element_Api_ModifyVolumeRequest_Attributes.htm" />
     <HelpKINode Title="Node.Attributes Property " Url="html/P_SolidFire_Element_Api_Node_Attributes.htm" />
@@ -490,6 +492,7 @@
     <HelpKINode Title="ClusterConfig.Cluster Property " Url="html/P_SolidFire_Element_Api_ClusterConfig_Cluster.htm" />
     <HelpKINode Title="Config.Cluster Property " Url="html/P_SolidFire_Element_Api_Config_Cluster.htm" />
     <HelpKINode Title="GetClusterConfigResult.Cluster Property " Url="html/P_SolidFire_Element_Api_GetClusterConfigResult_Cluster.htm" />
+    <HelpKINode Title="GetClusterStateResult.Cluster Property " Url="html/P_SolidFire_Element_Api_GetClusterStateResult_Cluster.htm" />
     <HelpKINode Title="SetClusterConfigRequest.Cluster Property " Url="html/P_SolidFire_Element_Api_SetClusterConfigRequest_Cluster.htm" />
     <HelpKINode Title="SetClusterConfigResult.Cluster Property " Url="html/P_SolidFire_Element_Api_SetClusterConfigResult_Cluster.htm" />
   </HelpKINode>
@@ -500,6 +503,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_ClusterAdmin.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_ClusterAdmin.htm" />
   </HelpKINode>
+  <HelpKINode Title="ClusterAdmin property" Url="html/P_SolidFire_Element_Api_GetCurrentClusterAdminResult_ClusterAdmin.htm" />
   <HelpKINode Title="ClusterAdmin.Access property" Url="html/P_SolidFire_Element_Api_ClusterAdmin_Access.htm" />
   <HelpKINode Title="ClusterAdmin.Attributes property" Url="html/P_SolidFire_Element_Api_ClusterAdmin_Attributes.htm" />
   <HelpKINode Title="ClusterAdmin.ClusterAdmin constructor" Url="html/M_SolidFire_Element_Api_ClusterAdmin__ctor.htm" />
@@ -508,6 +512,7 @@
   <HelpKINode Title="ClusterAdminID property">
     <HelpKINode Title="AddClusterAdminResult.ClusterAdminID Property " Url="html/P_SolidFire_Element_Api_AddClusterAdminResult_ClusterAdminID.htm" />
     <HelpKINode Title="ClusterAdmin.ClusterAdminID Property " Url="html/P_SolidFire_Element_Api_ClusterAdmin_ClusterAdminID.htm" />
+    <HelpKINode Title="ModifyClusterAdminRequest.ClusterAdminID Property " Url="html/P_SolidFire_Element_Api_ModifyClusterAdminRequest_ClusterAdminID.htm" />
     <HelpKINode Title="RemoveClusterAdminRequest.ClusterAdminID Property " Url="html/P_SolidFire_Element_Api_RemoveClusterAdminRequest_ClusterAdminID.htm" />
   </HelpKINode>
   <HelpKINode Title="ClusterAdmins property" Url="html/P_SolidFire_Element_Api_ListClusterAdminsResult_ClusterAdmins.htm" />
@@ -905,6 +910,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_CreateVolumeResult.htm" />
   </HelpKINode>
   <HelpKINode Title="CreateVolumeResult.CreateVolumeResult constructor" Url="html/M_SolidFire_Element_Api_CreateVolumeResult__ctor.htm" />
+  <HelpKINode Title="CreateVolumeResult.Curve property" Url="html/P_SolidFire_Element_Api_CreateVolumeResult_Curve.htm" />
   <HelpKINode Title="CreateVolumeResult.VolumeID property" Url="html/P_SolidFire_Element_Api_CreateVolumeResult_VolumeID.htm" />
   <HelpKINode Title="CurrentBytes property" Url="html/P_SolidFire_Element_Api_SyncJob_CurrentBytes.htm" />
   <HelpKINode Title="CurrentIOPS property" Url="html/P_SolidFire_Element_Api_ClusterCapacity_CurrentIOPS.htm" />
@@ -912,7 +918,11 @@
     <HelpKINode Title="GetAPIResult.CurrentVersion Property " Url="html/P_SolidFire_Element_Api_GetAPIResult_CurrentVersion.htm" />
     <HelpKINode Title="SoftwareVersionInfo.CurrentVersion Property " Url="html/P_SolidFire_Element_Api_SoftwareVersionInfo_CurrentVersion.htm" />
   </HelpKINode>
-  <HelpKINode Title="Curve property" Url="html/P_SolidFire_Element_Api_QoS_Curve.htm" />
+  <HelpKINode Title="Curve property">
+    <HelpKINode Title="CreateVolumeResult.Curve Property " Url="html/P_SolidFire_Element_Api_CreateVolumeResult_Curve.htm" />
+    <HelpKINode Title="ModifyVolumeResult.Curve Property " Url="html/P_SolidFire_Element_Api_ModifyVolumeResult_Curve.htm" />
+    <HelpKINode Title="QoS.Curve Property " Url="html/P_SolidFire_Element_Api_QoS_Curve.htm" />
+  </HelpKINode>
   <HelpKINode Title="Data property">
     <HelpKINode Title="ClusterFaultInfo.Data Property " Url="html/P_SolidFire_Element_Api_ClusterFaultInfo_Data.htm" />
     <HelpKINode Title="CreateDatabaseEntryRequest.Data Property " Url="html/P_SolidFire_Element_Api_CreateDatabaseEntryRequest_Data.htm" />
@@ -1559,6 +1569,17 @@
   </HelpKINode>
   <HelpKINode Title="GetClusterMasterNodeIDResult.GetClusterMasterNodeIDResult constructor" Url="html/M_SolidFire_Element_Api_GetClusterMasterNodeIDResult__ctor.htm" />
   <HelpKINode Title="GetClusterMasterNodeIDResult.NodeID property" Url="html/P_SolidFire_Element_Api_GetClusterMasterNodeIDResult_NodeID.htm" />
+  <HelpKINode Title="GetClusterState method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetClusterState.htm" />
+  <HelpKINode Title="GetClusterStateResult class">
+    <HelpKINode Title="GetClusterStateResult Class" Url="html/T_SolidFire_Element_Api_GetClusterStateResult.htm" />
+    <HelpKINode Title="about GetClusterStateResult class" Url="html/T_SolidFire_Element_Api_GetClusterStateResult.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_GetClusterStateResult__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_GetClusterStateResult.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_GetClusterStateResult.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetClusterStateResult.Cluster property" Url="html/P_SolidFire_Element_Api_GetClusterStateResult_Cluster.htm" />
+  <HelpKINode Title="GetClusterStateResult.GetClusterStateResult constructor" Url="html/M_SolidFire_Element_Api_GetClusterStateResult__ctor.htm" />
+  <HelpKINode Title="GetClusterStateResult.State property" Url="html/P_SolidFire_Element_Api_GetClusterStateResult_State.htm" />
   <HelpKINode Title="GetClusterStats method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetClusterStats.htm" />
   <HelpKINode Title="GetClusterStatsResult class">
     <HelpKINode Title="GetClusterStatsResult Class" Url="html/T_SolidFire_Element_Api_GetClusterStatsResult.htm" />
@@ -1592,6 +1613,16 @@
   </HelpKINode>
   <HelpKINode Title="GetConfigResult.Config property" Url="html/P_SolidFire_Element_Api_GetConfigResult_Config.htm" />
   <HelpKINode Title="GetConfigResult.GetConfigResult constructor" Url="html/M_SolidFire_Element_Api_GetConfigResult__ctor.htm" />
+  <HelpKINode Title="GetCurrentClusterAdmin method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetCurrentClusterAdmin.htm" />
+  <HelpKINode Title="GetCurrentClusterAdminResult class">
+    <HelpKINode Title="GetCurrentClusterAdminResult Class" Url="html/T_SolidFire_Element_Api_GetCurrentClusterAdminResult.htm" />
+    <HelpKINode Title="about GetCurrentClusterAdminResult class" Url="html/T_SolidFire_Element_Api_GetCurrentClusterAdminResult.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_GetCurrentClusterAdminResult__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_GetCurrentClusterAdminResult.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_GetCurrentClusterAdminResult.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetCurrentClusterAdminResult.ClusterAdmin property" Url="html/P_SolidFire_Element_Api_GetCurrentClusterAdminResult_ClusterAdmin.htm" />
+  <HelpKINode Title="GetCurrentClusterAdminResult.GetCurrentClusterAdminResult constructor" Url="html/M_SolidFire_Element_Api_GetCurrentClusterAdminResult__ctor.htm" />
   <HelpKINode Title="GetDatabaseEntry method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetDatabaseEntry.htm" />
   <HelpKINode Title="GetDatabaseEntryRequest class">
     <HelpKINode Title="GetDatabaseEntryRequest Class" Url="html/T_SolidFire_Element_Api_GetDatabaseEntryRequest.htm" />
@@ -2576,6 +2607,7 @@
   <HelpKINode Title="Message property">
     <HelpKINode Title="AsyncResult.Message Property " Url="html/P_SolidFire_Element_Api_AsyncResult_Message.htm" />
     <HelpKINode Title="EventInfo.Message Property " Url="html/P_SolidFire_Element_Api_EventInfo_Message.htm" />
+    <HelpKINode Title="Result.Message Property " Url="html/P_SolidFire_Element_Api_Result_Message.htm" />
   </HelpKINode>
   <HelpKINode Title="Metadata property">
     <HelpKINode Title="CloneVirtualVolumeRequest.Metadata Property " Url="html/P_SolidFire_Element_Api_CloneVirtualVolumeRequest_Metadata.htm" />
@@ -2628,6 +2660,7 @@
   <HelpKINode Title="ModifyAccountRequest.ModifyAccountRequest constructor" Url="html/M_SolidFire_Element_Api_ModifyAccountRequest__ctor.htm" />
   <HelpKINode Title="ModifyAccountRequest.Status property" Url="html/P_SolidFire_Element_Api_ModifyAccountRequest_Status.htm" />
   <HelpKINode Title="ModifyAccountRequest.TargetSecret property" Url="html/P_SolidFire_Element_Api_ModifyAccountRequest_TargetSecret.htm" />
+  <HelpKINode Title="ModifyAccountRequest.Username property" Url="html/P_SolidFire_Element_Api_ModifyAccountRequest_Username.htm" />
   <HelpKINode Title="ModifyAccountResult class">
     <HelpKINode Title="ModifyAccountResult Class" Url="html/T_SolidFire_Element_Api_ModifyAccountResult.htm" />
     <HelpKINode Title="about ModifyAccountResult class" Url="html/T_SolidFire_Element_Api_ModifyAccountResult.htm" />
@@ -2635,6 +2668,26 @@
     <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_ModifyAccountResult.htm" />
   </HelpKINode>
   <HelpKINode Title="ModifyAccountResult.ModifyAccountResult constructor" Url="html/M_SolidFire_Element_Api_ModifyAccountResult__ctor.htm" />
+  <HelpKINode Title="ModifyClusterAdmin method" Url="html/M_SolidFire_Element_Api_SolidFireElement_ModifyClusterAdmin.htm" />
+  <HelpKINode Title="ModifyClusterAdminRequest class">
+    <HelpKINode Title="ModifyClusterAdminRequest Class" Url="html/T_SolidFire_Element_Api_ModifyClusterAdminRequest.htm" />
+    <HelpKINode Title="about ModifyClusterAdminRequest class" Url="html/T_SolidFire_Element_Api_ModifyClusterAdminRequest.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_ModifyClusterAdminRequest__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_ModifyClusterAdminRequest.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_ModifyClusterAdminRequest.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModifyClusterAdminRequest.Access property" Url="html/P_SolidFire_Element_Api_ModifyClusterAdminRequest_Access.htm" />
+  <HelpKINode Title="ModifyClusterAdminRequest.Attributes property" Url="html/P_SolidFire_Element_Api_ModifyClusterAdminRequest_Attributes.htm" />
+  <HelpKINode Title="ModifyClusterAdminRequest.ClusterAdminID property" Url="html/P_SolidFire_Element_Api_ModifyClusterAdminRequest_ClusterAdminID.htm" />
+  <HelpKINode Title="ModifyClusterAdminRequest.ModifyClusterAdminRequest constructor" Url="html/M_SolidFire_Element_Api_ModifyClusterAdminRequest__ctor.htm" />
+  <HelpKINode Title="ModifyClusterAdminRequest.Password property" Url="html/P_SolidFire_Element_Api_ModifyClusterAdminRequest_Password.htm" />
+  <HelpKINode Title="ModifyClusterAdminResult class">
+    <HelpKINode Title="ModifyClusterAdminResult Class" Url="html/T_SolidFire_Element_Api_ModifyClusterAdminResult.htm" />
+    <HelpKINode Title="about ModifyClusterAdminResult class" Url="html/T_SolidFire_Element_Api_ModifyClusterAdminResult.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_ModifyClusterAdminResult__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_ModifyClusterAdminResult.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModifyClusterAdminResult.ModifyClusterAdminResult constructor" Url="html/M_SolidFire_Element_Api_ModifyClusterAdminResult__ctor.htm" />
   <HelpKINode Title="ModifyGroupSnapshot method" Url="html/M_SolidFire_Element_Api_SolidFireElement_ModifyGroupSnapshot.htm" />
   <HelpKINode Title="ModifyGroupSnapshotRequest class">
     <HelpKINode Title="ModifyGroupSnapshotRequest Class" Url="html/T_SolidFire_Element_Api_ModifyGroupSnapshotRequest.htm" />
@@ -2781,7 +2834,9 @@
     <HelpKINode Title="about ModifyVolumeResult class" Url="html/T_SolidFire_Element_Api_ModifyVolumeResult.htm" />
     <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_ModifyVolumeResult__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_ModifyVolumeResult.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_ModifyVolumeResult.htm" />
   </HelpKINode>
+  <HelpKINode Title="ModifyVolumeResult.Curve property" Url="html/P_SolidFire_Element_Api_ModifyVolumeResult_Curve.htm" />
   <HelpKINode Title="ModifyVolumeResult.ModifyVolumeResult constructor" Url="html/M_SolidFire_Element_Api_ModifyVolumeResult__ctor.htm" />
   <HelpKINode Title="MountPoint property" Url="html/P_SolidFire_Element_Api_DriveConfigInfo_MountPoint.htm" />
   <HelpKINode Title="Mtu property">
@@ -2996,6 +3051,7 @@
   <HelpKINode Title="Password property">
     <HelpKINode Title="AddClusterAdminRequest.Password Property " Url="html/P_SolidFire_Element_Api_AddClusterAdminRequest_Password.htm" />
     <HelpKINode Title="CreateClusterRequest.Password Property " Url="html/P_SolidFire_Element_Api_CreateClusterRequest_Password.htm" />
+    <HelpKINode Title="ModifyClusterAdminRequest.Password Property " Url="html/P_SolidFire_Element_Api_ModifyClusterAdminRequest_Password.htm" />
     <HelpKINode Title="SnmpV3UsmUser.Password Property " Url="html/P_SolidFire_Element_Api_SnmpV3UsmUser_Password.htm" />
   </HelpKINode>
   <HelpKINode Title="Path property">
@@ -3361,7 +3417,16 @@
     <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_RestoreDeletedVolumeResult.htm" />
   </HelpKINode>
   <HelpKINode Title="RestoreDeletedVolumeResult.RestoreDeletedVolumeResult constructor" Url="html/M_SolidFire_Element_Api_RestoreDeletedVolumeResult__ctor.htm" />
+  <HelpKINode Title="Result class">
+    <HelpKINode Title="Result Class" Url="html/T_SolidFire_Element_Api_Result.htm" />
+    <HelpKINode Title="about Result class" Url="html/T_SolidFire_Element_Api_Result.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_Result__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_Result.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_Result.htm" />
+  </HelpKINode>
   <HelpKINode Title="Result property" Url="html/P_SolidFire_Element_Api_GetAsyncResultResult_Result.htm" />
+  <HelpKINode Title="Result.Message property" Url="html/P_SolidFire_Element_Api_Result_Message.htm" />
+  <HelpKINode Title="Result.Result constructor" Url="html/M_SolidFire_Element_Api_Result__ctor.htm" />
   <HelpKINode Title="Retention property">
     <HelpKINode Title="CreateGroupSnapshotRequest.Retention Property " Url="html/P_SolidFire_Element_Api_CreateGroupSnapshotRequest_Retention.htm" />
     <HelpKINode Title="CreateSnapshotRequest.Retention Property " Url="html/P_SolidFire_Element_Api_CreateSnapshotRequest_Retention.htm" />
@@ -3864,9 +3929,11 @@
   <HelpKINode Title="SolidFire.Element.Api.GetClusterFullThresholdResult class" Url="html/T_SolidFire_Element_Api_GetClusterFullThresholdResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetClusterInfoResult class" Url="html/T_SolidFire_Element_Api_GetClusterInfoResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetClusterMasterNodeIDResult class" Url="html/T_SolidFire_Element_Api_GetClusterMasterNodeIDResult.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.GetClusterStateResult class" Url="html/T_SolidFire_Element_Api_GetClusterStateResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetClusterStatsResult class" Url="html/T_SolidFire_Element_Api_GetClusterStatsResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetClusterVersionInfoResult class" Url="html/T_SolidFire_Element_Api_GetClusterVersionInfoResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetConfigResult class" Url="html/T_SolidFire_Element_Api_GetConfigResult.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.GetCurrentClusterAdminResult class" Url="html/T_SolidFire_Element_Api_GetCurrentClusterAdminResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetDatabaseEntryRequest class" Url="html/T_SolidFire_Element_Api_GetDatabaseEntryRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetDefaultQoSResult class" Url="html/T_SolidFire_Element_Api_GetDefaultQoSResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetDriveConfigResult class" Url="html/T_SolidFire_Element_Api_GetDriveConfigResult.htm" />
@@ -3949,6 +4016,8 @@
   <HelpKINode Title="SolidFire.Element.Api.MetadataHosts class" Url="html/T_SolidFire_Element_Api_MetadataHosts.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ModifyAccountRequest class" Url="html/T_SolidFire_Element_Api_ModifyAccountRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ModifyAccountResult class" Url="html/T_SolidFire_Element_Api_ModifyAccountResult.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.ModifyClusterAdminRequest class" Url="html/T_SolidFire_Element_Api_ModifyClusterAdminRequest.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.ModifyClusterAdminResult class" Url="html/T_SolidFire_Element_Api_ModifyClusterAdminResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ModifyGroupSnapshotRequest class" Url="html/T_SolidFire_Element_Api_ModifyGroupSnapshotRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ModifyGroupSnapshotResult class" Url="html/T_SolidFire_Element_Api_ModifyGroupSnapshotResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ModifySnapshotRequest class" Url="html/T_SolidFire_Element_Api_ModifySnapshotRequest.htm" />
@@ -3993,6 +4062,7 @@
   <HelpKINode Title="SolidFire.Element.Api.RemoveVolumesFromVolumeAccessGroupRequest class" Url="html/T_SolidFire_Element_Api_RemoveVolumesFromVolumeAccessGroupRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.RestoreDeletedVolumeRequest class" Url="html/T_SolidFire_Element_Api_RestoreDeletedVolumeRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.RestoreDeletedVolumeResult class" Url="html/T_SolidFire_Element_Api_RestoreDeletedVolumeResult.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.Result class" Url="html/T_SolidFire_Element_Api_Result.htm" />
   <HelpKINode Title="SolidFire.Element.Api.RollbackToGroupSnapshotRequest class" Url="html/T_SolidFire_Element_Api_RollbackToGroupSnapshotRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.RollbackToSnapshotRequest class" Url="html/T_SolidFire_Element_Api_RollbackToSnapshotRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.RollbackVirtualVolumeRequest class" Url="html/T_SolidFire_Element_Api_RollbackVirtualVolumeRequest.htm" />
@@ -4097,9 +4167,11 @@
   <HelpKINode Title="SolidFireElement.GetClusterFullThreshold method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetClusterFullThreshold.htm" />
   <HelpKINode Title="SolidFireElement.GetClusterInfo method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetClusterInfo.htm" />
   <HelpKINode Title="SolidFireElement.GetClusterMasterNodeID method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetClusterMasterNodeID.htm" />
+  <HelpKINode Title="SolidFireElement.GetClusterState method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetClusterState.htm" />
   <HelpKINode Title="SolidFireElement.GetClusterStats method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetClusterStats.htm" />
   <HelpKINode Title="SolidFireElement.GetClusterVersionInfo method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetClusterVersionInfo.htm" />
   <HelpKINode Title="SolidFireElement.GetConfig method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetConfig.htm" />
+  <HelpKINode Title="SolidFireElement.GetCurrentClusterAdmin method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetCurrentClusterAdmin.htm" />
   <HelpKINode Title="SolidFireElement.GetDatabaseEntry method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetDatabaseEntry.htm" />
   <HelpKINode Title="SolidFireElement.GetDefaultQoS method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetDefaultQoS.htm" />
   <HelpKINode Title="SolidFireElement.GetDriveConfig method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetDriveConfig.htm" />
@@ -4155,6 +4227,7 @@
   <HelpKINode Title="SolidFireElement.ListVolumeStatsByVolume method" Url="html/M_SolidFire_Element_Api_SolidFireElement_ListVolumeStatsByVolume.htm" />
   <HelpKINode Title="SolidFireElement.ListVolumeStatsByVolumeAccessGroup method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ListVolumeStatsByVolumeAccessGroup.htm" />
   <HelpKINode Title="SolidFireElement.ModifyAccount method" Url="html/M_SolidFire_Element_Api_SolidFireElement_ModifyAccount.htm" />
+  <HelpKINode Title="SolidFireElement.ModifyClusterAdmin method" Url="html/M_SolidFire_Element_Api_SolidFireElement_ModifyClusterAdmin.htm" />
   <HelpKINode Title="SolidFireElement.ModifyGroupSnapshot method" Url="html/M_SolidFire_Element_Api_SolidFireElement_ModifyGroupSnapshot.htm" />
   <HelpKINode Title="SolidFireElement.ModifySnapshot method" Url="html/M_SolidFire_Element_Api_SolidFireElement_ModifySnapshot.htm" />
   <HelpKINode Title="SolidFireElement.ModifyStorageContainer method" Url="html/M_SolidFire_Element_Api_SolidFireElement_ModifyStorageContainer.htm" />
@@ -4224,6 +4297,7 @@
   <HelpKINode Title="State property">
     <HelpKINode Title="ClusterConfig.State Property " Url="html/P_SolidFire_Element_Api_ClusterConfig_State.htm" />
     <HelpKINode Title="ClusterInfo.State Property " Url="html/P_SolidFire_Element_Api_ClusterInfo_State.htm" />
+    <HelpKINode Title="GetClusterStateResult.State Property " Url="html/P_SolidFire_Element_Api_GetClusterStateResult_State.htm" />
   </HelpKINode>
   <HelpKINode Title="Status property">
     <HelpKINode Title="Account.Status Property " Url="html/P_SolidFire_Element_Api_Account_Status.htm" />
@@ -4423,6 +4497,7 @@
     <HelpKINode Title="ClusterAdmin.Username Property " Url="html/P_SolidFire_Element_Api_ClusterAdmin_Username.htm" />
     <HelpKINode Title="CreateClusterRequest.Username Property " Url="html/P_SolidFire_Element_Api_CreateClusterRequest_Username.htm" />
     <HelpKINode Title="GetAccountByNameRequest.Username Property " Url="html/P_SolidFire_Element_Api_GetAccountByNameRequest_Username.htm" />
+    <HelpKINode Title="ModifyAccountRequest.Username Property " Url="html/P_SolidFire_Element_Api_ModifyAccountRequest_Username.htm" />
   </HelpKINode>
   <HelpKINode Title="UsmUsers property">
     <HelpKINode Title="GetSnmpACLResult.UsmUsers Property " Url="html/P_SolidFire_Element_Api_GetSnmpACLResult_UsmUsers.htm" />
@@ -4430,13 +4505,13 @@
     <HelpKINode Title="SetSnmpACLRequest.UsmUsers Property " Url="html/P_SolidFire_Element_Api_SetSnmpACLRequest_UsmUsers.htm" />
     <HelpKINode Title="SetSnmpInfoRequest.UsmUsers Property " Url="html/P_SolidFire_Element_Api_SetSnmpInfoRequest_UsmUsers.htm" />
   </HelpKINode>
-  <HelpKINode Title="UuID property" Url="html/P_SolidFire_Element_Api_Snapshot_UuID.htm" />
   <HelpKINode Title="Uuid property">
     <HelpKINode Title="ClusterInfo.Uuid Property " Url="html/P_SolidFire_Element_Api_ClusterInfo_Uuid.htm" />
+    <HelpKINode Title="Node.Uuid Property " Url="html/P_SolidFire_Element_Api_Node_Uuid.htm" />
     <HelpKINode Title="DriveConfigInfo.Uuid Property " Url="html/P_SolidFire_Element_Api_DriveConfigInfo_Uuid.htm" />
     <HelpKINode Title="DriveHardwareInfo.Uuid Property " Url="html/P_SolidFire_Element_Api_DriveHardwareInfo_Uuid.htm" />
-    <HelpKINode Title="Node.Uuid Property " Url="html/P_SolidFire_Element_Api_Node_Uuid.htm" />
   </HelpKINode>
+  <HelpKINode Title="UuID property" Url="html/P_SolidFire_Element_Api_Snapshot_UuID.htm" />
   <HelpKINode Title="VasaProviderInfo class">
     <HelpKINode Title="VasaProviderInfo Class" Url="html/T_SolidFire_Element_Api_VasaProviderInfo.htm" />
     <HelpKINode Title="about VasaProviderInfo class" Url="html/T_SolidFire_Element_Api_VasaProviderInfo.htm" />
