@@ -26,7 +26,7 @@
     <KeepLogFile>True</KeepLogFile>
     <DisableCodeBlockComponent>False</DisableCodeBlockComponent>
     <CleanIntermediates>True</CleanIntermediates>
-    <HelpFileVersion>1.1.0.0</HelpFileVersion>
+    <HelpFileVersion>0.9.0.6</HelpFileVersion>
     <MaximumGroupParts>2</MaximumGroupParts>
     <NamespaceGrouping>False</NamespaceGrouping>
     <SyntaxFilters>C#, Visual Basic, Managed C++</SyntaxFilters>
@@ -35,7 +35,7 @@
     <PresentationStyle>VS2013</PresentationStyle>
     <Preliminary>False</Preliminary>
     <NamingMethod>MemberName</NamingMethod>
-    <HelpTitle>SolidFire C# SDK Help</HelpTitle>
+    <HelpTitle>SolidFire C# SDK Documentation</HelpTitle>
     <ContentPlacement>AboveNamespaces</ContentPlacement>
     <CopyrightText>Copyright 2015 SolidFire Inc.</CopyrightText>
     <CopyrightHref>http://www.solidfire.com/legal/</CopyrightHref>
@@ -43,7 +43,8 @@
     <HeaderText>SolidFire C# SDK Help Docs</HeaderText>
     <NamespaceSummaries>
       <NamespaceSummaryItem name="SolidFire.Element" isDocumented="True" xmlns="">Find the factory methods for creating the SolidFireElement class here. These classes can be used to call the API using the request objects in SolidFire.Element.Api.</NamespaceSummaryItem>
-<NamespaceSummaryItem name="SolidFire.Element.Api" isDocumented="True" xmlns="">All classes for requests, responses, and SolidFire Element objects are defined here.</NamespaceSummaryItem></NamespaceSummaries>
+      <NamespaceSummaryItem name="SolidFire.Element.Api" isDocumented="True" xmlns="">All classes for requests, responses, and SolidFire Element objects are defined here.</NamespaceSummaryItem>
+    </NamespaceSummaries>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->
