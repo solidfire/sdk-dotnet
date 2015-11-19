@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2015.10.10.0" projectFile="E:\solidfire\sdk-dotnet\sdk-dotnet-help.shfbproj" started="11/11/2015 10:25:37 AM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2015.10.10.0" projectFile="C:\Users\Adam\dev\solidfire\sdk-dotnet\sdk-dotnet-help.shfbproj" started="11/19/2015 11:27:21 AM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
 Locating components in the following folder(s):
-    E:\solidfire\sdk-dotnet
+    C:\Users\Adam\dev\solidfire\sdk-dotnet
     C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
     C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
 Framework reflection data location: C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework
@@ -18,31 +18,31 @@ Clearing any prior web/markdown output...
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
-Source: E:\solidfire\solidfire-sdk-dotnet\Element\Element.csproj
-    Found project &#39;E:\solidfire\solidfire-sdk-dotnet\Element\Element.csproj&#39;
+Source: C:\Users\Adam\dev\solidfire\solidfire-sdk-dotnet\Element\Element.csproj
+    Found project &#39;C:\Users\Adam\dev\solidfire\solidfire-sdk-dotnet\Element\Element.csproj&#39;
 
 Parsing project files
-    Found assembly &#39;E:\solidfire\solidfire-sdk-dotnet\Element\bin\Debug\SolidFire.Element.dll&#39;
+    Found assembly &#39;C:\Users\Adam\dev\solidfire\solidfire-sdk-dotnet\Element\bin\Debug\SolidFire.Element.dll&#39;
 
 References to include (excluding framework assemblies):
     Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL
 
 Copying XML comments files
-    E:\solidfire\solidfire-sdk-dotnet\Element\bin\Debug\SolidFire.Element.XML -&gt; C:\Users\Adam\dev\solidfire\sdk-dotnet\help\v0.9\Working\SolidFire.Element.XML
+    C:\Users\Adam\dev\solidfire\solidfire-sdk-dotnet\Element\bin\Debug\SolidFire.Element.XML -&gt; C:\Users\Adam\dev\solidfire\sdk-dotnet\help\v0.9\Working\SolidFire.Element.XML
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0313
+</plugIn>    Last step completed in 00:00:00.0898
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0313
+    Last step completed in 00:00:00.0361
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - GenerateRefInfo.proj]
-Build started 11/11/2015 10:25:40 AM.
+Build started 11/19/2015 11:27:23 AM.
 Project &quot;C:\Users\Adam\dev\solidfire\sdk-dotnet\help\v0.9\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -51,7 +51,7 @@ GenerateRefInfo:
   Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2015, Eric Woodruff, All Rights Reserved.
   Loaded 1 assemblies for reflection and 2 dependency assemblies.
-  Wrote information on 2 namespaces, 286 types, and 1446 members
+  Wrote information on 2 namespaces, 297 types, and 1681 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2015.10.10.0)
   Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
@@ -61,13 +61,13 @@ Done Building Project &quot;C:\Users\Adam\dev\solidfire\sdk-dotnet\help\v0.9\Wor
 
 Build succeeded.
 
-Time Elapsed 00:00:02.59
-    Last step completed in 00:00:02.8281
+Time Elapsed 00:00:02.11
+    Last step completed in 00:00:02.3936
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - TransformManifest.proj]
-Build started 11/11/2015 10:25:43 AM.
+Build started 11/19/2015 11:27:26 AM.
 Project &quot;C:\Users\Adam\dev\solidfire\sdk-dotnet\help\v0.9\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2015.10.10.0)
@@ -79,7 +79,47 @@ TransformManifest:
   Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2015, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
-    Unique name M_SolidFire_Element_ElementFactory_Create_1 generated for M:SolidFire.Element.ElementFactory.Create(System.String,System.String,System.String,System.String)
+    Unique name M_SolidFire_Element_ElementFactory_Create_1 generated for M:SolidFire.Element.ElementFactory.Create(System.String,System.Net.NetworkCredential,System.String)
+    Unique name M_SolidFire_Element_ElementFactory_Create_2 generated for M:SolidFire.Element.ElementFactory.Create(System.String,System.String,System.Security.SecureString,System.String)
+    Unique name M_SolidFire_Element_ElementFactory_Create_3 generated for M:SolidFire.Element.ElementFactory.Create(System.String,System.String,System.String,System.String)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_AddDrives_1 generated for M:SolidFire.Element.Api.ISolidFireElement.AddDrives(System.Collections.Generic.List{SolidFire.Element.Api.NewDrive})
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_AddNodes_1 generated for M:SolidFire.Element.Api.ISolidFireElement.AddNodes(System.Collections.Generic.List{System.Int64})
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_CancelClone_1 generated for M:SolidFire.Element.Api.ISolidFireElement.CancelClone(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_DeleteSnapshot_1 generated for M:SolidFire.Element.Api.ISolidFireElement.DeleteSnapshot(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_DeleteVolume_1 generated for M:SolidFire.Element.Api.ISolidFireElement.DeleteVolume(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_DeleteVolumeAccessGroup_1 generated for M:SolidFire.Element.Api.ISolidFireElement.DeleteVolumeAccessGroup(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_EnableSnmp_1 generated for M:SolidFire.Element.Api.ISolidFireElement.EnableSnmp(System.Boolean)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetAccountByID_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetAccountByID(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetAccountByName_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetAccountByName(System.String)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetAsyncResult_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetAsyncResult(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetDatabaseEntry_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetDatabaseEntry(System.String)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetDriveHardwareInfo_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetDriveHardwareInfo(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetDriveStats_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetDriveStats(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetVolumeAccessGroupEfficiency_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetVolumeAccessGroupEfficiency(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetVolumeStats_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetVolumeStats(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListDatabaseChildren_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListDatabaseChildren(System.String)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListDatabaseChildrenData_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListDatabaseChildrenData(System.String)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListFibreChannelPortInfo_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListFibreChannelPortInfo(System.Boolean)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListGroupSnapshots_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListGroupSnapshots(System.Nullable{System.Int64})
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListNetworkInterfaces_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListNetworkInterfaces(System.Nullable{System.Boolean})
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListProtocolEndpoints_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListProtocolEndpoints(System.Collections.Generic.List{System.Guid})
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListSnapshots_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListSnapshots(System.Nullable{System.Int64})
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListStorageContainers_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListStorageContainers(System.Guid)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListVirtualVolumeBindings_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListVirtualVolumeBindings(System.Guid)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListVirtualVolumeHosts_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListVirtualVolumeHosts(System.Guid)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListVirtualVolumeTasks_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListVirtualVolumeTasks(System.Guid)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListVolumeStatsByVolumeAccessGroup_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListVolumeStatsByVolumeAccessGroup(System.Collections.Generic.List{System.Int64})
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ModifyVasaProviderInfo_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ModifyVasaProviderInfo(System.String)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_PurgeDeletedVolume_1 generated for M:SolidFire.Element.Api.ISolidFireElement.PurgeDeletedVolume(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_RemoveAccount_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RemoveAccount(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_RemoveClusterAdmin_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RemoveClusterAdmin(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_RemoveDrives_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RemoveDrives(System.Collections.Generic.List{System.Int64})
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_RemoveNodes_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RemoveNodes(System.Collections.Generic.List{System.Int64})
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_RemoveVolumePair_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RemoveVolumePair(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_RestoreDeletedVolume_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RestoreDeletedVolume(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_SecureEraseDrives_1 generated for M:SolidFire.Element.Api.ISolidFireElement.SecureEraseDrives(System.Collections.Generic.List{System.Int64})
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_SetClusterConfig_1 generated for M:SolidFire.Element.Api.ISolidFireElement.SetClusterConfig(SolidFire.Element.Api.SetClusterConfigRequest)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_SetNetworkConfig_1 generated for M:SolidFire.Element.Api.ISolidFireElement.SetNetworkConfig(SolidFire.Element.Api.SetNetworkConfigRequest)
     Unique name M_SolidFire_Element_Api_SolidFireElement_AddDrives_1 generated for M:SolidFire.Element.Api.SolidFireElement.AddDrives(System.Collections.Generic.List{SolidFire.Element.Api.NewDrive})
     Unique name M_SolidFire_Element_Api_SolidFireElement_AddNodes_1 generated for M:SolidFire.Element.Api.SolidFireElement.AddNodes(System.Collections.Generic.List{System.Int64})
     Unique name M_SolidFire_Element_Api_SolidFireElement_CancelClone_1 generated for M:SolidFire.Element.Api.SolidFireElement.CancelClone(System.Int64)
@@ -93,12 +133,14 @@ TransformManifest:
     Unique name M_SolidFire_Element_Api_SolidFireElement_GetDatabaseEntry_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetDatabaseEntry(System.String)
     Unique name M_SolidFire_Element_Api_SolidFireElement_GetDriveHardwareInfo_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetDriveHardwareInfo(System.Int64)
     Unique name M_SolidFire_Element_Api_SolidFireElement_GetDriveStats_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetDriveStats(System.Int64)
-    Unique name M_SolidFire_Element_Api_SolidFireElement_GetProtocolEndpoint_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetProtocolEndpoint(System.Guid)
     Unique name M_SolidFire_Element_Api_SolidFireElement_GetVolumeAccessGroupEfficiency_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetVolumeAccessGroupEfficiency(System.Int64)
     Unique name M_SolidFire_Element_Api_SolidFireElement_GetVolumeStats_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetVolumeStats(System.Int64)
     Unique name M_SolidFire_Element_Api_SolidFireElement_ListDatabaseChildren_1 generated for M:SolidFire.Element.Api.SolidFireElement.ListDatabaseChildren(System.String)
     Unique name M_SolidFire_Element_Api_SolidFireElement_ListDatabaseChildrenData_1 generated for M:SolidFire.Element.Api.SolidFireElement.ListDatabaseChildrenData(System.String)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ListFibreChannelPortInfo_1 generated for M:SolidFire.Element.Api.SolidFireElement.ListFibreChannelPortInfo(System.Boolean)
     Unique name M_SolidFire_Element_Api_SolidFireElement_ListGroupSnapshots_1 generated for M:SolidFire.Element.Api.SolidFireElement.ListGroupSnapshots(System.Nullable{System.Int64})
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ListNetworkInterfaces_1 generated for M:SolidFire.Element.Api.SolidFireElement.ListNetworkInterfaces(System.Nullable{System.Boolean})
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ListProtocolEndpoints_1 generated for M:SolidFire.Element.Api.SolidFireElement.ListProtocolEndpoints(System.Collections.Generic.List{System.Guid})
     Unique name M_SolidFire_Element_Api_SolidFireElement_ListSnapshots_1 generated for M:SolidFire.Element.Api.SolidFireElement.ListSnapshots(System.Nullable{System.Int64})
     Unique name M_SolidFire_Element_Api_SolidFireElement_ListStorageContainers_1 generated for M:SolidFire.Element.Api.SolidFireElement.ListStorageContainers(System.Guid)
     Unique name M_SolidFire_Element_Api_SolidFireElement_ListVirtualVolumeBindings_1 generated for M:SolidFire.Element.Api.SolidFireElement.ListVirtualVolumeBindings(System.Guid)
@@ -124,17 +166,17 @@ Done Building Project &quot;C:\Users\Adam\dev\solidfire\sdk-dotnet\help\v0.9\Wor
 
 Build succeeded.
 
-Time Elapsed 00:00:02.84
-    Last step completed in 00:00:03.0781
+Time Elapsed 00:00:02.77
+    Last step completed in 00:00:03.0247
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.1563
+    Last step completed in 00:00:00.1797
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0088
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -143,7 +185,7 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 11/11/2015 10:25:46 AM.
+Build started 11/19/2015 11:27:29 AM.
 Project &quot;C:\Users\Adam\dev\solidfire\sdk-dotnet\help\v0.9\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2015.10.10.0)
@@ -156,22 +198,22 @@ Build succeeded.
 
 Time Elapsed 00:00:00.44
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.8437
+    Last step completed in 00:00:00.8095
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.4219
+    Last step completed in 00:00:00.3623
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Users\Adam\dev\solidfire\sdk-dotnet\help\v0.9\Working\sandcastle.config
-    Last step completed in 00:00:00.0156
+    Last step completed in 00:00:00.0527
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - BuildReferenceTopics.proj]
-Build started 11/11/2015 10:25:48 AM.
+Build started 11/19/2015 11:27:30 AM.
 Project &quot;C:\Users\Adam\dev\solidfire\sdk-dotnet\help\v0.9\Working\BuildReferenceTopics.proj&quot; on node 1 (default targets).
 BuildReferenceTopics:
   BuildAssembler (v2015.10.10.0)
@@ -179,19 +221,19 @@ BuildReferenceTopics:
   Portions Copyright c 2006-2015, Eric Woodruff, All Rights Reserved.
   Loading configuration...
   Processing topics...
-  Processed 2316 topic(s)
-  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 5 of 15.
+  Processed 2621 topic(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 7 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 3 of 30.
 Done Building Project &quot;C:\Users\Adam\dev\solidfire\sdk-dotnet\help\v0.9\Working\BuildReferenceTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:56.51
-    Last step completed in 00:00:56.7813
+Time Elapsed 00:01:00.24
+    Last step completed in 00:01:00.6104
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0156
+    Last step completed in 00:00:00.0557
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -203,11 +245,11 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing website files in C:\Users\Adam\dev\solidfire\sdk-dotnet\help\v0.9\Working\Output\Website
-Processed 2316 HTML files
+Processed 2621 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Users\Adam\dev\solidfire\sdk-dotnet\help\v0.9\Working\WebKI.xml
 Saving website table of contents to C:\Users\Adam\dev\solidfire\sdk-dotnet\help\v0.9\Working\WebTOC.xml
-    Last step completed in 00:00:13.1309
+    Last step completed in 00:00:17.4053
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -286,18 +328,18 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Users\Adam\dev\solidfire\sdk-dotnet\help\v0.9\Working\Output\Website\icons\TocOpen.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\Adam\dev\solidfire\sdk-dotnet\help\v0.9\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Users\Adam\dev\solidfire\sdk-dotnet\help\v0.9\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00.6504
+    Last step completed in 00:00:01.6094
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0037
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:33.1875
+</plugIn>    Last step completed in 00:00:37.4082
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -308,16 +350,16 @@ Copied 1500 files
 Copied 2000 files
 Copied 2500 files
 Copied 3000 files
-Copied 3001 files for the website content
-    Last step completed in 00:00:16.1338
+Copied 3366 files for the website content
+    Last step completed in 00:00:17.5117
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:07.1163
+    Last step completed in 00:00:01.7461
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 11/11/2015 10:27:54 AM.  Total time: 00:02:17.3901
+Build completed successfully at 11/19/2015 11:29:46 AM.  Total time: 00:02:25.7207
 
 </buildStep>
 </shfbBuild>

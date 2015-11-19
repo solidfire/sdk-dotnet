@@ -14,8 +14,8 @@
     <Name>Documentation</Name>
     <!-- SHFB properties -->
     <FrameworkVersion>.NET Framework 4.5</FrameworkVersion>
-    <OutputPath>help\v1.1\</OutputPath>
-    <HtmlHelpName>Documentation</HtmlHelpName>
+    <OutputPath>help\v0.9\</OutputPath>
+    <HtmlHelpName>SolidFire C# SDK Documentation</HtmlHelpName>
     <Language>en-US</Language>
     <DocumentationSources>
       <DocumentationSource sourceFile="..\solidfire-sdk-dotnet\Element\Element.csproj" />
@@ -26,10 +26,10 @@
     <KeepLogFile>True</KeepLogFile>
     <DisableCodeBlockComponent>False</DisableCodeBlockComponent>
     <CleanIntermediates>True</CleanIntermediates>
-    <HelpFileVersion>0.9.0.6</HelpFileVersion>
+    <HelpFileVersion>0.9.0.7</HelpFileVersion>
     <MaximumGroupParts>2</MaximumGroupParts>
     <NamespaceGrouping>False</NamespaceGrouping>
-    <SyntaxFilters>C#, Visual Basic, Managed C++</SyntaxFilters>
+    <SyntaxFilters>C#</SyntaxFilters>
     <SdkLinkTarget>Blank</SdkLinkTarget>
     <RootNamespaceContainer>False</RootNamespaceContainer>
     <PresentationStyle>VS2013</PresentationStyle>
@@ -39,8 +39,8 @@
     <ContentPlacement>AboveNamespaces</ContentPlacement>
     <CopyrightText>Copyright 2015 SolidFire Inc.</CopyrightText>
     <CopyrightHref>http://www.solidfire.com/legal/</CopyrightHref>
-    <MissingTags>Summary, Parameter, Returns, AutoDocumentCtors, TypeParameter, AutoDocumentDispose</MissingTags>
-    <HeaderText>SolidFire C# SDK Help Docs</HeaderText>
+    <MissingTags>Parameter, Returns, AutoDocumentCtors, TypeParameter, AutoDocumentDispose</MissingTags>
+    <HeaderText>SolidFire C# SDK Documentation</HeaderText>
     <NamespaceSummaries>
       <NamespaceSummaryItem name="SolidFire.Element" isDocumented="True" xmlns="">Find the factory methods for creating the SolidFireElement class here. These classes can be used to call the API using the request objects in SolidFire.Element.Api.</NamespaceSummaryItem>
       <NamespaceSummaryItem name="SolidFire.Element.Api" isDocumented="True" xmlns="">All classes for requests, responses, and SolidFire Element objects are defined here.</NamespaceSummaryItem>
