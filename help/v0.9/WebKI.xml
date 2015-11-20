@@ -383,26 +383,26 @@
     <HelpKINode Title="CreateVirtualVolumeRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_CreateVirtualVolumeRequest_CallingHostID.htm" />
     <HelpKINode Title="DeleteStorageContainerRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_DeleteStorageContainerRequest_CallingHostID.htm" />
     <HelpKINode Title="DeleteVirtualVolumeRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_DeleteVirtualVolumeRequest_CallingHostID.htm" />
-    <HelpKINode Title="FastCloneVirtualVolumeRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_FastCloneVirtualVolumeRequest_CallingHostID.htm" />
     <HelpKINode Title="GetStorageContainerRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_GetStorageContainerRequest_CallingHostID.htm" />
     <HelpKINode Title="GetVirtualVolumeAllocatedBitmapRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_GetVirtualVolumeAllocatedBitmapRequest_CallingHostID.htm" />
     <HelpKINode Title="GetVirtualVolumeBindingRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_GetVirtualVolumeBindingRequest_CallingHostID.htm" />
     <HelpKINode Title="GetVirtualVolumeTaskUpdateRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_GetVirtualVolumeTaskUpdateRequest_CallingHostID.htm" />
-    <HelpKINode Title="GetVirtualVolumeUnsharedBitmapRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_GetVirtualVolumeUnsharedBitmapRequest_CallingHostID.htm" />
-    <HelpKINode Title="GetVirtualVolumeUnsharedChunksRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_GetVirtualVolumeUnsharedChunksRequest_CallingHostID.htm" />
     <HelpKINode Title="ListStorageContainersRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_ListStorageContainersRequest_CallingHostID.htm" />
     <HelpKINode Title="ListVirtualVolumeBindingsRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_ListVirtualVolumeBindingsRequest_CallingHostID.htm" />
-    <HelpKINode Title="ListVirtualVolumeHostsRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_ListVirtualVolumeHostsRequest_CallingHostID.htm" />
-    <HelpKINode Title="ListVirtualVolumesRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_ListVirtualVolumesRequest_CallingHostID.htm" />
-    <HelpKINode Title="ListVirtualVolumeTasksRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_ListVirtualVolumeTasksRequest_CallingHostID.htm" />
     <HelpKINode Title="ModifyStorageContainerRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_ModifyStorageContainerRequest_CallingHostID.htm" />
     <HelpKINode Title="ModifyVirtualVolumeHostRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_ModifyVirtualVolumeHostRequest_CallingHostID.htm" />
     <HelpKINode Title="ModifyVirtualVolumeMetadataRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_ModifyVirtualVolumeMetadataRequest_CallingHostID.htm" />
     <HelpKINode Title="ModifyVirtualVolumeRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_ModifyVirtualVolumeRequest_CallingHostID.htm" />
-    <HelpKINode Title="PrepareVirtualSnapshotRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_PrepareVirtualSnapshotRequest_CallingHostID.htm" />
     <HelpKINode Title="QueryVirtualVolumeMetadataRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_QueryVirtualVolumeMetadataRequest_CallingHostID.htm" />
-    <HelpKINode Title="RollbackVirtualVolumeRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_RollbackVirtualVolumeRequest_CallingHostID.htm" />
     <HelpKINode Title="SnapshotVirtualVolumeRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_SnapshotVirtualVolumeRequest_CallingHostID.htm" />
+    <HelpKINode Title="FastCloneVirtualVolumeRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_FastCloneVirtualVolumeRequest_CallingHostID.htm" />
+    <HelpKINode Title="GetVirtualVolumeUnsharedBitmapRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_GetVirtualVolumeUnsharedBitmapRequest_CallingHostID.htm" />
+    <HelpKINode Title="GetVirtualVolumeUnsharedChunksRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_GetVirtualVolumeUnsharedChunksRequest_CallingHostID.htm" />
+    <HelpKINode Title="ListVirtualVolumeHostsRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_ListVirtualVolumeHostsRequest_CallingHostID.htm" />
+    <HelpKINode Title="ListVirtualVolumesRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_ListVirtualVolumesRequest_CallingHostID.htm" />
+    <HelpKINode Title="ListVirtualVolumeTasksRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_ListVirtualVolumeTasksRequest_CallingHostID.htm" />
+    <HelpKINode Title="PrepareVirtualSnapshotRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_PrepareVirtualSnapshotRequest_CallingHostID.htm" />
+    <HelpKINode Title="RollbackVirtualVolumeRequest.CallingHostID Property " Url="html/P_SolidFire_Element_Api_RollbackVirtualVolumeRequest_CallingHostID.htm" />
   </HelpKINode>
   <HelpKINode Title="CallinghostID property" Url="html/P_SolidFire_Element_Api_GetVirtualVolumeHostRequest_CallinghostID.htm" />
   <HelpKINode Title="CancelClone method">
@@ -1321,8 +1321,8 @@
     <HelpKINode Title="DriveConfigInfo.Dev Property " Url="html/P_SolidFire_Element_Api_DriveConfigInfo_Dev.htm" />
     <HelpKINode Title="DriveHardwareInfo.Dev Property " Url="html/P_SolidFire_Element_Api_DriveHardwareInfo_Dev.htm" />
   </HelpKINode>
-  <HelpKINode Title="DevPath property" Url="html/P_SolidFire_Element_Api_DriveConfigInfo_DevPath.htm" />
   <HelpKINode Title="Devpath property" Url="html/P_SolidFire_Element_Api_DriveHardwareInfo_Devpath.htm" />
+  <HelpKINode Title="DevPath property" Url="html/P_SolidFire_Element_Api_DriveConfigInfo_DevPath.htm" />
   <HelpKINode Title="DisableSnmp method">
     <HelpKINode Title="ISolidFireElement.DisableSnmp Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_DisableSnmp.htm" />
     <HelpKINode Title="SolidFireElement.DisableSnmp Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_DisableSnmp.htm" />
@@ -1625,6 +1625,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_FibreChannelPortInfo.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_FibreChannelPortInfo.htm" />
   </HelpKINode>
+  <HelpKINode Title="FibreChannelPortInfo property" Url="html/P_SolidFire_Element_Api_ListFibreChannelPortInfoResult_FibreChannelPortInfo.htm" />
   <HelpKINode Title="FibreChannelPortInfo.FibreChannelPortInfo constructor" Url="html/M_SolidFire_Element_Api_FibreChannelPortInfo__ctor.htm" />
   <HelpKINode Title="FibreChannelPortInfo.Firmware property" Url="html/P_SolidFire_Element_Api_FibreChannelPortInfo_Firmware.htm" />
   <HelpKINode Title="FibreChannelPortInfo.HbaPort property" Url="html/P_SolidFire_Element_Api_FibreChannelPortInfo_HbaPort.htm" />
@@ -1637,14 +1638,32 @@
   <HelpKINode Title="FibreChannelPortInfo.SwitchWwn property" Url="html/P_SolidFire_Element_Api_FibreChannelPortInfo_SwitchWwn.htm" />
   <HelpKINode Title="FibreChannelPortInfo.Wwnn property" Url="html/P_SolidFire_Element_Api_FibreChannelPortInfo_Wwnn.htm" />
   <HelpKINode Title="FibreChannelPortInfo.Wwpn property" Url="html/P_SolidFire_Element_Api_FibreChannelPortInfo_Wwpn.htm" />
-  <HelpKINode Title="FibreChannelPorts property" Url="html/P_SolidFire_Element_Api_ListFibreChannelPortInfoResult_FibreChannelPorts.htm" />
+  <HelpKINode Title="FibreChannelPortInfoResult class">
+    <HelpKINode Title="FibreChannelPortInfoResult Class" Url="html/T_SolidFire_Element_Api_FibreChannelPortInfoResult.htm" />
+    <HelpKINode Title="about FibreChannelPortInfoResult class" Url="html/T_SolidFire_Element_Api_FibreChannelPortInfoResult.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_FibreChannelPortInfoResult__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_FibreChannelPortInfoResult.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_FibreChannelPortInfoResult.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FibreChannelPortInfoResult.FibreChannelPortInfoResult constructor" Url="html/M_SolidFire_Element_Api_FibreChannelPortInfoResult__ctor.htm" />
+  <HelpKINode Title="FibreChannelPortInfoResult.Result property" Url="html/P_SolidFire_Element_Api_FibreChannelPortInfoResult_Result.htm" />
+  <HelpKINode Title="FibreChannelPortList class">
+    <HelpKINode Title="FibreChannelPortList Class" Url="html/T_SolidFire_Element_Api_FibreChannelPortList.htm" />
+    <HelpKINode Title="about FibreChannelPortList class" Url="html/T_SolidFire_Element_Api_FibreChannelPortList.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_FibreChannelPortList__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_FibreChannelPortList.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_FibreChannelPortList.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FibreChannelPortList.FibreChannelPortList constructor" Url="html/M_SolidFire_Element_Api_FibreChannelPortList__ctor.htm" />
+  <HelpKINode Title="FibreChannelPortList.FibreChannelPorts property" Url="html/P_SolidFire_Element_Api_FibreChannelPortList_FibreChannelPorts.htm" />
+  <HelpKINode Title="FibreChannelPorts property" Url="html/P_SolidFire_Element_Api_FibreChannelPortList_FibreChannelPorts.htm" />
   <HelpKINode Title="FibreChannelTargetPortGroup property" Url="html/P_SolidFire_Element_Api_Node_FibreChannelTargetPortGroup.htm" />
   <HelpKINode Title="Firmware property" Url="html/P_SolidFire_Element_Api_FibreChannelPortInfo_Firmware.htm" />
   <HelpKINode Title="FirstTimeStartup property" Url="html/P_SolidFire_Element_Api_Service_FirstTimeStartup.htm" />
   <HelpKINode Title="Force property">
     <HelpKINode Title="GetAccountEfficiencyRequest.Force Property " Url="html/P_SolidFire_Element_Api_GetAccountEfficiencyRequest_Force.htm" />
     <HelpKINode Title="GetVolumeEfficiencyRequest.Force Property " Url="html/P_SolidFire_Element_Api_GetVolumeEfficiencyRequest_Force.htm" />
-    <HelpKINode Title="ListFibreChannelPortInfoRequest.Force Property " Url="html/P_SolidFire_Element_Api_ListFibreChannelPortInfoRequest_Force.htm" />
+    <HelpKINode Title="ListClusterNetworkInterfacesRequest.Force Property " Url="html/P_SolidFire_Element_Api_ListClusterNetworkInterfacesRequest_Force.htm" />
     <HelpKINode Title="ListNetworkInterfacesRequest.Force Property " Url="html/P_SolidFire_Element_Api_ListNetworkInterfacesRequest_Force.htm" />
   </HelpKINode>
   <HelpKINode Title="Format property" Url="html/P_SolidFire_Element_Api_BulkVolumeJob_Format.htm" />
@@ -2515,12 +2534,13 @@
   <HelpKINode Title="ISolidFireElement.ListBulkVolumeJobs method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListBulkVolumeJobs.htm" />
   <HelpKINode Title="ISolidFireElement.ListClusterAdmins method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListClusterAdmins.htm" />
   <HelpKINode Title="ISolidFireElement.ListClusterFaults method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListClusterFaults.htm" />
+  <HelpKINode Title="ISolidFireElement.ListClusterNetworkInterfaces method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ListClusterNetworkInterfaces.htm" />
   <HelpKINode Title="ISolidFireElement.ListDatabaseChildren method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ListDatabaseChildren.htm" />
   <HelpKINode Title="ISolidFireElement.ListDatabaseChildrenData method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ListDatabaseChildrenData.htm" />
   <HelpKINode Title="ISolidFireElement.ListDeletedVolumes method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListDeletedVolumes.htm" />
   <HelpKINode Title="ISolidFireElement.ListDrives method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListDrives.htm" />
   <HelpKINode Title="ISolidFireElement.ListEvents method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListEvents.htm" />
-  <HelpKINode Title="ISolidFireElement.ListFibreChannelPortInfo method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ListFibreChannelPortInfo.htm" />
+  <HelpKINode Title="ISolidFireElement.ListFibreChannelPortInfo method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListFibreChannelPortInfo.htm" />
   <HelpKINode Title="ISolidFireElement.ListGroupSnapshots method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ListGroupSnapshots.htm" />
   <HelpKINode Title="ISolidFireElement.ListISCSISessions method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListISCSISessions.htm" />
   <HelpKINode Title="ISolidFireElement.ListNetworkInterfaces method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ListNetworkInterfaces.htm" />
@@ -2720,6 +2740,28 @@
   </HelpKINode>
   <HelpKINode Title="ListClusterFaultsResult.Faults property" Url="html/P_SolidFire_Element_Api_ListClusterFaultsResult_Faults.htm" />
   <HelpKINode Title="ListClusterFaultsResult.ListClusterFaultsResult constructor" Url="html/M_SolidFire_Element_Api_ListClusterFaultsResult__ctor.htm" />
+  <HelpKINode Title="ListClusterNetworkInterfaces method">
+    <HelpKINode Title="ISolidFireElement.ListClusterNetworkInterfaces Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ListClusterNetworkInterfaces.htm" />
+    <HelpKINode Title="SolidFireElement.ListClusterNetworkInterfaces Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ListClusterNetworkInterfaces.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ListClusterNetworkInterfacesRequest class">
+    <HelpKINode Title="ListClusterNetworkInterfacesRequest Class" Url="html/T_SolidFire_Element_Api_ListClusterNetworkInterfacesRequest.htm" />
+    <HelpKINode Title="about ListClusterNetworkInterfacesRequest class" Url="html/T_SolidFire_Element_Api_ListClusterNetworkInterfacesRequest.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_ListClusterNetworkInterfacesRequest__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_ListClusterNetworkInterfacesRequest.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_ListClusterNetworkInterfacesRequest.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ListClusterNetworkInterfacesRequest.Force property" Url="html/P_SolidFire_Element_Api_ListClusterNetworkInterfacesRequest_Force.htm" />
+  <HelpKINode Title="ListClusterNetworkInterfacesRequest.ListClusterNetworkInterfacesRequest constructor" Url="html/M_SolidFire_Element_Api_ListClusterNetworkInterfacesRequest__ctor.htm" />
+  <HelpKINode Title="ListClusterNetworkInterfacesResult class">
+    <HelpKINode Title="ListClusterNetworkInterfacesResult Class" Url="html/T_SolidFire_Element_Api_ListClusterNetworkInterfacesResult.htm" />
+    <HelpKINode Title="about ListClusterNetworkInterfacesResult class" Url="html/T_SolidFire_Element_Api_ListClusterNetworkInterfacesResult.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_ListClusterNetworkInterfacesResult__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_ListClusterNetworkInterfacesResult.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_ListClusterNetworkInterfacesResult.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ListClusterNetworkInterfacesResult.ListClusterNetworkInterfacesResult constructor" Url="html/M_SolidFire_Element_Api_ListClusterNetworkInterfacesResult__ctor.htm" />
+  <HelpKINode Title="ListClusterNetworkInterfacesResult.Nodes property" Url="html/P_SolidFire_Element_Api_ListClusterNetworkInterfacesResult_Nodes.htm" />
   <HelpKINode Title="ListDatabaseChildren method">
     <HelpKINode Title="ISolidFireElement.ListDatabaseChildren Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ListDatabaseChildren.htm" />
     <HelpKINode Title="SolidFireElement.ListDatabaseChildren Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ListDatabaseChildren.htm" />
@@ -2818,18 +2860,9 @@
   <HelpKINode Title="ListEventsResult.Events property" Url="html/P_SolidFire_Element_Api_ListEventsResult_Events.htm" />
   <HelpKINode Title="ListEventsResult.ListEventsResult constructor" Url="html/M_SolidFire_Element_Api_ListEventsResult__ctor.htm" />
   <HelpKINode Title="ListFibreChannelPortInfo method">
-    <HelpKINode Title="ISolidFireElement.ListFibreChannelPortInfo Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ListFibreChannelPortInfo.htm" />
-    <HelpKINode Title="SolidFireElement.ListFibreChannelPortInfo Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ListFibreChannelPortInfo.htm" />
+    <HelpKINode Title="ISolidFireElement.ListFibreChannelPortInfo Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListFibreChannelPortInfo.htm" />
+    <HelpKINode Title="SolidFireElement.ListFibreChannelPortInfo Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_ListFibreChannelPortInfo.htm" />
   </HelpKINode>
-  <HelpKINode Title="ListFibreChannelPortInfoRequest class">
-    <HelpKINode Title="ListFibreChannelPortInfoRequest Class" Url="html/T_SolidFire_Element_Api_ListFibreChannelPortInfoRequest.htm" />
-    <HelpKINode Title="about ListFibreChannelPortInfoRequest class" Url="html/T_SolidFire_Element_Api_ListFibreChannelPortInfoRequest.htm" />
-    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_ListFibreChannelPortInfoRequest__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_ListFibreChannelPortInfoRequest.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_ListFibreChannelPortInfoRequest.htm" />
-  </HelpKINode>
-  <HelpKINode Title="ListFibreChannelPortInfoRequest.Force property" Url="html/P_SolidFire_Element_Api_ListFibreChannelPortInfoRequest_Force.htm" />
-  <HelpKINode Title="ListFibreChannelPortInfoRequest.ListFibreChannelPortInfoRequest constructor" Url="html/M_SolidFire_Element_Api_ListFibreChannelPortInfoRequest__ctor.htm" />
   <HelpKINode Title="ListFibreChannelPortInfoResult class">
     <HelpKINode Title="ListFibreChannelPortInfoResult Class" Url="html/T_SolidFire_Element_Api_ListFibreChannelPortInfoResult.htm" />
     <HelpKINode Title="about ListFibreChannelPortInfoResult class" Url="html/T_SolidFire_Element_Api_ListFibreChannelPortInfoResult.htm" />
@@ -2837,7 +2870,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_ListFibreChannelPortInfoResult.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_ListFibreChannelPortInfoResult.htm" />
   </HelpKINode>
-  <HelpKINode Title="ListFibreChannelPortInfoResult.FibreChannelPorts property" Url="html/P_SolidFire_Element_Api_ListFibreChannelPortInfoResult_FibreChannelPorts.htm" />
+  <HelpKINode Title="ListFibreChannelPortInfoResult.FibreChannelPortInfo property" Url="html/P_SolidFire_Element_Api_ListFibreChannelPortInfoResult_FibreChannelPortInfo.htm" />
   <HelpKINode Title="ListFibreChannelPortInfoResult.ListFibreChannelPortInfoResult constructor" Url="html/M_SolidFire_Element_Api_ListFibreChannelPortInfoResult__ctor.htm" />
   <HelpKINode Title="ListGroupSnapshots method">
     <HelpKINode Title="ISolidFireElement.ListGroupSnapshots Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ListGroupSnapshots.htm" />
@@ -3731,6 +3764,7 @@
     <HelpKINode Title="GetClusterMasterNodeIDResult.NodeID Property " Url="html/P_SolidFire_Element_Api_GetClusterMasterNodeIDResult_NodeID.htm" />
     <HelpKINode Title="ISCSISession.NodeID Property " Url="html/P_SolidFire_Element_Api_ISCSISession_NodeID.htm" />
     <HelpKINode Title="Node.NodeID Property " Url="html/P_SolidFire_Element_Api_Node_NodeID.htm" />
+    <HelpKINode Title="NodeNetworkInterface.NodeID Property " Url="html/P_SolidFire_Element_Api_NodeNetworkInterface_NodeID.htm" />
     <HelpKINode Title="NodeWaitingToJoin.NodeID Property " Url="html/P_SolidFire_Element_Api_NodeWaitingToJoin_NodeID.htm" />
     <HelpKINode Title="PendingNodeToNode.NodeID Property " Url="html/P_SolidFire_Element_Api_PendingNodeToNode_NodeID.htm" />
     <HelpKINode Title="Service.NodeID Property " Url="html/P_SolidFire_Element_Api_Service_NodeID.htm" />
@@ -3740,6 +3774,16 @@
   <HelpKINode Title="NodeInternalRevision property" Url="html/P_SolidFire_Element_Api_ClusterVersionInfo_NodeInternalRevision.htm" />
   <HelpKINode Title="NodeMemoryGB property" Url="html/P_SolidFire_Element_Api_Platform_NodeMemoryGB.htm" />
   <HelpKINode Title="NodeName property" Url="html/P_SolidFire_Element_Api_GetBootstrapConfigResult_NodeName.htm" />
+  <HelpKINode Title="NodeNetworkInterface class">
+    <HelpKINode Title="NodeNetworkInterface Class" Url="html/T_SolidFire_Element_Api_NodeNetworkInterface.htm" />
+    <HelpKINode Title="about NodeNetworkInterface class" Url="html/T_SolidFire_Element_Api_NodeNetworkInterface.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_NodeNetworkInterface__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_NodeNetworkInterface.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_NodeNetworkInterface.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NodeNetworkInterface.NodeID property" Url="html/P_SolidFire_Element_Api_NodeNetworkInterface_NodeID.htm" />
+  <HelpKINode Title="NodeNetworkInterface.NodeNetworkInterface constructor" Url="html/M_SolidFire_Element_Api_NodeNetworkInterface__ctor.htm" />
+  <HelpKINode Title="NodeNetworkInterface.Result property" Url="html/P_SolidFire_Element_Api_NodeNetworkInterface_Result.htm" />
   <HelpKINode Title="Nodes property">
     <HelpKINode Title="AddNodesResult.Nodes Property " Url="html/P_SolidFire_Element_Api_AddNodesResult_Nodes.htm" />
     <HelpKINode Title="CreateClusterRequest.Nodes Property " Url="html/P_SolidFire_Element_Api_CreateClusterRequest_Nodes.htm" />
@@ -3747,6 +3791,7 @@
     <HelpKINode Title="GetBootstrapConfigResult.Nodes Property " Url="html/P_SolidFire_Element_Api_GetBootstrapConfigResult_Nodes.htm" />
     <HelpKINode Title="ListActiveNodesResult.Nodes Property " Url="html/P_SolidFire_Element_Api_ListActiveNodesResult_Nodes.htm" />
     <HelpKINode Title="ListAllNodesResult.Nodes Property " Url="html/P_SolidFire_Element_Api_ListAllNodesResult_Nodes.htm" />
+    <HelpKINode Title="ListClusterNetworkInterfacesResult.Nodes Property " Url="html/P_SolidFire_Element_Api_ListClusterNetworkInterfacesResult_Nodes.htm" />
     <HelpKINode Title="RemoveNodesRequest.Nodes Property " Url="html/P_SolidFire_Element_Api_RemoveNodesRequest_Nodes.htm" />
   </HelpKINode>
   <HelpKINode Title="NodeType property" Url="html/P_SolidFire_Element_Api_Platform_NodeType.htm" />
@@ -4225,7 +4270,9 @@
   <HelpKINode Title="Result property">
     <HelpKINode Title="CreateClusterSupportBundleResult.Result Property " Url="html/P_SolidFire_Element_Api_CreateClusterSupportBundleResult_Result.htm" />
     <HelpKINode Title="CreateSupportBundleResult.Result Property " Url="html/P_SolidFire_Element_Api_CreateSupportBundleResult_Result.htm" />
+    <HelpKINode Title="FibreChannelPortInfoResult.Result Property " Url="html/P_SolidFire_Element_Api_FibreChannelPortInfoResult_Result.htm" />
     <HelpKINode Title="GetAsyncResultResult.Result Property " Url="html/P_SolidFire_Element_Api_GetAsyncResultResult_Result.htm" />
+    <HelpKINode Title="NodeNetworkInterface.Result Property " Url="html/P_SolidFire_Element_Api_NodeNetworkInterface_Result.htm" />
   </HelpKINode>
   <HelpKINode Title="Retention property">
     <HelpKINode Title="CreateGroupSnapshotRequest.Retention Property " Url="html/P_SolidFire_Element_Api_CreateGroupSnapshotRequest_Retention.htm" />
@@ -4759,6 +4806,8 @@
   <HelpKINode Title="SolidFire.Element.Api.EventInfo class" Url="html/T_SolidFire_Element_Api_EventInfo.htm" />
   <HelpKINode Title="SolidFire.Element.Api.FastCloneVirtualVolumeRequest class" Url="html/T_SolidFire_Element_Api_FastCloneVirtualVolumeRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.FibreChannelPortInfo class" Url="html/T_SolidFire_Element_Api_FibreChannelPortInfo.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.FibreChannelPortInfoResult class" Url="html/T_SolidFire_Element_Api_FibreChannelPortInfoResult.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.FibreChannelPortList class" Url="html/T_SolidFire_Element_Api_FibreChannelPortList.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetAccountByIDRequest class" Url="html/T_SolidFire_Element_Api_GetAccountByIDRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetAccountByNameRequest class" Url="html/T_SolidFire_Element_Api_GetAccountByNameRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetAccountEfficiencyRequest class" Url="html/T_SolidFire_Element_Api_GetAccountEfficiencyRequest.htm" />
@@ -4819,6 +4868,8 @@
   <HelpKINode Title="SolidFire.Element.Api.ListClusterAdminsResult class" Url="html/T_SolidFire_Element_Api_ListClusterAdminsResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ListClusterFaultsRequest class" Url="html/T_SolidFire_Element_Api_ListClusterFaultsRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ListClusterFaultsResult class" Url="html/T_SolidFire_Element_Api_ListClusterFaultsResult.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.ListClusterNetworkInterfacesRequest class" Url="html/T_SolidFire_Element_Api_ListClusterNetworkInterfacesRequest.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.ListClusterNetworkInterfacesResult class" Url="html/T_SolidFire_Element_Api_ListClusterNetworkInterfacesResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ListDatabaseChildrenDataRequest class" Url="html/T_SolidFire_Element_Api_ListDatabaseChildrenDataRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ListDatabaseChildrenDataResult class" Url="html/T_SolidFire_Element_Api_ListDatabaseChildrenDataResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ListDatabaseChildrenRequest class" Url="html/T_SolidFire_Element_Api_ListDatabaseChildrenRequest.htm" />
@@ -4827,7 +4878,6 @@
   <HelpKINode Title="SolidFire.Element.Api.ListDrivesResult class" Url="html/T_SolidFire_Element_Api_ListDrivesResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ListEventsRequest class" Url="html/T_SolidFire_Element_Api_ListEventsRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ListEventsResult class" Url="html/T_SolidFire_Element_Api_ListEventsResult.htm" />
-  <HelpKINode Title="SolidFire.Element.Api.ListFibreChannelPortInfoRequest class" Url="html/T_SolidFire_Element_Api_ListFibreChannelPortInfoRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ListFibreChannelPortInfoResult class" Url="html/T_SolidFire_Element_Api_ListFibreChannelPortInfoResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ListGroupSnapshotsRequest class" Url="html/T_SolidFire_Element_Api_ListGroupSnapshotsRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ListGroupSnapshotsResult class" Url="html/T_SolidFire_Element_Api_ListGroupSnapshotsResult.htm" />
@@ -4886,6 +4936,7 @@
   <HelpKINode Title="SolidFire.Element.Api.NetworkInterface class" Url="html/T_SolidFire_Element_Api_NetworkInterface.htm" />
   <HelpKINode Title="SolidFire.Element.Api.NewDrive class" Url="html/T_SolidFire_Element_Api_NewDrive.htm" />
   <HelpKINode Title="SolidFire.Element.Api.Node class" Url="html/T_SolidFire_Element_Api_Node.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.NodeNetworkInterface class" Url="html/T_SolidFire_Element_Api_NodeNetworkInterface.htm" />
   <HelpKINode Title="SolidFire.Element.Api.NodeWaitingToJoin class" Url="html/T_SolidFire_Element_Api_NodeWaitingToJoin.htm" />
   <HelpKINode Title="SolidFire.Element.Api.PendingNode class" Url="html/T_SolidFire_Element_Api_PendingNode.htm" />
   <HelpKINode Title="SolidFire.Element.Api.PendingNodeToNode class" Url="html/T_SolidFire_Element_Api_PendingNodeToNode.htm" />
@@ -5061,12 +5112,13 @@
   <HelpKINode Title="SolidFireElement.ListBulkVolumeJobs method" Url="html/M_SolidFire_Element_Api_SolidFireElement_ListBulkVolumeJobs.htm" />
   <HelpKINode Title="SolidFireElement.ListClusterAdmins method" Url="html/M_SolidFire_Element_Api_SolidFireElement_ListClusterAdmins.htm" />
   <HelpKINode Title="SolidFireElement.ListClusterFaults method" Url="html/M_SolidFire_Element_Api_SolidFireElement_ListClusterFaults.htm" />
+  <HelpKINode Title="SolidFireElement.ListClusterNetworkInterfaces method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ListClusterNetworkInterfaces.htm" />
   <HelpKINode Title="SolidFireElement.ListDatabaseChildren method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ListDatabaseChildren.htm" />
   <HelpKINode Title="SolidFireElement.ListDatabaseChildrenData method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ListDatabaseChildrenData.htm" />
   <HelpKINode Title="SolidFireElement.ListDeletedVolumes method" Url="html/M_SolidFire_Element_Api_SolidFireElement_ListDeletedVolumes.htm" />
   <HelpKINode Title="SolidFireElement.ListDrives method" Url="html/M_SolidFire_Element_Api_SolidFireElement_ListDrives.htm" />
   <HelpKINode Title="SolidFireElement.ListEvents method" Url="html/M_SolidFire_Element_Api_SolidFireElement_ListEvents.htm" />
-  <HelpKINode Title="SolidFireElement.ListFibreChannelPortInfo method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ListFibreChannelPortInfo.htm" />
+  <HelpKINode Title="SolidFireElement.ListFibreChannelPortInfo method" Url="html/M_SolidFire_Element_Api_SolidFireElement_ListFibreChannelPortInfo.htm" />
   <HelpKINode Title="SolidFireElement.ListGroupSnapshots method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ListGroupSnapshots.htm" />
   <HelpKINode Title="SolidFireElement.ListISCSISessions method" Url="html/M_SolidFire_Element_Api_SolidFireElement_ListISCSISessions.htm" />
   <HelpKINode Title="SolidFireElement.ListNetworkInterfaces method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ListNetworkInterfaces.htm" />
@@ -5379,13 +5431,13 @@
     <HelpKINode Title="SetSnmpACLRequest.UsmUsers Property " Url="html/P_SolidFire_Element_Api_SetSnmpACLRequest_UsmUsers.htm" />
     <HelpKINode Title="SetSnmpInfoRequest.UsmUsers Property " Url="html/P_SolidFire_Element_Api_SetSnmpInfoRequest_UsmUsers.htm" />
   </HelpKINode>
-  <HelpKINode Title="UUID property" Url="html/P_SolidFire_Element_Api_Snapshot_UUID.htm" />
   <HelpKINode Title="Uuid property">
     <HelpKINode Title="ClusterInfo.Uuid Property " Url="html/P_SolidFire_Element_Api_ClusterInfo_Uuid.htm" />
     <HelpKINode Title="DriveConfigInfo.Uuid Property " Url="html/P_SolidFire_Element_Api_DriveConfigInfo_Uuid.htm" />
     <HelpKINode Title="DriveHardwareInfo.Uuid Property " Url="html/P_SolidFire_Element_Api_DriveHardwareInfo_Uuid.htm" />
     <HelpKINode Title="Node.Uuid Property " Url="html/P_SolidFire_Element_Api_Node_Uuid.htm" />
   </HelpKINode>
+  <HelpKINode Title="UUID property" Url="html/P_SolidFire_Element_Api_Snapshot_UUID.htm" />
   <HelpKINode Title="VasaProviderInfo class">
     <HelpKINode Title="VasaProviderInfo Class" Url="html/T_SolidFire_Element_Api_VasaProviderInfo.htm" />
     <HelpKINode Title="about VasaProviderInfo class" Url="html/T_SolidFire_Element_Api_VasaProviderInfo.htm" />
