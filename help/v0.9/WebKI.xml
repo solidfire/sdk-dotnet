@@ -363,6 +363,7 @@
   <HelpKINode Title="BundleName property">
     <HelpKINode Title="CreateClusterSupportBundleRequest.BundleName Property " Url="html/P_SolidFire_Element_Api_CreateClusterSupportBundleRequest_BundleName.htm" />
     <HelpKINode Title="CreateSupportBundleRequest.BundleName Property " Url="html/P_SolidFire_Element_Api_CreateSupportBundleRequest_BundleName.htm" />
+    <HelpKINode Title="SupportBundleDetails.BundleName Property " Url="html/P_SolidFire_Element_Api_SupportBundleDetails_BundleName.htm" />
   </HelpKINode>
   <HelpKINode Title="BurstIOPS property">
     <HelpKINode Title="QoS.BurstIOPS Property " Url="html/P_SolidFire_Element_Api_QoS_BurstIOPS.htm" />
@@ -1593,6 +1594,7 @@
   <HelpKINode Title="ExtraArgs property">
     <HelpKINode Title="CreateClusterSupportBundleRequest.ExtraArgs Property " Url="html/P_SolidFire_Element_Api_CreateClusterSupportBundleRequest_ExtraArgs.htm" />
     <HelpKINode Title="CreateSupportBundleRequest.ExtraArgs Property " Url="html/P_SolidFire_Element_Api_CreateSupportBundleRequest_ExtraArgs.htm" />
+    <HelpKINode Title="SupportBundleDetails.ExtraArgs Property " Url="html/P_SolidFire_Element_Api_SupportBundleDetails_ExtraArgs.htm" />
   </HelpKINode>
   <HelpKINode Title="FailedDieCount property" Url="html/P_SolidFire_Element_Api_DriveStats_FailedDieCount.htm" />
   <HelpKINode Title="Family property" Url="html/P_SolidFire_Element_Api_NetworkConfig_Family.htm" />
@@ -1673,6 +1675,7 @@
   <HelpKINode Title="FibreChannelSession.TargetWWPN property" Url="html/P_SolidFire_Element_Api_FibreChannelSession_TargetWWPN.htm" />
   <HelpKINode Title="FibreChannelSession.VolumeAccessGroupID property" Url="html/P_SolidFire_Element_Api_FibreChannelSession_VolumeAccessGroupID.htm" />
   <HelpKINode Title="FibreChannelTargetPortGroup property" Url="html/P_SolidFire_Element_Api_Node_FibreChannelTargetPortGroup.htm" />
+  <HelpKINode Title="Files property" Url="html/P_SolidFire_Element_Api_SupportBundleDetails_Files.htm" />
   <HelpKINode Title="Firmware property" Url="html/P_SolidFire_Element_Api_FibreChannelPortInfo_Firmware.htm" />
   <HelpKINode Title="FirstTimeStartup property" Url="html/P_SolidFire_Element_Api_Service_FirstTimeStartup.htm" />
   <HelpKINode Title="Force property">
@@ -3916,6 +3919,7 @@
   <HelpKINode Title="NumTotalActual property" Url="html/P_SolidFire_Element_Api_DriveConfigInfo_NumTotalActual.htm" />
   <HelpKINode Title="NumTotalExpected property" Url="html/P_SolidFire_Element_Api_DriveConfigInfo_NumTotalExpected.htm" />
   <HelpKINode Title="Operation property" Url="html/P_SolidFire_Element_Api_VirtualVolumeTask_Operation.htm" />
+  <HelpKINode Title="Output property" Url="html/P_SolidFire_Element_Api_SupportBundleDetails_Output.htm" />
   <HelpKINode Title="PackageName property" Url="html/P_SolidFire_Element_Api_SoftwareVersionInfo_PackageName.htm" />
   <HelpKINode Title="ParentMetadata property" Url="html/P_SolidFire_Element_Api_VirtualVolumeTask_ParentMetadata.htm" />
   <HelpKINode Title="ParentTotalSize property" Url="html/P_SolidFire_Element_Api_VirtualVolumeTask_ParentTotalSize.htm" />
@@ -5098,6 +5102,7 @@
   <HelpKINode Title="SolidFire.Element.Api.SolidFireElement class" Url="html/T_SolidFire_Element_Api_SolidFireElement.htm" />
   <HelpKINode Title="SolidFire.Element.Api.StorageContainer class" Url="html/T_SolidFire_Element_Api_StorageContainer.htm" />
   <HelpKINode Title="SolidFire.Element.Api.StorageContainerResult class" Url="html/T_SolidFire_Element_Api_StorageContainerResult.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.SupportBundleDetails class" Url="html/T_SolidFire_Element_Api_SupportBundleDetails.htm" />
   <HelpKINode Title="SolidFire.Element.Api.SyncJob class" Url="html/T_SolidFire_Element_Api_SyncJob.htm" />
   <HelpKINode Title="SolidFire.Element.Api.UnbindArguments class" Url="html/T_SolidFire_Element_Api_UnbindArguments.htm" />
   <HelpKINode Title="SolidFire.Element.Api.UnbindResult class" Url="html/T_SolidFire_Element_Api_UnbindResult.htm" />
@@ -5375,6 +5380,20 @@
   <HelpKINode Title="SumTotalMetadataClusterBytes property" Url="html/P_SolidFire_Element_Api_GetClusterFullThresholdResult_SumTotalMetadataClusterBytes.htm" />
   <HelpKINode Title="SumUsedClusterBytes property" Url="html/P_SolidFire_Element_Api_GetClusterFullThresholdResult_SumUsedClusterBytes.htm" />
   <HelpKINode Title="SumUsedMetadataClusterBytes property" Url="html/P_SolidFire_Element_Api_GetClusterFullThresholdResult_SumUsedMetadataClusterBytes.htm" />
+  <HelpKINode Title="SupportBundleDetails class">
+    <HelpKINode Title="SupportBundleDetails Class" Url="html/T_SolidFire_Element_Api_SupportBundleDetails.htm" />
+    <HelpKINode Title="about SupportBundleDetails class" Url="html/T_SolidFire_Element_Api_SupportBundleDetails.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_SupportBundleDetails__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_SupportBundleDetails.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_SupportBundleDetails.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SupportBundleDetails.BundleName property" Url="html/P_SolidFire_Element_Api_SupportBundleDetails_BundleName.htm" />
+  <HelpKINode Title="SupportBundleDetails.ExtraArgs property" Url="html/P_SolidFire_Element_Api_SupportBundleDetails_ExtraArgs.htm" />
+  <HelpKINode Title="SupportBundleDetails.Files property" Url="html/P_SolidFire_Element_Api_SupportBundleDetails_Files.htm" />
+  <HelpKINode Title="SupportBundleDetails.Output property" Url="html/P_SolidFire_Element_Api_SupportBundleDetails_Output.htm" />
+  <HelpKINode Title="SupportBundleDetails.SupportBundleDetails constructor" Url="html/M_SolidFire_Element_Api_SupportBundleDetails__ctor.htm" />
+  <HelpKINode Title="SupportBundleDetails.TimeoutSec property" Url="html/P_SolidFire_Element_Api_SupportBundleDetails_TimeoutSec.htm" />
+  <HelpKINode Title="SupportBundleDetails.Url property" Url="html/P_SolidFire_Element_Api_SupportBundleDetails_Url.htm" />
   <HelpKINode Title="SupportedVersions property" Url="html/P_SolidFire_Element_Api_GetAPIResult_SupportedVersions.htm" />
   <HelpKINode Title="Svip property">
     <HelpKINode Title="AddVirtualNetworkRequest.Svip Property " Url="html/P_SolidFire_Element_Api_AddVirtualNetworkRequest_Svip.htm" />
@@ -5437,7 +5456,10 @@
   <HelpKINode Title="TimeOfPublish property" Url="html/P_SolidFire_Element_Api_EventInfo_TimeOfPublish.htm" />
   <HelpKINode Title="TimeOfReport property" Url="html/P_SolidFire_Element_Api_EventInfo_TimeOfReport.htm" />
   <HelpKINode Title="Timeout property" Url="html/P_SolidFire_Element_Api_SnapshotVirtualVolumeRequest_Timeout.htm" />
-  <HelpKINode Title="TimeoutSec property" Url="html/P_SolidFire_Element_Api_CreateSupportBundleRequest_TimeoutSec.htm" />
+  <HelpKINode Title="TimeoutSec property">
+    <HelpKINode Title="CreateSupportBundleRequest.TimeoutSec Property " Url="html/P_SolidFire_Element_Api_CreateSupportBundleRequest_TimeoutSec.htm" />
+    <HelpKINode Title="SupportBundleDetails.TimeoutSec Property " Url="html/P_SolidFire_Element_Api_SupportBundleDetails_TimeoutSec.htm" />
+  </HelpKINode>
   <HelpKINode Title="Timestamp property">
     <HelpKINode Title="ClusterCapacity.Timestamp Property " Url="html/P_SolidFire_Element_Api_ClusterCapacity_Timestamp.htm" />
     <HelpKINode Title="ClusterStats.Timestamp Property " Url="html/P_SolidFire_Element_Api_ClusterStats_Timestamp.htm" />
@@ -5518,6 +5540,7 @@
     <HelpKINode Title="PhysicalAdapter.UpAndRunning Property " Url="html/P_SolidFire_Element_Api_PhysicalAdapter_UpAndRunning.htm" />
   </HelpKINode>
   <HelpKINode Title="Update property" Url="html/P_SolidFire_Element_Api_ListClusterFaultsRequest_Update.htm" />
+  <HelpKINode Title="Url property" Url="html/P_SolidFire_Element_Api_SupportBundleDetails_Url.htm" />
   <HelpKINode Title="UsedCapacity property" Url="html/P_SolidFire_Element_Api_DriveStats_UsedCapacity.htm" />
   <HelpKINode Title="UsedMemory property" Url="html/P_SolidFire_Element_Api_DriveStats_UsedMemory.htm" />
   <HelpKINode Title="UsedMetadataSpace property" Url="html/P_SolidFire_Element_Api_ClusterCapacity_UsedMetadataSpace.htm" />
