@@ -3,7 +3,7 @@
 C# SDK for interacting with SolidFire Element OS
 
 ##Current Release
-Version 1.0
+Version 0.9
 
 ##Description
 The SolidFire C# SDK is a collection of software modules and libraries that facilitate integration and orchestration between proprietary systems and third-party applications. The C# SDK allows developers to deeply integrate SolidFire system API with the Java programming language. The SolidFire C# SDK reduces the amount of additional coding time required for integration.
@@ -30,7 +30,7 @@ ___Dependencies___:
 
 | Component       | Version 	 |
 | --------------- | ---------- |
-| SolidFire.Core  | 1.0.0.x    |
+| SolidFire.Core  | 0.9.0.24   |
 | Newtonsoft.Json | 7.0.1      |
 
 
@@ -44,7 +44,7 @@ ___Dependencies___:
 
 ##Examples
 ###Examples of using the API (C#)
-```cs
+```c#
 using SolidFire.Element;
 using SolidFire.Element.Api;
 using System.Collections.Generic;
@@ -100,35 +100,9 @@ namespace DotNetSDKExamples
 ```
 
 ###Examples of using the API (VB)
-```scala    
-// Import your Java Primitive Types
-import java.lang.Long
-
-import com.solidfire.javautil.Optional.{empty, of}
-
-class ReadmeExample {
-
-  // Create Connection to SF Cluster
-  val sf = SolidFireElement.create("mvip", "8.0", "username", "password")
-
-  // Create some accounts
-  val addAccount = new AddAccountRequest("username", empty[String], empty[String], empty())
-  val accountId = sf.addAccount(addAccount).getAccountID
-
-  // And a volume
-  val createVolume = new CreateVolumeRequest("volumeName", accountId, 1000000000l, false, empty[QoS], empty())
-  val volumeId = sf.createVolume(createVolume).getVolumeID
-
-  // Lookup iqn for new volume
-  val iqn: String = sf.listVolumesForAccount(accountId, of(volumeId), of(1l)).getVolumes()(0).getIqn
-
-  // Change Min and Burst QoS while keeping Max and Burst Time the same
-  val qos: QoS = new QoS(of(5000l), empty[Long], of(30000l), empty[Long])
-
-  // Modify the volume
-  val modifyVolume = new ModifyVolumeRequest(volumeId, empty[Long], empty[String], empty[String], 
-                                             of(qos), of( 2000000000l ), empty())
-  sf.modifyVolume(modifyVolume)
+```vb 
+{
+    coming soon
 }
 ```
 
