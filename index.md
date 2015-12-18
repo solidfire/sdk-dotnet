@@ -30,6 +30,33 @@ To install SolidFire.Element, run the following command in the Package Manager C
 ```
 Install-Package SolidFire.Element
 ```
+# SolidFire C# .Net SDK <img src="http://solidfire.github.io/sdk-dotnet/img/icon_128x128.png" height="50" width="50" >
+
+C# SDK for interacting with SolidFire Element OS
+
+##Current Release
+Version 1.0
+
+##Description
+The SolidFire C# SDK is a collection of software modules and libraries that facilitate integration and orchestration between proprietary systems and third-party applications. The C# SDK allows developers to deeply integrate SolidFire system API with the Java programming language. The SolidFire C# SDK reduces the amount of additional coding time required for integration.
+
+##Compatibility
+| Component    | Version           |
+| ------------ | ----------------- |
+| .Net         | 4.5               |
+| SolidFire OS | Element 7.x & 8.x |
+
+##Getting Help
+Contacting SolidFire SDK Support
+If you have any questions or comments about this product, contact <sdk@solidfire.com> or reach out to the developer community at [developer.solidfire.com](http://developer.solidfire.com). Your feedback helps us focus our efforts on new features and capabilities.
+
+##Install via Nuget
+
+To install SolidFire.Element, run the following command in the Package Manager Console
+
+```
+Install-Package SolidFire.Element
+```
 
 ___Dependencies___:
 
@@ -49,75 +76,65 @@ ___Dependencies___:
 
 ##Examples
 ###Examples of using the API (C#)
-```java
-import com.solidfire.javautil.Optional;
+```cs
+using SolidFire.Element;
+using SolidFire.Element.Api;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
 
-// Import Optional common empty types (String, Long, & Map)
-import static com.solidfire.javautil.Optional.*;
+namespace DotNetSDKExamples
+{
+    public class CSharpDotNetExample
+    {
+        static void Main(string[] args)
+        {
+            // Create Connection to SF Cluster
+            var sfe = ElementFactory.Create("mvip", new NetworkCredential("username", "password"), "8.0");
 
-public class ReadmeJavaExample {
-  public static void main(String[] args ) {
-    // Create Connection to SF Cluster
-    SolidFireElementIF sf = SolidFireElement.create("mvip", "8.0", "username", "password");
+            // Create some accounts
+            var addAccountRequest = new AddAccountRequest()
+            {
+                Username = "username"                       // required - username of Account
+            };
+            // Run the Async request and wait for the result then pull the AccountID
+            var accountID = sfe.AddAccountAsync(addAccountRequest).Result.AccountID;
 
-    // Create some accounts
-    AddAccountRequest addAccountRequest = new AddAccountRequest("username", EMPTY_STRING, 
-                                                                EMPTY_STRING, EMPTY_MAP);
-    Long accountId = sf.addAccount(addAccountRequest).getAccountID();
+            // Add a volume with default QoS
+            var createVolumeRequest = new CreateVolumeRequest()
+            {
+                Name = "volumename",                        // required - name to give the new Volume
+                AccountID = accountID,                      // required - ID of Account that owns Volume
+                TotalSize = 1000000000l,                    // required - size of Volume in bytes
+                Enable512e = false                          // required - should Volume provide 512-byte sector emulation
+            };
+            // Run the Async request and wait for the result then pull the VolumeID
+            var volumeID = sfe.CreateVolumeAsync(createVolumeRequest).Result.VolumeID;
 
-    // And a volume with default QoS
-    CreateVolumeRequest createVolumeRequest = new CreateVolumeRequest("volumeName", accountId, 
-                                                                      1000000000l, false, 
-                                                                      Optional.<QoS>empty(), 
-                                                                      EMPTY_MAP);
-    Long volumeId = sf.createVolume(createVolumeRequest).getVolumeID();
+            var listVolumesRequest = new ListVolumesRequest(){
+                Accounts = new List<long>().Add(accountID), // optional - AccountID to filter volumes by account
+                StartVolumeID = volumeID,                   // optional - ID to start list of returned Volumes
+                Limit = 1                                   // optional - to limit the number of Volumes with IDs greater than StartVolumeID
+            };
+            // Run the Async request and wait for the result then pull Iqn of the first Volume returned
+            var iqn = sfe.ListVolumesAsync(listVolumesRequest).Result.Volumes.First().Iqn;
 
-    // Lookup iqn for new volume
-    String iqn = sf.listVolumesForAccount(accountId, of(volumeId), of(1l)).getVolumes()[0].getIqn();
-
-    // Change Min and Burst QoS while keeping Max and Burst Time the same
-    QoS qos = new QoS(of(5000l), EMPTY_LONG, of(30000l), EMPTY_LONG);
-
-    // Modify the volume size and QoS
-    ModifyVolumeRequest modifyVolumeRequest = new ModifyVolumeRequest(volumeId, EMPTY_LONG, 
-                                                                      EMPTY_STRING, EMPTY_STRING, 
-                                                                      of(qos), of(2000000000l),
-                                                                      EMPTY_MAP);
-    sf.modifyVolume(modifyVolumeRequest);
-  }
+            var modifyVolumeRequest = new ModifyVolumeRequest(){
+                VolumeID = volumeID,                        // required - ID of Volume to modify
+                TotalSize = 2000000000l                     // optional - new TotalSize of Volume
+            }
+            // Start the async request to modify the volume
+            var task = sfe.ModifyVolumeAsync(modifyVolumeRequest);
+            task.Wait(); // wait for the task to finish
+        }
+    }
 }
 ```
 
 ###Examples of using the API (VB)
-```scala    
-// Import your Java Primitive Types
-import java.lang.Long
-
-import com.solidfire.javautil.Optional.{empty, of}
-
-class ReadmeExample {
-
-  // Create Connection to SF Cluster
-  val sf = SolidFireElement.create("mvip", "8.0", "username", "password")
-
-  // Create some accounts
-  val addAccount = new AddAccountRequest("username", empty[String], empty[String], empty())
-  val accountId = sf.addAccount(addAccount).getAccountID
-
-  // And a volume
-  val createVolume = new CreateVolumeRequest("volumeName", accountId, 1000000000l, false, empty[QoS], empty())
-  val volumeId = sf.createVolume(createVolume).getVolumeID
-
-  // Lookup iqn for new volume
-  val iqn: String = sf.listVolumesForAccount(accountId, of(volumeId), of(1l)).getVolumes()(0).getIqn
-
-  // Change Min and Burst QoS while keeping Max and Burst Time the same
-  val qos: QoS = new QoS(of(5000l), empty[Long], of(30000l), empty[Long])
-
-  // Modify the volume
-  val modifyVolume = new ModifyVolumeRequest(volumeId, empty[Long], empty[String], empty[String], 
-                                             of(qos), of( 2000000000l ), empty())
-  sf.modifyVolume(modifyVolume)
+```vb 
+{
+    coming soon
 }
 ```
 
