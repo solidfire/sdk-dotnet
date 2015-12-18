@@ -3,34 +3,7 @@
 C# SDK for interacting with SolidFire Element OS
 
 ##Current Release
-Version 1.0
-
-##Description
-The SolidFire C# SDK is a collection of software modules and libraries that facilitate integration and orchestration between proprietary systems and third-party applications. The C# SDK allows developers to deeply integrate SolidFire system API with the Java programming language. The SolidFire C# SDK reduces the amount of additional coding time required for integration.
-
-##Compatibility
-| Component    | Version           |
-| ------------ | ----------------- |
-| .Net         | 4.5               |
-| SolidFire OS | Element 7.x & 8.x |
-
-##Getting Help
-Contacting SolidFire SDK Support
-If you have any questions or comments about this product, contact <sdk@solidfire.com> or reach out to the developer community at [developer.solidfire.com](http://developer.solidfire.com). Your feedback helps us focus our efforts on new features and capabilities.
-
-##Install via Nuget
-
-To install SolidFire.Element, run the following command in the Package Manager Console
-
-```
-Install-Package SolidFire.Element
-```
-# SolidFire C# .Net SDK <img src="http://solidfire.github.io/sdk-dotnet/img/icon_128x128.png" height="50" width="50" >
-
-C# SDK for interacting with SolidFire Element OS
-
-##Current Release
-Version 1.0
+Version 0.9
 
 ##Description
 The SolidFire C# SDK is a collection of software modules and libraries that facilitate integration and orchestration between proprietary systems and third-party applications. The C# SDK allows developers to deeply integrate SolidFire system API with the Java programming language. The SolidFire C# SDK reduces the amount of additional coding time required for integration.
@@ -57,7 +30,7 @@ ___Dependencies___:
 
 | Component       | Version 	 |
 | --------------- | ---------- |
-| SolidFire.Core  | 1.0.0.x    |
+| SolidFire.Core  | 0.9.0.24   |
 | Newtonsoft.Json | 7.0.1      |
 
 
@@ -71,7 +44,7 @@ ___Dependencies___:
 
 ##Examples
 ###Examples of using the API (C#)
-```cs
+```c#
 using SolidFire.Element;
 using SolidFire.Element.Api;
 using System.Collections.Generic;
