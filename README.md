@@ -1,7 +1,9 @@
+# SolidFire C# .Net SDK <img src="http://solidfire.github.io/sdk-dotnet/img/icon_128x128.png" height="50" width="50" >
 
-# SolidFire C# .Net SDK <img src="img/icon_128x128.png"" height="50" width="50" >
+C# SDK for interacting with SolidFire Element OS
 
-SolidFire Management API as a C# .Net SDK
+##Current Release
+Version 1.0
 
 ##Description
 The SolidFire C# SDK is a collection of software modules and libraries that facilitate integration and orchestration between proprietary systems and third-party applications. The C# SDK allows developers to deeply integrate SolidFire system API with the Java programming language. The SolidFire C# SDK reduces the amount of additional coding time required for integration.
@@ -9,91 +11,91 @@ The SolidFire C# SDK is a collection of software modules and libraries that faci
 ##Compatibility
 | Component    | Version           |
 | ------------ | ----------------- |
-| .Net         | 4.5+              |
+| .Net         | 4.5               |
 | SolidFire OS | Element 7.x & 8.x |
 
 ##Getting Help
 Contacting SolidFire SDK Support
 If you have any questions or comments about this product, contact <sdk@solidfire.com> or reach out to the developer community at [developer.solidfire.com](http://developer.solidfire.com). Your feedback helps us focus our efforts on new features and capabilities.
 
-##Download
-[Download](http://mvnrepository.com/artifact/com.solidfire) the latest DLL or grab via Nuget:
+##Install via Nuget
 
-```xml
-<dependency>
-  <groupId>com.solidfire</groupId>
-  <artifactId>element-api</artifactId>
-  <version>1.0.0.53</version>
-</dependency>
+To install SolidFire.Element, run the following command in the Package Manager Console
+
 ```
-
-##Assembly DLL
-The SolidFire C# .Net SDK is also released as a Signed Assembly containing everything you need to quickly spin up a working client to interact with you SolidFire cluster.  The assembly can be downloaded [here](https://github.com/solidfire/solidfire-sdk-java/releases/download/v1.0.0.53/solidfire-sdk-1.0.0.53.jar).  
+Install-Package SolidFire.Element
+```
 
 ___Dependencies___:
 
-| Component       | Version |
-| --------------- | ------- |
-| base64          | 2.3.8   |
-| gson            | 2.3     |
-| joda-time       | 2.4     |
-| joda-convert    | 1.2     |
-| slf4j-api       | 1.7.7   |
-| logback-core    | 1.1.3   |
-| logback-classic | 1.1.3   |
-
-_**Note**: The SDK assembly should only be used in a standalone setting such as scripting or for prototyping.  It should not be used in a production environment as the signed components might conflict with other components that are unsigned or signed with another certificate.  See below._   
-
-###Limitations with a Certificate Signed Assembly Jar
-The SDK assembly is signed with a certificate controlled by SolidFire, Inc, assuring the archive is official and legitimate.  One caveat to having a set of components also signed with SolidFire's certificate, is no other version of these components can exist on the classpath. This will cause a security exception in the JVM.  
-
-If using the SDK with a restricted version of the above listed components, e.g. logback, or in developing an enterprise solution that runs in a web application container, etc., use the publicly [hosted versions](http://mvnrepository.com/artifact/com.solidfire) of the SDK.
+| Component       | Version 	 |
+| --------------- | ---------- |
+| SolidFire.Core  | 1.0.0.x    |
+| Newtonsoft.Json | 7.0.1      |
 
 
-##Documentation
+##Documentation (v1.0)
 
-[Latest JavaDoc](https://solidfire.github.io/solidfire-sdk-java/latest/api/)
+[User Guide ** need link](http://solidfire.github.io/sdk-dotnet)
 
-[1.0.0.53 JavaDoc](https://solidfire.github.io/solidfire-sdk-java/doc/1.0.0.53/)
+[MSDN Docs](http://solidfire.github.io/sdk-dotnet/help/v1.1/html/N_SolidFire_Element.htm) 
+
+[Release Notes ** need link](http://solidfire.github.io/sdk-dotnet)
 
 ##Examples
 ###Examples of using the API (C#)
-```java
-import com.solidfire.javautil.Optional;
+```cs
+using SolidFire.Element;
+using SolidFire.Element.Api;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
 
-// Import Optional common empty types (String, Long, & Map)
-import static com.solidfire.javautil.Optional.*;
+namespace DotNetSDKExamples
+{
+    public class CSharpDotNetExample
+    {
+        static void Main(string[] args)
+        {
+            // Create Connection to SF Cluster
+            var sfe = ElementFactory.Create("mvip", new NetworkCredential("username", "password"), "8.0");
 
-public class ReadmeJavaExample {
-  public static void main(String[] args ) {
-    // Create Connection to SF Cluster
-    SolidFireElementIF sf = SolidFireElement.create("mvip", "8.0", "username", "password");
+            // Create some accounts
+            var addAccountRequest = new AddAccountRequest()
+            {
+                Username = "username"                       // required - username of Account
+            };
+            // Run the Async request and wait for the result then pull the AccountID
+            var accountID = sfe.AddAccountAsync(addAccountRequest).Result.AccountID;
 
-    // Create some accounts
-    AddAccountRequest addAccountRequest = new AddAccountRequest("username", EMPTY_STRING, 
-                                                                EMPTY_STRING, EMPTY_MAP);
-    Long accountId = sf.addAccount(addAccountRequest).getAccountID();
+            // Add a volume with default QoS
+            var createVolumeRequest = new CreateVolumeRequest()
+            {
+                Name = "volumename",                        // required - name to give the new Volume
+                AccountID = accountID,                      // required - ID of Account that owns Volume
+                TotalSize = 1000000000l,                    // required - size of Volume in bytes
+                Enable512e = false                          // required - should Volume provide 512-byte sector emulation
+            };
+            // Run the Async request and wait for the result then pull the VolumeID
+            var volumeID = sfe.CreateVolumeAsync(createVolumeRequest).Result.VolumeID;
 
-    // And a volume with default QoS
-    CreateVolumeRequest createVolumeRequest = new CreateVolumeRequest("volumeName", accountId, 
-                                                                      1000000000l, false, 
-                                                                      Optional.<QoS>empty(), 
-                                                                      EMPTY_MAP);
-    Long volumeId = sf.createVolume(createVolumeRequest).getVolumeID();
+            var listVolumesRequest = new ListVolumesRequest(){
+                Accounts = new List<long>().Add(accountID), // optional - AccountID to filter volumes by account
+                StartVolumeID = volumeID,                   // optional - ID to start list of returned Volumes
+                Limit = 1                                   // optional - to limit the number of Volumes with IDs greater than StartVolumeID
+            };
+            // Run the Async request and wait for the result then pull Iqn of the first Volume returned
+            var iqn = sfe.ListVolumesAsync(listVolumesRequest).Result.Volumes.First().Iqn;
 
-    // Lookup iqn for new volume
-    String iqn = sf.listVolumesForAccount(accountId, of(volumeId), of(1l)).getVolumes()[0].getIqn();
-
-    // Change Min and Burst QoS while keeping Max and Burst Time the same
-    QoS qos = new QoS(of(5000l), EMPTY_LONG, of(30000l), EMPTY_LONG);
-
-    // Modify the volume size and QoS
-    ModifyVolumeRequest modifyVolumeRequest = new ModifyVolumeRequest(volumeId, EMPTY_LONG, 
-                                                                      EMPTY_STRING, EMPTY_STRING, 
-                                                                      of(qos), of(2000000000l),
-                                                                      EMPTY_MAP);
-    sf.modifyVolume(modifyVolumeRequest);
-  }
+            var modifyVolumeRequest = new ModifyVolumeRequest(){
+                VolumeID = volumeID,                        // required - ID of Volume to modify
+                TotalSize = 2000000000l                     // optional - new TotalSize of Volume
+            }
+            // Start the async request to modify the volume
+            var task = sfe.ModifyVolumeAsync(modifyVolumeRequest);
+            task.Wait(); // wait for the task to finish
+        }
+    }
 }
 ```
 

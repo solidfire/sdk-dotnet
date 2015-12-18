@@ -3,7 +3,7 @@ title: Solidfire C# .Net SDK
 layout: index
 ---
 
-# SolidFire C# .Net SDK <img src="img/icon_128x128.png"" height="50" width="50" >
+# SolidFire C# .Net SDK <img src="http://solidfire.github.io/sdk-dotnet/img/icon_128x128.png" height="50" width="50" >
 
 C# SDK for interacting with SolidFire Element OS
 
@@ -41,11 +41,11 @@ ___Dependencies___:
 
 ##Documentation (v1.0)
 
-[User Guide](https://solidfire.github.io/solidfire-sdk-java/latest/api/)
+[User Guide ** need link](http://solidfire.github.io/sdk-dotnet)
 
-[MSDN Docs](https://solidfire.github.io/solidfire-sdk-java/latest/api/) 
+[MSDN Docs](http://solidfire.github.io/sdk-dotnet/help/v1.1/html/N_SolidFire_Element.htm) 
 
-[Release Notes](https://solidfire.github.io/solidfire-sdk-java/latest/api/)
+[Release Notes ** need link](http://solidfire.github.io/sdk-dotnet)
 
 ##Examples
 ###Examples of using the API (C#)
