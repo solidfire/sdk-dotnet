@@ -105,7 +105,7 @@ namespace DotNetSDKExamples
 ```
 
 ###Examples of using the API (VB)
-```vb 
+```Visual Basic.NET 
 {
     coming soon
 }
