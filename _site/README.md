@@ -1,4 +1,4 @@
-# SolidFire C# .Net SDK <img src="img/icon_128x128.png"" height="50" width="50" >
+# SolidFire C# .Net SDK <img src="http://solidfire.github.io/sdk-dotnet/img/icon_128x128.png" height="50" width="50" >
 
 C# SDK for interacting with SolidFire Element OS
 
