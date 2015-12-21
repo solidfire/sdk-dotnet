@@ -1,12 +1,12 @@
-# SolidFire C# .Net SDK <img src="http://solidfire.github.io/sdk-dotnet/img/icon_128x128.png" height="50" width="50" >
+# SolidFire .NET SDK <img src="http://solidfire.github.io/sdk-dotnet/img/icon_128x128.png" height="50" width="50" >
 
-C# SDK for interacting with SolidFire Element OS
+.NET SDK for interacting with SolidFire Element OS
 
 ##Current Release
 Version 0.9
 
 ##Description
-The SolidFire C# SDK is a collection of software modules and libraries that facilitate integration and orchestration between proprietary systems and third-party applications. The C# SDK allows developers to deeply integrate SolidFire system API with the Java programming language. The SolidFire C# SDK reduces the amount of additional coding time required for integration.
+The SolidFire .NET SDK is a collection of libraries that facilitate integration and orchestration between proprietary systems and third-party applications. The .NET SDK allows developers to deeply integrate SolidFire system API with the C# or Visual Basic programming language. The SolidFire .NET SDK reduces the amount of additional coding time required for integration.
 
 ##Compatibility
 | Component    | Version           |
@@ -15,7 +15,7 @@ The SolidFire C# SDK is a collection of software modules and libraries that faci
 | SolidFire OS | Element 7.x & 8.x |
 
 ##Getting Help
-Contacting SolidFire SDK Support
+
 If you have any questions or comments about this product, contact <sdk@solidfire.com> or reach out to the developer community at [developer.solidfire.com](http://developer.solidfire.com). Your feedback helps us focus our efforts on new features and capabilities.
 
 ##Install via Nuget
@@ -28,7 +28,7 @@ Install-Package SolidFire.Element
 
 ___Dependencies___:
 
-| Component       | Version 	 |
+| Component       | Version    |
 | --------------- | ---------- |
 | SolidFire.Core  | 0.9.0.24   |
 | Newtonsoft.Json | 7.0.1      |
@@ -43,7 +43,60 @@ ___Dependencies___:
 [Release Notes ** need link](http://solidfire.github.io/sdk-dotnet)
 
 ##Examples
-###Examples of using the API (C#)
+
+###Step 1 - Get a SolidFireElement object
+
+_Build a SolidFireElement using the factory (C#)_
+
+```c#
+    // *** This is the PREFERRED way to construct the object. ***
+    // Use ElementFactory to get a SolidFireElement object.
+    // When you do this, the factory will make a call to the SolidFire cluster
+    // using the credentials supplied to test the connection.
+    var solidfireElement = ElementFactory.Create("mvip", new NetworkCredential("username", "password"), "8.0");
+```
+
+_Construct a SolidFireElement (C#)_
+
+```c#
+    // Use JsonRpcDispatcher object to construct a SolidFireElement object.
+    // This will construct the SolidFireElement object without any additional checking 
+    // of the credentials and endpoint.
+    var dispatcher = new JsonRpcRequestDispatcher(new Uri("mvip"), new NetworkCredential("userName", "password"));
+    var solidfireElement = new SolidFireElement(dispatcher);
+```
+
+###Step 2 - Create a request object if necessary (C#)
+```c#
+    // Create a request object to be sent in to the AddAccount method
+    var addAccountRequest = new AddAccountRequest()
+    {
+        Username = "username"    // required - username of Account
+    };
+```
+
+###Step 3 - Call the API method and retrieve the result (C#)
+
+All service methods in SolidFireElement call API endpoints asyncronously. You can handle the returned task in a multi-threaded manner or call *.Result* on it to block and wait.
+
+_Call Asyncronously_
+
+```c#
+    // Run the Async request and and assign the returned Task to a variable
+    var addAccountTask = solidfireElement.AddAccountAsync(addAccountRequest);
+    // Perform any manner of task handling here.
+    var accountID = addAccountTask.GetAwaiter().GetResult().AccountID   
+```
+
+_Call Syncronously_
+
+```c#
+    // Run the Async request and wait for the result then pull the AccountID
+    var accountID = solidfireElement.AddAccountAsync(addAccountRequest).Result.AccountID;    
+```
+
+
+###Full Example of using the API (C#)
 ```c#
 using SolidFire.Element;
 using SolidFire.Element.Api;
@@ -99,11 +152,63 @@ namespace DotNetSDKExamples
 }
 ```
 
-###Examples of using the API (VB)
-```Visual Basic.NET 
-{
-    coming soon
-}
+###Full Examples of using the API (VB)
+
+```vb 
+Imports SolidFire.Element
+Imports SolidFire.Element.Api
+Imports System.Collections.Generic
+Imports System.Linq
+Imports System.Net
+
+Public Class VBDotNetSDKExample
+    Shared Sub Main()
+
+        ' Create NetworkCredential
+        Dim cred = New NetworkCredential("username", "password")
+
+        ' Create Connection to SF Cluster
+        Dim sfe = ElementFactory.Create("mvip", cred, "8.0")
+
+        ' Create some accounts
+        Dim addAccountRequest = New AddAccountRequest()
+        addAccountRequest.Username = "username"             'required - username of Account
+
+
+        ' Run the Async request and wait for the result then pull the AccountID
+        Dim accountID = sfe.AddAccountAsync(addAccountRequest).Result.AccountID
+
+        ' Add a volume with default QoS
+        Dim createVolumeRequest = New CreateVolumeRequest()
+        createVolumeRequest.Name = "volumename"             ' required - name to give the new Volume
+        createVolumeRequest.AccountID = accountID           ' required - ID of Account that owns Volume
+        createVolumeRequest.TotalSize = 1000000000L         ' required - size of Volume in bytes
+        createVolumeRequest.Enable512e = False              ' required - should Volume provide 512-byte sector emulation
+
+
+        ' Run the Async request and wait for the result then pull the VolumeID
+        Dim volumeID = sfe.CreateVolumeAsync(createVolumeRequest).Result.VolumeID
+
+        Dim listVolumesRequest = New ListVolumesRequest()
+        Dim accounts = New List(Of Long)
+        accounts.Add(accountID)
+        listVolumesRequest.Accounts = accounts.ToArray()   ' optional - AccountID to filter volumes by account
+        listVolumesRequest.StartVolumeID = volumeID        ' optional - ID to start list of returned Volumes
+        listVolumesRequest.Limit = 1                       ' optional - to limit the number of Volumes with IDs greater than StartVolumeID
+
+        ' Run the Async request and wait for the result then pull Iqn of the first Volume returned
+        Dim iqn = sfe.ListVolumesAsync(listVolumesRequest).Result.Volumes.First().Iqn
+
+        Dim modifyVolumeRequest = New ModifyVolumeRequest()
+        modifyVolumeRequest.VolumeID = volumeID            ' required - ID of Volume to modify
+        modifyVolumeRequest.TotalSize = 2000000000L        ' optional - new TotalSize of Volume
+
+        ' Start the async request to modify the volume
+        Dim task = sfe.ModifyVolumeAsync(modifyVolumeRequest)
+        task.Wait() ' wait for the task to finish
+
+    End Sub
+End <CENTER></CENTER>lass
 ```
 
 ##Roadmap
