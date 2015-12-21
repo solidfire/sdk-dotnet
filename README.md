@@ -154,7 +154,7 @@ namespace DotNetSDKExamples
 
 ###Full Examples of using the API (VB)
 
-```vb 
+```vbnet 
 Imports SolidFire.Element
 Imports SolidFire.Element.Api
 Imports System.Collections.Generic
@@ -208,7 +208,7 @@ Public Class VBDotNetSDKExample
         task.Wait() ' wait for the task to finish
 
     End Sub
-End <CENTER></CENTER>lass
+End Class
 ```
 
 ##Roadmap
