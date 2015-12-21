@@ -48,20 +48,20 @@ ___Dependencies___:
 
 _Build a SolidFireElement using the factory (C#)_
 
+**This is the PREFERRED way to construct the object.**
+
 ```c#
-// *** This is the PREFERRED way to construct the object. ***
 // Use ElementFactory to get a SolidFireElement object.
-// When you do this, the factory will make a call to the SolidFire cluster
-// using the credentials supplied to test the connection.
+// The factory will make a call to the SolidFire cluster using the credentials supplied to test the connection.
+// This will throw a HttpRequestException if the connection or credentials are invalid.
 var solidfireElement = ElementFactory.Create("mvip", new NetworkCredential("username", "password"), "8.0");
 ```
 
 _Construct a SolidFireElement (C#)_
 
 ```c#
-// Use JsonRpcDispatcher object to construct a SolidFireElement object.
-// This will construct the SolidFireElement object without any additional checking 
-// of the credentials and endpoint.
+// Use JsonRpcDispatcher to construct a SolidFireElement object.
+// This will construct the SolidFireElement object without any additional checking of the credentials and endpoint.
 var dispatcher = new JsonRpcRequestDispatcher(new Uri("mvip"), new NetworkCredential("userName", "password"));
 var solidfireElement = new SolidFireElement(dispatcher);
 ```
