@@ -46,9 +46,9 @@ ___Dependencies___:
 
 ###Step 1 - Get a SolidFireElement object
 
-_Build a SolidFireElement using the factory_
+**Build a SolidFireElement using the factory**
 
-**This is the PREFERRED way to construct the object.**
+This is the preferred way to construct the object.
 
 ```c#
 // Use ElementFactory to get a SolidFireElement object.
@@ -57,7 +57,7 @@ _Build a SolidFireElement using the factory_
 var solidfireElement = ElementFactory.Create("mvip", new NetworkCredential("username", "password"), "8.0");
 ```
 
-_Construct a SolidFireElement_
+**Construct a SolidFireElement**
 
 ```c#
 // Use JsonRpcRequestDispatcher to construct a SolidFireElement object.
