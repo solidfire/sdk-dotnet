@@ -46,7 +46,7 @@ ___Dependencies___:
 
 ###Step 1 - Get a SolidFireElement object
 
-_Build a SolidFireElement using the factory (C#)_
+_Build a SolidFireElement using the factory_
 
 **This is the PREFERRED way to construct the object.**
 
@@ -57,10 +57,10 @@ _Build a SolidFireElement using the factory (C#)_
 var solidfireElement = ElementFactory.Create("mvip", new NetworkCredential("username", "password"), "8.0");
 ```
 
-_Construct a SolidFireElement (C#)_
+_Construct a SolidFireElement_
 
 ```c#
-// Use JsonRpcDispatcher to construct a SolidFireElement object.
+// Use JsonRpcRequestDispatcher to construct a SolidFireElement object.
 // This will construct the SolidFireElement object without any additional checking of the credentials and endpoint.
 var dispatcher = new JsonRpcRequestDispatcher(new Uri("mvip"), new NetworkCredential("userName", "password"));
 var solidfireElement = new SolidFireElement(dispatcher);
@@ -96,7 +96,7 @@ var accountID = solidfireElement.AddAccountAsync(addAccountRequest).Result.Accou
 ```
 
 
-###Full Example of using the API (C#)
+###Full Example of using the SDK (C#)
 ```c#
 using SolidFire.Element;
 using SolidFire.Element.Api;
@@ -113,7 +113,7 @@ namespace DotNetSDKExamples
             // Create Connection to SF Cluster
             var sfe = ElementFactory.Create("mvip", new NetworkCredential("username", "password"), "8.0");
 
-            // Create some accounts
+            // Create a request object to add an account
             var addAccountRequest = new AddAccountRequest()
             {
                 Username = "username"                       // required - username of Account
@@ -152,7 +152,7 @@ namespace DotNetSDKExamples
 }
 ```
 
-###Full Examples of using the API (VB)
+###Full Example of using the SDK (VB)
 
 ```vbnet 
 Imports SolidFire.Element
