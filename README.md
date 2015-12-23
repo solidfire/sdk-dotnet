@@ -46,33 +46,33 @@ ___Dependencies___:
 
 ###Step 1 - Get a SolidFireElement object
 
-_Build a SolidFireElement using the factory (C#)_
+_Build a SolidFireElement using the factory_
+
+**This is the PREFERRED way to construct the object.**
 
 ```c#
-    // *** This is the PREFERRED way to construct the object. ***
-    // Use ElementFactory to get a SolidFireElement object.
-    // When you do this, the factory will make a call to the SolidFire cluster
-    // using the credentials supplied to test the connection.
-    var solidfireElement = ElementFactory.Create("mvip", new NetworkCredential("username", "password"), "8.0");
+// Use ElementFactory to get a SolidFireElement object.
+// The factory will make a call to the SolidFire cluster using the credentials supplied to test the connection.
+// This will throw a HttpRequestException if the connection or credentials are invalid.
+var solidfireElement = ElementFactory.Create("mvip", new NetworkCredential("username", "password"), "8.0");
 ```
 
-_Construct a SolidFireElement (C#)_
+_Construct a SolidFireElement_
 
 ```c#
-    // Use JsonRpcDispatcher object to construct a SolidFireElement object.
-    // This will construct the SolidFireElement object without any additional checking 
-    // of the credentials and endpoint.
-    var dispatcher = new JsonRpcRequestDispatcher(new Uri("mvip"), new NetworkCredential("userName", "password"));
-    var solidfireElement = new SolidFireElement(dispatcher);
+// Use JsonRpcRequestDispatcher to construct a SolidFireElement object.
+// This will construct the SolidFireElement object without any additional checking of the credentials and endpoint.
+var dispatcher = new JsonRpcRequestDispatcher(new Uri("mvip"), new NetworkCredential("userName", "password"));
+var solidfireElement = new SolidFireElement(dispatcher);
 ```
 
 ###Step 2 - Create a request object if necessary (C#)
 ```c#
-    // Create a request object to be sent in to the AddAccount method
-    var addAccountRequest = new AddAccountRequest()
-    {
-        Username = "username"    // required - username of Account
-    };
+// Create a request object to be sent in to the AddAccount method
+var addAccountRequest = new AddAccountRequest()
+{
+    Username = "username"    // required - username of Account
+};
 ```
 
 ###Step 3 - Call the API method and retrieve the result (C#)
@@ -82,21 +82,21 @@ All service methods in SolidFireElement call API endpoints asyncronously. You ca
 _Call Asyncronously_
 
 ```c#
-    // Run the Async request and and assign the returned Task to a variable
-    var addAccountTask = solidfireElement.AddAccountAsync(addAccountRequest);
-    // Perform any manner of task handling here.
-    var accountID = addAccountTask.GetAwaiter().GetResult().AccountID   
+// Run the Async request and and assign the returned Task to a variable
+var addAccountTask = solidfireElement.AddAccountAsync(addAccountRequest);
+// Perform any manner of task handling here.
+var accountID = addAccountTask.GetAwaiter().GetResult().AccountID   
 ```
 
 _Call Syncronously_
 
 ```c#
-    // Run the Async request and wait for the result then pull the AccountID
-    var accountID = solidfireElement.AddAccountAsync(addAccountRequest).Result.AccountID;    
+// Run the Async request and wait for the result then pull the AccountID
+var accountID = solidfireElement.AddAccountAsync(addAccountRequest).Result.AccountID;    
 ```
 
 
-###Full Example of using the API (C#)
+###Full Example of using the SDK (C#)
 ```c#
 using SolidFire.Element;
 using SolidFire.Element.Api;
@@ -113,7 +113,7 @@ namespace DotNetSDKExamples
             // Create Connection to SF Cluster
             var sfe = ElementFactory.Create("mvip", new NetworkCredential("username", "password"), "8.0");
 
-            // Create some accounts
+            // Create a request object to add an account
             var addAccountRequest = new AddAccountRequest()
             {
                 Username = "username"                       // required - username of Account
@@ -152,7 +152,7 @@ namespace DotNetSDKExamples
 }
 ```
 
-###Full Examples of using the API (VB)
+###Full Example of using the SDK (VB)
 
 ```vbnet 
 Imports SolidFire.Element
