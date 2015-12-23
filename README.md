@@ -46,9 +46,9 @@ ___Dependencies___:
 
 ###Step 1 - Get a SolidFireElement object
 
-_Build a SolidFireElement using the factory_
+**Build a SolidFireElement using the factory**
 
-**This is the PREFERRED way to construct the object.**
+This is the preferred way to construct the object.
 
 ```c#
 // Use ElementFactory to get a SolidFireElement object.
@@ -57,7 +57,7 @@ _Build a SolidFireElement using the factory_
 var solidfireElement = ElementFactory.Create("mvip", new NetworkCredential("username", "password"), "8.0");
 ```
 
-_Construct a SolidFireElement_
+**Construct a SolidFireElement**
 
 ```c#
 // Use JsonRpcRequestDispatcher to construct a SolidFireElement object.
@@ -68,7 +68,7 @@ var solidfireElement = new SolidFireElement(dispatcher);
 
 ###Step 2 - Create a request object if necessary (C#)
 ```c#
-// Create a request object to be sent in to the AddAccount method
+// Create a request object to add an account
 var addAccountRequest = new AddAccountRequest()
 {
     Username = "username"    // required - username of Account
@@ -79,7 +79,7 @@ var addAccountRequest = new AddAccountRequest()
 
 All service methods in SolidFireElement call API endpoints asyncronously. You can handle the returned task in a multi-threaded manner or call *.Result* on it to block and wait.
 
-_Call Asyncronously_
+_Send request and handle result Asyncronously_
 
 ```c#
 // Run the Async request and and assign the returned Task to a variable
@@ -88,7 +88,7 @@ var addAccountTask = solidfireElement.AddAccountAsync(addAccountRequest);
 var accountID = addAccountTask.GetAwaiter().GetResult().AccountID   
 ```
 
-_Call Syncronously_
+_Send request and handle result Syncronously_
 
 ```c#
 // Run the Async request and wait for the result then pull the AccountID
@@ -96,7 +96,7 @@ var accountID = solidfireElement.AddAccountAsync(addAccountRequest).Result.Accou
 ```
 
 
-###Full Example of using the SDK (C#)
+###Full example using the SDK (C#)
 ```c#
 using SolidFire.Element;
 using SolidFire.Element.Api;
@@ -152,7 +152,7 @@ namespace DotNetSDKExamples
 }
 ```
 
-###Full Example of using the SDK (VB)
+###Full example using the SDK (VB)
 
 ```vbnet 
 Imports SolidFire.Element
@@ -170,7 +170,7 @@ Public Class VBDotNetSDKExample
         ' Create Connection to SF Cluster
         Dim sfe = ElementFactory.Create("mvip", cred, "8.0")
 
-        ' Create some accounts
+        ' Create a request object to add an account
         Dim addAccountRequest = New AddAccountRequest()
         addAccountRequest.Username = "username"             'required - username of Account
 
