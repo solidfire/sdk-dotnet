@@ -148,11 +148,11 @@ pre {
 }
 .pageHeader {
 	font-family: 'Segoe UI' , Tahoma, Helvetica, Sans-Serif;
-	background-color: #333333;
+	background-color: #313131;
 	color: #d0d0d0;
 	padding: 5px 10px;
 	vertical-align: middle;
-	height: 25px;
+	height: 31px;
 }
 .pageBody {
 	padding: 0px;
@@ -204,7 +204,7 @@ div.preliminary {
 	margin-top: 1em;
 	margin-bottom: 1em;
 	font-weight: bold;
-	color: #333333;
+	color: #313131;
 }
 div.caption {
 	font-weight: bold;
