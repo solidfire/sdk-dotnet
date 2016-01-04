@@ -38,7 +38,7 @@ ___Dependencies___:
 
 [User Guide ** need link](http://solidfire.github.io/sdk-dotnet)
 
-[MSDN Docs](http://solidfire.github.io/sdk-dotnet/help/v1.1/html/N_SolidFire_Element.htm) 
+[MSDN Docs](http://solidfire.github.io/sdk-dotnet/help/v1.0/html/N_SolidFire_Element.htm) 
 
 [Release Notes ** need link](http://solidfire.github.io/sdk-dotnet)
 
