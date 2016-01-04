@@ -170,7 +170,17 @@
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_SolidFire_Element_Api_SolidFireElement_ModifySnapshotAsync.htm">ModifySnapshotAsync</a></td><td><div class="summary">
             ModifySnapshot is used to change the attributes currently assigned to a snapshot.
             Use this API method to enable the snapshots created on the Read/Write (source) volume to be remotely replicated to a target SolidFire storage system.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_SolidFire_Element_Api_SolidFireElement_ModifyVolumeAccessGroupAsync.htm">ModifyVolumeAccessGroupAsync</a></td><td /></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_SolidFire_Element_Api_SolidFireElement_ModifyVolumeAsync.htm">ModifyVolumeAsync</a></td><td><div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_SolidFire_Element_Api_SolidFireElement_ModifyVolumeAccessGroupAsync.htm">ModifyVolumeAccessGroupAsync</a></td><td><div class="summary">
+            Update initiators and add or remove volumes from a volume access group.
+            A specified initiator or volume that duplicates an existing volume or initiator in a volume access group is left as-is.
+            If a value is not specified for volumes or initiators, the current list of initiators and volumes are not changed.
+            <br /><br />
+            Often, it is easier to use the convenience functions to modify initiators and volumes independently:
+            <br /><br />
+            AddInitiatorsToVolumeAccessGroup<br />
+            RemoveInitiatorsFromVolumeAccessGroup<br />
+            AddVolumesToVolumeAccessGroup<br />
+            RemoveVolumesFromVolumeAccessGroup<br /></div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_SolidFire_Element_Api_SolidFireElement_ModifyVolumeAsync.htm">ModifyVolumeAsync</a></td><td><div class="summary">
             ModifyVolume is used to modify settings on an existing volume.
             Modifications can be made to one volume at a time and changes take place immediately.
             If an optional parameter is left unspecified, the value will not be changed.
