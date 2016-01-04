@@ -38,7 +38,7 @@ ___Dependencies___:
 
 [User Guide ** need link](http://solidfire.github.io/sdk-dotnet)
 
-[MSDN Docs](http://solidfire.github.io/sdk-dotnet/help/v1.1/html/N_SolidFire_Element.htm) 
+[MSDN Docs](http://solidfire.github.io/sdk-dotnet/help/v1.0/html/N_SolidFire_Element.htm) 
 
 [Release Notes ** need link](http://solidfire.github.io/sdk-dotnet)
 
@@ -133,10 +133,11 @@ namespace DotNetSDKExamples
             var volumeID = sfe.CreateVolumeAsync(createVolumeRequest).Result.VolumeID;
 
             var listVolumesRequest = new ListVolumesRequest(){
-                Accounts = new List<long>().Add(accountID), // optional - AccountID to filter volumes by account
-                StartVolumeID = volumeID,                   // optional - ID to start list of returned Volumes
-                Limit = 1                                   // optional - to limit the number of Volumes with IDs greater than StartVolumeID
+            Accounts = new Int64[]{accountID}, // optional - AccountID to filter volumes by account
+            StartVolumeID = volumeID, // optional - ID to start list of returned Volumes 
+            Limit = 1 // optional - to limit the number of Volumes with IDs greater than StartVolumeID
             };
+            
             // Run the Async request and wait for the result then pull Iqn of the first Volume returned
             var iqn = sfe.ListVolumesAsync(listVolumesRequest).Result.Volumes.First().Iqn;
 
