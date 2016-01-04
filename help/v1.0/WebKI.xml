@@ -77,6 +77,17 @@
   <HelpKINode Title="AddInitiatorsToVolumeAccessGroupRequest.AddInitiatorsToVolumeAccessGroupRequest constructor" Url="html/M_SolidFire_Element_Api_AddInitiatorsToVolumeAccessGroupRequest__ctor.htm" />
   <HelpKINode Title="AddInitiatorsToVolumeAccessGroupRequest.Initiators property" Url="html/P_SolidFire_Element_Api_AddInitiatorsToVolumeAccessGroupRequest_Initiators.htm" />
   <HelpKINode Title="AddInitiatorsToVolumeAccessGroupRequest.VolumeAccessGroupID property" Url="html/P_SolidFire_Element_Api_AddInitiatorsToVolumeAccessGroupRequest_VolumeAccessGroupID.htm" />
+  <HelpKINode Title="AddressBlocksConverter class">
+    <HelpKINode Title="AddressBlocksConverter Class" Url="html/T_SolidFire_Core_Converters_AddressBlocksConverter.htm" />
+    <HelpKINode Title="about AddressBlocksConverter class" Url="html/T_SolidFire_Core_Converters_AddressBlocksConverter.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Core_Converters_AddressBlocksConverter__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Core_Converters_AddressBlocksConverter.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Core_Converters_AddressBlocksConverter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddressBlocksConverter.AddressBlocksConverter constructor" Url="html/M_SolidFire_Core_Converters_AddressBlocksConverter__ctor.htm" />
+  <HelpKINode Title="AddressBlocksConverter.CanConvert method" Url="html/M_SolidFire_Core_Converters_AddressBlocksConverter_CanConvert.htm" />
+  <HelpKINode Title="AddressBlocksConverter.ReadJson method" Url="html/M_SolidFire_Core_Converters_AddressBlocksConverter_ReadJson.htm" />
+  <HelpKINode Title="AddressBlocksConverter.WriteJson method" Url="html/M_SolidFire_Core_Converters_AddressBlocksConverter_WriteJson.htm" />
   <HelpKINode Title="AddVolumesToVolumeAccessGroupAsync method">
     <HelpKINode Title="ISolidFireElement.AddVolumesToVolumeAccessGroupAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_AddVolumesToVolumeAccessGroupAsync.htm" />
     <HelpKINode Title="SolidFireElement.AddVolumesToVolumeAccessGroupAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_AddVolumesToVolumeAccessGroupAsync.htm" />
@@ -91,6 +102,15 @@
   <HelpKINode Title="AddVolumesToVolumeAccessGroupRequest.AddVolumesToVolumeAccessGroupRequest constructor" Url="html/M_SolidFire_Element_Api_AddVolumesToVolumeAccessGroupRequest__ctor.htm" />
   <HelpKINode Title="AddVolumesToVolumeAccessGroupRequest.VolumeAccessGroupID property" Url="html/P_SolidFire_Element_Api_AddVolumesToVolumeAccessGroupRequest_VolumeAccessGroupID.htm" />
   <HelpKINode Title="AddVolumesToVolumeAccessGroupRequest.Volumes property" Url="html/P_SolidFire_Element_Api_AddVolumesToVolumeAccessGroupRequest_Volumes.htm" />
+  <HelpKINode Title="ApiServerException class">
+    <HelpKINode Title="ApiServerException Class" Url="html/T_SolidFire_Core_Exceptions_ApiServerException.htm" />
+    <HelpKINode Title="about ApiServerException class" Url="html/T_SolidFire_Core_Exceptions_ApiServerException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_SolidFire_Core_Exceptions_ApiServerException__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Core_Exceptions_ApiServerException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ApiServerException.ApiServerException constructor" Url="html/Overload_SolidFire_Core_Exceptions_ApiServerException__ctor.htm" />
+  <HelpKINode Title="ApiServerException.ErrorCode property" Url="html/P_SolidFire_Core_Exceptions_ApiServerException_ErrorCode.htm" />
+  <HelpKINode Title="ApiServerException.Name property" Url="html/P_SolidFire_Core_Exceptions_ApiServerException_Name.htm" />
   <HelpKINode Title="AsyncDelay property" Url="html/P_SolidFire_Element_Api_VolumeStats_AsyncDelay.htm" />
   <HelpKINode Title="AsyncHandle property">
     <HelpKINode Title="CloneVolumeResult.AsyncHandle Property " Url="html/P_SolidFire_Element_Api_CloneVolumeResult_AsyncHandle.htm" />
@@ -122,6 +142,17 @@
     <HelpKINode Title="Snapshot.Attributes Property " Url="html/P_SolidFire_Element_Api_Snapshot_Attributes.htm" />
     <HelpKINode Title="Volume.Attributes Property " Url="html/P_SolidFire_Element_Api_Volume_Attributes.htm" />
   </HelpKINode>
+  <HelpKINode Title="AttributesConverter class">
+    <HelpKINode Title="AttributesConverter Class" Url="html/T_SolidFire_Core_Converters_AttributesConverter.htm" />
+    <HelpKINode Title="about AttributesConverter class" Url="html/T_SolidFire_Core_Converters_AttributesConverter.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Core_Converters_AttributesConverter__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Core_Converters_AttributesConverter.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Core_Converters_AttributesConverter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AttributesConverter.AttributesConverter constructor" Url="html/M_SolidFire_Core_Converters_AttributesConverter__ctor.htm" />
+  <HelpKINode Title="AttributesConverter.CanConvert method" Url="html/M_SolidFire_Core_Converters_AttributesConverter_CanConvert.htm" />
+  <HelpKINode Title="AttributesConverter.ReadJson method" Url="html/M_SolidFire_Core_Converters_AttributesConverter_ReadJson.htm" />
+  <HelpKINode Title="AttributesConverter.WriteJson method" Url="html/M_SolidFire_Core_Converters_AttributesConverter_WriteJson.htm" />
   <HelpKINode Title="AverageIOPSize property" Url="html/P_SolidFire_Element_Api_VolumeStats_AverageIOPSize.htm" />
   <HelpKINode Title="BlockSize property" Url="html/P_SolidFire_Element_Api_Volume_BlockSize.htm" />
   <HelpKINode Title="BurstIOPS property">
@@ -133,12 +164,18 @@
     <HelpKINode Title="QoS.BurstTime Property " Url="html/P_SolidFire_Element_Api_QoS_BurstTime.htm" />
     <HelpKINode Title="QoSResult.BurstTime Property " Url="html/P_SolidFire_Element_Api_QoSResult_BurstTime.htm" />
   </HelpKINode>
+  <HelpKINode Title="CanConvert method">
+    <HelpKINode Title="AddressBlocksConverter.CanConvert Method " Url="html/M_SolidFire_Core_Converters_AddressBlocksConverter_CanConvert.htm" />
+    <HelpKINode Title="AttributesConverter.CanConvert Method " Url="html/M_SolidFire_Core_Converters_AttributesConverter_CanConvert.htm" />
+    <HelpKINode Title="EventDetailsConverter.CanConvert Method " Url="html/M_SolidFire_Core_Converters_EventDetailsConverter_CanConvert.htm" />
+  </HelpKINode>
   <HelpKINode Title="Checksum property">
     <HelpKINode Title="CreateSnapshotResult.Checksum Property " Url="html/P_SolidFire_Element_Api_CreateSnapshotResult_Checksum.htm" />
     <HelpKINode Title="GroupSnapshotMembers.Checksum Property " Url="html/P_SolidFire_Element_Api_GroupSnapshotMembers_Checksum.htm" />
     <HelpKINode Title="Snapshot.Checksum Property " Url="html/P_SolidFire_Element_Api_Snapshot_Checksum.htm" />
   </HelpKINode>
   <HelpKINode Title="ClientQueueDepth property" Url="html/P_SolidFire_Element_Api_VolumeStats_ClientQueueDepth.htm" />
+  <HelpKINode Title="Clone method" Url="html/M_SolidFire_Core_JsonRpcRequestDispatcher_Clone.htm" />
   <HelpKINode Title="CloneID property" Url="html/P_SolidFire_Element_Api_CloneVolumeResult_CloneID.htm" />
   <HelpKINode Title="CloneVolumeAsync method">
     <HelpKINode Title="ISolidFireElement.CloneVolumeAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_CloneVolumeAsync.htm" />
@@ -201,6 +238,7 @@
   <HelpKINode Title="CreateGroupSnapshotResult.CreateGroupSnapshotResult constructor" Url="html/M_SolidFire_Element_Api_CreateGroupSnapshotResult__ctor.htm" />
   <HelpKINode Title="CreateGroupSnapshotResult.GroupSnapshotID property" Url="html/P_SolidFire_Element_Api_CreateGroupSnapshotResult_GroupSnapshotID.htm" />
   <HelpKINode Title="CreateGroupSnapshotResult.Members property" Url="html/P_SolidFire_Element_Api_CreateGroupSnapshotResult_Members.htm" />
+  <HelpKINode Title="CreateProperties method" Url="html/M_SolidFire_Core_DynamicRpcContractResolver_CreateProperties.htm" />
   <HelpKINode Title="CreateSnapshotAsync method">
     <HelpKINode Title="ISolidFireElement.CreateSnapshotAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_CreateSnapshotAsync.htm" />
     <HelpKINode Title="SolidFireElement.CreateSnapshotAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_CreateSnapshotAsync.htm" />
@@ -379,7 +417,30 @@
     <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_DeleteVolumeResult.htm" />
   </HelpKINode>
   <HelpKINode Title="DeleteVolumeResult.DeleteVolumeResult constructor" Url="html/M_SolidFire_Element_Api_DeleteVolumeResult__ctor.htm" />
+  <HelpKINode Title="DeprecatedAfterAttribute class">
+    <HelpKINode Title="DeprecatedAfterAttribute Class" Url="html/T_SolidFire_Core_Attributes_DeprecatedAfterAttribute.htm" />
+    <HelpKINode Title="about DeprecatedAfterAttribute class" Url="html/T_SolidFire_Core_Attributes_DeprecatedAfterAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Core_Attributes_DeprecatedAfterAttribute__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Core_Attributes_DeprecatedAfterAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Core_Attributes_DeprecatedAfterAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DeprecatedAfterAttribute.DeprecatedAfterAttribute constructor" Url="html/M_SolidFire_Core_Attributes_DeprecatedAfterAttribute__ctor.htm" />
+  <HelpKINode Title="DeprecatedAfterAttribute.ToString method" Url="html/M_SolidFire_Core_Attributes_DeprecatedAfterAttribute_ToString.htm" />
+  <HelpKINode Title="DeprecatedAfterAttribute.Version property" Url="html/P_SolidFire_Core_Attributes_DeprecatedAfterAttribute_Version.htm" />
   <HelpKINode Title="DesiredMetadataHosts property" Url="html/P_SolidFire_Element_Api_VolumeStats_DesiredMetadataHosts.htm" />
+  <HelpKINode Title="Dispatch method">
+    <HelpKINode Title="IRpcRequestDispatcher.Dispatch Method " Url="html/M_SolidFire_Core_IRpcRequestDispatcher_Dispatch.htm" />
+    <HelpKINode Title="JsonRpcRequestDispatcher.Dispatch Method " Url="html/M_SolidFire_Core_JsonRpcRequestDispatcher_Dispatch.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DynamicRpcContractResolver class">
+    <HelpKINode Title="DynamicRpcContractResolver Class" Url="html/T_SolidFire_Core_DynamicRpcContractResolver.htm" />
+    <HelpKINode Title="about DynamicRpcContractResolver class" Url="html/T_SolidFire_Core_DynamicRpcContractResolver.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Core_DynamicRpcContractResolver__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Core_DynamicRpcContractResolver.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Core_DynamicRpcContractResolver.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DynamicRpcContractResolver.CreateProperties method" Url="html/M_SolidFire_Core_DynamicRpcContractResolver_CreateProperties.htm" />
+  <HelpKINode Title="DynamicRpcContractResolver.DynamicRpcContractResolver constructor" Url="html/M_SolidFire_Core_DynamicRpcContractResolver__ctor.htm" />
   <HelpKINode Title="ElementFactory class">
     <HelpKINode Title="ElementFactory Class" Url="html/T_SolidFire_Element_ElementFactory.htm" />
     <HelpKINode Title="about ElementFactory class" Url="html/T_SolidFire_Element_ElementFactory.htm" />
@@ -400,6 +461,23 @@
     <HelpKINode Title="ModifySnapshotRequest.EnableRemoteReplication Property " Url="html/P_SolidFire_Element_Api_ModifySnapshotRequest_EnableRemoteReplication.htm" />
     <HelpKINode Title="Snapshot.EnableRemoteReplication Property " Url="html/P_SolidFire_Element_Api_Snapshot_EnableRemoteReplication.htm" />
   </HelpKINode>
+  <HelpKINode Title="EnsureArgumentNotNull method" Url="html/M_SolidFire_Core_Utilities_EnsureArgumentNotNull.htm" />
+  <HelpKINode Title="Error property" Url="html/P_SolidFire_Core_JsonRpcResponse_1_Error.htm" />
+  <HelpKINode Title="ErrorCode property">
+    <HelpKINode Title="ApiServerException.ErrorCode Property " Url="html/P_SolidFire_Core_Exceptions_ApiServerException_ErrorCode.htm" />
+    <HelpKINode Title="JsonRpcError.ErrorCode Property " Url="html/P_SolidFire_Core_JsonRpcError_ErrorCode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EventDetailsConverter class">
+    <HelpKINode Title="EventDetailsConverter Class" Url="html/T_SolidFire_Core_Converters_EventDetailsConverter.htm" />
+    <HelpKINode Title="about EventDetailsConverter class" Url="html/T_SolidFire_Core_Converters_EventDetailsConverter.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Core_Converters_EventDetailsConverter__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Core_Converters_EventDetailsConverter.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Core_Converters_EventDetailsConverter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EventDetailsConverter.CanConvert method" Url="html/M_SolidFire_Core_Converters_EventDetailsConverter_CanConvert.htm" />
+  <HelpKINode Title="EventDetailsConverter.EventDetailsConverter constructor" Url="html/M_SolidFire_Core_Converters_EventDetailsConverter__ctor.htm" />
+  <HelpKINode Title="EventDetailsConverter.ReadJson method" Url="html/M_SolidFire_Core_Converters_EventDetailsConverter_ReadJson.htm" />
+  <HelpKINode Title="EventDetailsConverter.WriteJson method" Url="html/M_SolidFire_Core_Converters_EventDetailsConverter_WriteJson.htm" />
   <HelpKINode Title="ExpirationReason property" Url="html/P_SolidFire_Element_Api_Snapshot_ExpirationReason.htm" />
   <HelpKINode Title="ExpirationTime property">
     <HelpKINode Title="ModifyGroupSnapshotRequest.ExpirationTime Property " Url="html/P_SolidFire_Element_Api_ModifyGroupSnapshotRequest_ExpirationTime.htm" />
@@ -479,6 +557,15 @@
   <HelpKINode Title="GetAsyncResultResult.GetAsyncResultResult constructor" Url="html/M_SolidFire_Element_Api_GetAsyncResultResult__ctor.htm" />
   <HelpKINode Title="GetAsyncResultResult.Result property" Url="html/P_SolidFire_Element_Api_GetAsyncResultResult_Result.htm" />
   <HelpKINode Title="GetAsyncResultResult.Status property" Url="html/P_SolidFire_Element_Api_GetAsyncResultResult_Status.htm" />
+  <HelpKINode Title="GetConnectionVersion method">
+    <HelpKINode Title="IRpcRequestDispatcher.GetConnectionVersion Method " Url="html/M_SolidFire_Core_IRpcRequestDispatcher_GetConnectionVersion.htm" />
+    <HelpKINode Title="JsonRpcRequestDispatcher.GetConnectionVersion Method " Url="html/M_SolidFire_Core_JsonRpcRequestDispatcher_GetConnectionVersion.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetUri method">
+    <HelpKINode Title="IRpcRequestDispatcher.GetUri Method " Url="html/M_SolidFire_Core_IRpcRequestDispatcher_GetUri.htm" />
+    <HelpKINode Title="JsonRpcRequestDispatcher.GetUri Method " Url="html/M_SolidFire_Core_JsonRpcRequestDispatcher_GetUri.htm" />
+    <HelpKINode Title="ServiceBase.GetUri Method " Url="html/M_SolidFire_Core_ServiceBase_GetUri.htm" />
+  </HelpKINode>
   <HelpKINode Title="GetVolumeEfficiencyAsync method">
     <HelpKINode Title="ISolidFireElement.GetVolumeEfficiencyAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetVolumeEfficiencyAsync.htm" />
     <HelpKINode Title="SolidFireElement.GetVolumeEfficiencyAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_GetVolumeEfficiencyAsync.htm" />
@@ -567,6 +654,13 @@
     <HelpKINode Title="GroupSnapshot.GroupSnapshotUUID Property " Url="html/P_SolidFire_Element_Api_GroupSnapshot_GroupSnapshotUUID.htm" />
     <HelpKINode Title="Snapshot.GroupSnapshotUUID Property " Url="html/P_SolidFire_Element_Api_Snapshot_GroupSnapshotUUID.htm" />
   </HelpKINode>
+  <HelpKINode Title="Id property" Url="html/P_SolidFire_Core_JsonRpcResponse_1_Id.htm" />
+  <HelpKINode Title="IncompatibleVersionException class">
+    <HelpKINode Title="IncompatibleVersionException Class" Url="html/T_SolidFire_Core_Exceptions_IncompatibleVersionException.htm" />
+    <HelpKINode Title="about IncompatibleVersionException class" Url="html/T_SolidFire_Core_Exceptions_IncompatibleVersionException.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Core_Exceptions_IncompatibleVersionException__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IncompatibleVersionException.IncompatibleVersionException constructor" Url="html/M_SolidFire_Core_Exceptions_IncompatibleVersionException__ctor.htm" />
   <HelpKINode Title="Initiators property">
     <HelpKINode Title="AddInitiatorsToVolumeAccessGroupRequest.Initiators Property " Url="html/P_SolidFire_Element_Api_AddInitiatorsToVolumeAccessGroupRequest_Initiators.htm" />
     <HelpKINode Title="CreateVolumeAccessGroupRequest.Initiators Property " Url="html/P_SolidFire_Element_Api_CreateVolumeAccessGroupRequest_Initiators.htm" />
@@ -580,6 +674,18 @@
     <HelpKINode Title="ModifyAccountRequest.InitiatorSecret Property " Url="html/P_SolidFire_Element_Api_ModifyAccountRequest_InitiatorSecret.htm" />
   </HelpKINode>
   <HelpKINode Title="Iqn property" Url="html/P_SolidFire_Element_Api_Volume_Iqn.htm" />
+  <HelpKINode Title="IRpcRequestDispatcher interface">
+    <HelpKINode Title="IRpcRequestDispatcher Interface" Url="html/T_SolidFire_Core_IRpcRequestDispatcher.htm" />
+    <HelpKINode Title="about IRpcRequestDispatcher interface" Url="html/T_SolidFire_Core_IRpcRequestDispatcher.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Core_IRpcRequestDispatcher.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IRpcRequestDispatcher.Dispatch method" Url="html/M_SolidFire_Core_IRpcRequestDispatcher_Dispatch.htm" />
+  <HelpKINode Title="IRpcRequestDispatcher.GetConnectionVersion method" Url="html/M_SolidFire_Core_IRpcRequestDispatcher_GetConnectionVersion.htm" />
+  <HelpKINode Title="IRpcRequestDispatcher.GetUri method" Url="html/M_SolidFire_Core_IRpcRequestDispatcher_GetUri.htm" />
+  <HelpKINode Title="IRpcRequestDispatcher.SetTimeout method" Url="html/M_SolidFire_Core_IRpcRequestDispatcher_SetTimeout.htm" />
+  <HelpKINode Title="IRpcRequestDispatcher.SetTimeoutToDefault method" Url="html/M_SolidFire_Core_IRpcRequestDispatcher_SetTimeoutToDefault.htm" />
+  <HelpKINode Title="IsGreaterThan method" Url="html/M_SolidFire_Core_Utilities_IsGreaterThan.htm" />
+  <HelpKINode Title="IsLessThanOrEqualTo method" Url="html/M_SolidFire_Core_Utilities_IsLessThanOrEqualTo.htm" />
   <HelpKINode Title="ISolidFireElement interface">
     <HelpKINode Title="ISolidFireElement Interface" Url="html/T_SolidFire_Element_Api_ISolidFireElement.htm" />
     <HelpKINode Title="about ISolidFireElement interface" Url="html/T_SolidFire_Element_Api_ISolidFireElement.htm" />
@@ -626,7 +732,52 @@
   <HelpKINode Title="ISolidFireElement.RestoreDeletedVolumeAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_RestoreDeletedVolumeAsync.htm" />
   <HelpKINode Title="ISolidFireElement.RollbackToGroupSnapshotAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_RollbackToGroupSnapshotAsync.htm" />
   <HelpKINode Title="ISolidFireElement.RollbackToSnapshotAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_RollbackToSnapshotAsync.htm" />
+  <HelpKINode Title="IsOptional method" Url="html/M_SolidFire_Core_Utilities_IsOptional.htm" />
   <HelpKINode Title="IsPaired property" Url="html/P_SolidFire_Element_Api_ListVolumesRequest_IsPaired.htm" />
+  <HelpKINode Title="IsVersionCompatible method" Url="html/M_SolidFire_Core_Utilities_IsVersionCompatible.htm" />
+  <HelpKINode Title="JsonRpcError class">
+    <HelpKINode Title="JsonRpcError Class" Url="html/T_SolidFire_Core_JsonRpcError.htm" />
+    <HelpKINode Title="about JsonRpcError class" Url="html/T_SolidFire_Core_JsonRpcError.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Core_JsonRpcError__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Core_JsonRpcError.htm" />
+  </HelpKINode>
+  <HelpKINode Title="JsonRpcError.ErrorCode property" Url="html/P_SolidFire_Core_JsonRpcError_ErrorCode.htm" />
+  <HelpKINode Title="JsonRpcError.JsonRpcError constructor" Url="html/M_SolidFire_Core_JsonRpcError__ctor.htm" />
+  <HelpKINode Title="JsonRpcError.Message property" Url="html/P_SolidFire_Core_JsonRpcError_Message.htm" />
+  <HelpKINode Title="JsonRpcError.Name property" Url="html/P_SolidFire_Core_JsonRpcError_Name.htm" />
+  <HelpKINode Title="JsonRpcRequestDispatcher class">
+    <HelpKINode Title="JsonRpcRequestDispatcher Class" Url="html/T_SolidFire_Core_JsonRpcRequestDispatcher.htm" />
+    <HelpKINode Title="about JsonRpcRequestDispatcher class" Url="html/T_SolidFire_Core_JsonRpcRequestDispatcher.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_SolidFire_Core_JsonRpcRequestDispatcher__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Core_JsonRpcRequestDispatcher.htm" />
+  </HelpKINode>
+  <HelpKINode Title="JsonRpcRequestDispatcher.Clone method" Url="html/M_SolidFire_Core_JsonRpcRequestDispatcher_Clone.htm" />
+  <HelpKINode Title="JsonRpcRequestDispatcher.Dispatch method" Url="html/M_SolidFire_Core_JsonRpcRequestDispatcher_Dispatch.htm" />
+  <HelpKINode Title="JsonRpcRequestDispatcher.GetConnectionVersion method" Url="html/M_SolidFire_Core_JsonRpcRequestDispatcher_GetConnectionVersion.htm" />
+  <HelpKINode Title="JsonRpcRequestDispatcher.GetUri method" Url="html/M_SolidFire_Core_JsonRpcRequestDispatcher_GetUri.htm" />
+  <HelpKINode Title="JsonRpcRequestDispatcher.JsonRpcRequestDispatcher constructor" Url="html/Overload_SolidFire_Core_JsonRpcRequestDispatcher__ctor.htm" />
+  <HelpKINode Title="JsonRpcRequestDispatcher.SetTimeout method" Url="html/M_SolidFire_Core_JsonRpcRequestDispatcher_SetTimeout.htm" />
+  <HelpKINode Title="JsonRpcRequestDispatcher.SetTimeoutToDefault method" Url="html/M_SolidFire_Core_JsonRpcRequestDispatcher_SetTimeoutToDefault.htm" />
+  <HelpKINode Title="JsonRpcResponse(Of T) class">
+    <HelpKINode Title="JsonRpcResponse(T) Class" Url="html/T_SolidFire_Core_JsonRpcResponse_1.htm" />
+    <HelpKINode Title="about JsonRpcResponse(Of T) class" Url="html/T_SolidFire_Core_JsonRpcResponse_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Core_JsonRpcResponse_1__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Core_JsonRpcResponse_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="JsonRpcResponse(Of T).Error property" Url="html/P_SolidFire_Core_JsonRpcResponse_1_Error.htm" />
+  <HelpKINode Title="JsonRpcResponse(Of T).Id property" Url="html/P_SolidFire_Core_JsonRpcResponse_1_Id.htm" />
+  <HelpKINode Title="JsonRpcResponse(Of T).JsonRpcResponse constructor" Url="html/M_SolidFire_Core_JsonRpcResponse_1__ctor.htm" />
+  <HelpKINode Title="JsonRpcResponse(Of T).Result property" Url="html/P_SolidFire_Core_JsonRpcResponse_1_Result.htm" />
+  <HelpKINode Title="JsonRpcResponse&lt;T&gt; class">
+    <HelpKINode Title="JsonRpcResponse(T) Class" Url="html/T_SolidFire_Core_JsonRpcResponse_1.htm" />
+    <HelpKINode Title="about JsonRpcResponse&lt;T&gt; class" Url="html/T_SolidFire_Core_JsonRpcResponse_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Core_JsonRpcResponse_1__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Core_JsonRpcResponse_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="JsonRpcResponse&lt;T&gt;.Error property" Url="html/P_SolidFire_Core_JsonRpcResponse_1_Error.htm" />
+  <HelpKINode Title="JsonRpcResponse&lt;T&gt;.Id property" Url="html/P_SolidFire_Core_JsonRpcResponse_1_Id.htm" />
+  <HelpKINode Title="JsonRpcResponse&lt;T&gt;.JsonRpcResponse constructor" Url="html/M_SolidFire_Core_JsonRpcResponse_1__ctor.htm" />
+  <HelpKINode Title="JsonRpcResponse&lt;T&gt;.Result property" Url="html/P_SolidFire_Core_JsonRpcResponse_1_Result.htm" />
   <HelpKINode Title="LatencyUSec property" Url="html/P_SolidFire_Element_Api_VolumeStats_LatencyUSec.htm" />
   <HelpKINode Title="Limit property">
     <HelpKINode Title="ListAccountsRequest.Limit Property " Url="html/P_SolidFire_Element_Api_ListAccountsRequest_Limit.htm" />
@@ -868,7 +1019,10 @@
     <HelpKINode Title="CreateGroupSnapshotResult.Members Property " Url="html/P_SolidFire_Element_Api_CreateGroupSnapshotResult_Members.htm" />
     <HelpKINode Title="GroupSnapshot.Members Property " Url="html/P_SolidFire_Element_Api_GroupSnapshot_Members.htm" />
   </HelpKINode>
-  <HelpKINode Title="Message property" Url="html/P_SolidFire_Element_Api_AsyncResult_Message.htm" />
+  <HelpKINode Title="Message property">
+    <HelpKINode Title="AsyncResult.Message Property " Url="html/P_SolidFire_Element_Api_AsyncResult_Message.htm" />
+    <HelpKINode Title="JsonRpcError.Message Property " Url="html/P_SolidFire_Core_JsonRpcError_Message.htm" />
+  </HelpKINode>
   <HelpKINode Title="MetadataHosts class">
     <HelpKINode Title="MetadataHosts Class" Url="html/T_SolidFire_Element_Api_MetadataHosts.htm" />
     <HelpKINode Title="about MetadataHosts class" Url="html/T_SolidFire_Element_Api_MetadataHosts.htm" />
@@ -881,11 +1035,30 @@
   <HelpKINode Title="MetadataHosts.LiveSecondaries property" Url="html/P_SolidFire_Element_Api_MetadataHosts_LiveSecondaries.htm" />
   <HelpKINode Title="MetadataHosts.MetadataHosts constructor" Url="html/M_SolidFire_Element_Api_MetadataHosts__ctor.htm" />
   <HelpKINode Title="MetadataHosts.Primary property" Url="html/P_SolidFire_Element_Api_MetadataHosts_Primary.htm" />
+  <HelpKINode Title="MethodNotFoundException class">
+    <HelpKINode Title="MethodNotFoundException Class" Url="html/T_SolidFire_Core_Exceptions_MethodNotFoundException.htm" />
+    <HelpKINode Title="about MethodNotFoundException class" Url="html/T_SolidFire_Core_Exceptions_MethodNotFoundException.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Core_Exceptions_MethodNotFoundException__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MethodNotFoundException.MethodNotFoundException constructor" Url="html/M_SolidFire_Core_Exceptions_MethodNotFoundException__ctor.htm" />
   <HelpKINode Title="MinIOPS property">
     <HelpKINode Title="QoS.MinIOPS Property " Url="html/P_SolidFire_Element_Api_QoS_MinIOPS.htm" />
     <HelpKINode Title="QoSResult.MinIOPS Property " Url="html/P_SolidFire_Element_Api_QoSResult_MinIOPS.htm" />
   </HelpKINode>
+  <HelpKINode Title="MissingParameterException class">
+    <HelpKINode Title="MissingParameterException Class" Url="html/T_SolidFire_Core_Exceptions_MissingParameterException.htm" />
+    <HelpKINode Title="about MissingParameterException class" Url="html/T_SolidFire_Core_Exceptions_MissingParameterException.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Core_Exceptions_MissingParameterException__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MissingParameterException.MissingParameterException constructor" Url="html/M_SolidFire_Core_Exceptions_MissingParameterException__ctor.htm" />
+  <HelpKINode Title="MissingVersionException class">
+    <HelpKINode Title="MissingVersionException Class" Url="html/T_SolidFire_Core_Exceptions_MissingVersionException.htm" />
+    <HelpKINode Title="about MissingVersionException class" Url="html/T_SolidFire_Core_Exceptions_MissingVersionException.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Core_Exceptions_MissingVersionException__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MissingVersionException.MissingVersionException constructor" Url="html/M_SolidFire_Core_Exceptions_MissingVersionException__ctor.htm" />
   <HelpKINode Title="MissingVolumes property" Url="html/P_SolidFire_Element_Api_GetVolumeEfficiencyResult_MissingVolumes.htm" />
+  <HelpKINode Title="MkString method" Url="html/M_SolidFire_Core_RpcBase_MkString.htm" />
   <HelpKINode Title="ModifyAccountAsync method">
     <HelpKINode Title="ISolidFireElement.ModifyAccountAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_ModifyAccountAsync.htm" />
     <HelpKINode Title="SolidFireElement.ModifyAccountAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_ModifyAccountAsync.htm" />
@@ -1010,12 +1183,14 @@
   <HelpKINode Title="ModifyVolumeResult.Curve property" Url="html/P_SolidFire_Element_Api_ModifyVolumeResult_Curve.htm" />
   <HelpKINode Title="ModifyVolumeResult.ModifyVolumeResult constructor" Url="html/M_SolidFire_Element_Api_ModifyVolumeResult__ctor.htm" />
   <HelpKINode Title="Name property">
+    <HelpKINode Title="ApiServerException.Name Property " Url="html/P_SolidFire_Core_Exceptions_ApiServerException_Name.htm" />
     <HelpKINode Title="CloneVolumeRequest.Name Property " Url="html/P_SolidFire_Element_Api_CloneVolumeRequest_Name.htm" />
     <HelpKINode Title="CreateGroupSnapshotRequest.Name Property " Url="html/P_SolidFire_Element_Api_CreateGroupSnapshotRequest_Name.htm" />
     <HelpKINode Title="CreateSnapshotRequest.Name Property " Url="html/P_SolidFire_Element_Api_CreateSnapshotRequest_Name.htm" />
     <HelpKINode Title="CreateVolumeAccessGroupRequest.Name Property " Url="html/P_SolidFire_Element_Api_CreateVolumeAccessGroupRequest_Name.htm" />
     <HelpKINode Title="CreateVolumeRequest.Name Property " Url="html/P_SolidFire_Element_Api_CreateVolumeRequest_Name.htm" />
     <HelpKINode Title="GroupSnapshot.Name Property " Url="html/P_SolidFire_Element_Api_GroupSnapshot_Name.htm" />
+    <HelpKINode Title="JsonRpcError.Name Property " Url="html/P_SolidFire_Core_JsonRpcError_Name.htm" />
     <HelpKINode Title="ModifyVolumeAccessGroupRequest.Name Property " Url="html/P_SolidFire_Element_Api_ModifyVolumeAccessGroupRequest_Name.htm" />
     <HelpKINode Title="RollbackToGroupSnapshotRequest.Name Property " Url="html/P_SolidFire_Element_Api_RollbackToGroupSnapshotRequest_Name.htm" />
     <HelpKINode Title="RollbackToSnapshotRequest.Name Property " Url="html/P_SolidFire_Element_Api_RollbackToSnapshotRequest_Name.htm" />
@@ -1026,6 +1201,14 @@
   <HelpKINode Title="NewAccountID property" Url="html/P_SolidFire_Element_Api_CloneVolumeRequest_NewAccountID.htm" />
   <HelpKINode Title="NewSize property" Url="html/P_SolidFire_Element_Api_CloneVolumeRequest_NewSize.htm" />
   <HelpKINode Title="NonZeroBlocks property" Url="html/P_SolidFire_Element_Api_VolumeStats_NonZeroBlocks.htm" />
+  <HelpKINode Title="OnRequest event" Url="html/E_SolidFire_Core_ServiceBase_OnRequest.htm" />
+  <HelpKINode Title="OnResponse event" Url="html/E_SolidFire_Core_ServiceBase_OnResponse.htm" />
+  <HelpKINode Title="OptionalAttribute class">
+    <HelpKINode Title="OptionalAttribute Class" Url="html/T_SolidFire_Core_Attributes_OptionalAttribute.htm" />
+    <HelpKINode Title="about OptionalAttribute class" Url="html/T_SolidFire_Core_Attributes_OptionalAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Core_Attributes_OptionalAttribute__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OptionalAttribute.OptionalAttribute constructor" Url="html/M_SolidFire_Core_Attributes_OptionalAttribute__ctor.htm" />
   <HelpKINode Title="Primary property" Url="html/P_SolidFire_Element_Api_MetadataHosts_Primary.htm" />
   <HelpKINode Title="PurgeDeletedVolumeAsync method">
     <HelpKINode Title="ISolidFireElement.PurgeDeletedVolumeAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_PurgeDeletedVolumeAsync.htm" />
@@ -1079,6 +1262,11 @@
   <HelpKINode Title="QoSResult.MinIOPS property" Url="html/P_SolidFire_Element_Api_QoSResult_MinIOPS.htm" />
   <HelpKINode Title="QoSResult.QoSResult constructor" Url="html/M_SolidFire_Element_Api_QoSResult__ctor.htm" />
   <HelpKINode Title="ReadBytes property" Url="html/P_SolidFire_Element_Api_VolumeStats_ReadBytes.htm" />
+  <HelpKINode Title="ReadJson method">
+    <HelpKINode Title="AddressBlocksConverter.ReadJson Method " Url="html/M_SolidFire_Core_Converters_AddressBlocksConverter_ReadJson.htm" />
+    <HelpKINode Title="AttributesConverter.ReadJson Method " Url="html/M_SolidFire_Core_Converters_AttributesConverter_ReadJson.htm" />
+    <HelpKINode Title="EventDetailsConverter.ReadJson Method " Url="html/M_SolidFire_Core_Converters_EventDetailsConverter_ReadJson.htm" />
+  </HelpKINode>
   <HelpKINode Title="ReadLatencyUSec property" Url="html/P_SolidFire_Element_Api_VolumeStats_ReadLatencyUSec.htm" />
   <HelpKINode Title="ReadOps property" Url="html/P_SolidFire_Element_Api_VolumeStats_ReadOps.htm" />
   <HelpKINode Title="RemoteSliceID property" Url="html/P_SolidFire_Element_Api_VolumePair_RemoteSliceID.htm" />
@@ -1133,6 +1321,7 @@
   <HelpKINode Title="RemoveVolumesFromVolumeAccessGroupRequest.RemoveVolumesFromVolumeAccessGroupRequest constructor" Url="html/M_SolidFire_Element_Api_RemoveVolumesFromVolumeAccessGroupRequest__ctor.htm" />
   <HelpKINode Title="RemoveVolumesFromVolumeAccessGroupRequest.VolumeAccessGroupID property" Url="html/P_SolidFire_Element_Api_RemoveVolumesFromVolumeAccessGroupRequest_VolumeAccessGroupID.htm" />
   <HelpKINode Title="RemoveVolumesFromVolumeAccessGroupRequest.Volumes property" Url="html/P_SolidFire_Element_Api_RemoveVolumesFromVolumeAccessGroupRequest_Volumes.htm" />
+  <HelpKINode Title="ResetSerializerSettings method" Url="html/M_SolidFire_Core_ServiceBase_ResetSerializerSettings.htm" />
   <HelpKINode Title="RestoreDeletedVolumeAsync method">
     <HelpKINode Title="ISolidFireElement.RestoreDeletedVolumeAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_RestoreDeletedVolumeAsync.htm" />
     <HelpKINode Title="SolidFireElement.RestoreDeletedVolumeAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_RestoreDeletedVolumeAsync.htm" />
@@ -1153,7 +1342,10 @@
     <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_RestoreDeletedVolumeResult.htm" />
   </HelpKINode>
   <HelpKINode Title="RestoreDeletedVolumeResult.RestoreDeletedVolumeResult constructor" Url="html/M_SolidFire_Element_Api_RestoreDeletedVolumeResult__ctor.htm" />
-  <HelpKINode Title="Result property" Url="html/P_SolidFire_Element_Api_GetAsyncResultResult_Result.htm" />
+  <HelpKINode Title="Result property">
+    <HelpKINode Title="GetAsyncResultResult.Result Property " Url="html/P_SolidFire_Element_Api_GetAsyncResultResult_Result.htm" />
+    <HelpKINode Title="JsonRpcResponse(T).Result Property " Url="html/P_SolidFire_Core_JsonRpcResponse_1_Result.htm" />
+  </HelpKINode>
   <HelpKINode Title="Retention property">
     <HelpKINode Title="CreateGroupSnapshotRequest.Retention Property " Url="html/P_SolidFire_Element_Api_CreateGroupSnapshotRequest_Retention.htm" />
     <HelpKINode Title="CreateSnapshotRequest.Retention Property " Url="html/P_SolidFire_Element_Api_CreateSnapshotRequest_Retention.htm" />
@@ -1191,6 +1383,14 @@
   <HelpKINode Title="RollbackToSnapshotRequest.SaveCurrentState property" Url="html/P_SolidFire_Element_Api_RollbackToSnapshotRequest_SaveCurrentState.htm" />
   <HelpKINode Title="RollbackToSnapshotRequest.SnapshotID property" Url="html/P_SolidFire_Element_Api_RollbackToSnapshotRequest_SnapshotID.htm" />
   <HelpKINode Title="RollbackToSnapshotRequest.VolumeID property" Url="html/P_SolidFire_Element_Api_RollbackToSnapshotRequest_VolumeID.htm" />
+  <HelpKINode Title="RpcBase class">
+    <HelpKINode Title="RpcBase Class" Url="html/T_SolidFire_Core_RpcBase.htm" />
+    <HelpKINode Title="about RpcBase class" Url="html/T_SolidFire_Core_RpcBase.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Core_RpcBase__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Core_RpcBase.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RpcBase.MkString method" Url="html/M_SolidFire_Core_RpcBase_MkString.htm" />
+  <HelpKINode Title="RpcBase.RpcBase constructor" Url="html/M_SolidFire_Core_RpcBase__ctor.htm" />
   <HelpKINode Title="RunSync(Of T) method" Url="html/M_SolidFire_Element_ElementFactory_RunSync__1.htm" />
   <HelpKINode Title="RunSync&lt;T&gt; method" Url="html/M_SolidFire_Element_ElementFactory_RunSync__1.htm" />
   <HelpKINode Title="SaveCurrentState property">
@@ -1200,7 +1400,47 @@
   <HelpKINode Title="SaveMembers property" Url="html/P_SolidFire_Element_Api_DeleteGroupSnapshotRequest_SaveMembers.htm" />
   <HelpKINode Title="ScsiEUIDeviceID property" Url="html/P_SolidFire_Element_Api_Volume_ScsiEUIDeviceID.htm" />
   <HelpKINode Title="ScsiNAADeviceID property" Url="html/P_SolidFire_Element_Api_Volume_ScsiNAADeviceID.htm" />
+  <HelpKINode Title="SendRequestAsync method" Url="html/Overload_SolidFire_Core_ServiceBase_SendRequestAsync.htm" />
+  <HelpKINode Title="SerializerSettings property" Url="html/P_SolidFire_Core_ServiceBase_SerializerSettings.htm" />
+  <HelpKINode Title="ServiceBase class">
+    <HelpKINode Title="ServiceBase Class" Url="html/T_SolidFire_Core_ServiceBase.htm" />
+    <HelpKINode Title="about ServiceBase class" Url="html/T_SolidFire_Core_ServiceBase.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Core_ServiceBase__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_SolidFire_Core_ServiceBase.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Core_ServiceBase.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Core_ServiceBase.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ServiceBase.GetUri method" Url="html/M_SolidFire_Core_ServiceBase_GetUri.htm" />
+  <HelpKINode Title="ServiceBase.OnRequest event" Url="html/E_SolidFire_Core_ServiceBase_OnRequest.htm" />
+  <HelpKINode Title="ServiceBase.OnResponse event" Url="html/E_SolidFire_Core_ServiceBase_OnResponse.htm" />
+  <HelpKINode Title="ServiceBase.ResetSerializerSettings method" Url="html/M_SolidFire_Core_ServiceBase_ResetSerializerSettings.htm" />
+  <HelpKINode Title="ServiceBase.RpcEventHandler delegate" Url="html/T_SolidFire_Core_ServiceBase_RpcEventHandler.htm" />
+  <HelpKINode Title="ServiceBase.SendRequestAsync method" Url="html/Overload_SolidFire_Core_ServiceBase_SendRequestAsync.htm" />
+  <HelpKINode Title="ServiceBase.SerializerSettings property" Url="html/P_SolidFire_Core_ServiceBase_SerializerSettings.htm" />
+  <HelpKINode Title="ServiceBase.ServiceBase constructor" Url="html/M_SolidFire_Core_ServiceBase__ctor.htm" />
+  <HelpKINode Title="ServiceBase.SetTimeout method" Url="html/M_SolidFire_Core_ServiceBase_SetTimeout.htm" />
+  <HelpKINode Title="ServiceBase.SetTimeoutToDefault method" Url="html/M_SolidFire_Core_ServiceBase_SetTimeoutToDefault.htm" />
   <HelpKINode Title="SetCreateTime property" Url="html/P_SolidFire_Element_Api_ModifyVolumeRequest_SetCreateTime.htm" />
+  <HelpKINode Title="SetTimeout method">
+    <HelpKINode Title="IRpcRequestDispatcher.SetTimeout Method " Url="html/M_SolidFire_Core_IRpcRequestDispatcher_SetTimeout.htm" />
+    <HelpKINode Title="JsonRpcRequestDispatcher.SetTimeout Method " Url="html/M_SolidFire_Core_JsonRpcRequestDispatcher_SetTimeout.htm" />
+    <HelpKINode Title="ServiceBase.SetTimeout Method " Url="html/M_SolidFire_Core_ServiceBase_SetTimeout.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetTimeoutToDefault method">
+    <HelpKINode Title="IRpcRequestDispatcher.SetTimeoutToDefault Method " Url="html/M_SolidFire_Core_IRpcRequestDispatcher_SetTimeoutToDefault.htm" />
+    <HelpKINode Title="JsonRpcRequestDispatcher.SetTimeoutToDefault Method " Url="html/M_SolidFire_Core_JsonRpcRequestDispatcher_SetTimeoutToDefault.htm" />
+    <HelpKINode Title="ServiceBase.SetTimeoutToDefault Method " Url="html/M_SolidFire_Core_ServiceBase_SetTimeoutToDefault.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SinceAttribute class">
+    <HelpKINode Title="SinceAttribute Class" Url="html/T_SolidFire_Core_Attributes_SinceAttribute.htm" />
+    <HelpKINode Title="about SinceAttribute class" Url="html/T_SolidFire_Core_Attributes_SinceAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Core_Attributes_SinceAttribute__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Core_Attributes_SinceAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Core_Attributes_SinceAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SinceAttribute.SinceAttribute constructor" Url="html/M_SolidFire_Core_Attributes_SinceAttribute__ctor.htm" />
+  <HelpKINode Title="SinceAttribute.ToString method" Url="html/M_SolidFire_Core_Attributes_SinceAttribute_ToString.htm" />
+  <HelpKINode Title="SinceAttribute.Version property" Url="html/P_SolidFire_Core_Attributes_SinceAttribute_Version.htm" />
   <HelpKINode Title="SliceCount property" Url="html/P_SolidFire_Element_Api_Volume_SliceCount.htm" />
   <HelpKINode Title="Snapshot class">
     <HelpKINode Title="Snapshot Class" Url="html/T_SolidFire_Element_Api_Snapshot.htm" />
@@ -1237,6 +1477,31 @@
     <HelpKINode Title="Snapshot.SnapshotID Property " Url="html/P_SolidFire_Element_Api_Snapshot_SnapshotID.htm" />
   </HelpKINode>
   <HelpKINode Title="Snapshots property" Url="html/P_SolidFire_Element_Api_ListSnapshotsResult_Snapshots.htm" />
+  <HelpKINode Title="SolidFire.Core namespace" Url="html/N_SolidFire_Core.htm" />
+  <HelpKINode Title="SolidFire.Core.Attributes namespace" Url="html/N_SolidFire_Core_Attributes.htm" />
+  <HelpKINode Title="SolidFire.Core.Attributes.DeprecatedAfterAttribute class" Url="html/T_SolidFire_Core_Attributes_DeprecatedAfterAttribute.htm" />
+  <HelpKINode Title="SolidFire.Core.Attributes.OptionalAttribute class" Url="html/T_SolidFire_Core_Attributes_OptionalAttribute.htm" />
+  <HelpKINode Title="SolidFire.Core.Attributes.SinceAttribute class" Url="html/T_SolidFire_Core_Attributes_SinceAttribute.htm" />
+  <HelpKINode Title="SolidFire.Core.Converters namespace" Url="html/N_SolidFire_Core_Converters.htm" />
+  <HelpKINode Title="SolidFire.Core.Converters.AddressBlocksConverter class" Url="html/T_SolidFire_Core_Converters_AddressBlocksConverter.htm" />
+  <HelpKINode Title="SolidFire.Core.Converters.AttributesConverter class" Url="html/T_SolidFire_Core_Converters_AttributesConverter.htm" />
+  <HelpKINode Title="SolidFire.Core.Converters.EventDetailsConverter class" Url="html/T_SolidFire_Core_Converters_EventDetailsConverter.htm" />
+  <HelpKINode Title="SolidFire.Core.DynamicRpcContractResolver class" Url="html/T_SolidFire_Core_DynamicRpcContractResolver.htm" />
+  <HelpKINode Title="SolidFire.Core.Exceptions namespace" Url="html/N_SolidFire_Core_Exceptions.htm" />
+  <HelpKINode Title="SolidFire.Core.Exceptions.ApiServerException class" Url="html/T_SolidFire_Core_Exceptions_ApiServerException.htm" />
+  <HelpKINode Title="SolidFire.Core.Exceptions.IncompatibleVersionException class" Url="html/T_SolidFire_Core_Exceptions_IncompatibleVersionException.htm" />
+  <HelpKINode Title="SolidFire.Core.Exceptions.MethodNotFoundException class" Url="html/T_SolidFire_Core_Exceptions_MethodNotFoundException.htm" />
+  <HelpKINode Title="SolidFire.Core.Exceptions.MissingParameterException class" Url="html/T_SolidFire_Core_Exceptions_MissingParameterException.htm" />
+  <HelpKINode Title="SolidFire.Core.Exceptions.MissingVersionException class" Url="html/T_SolidFire_Core_Exceptions_MissingVersionException.htm" />
+  <HelpKINode Title="SolidFire.Core.IRpcRequestDispatcher interface" Url="html/T_SolidFire_Core_IRpcRequestDispatcher.htm" />
+  <HelpKINode Title="SolidFire.Core.JsonRpcError class" Url="html/T_SolidFire_Core_JsonRpcError.htm" />
+  <HelpKINode Title="SolidFire.Core.JsonRpcRequestDispatcher class" Url="html/T_SolidFire_Core_JsonRpcRequestDispatcher.htm" />
+  <HelpKINode Title="SolidFire.Core.JsonRpcResponse(Of T) class" Url="html/T_SolidFire_Core_JsonRpcResponse_1.htm" />
+  <HelpKINode Title="SolidFire.Core.JsonRpcResponse&lt;T&gt; class" Url="html/T_SolidFire_Core_JsonRpcResponse_1.htm" />
+  <HelpKINode Title="SolidFire.Core.RpcBase class" Url="html/T_SolidFire_Core_RpcBase.htm" />
+  <HelpKINode Title="SolidFire.Core.ServiceBase class" Url="html/T_SolidFire_Core_ServiceBase.htm" />
+  <HelpKINode Title="SolidFire.Core.ServiceBase.RpcEventHandler delegate" Url="html/T_SolidFire_Core_ServiceBase_RpcEventHandler.htm" />
+  <HelpKINode Title="SolidFire.Core.Utilities class" Url="html/T_SolidFire_Core_Utilities.htm" />
   <HelpKINode Title="SolidFire.Element namespace" Url="html/N_SolidFire_Element.htm" />
   <HelpKINode Title="SolidFire.Element.Api namespace" Url="html/N_SolidFire_Element_Api.htm" />
   <HelpKINode Title="SolidFire.Element.Api.Account class" Url="html/T_SolidFire_Element_Api_Account.htm" />
@@ -1402,6 +1667,10 @@
     <HelpKINode Title="GetVolumeEfficiencyResult.Timestamp Property " Url="html/P_SolidFire_Element_Api_GetVolumeEfficiencyResult_Timestamp.htm" />
     <HelpKINode Title="VolumeStats.Timestamp Property " Url="html/P_SolidFire_Element_Api_VolumeStats_Timestamp.htm" />
   </HelpKINode>
+  <HelpKINode Title="ToString method">
+    <HelpKINode Title="DeprecatedAfterAttribute.ToString Method " Url="html/M_SolidFire_Core_Attributes_DeprecatedAfterAttribute_ToString.htm" />
+    <HelpKINode Title="SinceAttribute.ToString Method " Url="html/M_SolidFire_Core_Attributes_SinceAttribute_ToString.htm" />
+  </HelpKINode>
   <HelpKINode Title="TotalLatencyUSec property" Url="html/P_SolidFire_Element_Api_VolumeStats_TotalLatencyUSec.htm" />
   <HelpKINode Title="TotalSize property">
     <HelpKINode Title="CreateVolumeRequest.TotalSize Property " Url="html/P_SolidFire_Element_Api_CreateVolumeRequest_TotalSize.htm" />
@@ -1417,7 +1686,23 @@
     <HelpKINode Title="GetAccountByNameRequest.Username Property " Url="html/P_SolidFire_Element_Api_GetAccountByNameRequest_Username.htm" />
     <HelpKINode Title="ModifyAccountRequest.Username Property " Url="html/P_SolidFire_Element_Api_ModifyAccountRequest_Username.htm" />
   </HelpKINode>
+  <HelpKINode Title="Utilities class">
+    <HelpKINode Title="Utilities Class" Url="html/T_SolidFire_Core_Utilities.htm" />
+    <HelpKINode Title="about Utilities class" Url="html/T_SolidFire_Core_Utilities.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Core_Utilities.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Utilities.EnsureArgumentNotNull method" Url="html/M_SolidFire_Core_Utilities_EnsureArgumentNotNull.htm" />
+  <HelpKINode Title="Utilities.IsGreaterThan method" Url="html/M_SolidFire_Core_Utilities_IsGreaterThan.htm" />
+  <HelpKINode Title="Utilities.IsLessThanOrEqualTo method" Url="html/M_SolidFire_Core_Utilities_IsLessThanOrEqualTo.htm" />
+  <HelpKINode Title="Utilities.IsOptional method" Url="html/M_SolidFire_Core_Utilities_IsOptional.htm" />
+  <HelpKINode Title="Utilities.IsVersionCompatible method" Url="html/M_SolidFire_Core_Utilities_IsVersionCompatible.htm" />
+  <HelpKINode Title="Utilities.ValidateRequestObject method" Url="html/M_SolidFire_Core_Utilities_ValidateRequestObject.htm" />
   <HelpKINode Title="UUID property" Url="html/P_SolidFire_Element_Api_Snapshot_UUID.htm" />
+  <HelpKINode Title="ValidateRequestObject method" Url="html/M_SolidFire_Core_Utilities_ValidateRequestObject.htm" />
+  <HelpKINode Title="Version property">
+    <HelpKINode Title="DeprecatedAfterAttribute.Version Property " Url="html/P_SolidFire_Core_Attributes_DeprecatedAfterAttribute_Version.htm" />
+    <HelpKINode Title="SinceAttribute.Version Property " Url="html/P_SolidFire_Core_Attributes_SinceAttribute_Version.htm" />
+  </HelpKINode>
   <HelpKINode Title="VirtualNetworkID property">
     <HelpKINode Title="CreateVolumeAccessGroupRequest.VirtualNetworkID Property " Url="html/P_SolidFire_Element_Api_CreateVolumeAccessGroupRequest_VirtualNetworkID.htm" />
     <HelpKINode Title="ModifyVolumeAccessGroupRequest.VirtualNetworkID Property " Url="html/P_SolidFire_Element_Api_ModifyVolumeAccessGroupRequest_VirtualNetworkID.htm" />
@@ -1577,6 +1862,11 @@
   <HelpKINode Title="VolumeStatus property" Url="html/P_SolidFire_Element_Api_ListVolumesRequest_VolumeStatus.htm" />
   <HelpKINode Title="VolumeUtilization property" Url="html/P_SolidFire_Element_Api_VolumeStats_VolumeUtilization.htm" />
   <HelpKINode Title="WriteBytes property" Url="html/P_SolidFire_Element_Api_VolumeStats_WriteBytes.htm" />
+  <HelpKINode Title="WriteJson method">
+    <HelpKINode Title="AddressBlocksConverter.WriteJson Method " Url="html/M_SolidFire_Core_Converters_AddressBlocksConverter_WriteJson.htm" />
+    <HelpKINode Title="AttributesConverter.WriteJson Method " Url="html/M_SolidFire_Core_Converters_AttributesConverter_WriteJson.htm" />
+    <HelpKINode Title="EventDetailsConverter.WriteJson Method " Url="html/M_SolidFire_Core_Converters_EventDetailsConverter_WriteJson.htm" />
+  </HelpKINode>
   <HelpKINode Title="WriteLatencyUSec property" Url="html/P_SolidFire_Element_Api_VolumeStats_WriteLatencyUSec.htm" />
   <HelpKINode Title="WriteOps property" Url="html/P_SolidFire_Element_Api_VolumeStats_WriteOps.htm" />
   <HelpKINode Title="ZeroBlocks property" Url="html/P_SolidFire_Element_Api_VolumeStats_ZeroBlocks.htm" />
