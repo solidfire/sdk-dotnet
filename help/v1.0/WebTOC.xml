@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="7adff3f5-e9f7-4207-9485-b2221fd530a9" Title="SolidFire.Core" Url="html/N_SolidFire_Core.htm">
-    <HelpTOCNode Id="376ae277-a018-4c4d-abd4-fa6eac54ff13" Title="DynamicRpcContractResolver Class" Url="html/T_SolidFire_Core_DynamicRpcContractResolver.htm">
+  <HelpTOCNode Id="79e70af0-98e9-4990-b237-300e4f912b3a" Title="SolidFire.Core" Url="html/N_SolidFire_Core.htm">
+    <HelpTOCNode Id="f8508b64-c3bf-43c9-b967-77bf38b14570" Title="DynamicRpcContractResolver Class" Url="html/T_SolidFire_Core_DynamicRpcContractResolver.htm">
       <HelpTOCNode Title="DynamicRpcContractResolver Constructor " Url="html/M_SolidFire_Core_DynamicRpcContractResolver__ctor.htm" />
       <HelpTOCNode Title="DynamicRpcContractResolver Properties" Url="html/Properties_T_SolidFire_Core_DynamicRpcContractResolver.htm" />
-      <HelpTOCNode Id="bc445f8e-178a-4901-b1ff-54723787699b" Title="DynamicRpcContractResolver Methods" Url="html/Methods_T_SolidFire_Core_DynamicRpcContractResolver.htm">
+      <HelpTOCNode Id="c811c8b7-3c1a-449f-8d3c-3c59991b21d2" Title="DynamicRpcContractResolver Methods" Url="html/Methods_T_SolidFire_Core_DynamicRpcContractResolver.htm">
         <HelpTOCNode Title="CreateProperties Method " Url="html/M_SolidFire_Core_DynamicRpcContractResolver_CreateProperties.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="3343868f-eaef-4a3f-8188-9ba39405f0cc" Title="IRpcRequestDispatcher Interface" Url="html/T_SolidFire_Core_IRpcRequestDispatcher.htm">
-      <HelpTOCNode Id="227267c8-8168-4512-84f3-a6dfa502af0b" Title="IRpcRequestDispatcher Methods" Url="html/Methods_T_SolidFire_Core_IRpcRequestDispatcher.htm">
+    <HelpTOCNode Id="1d4e7cc5-9d03-4607-9bb1-1140bbec022f" Title="IRpcRequestDispatcher Interface" Url="html/T_SolidFire_Core_IRpcRequestDispatcher.htm">
+      <HelpTOCNode Id="7fdf6b62-e302-472c-b5e4-a23e5114cf5b" Title="IRpcRequestDispatcher Methods" Url="html/Methods_T_SolidFire_Core_IRpcRequestDispatcher.htm">
         <HelpTOCNode Title="Dispatch Method " Url="html/M_SolidFire_Core_IRpcRequestDispatcher_Dispatch.htm" />
         <HelpTOCNode Title="GetConnectionVersion Method " Url="html/M_SolidFire_Core_IRpcRequestDispatcher_GetConnectionVersion.htm" />
         <HelpTOCNode Title="GetUri Method " Url="html/M_SolidFire_Core_IRpcRequestDispatcher_GetUri.htm" />
@@ -18,20 +18,20 @@
         <HelpTOCNode Title="SetTimeoutToDefault Method " Url="html/M_SolidFire_Core_IRpcRequestDispatcher_SetTimeoutToDefault.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="c5c69e50-8831-48da-8a74-8bbe5ef76427" Title="JsonRpcError Class" Url="html/T_SolidFire_Core_JsonRpcError.htm">
+    <HelpTOCNode Id="551ff60d-8043-4459-bcc2-4e952b44a33a" Title="JsonRpcError Class" Url="html/T_SolidFire_Core_JsonRpcError.htm">
       <HelpTOCNode Title="JsonRpcError Constructor " Url="html/M_SolidFire_Core_JsonRpcError__ctor.htm" />
-      <HelpTOCNode Id="8f9a4bdd-b653-47ac-9959-655988fbddd6" Title="JsonRpcError Properties" Url="html/Properties_T_SolidFire_Core_JsonRpcError.htm">
+      <HelpTOCNode Id="2ffc1cad-ee46-463f-ba86-440678ab6f44" Title="JsonRpcError Properties" Url="html/Properties_T_SolidFire_Core_JsonRpcError.htm">
         <HelpTOCNode Title="ErrorCode Property " Url="html/P_SolidFire_Core_JsonRpcError_ErrorCode.htm" />
         <HelpTOCNode Title="Message Property " Url="html/P_SolidFire_Core_JsonRpcError_Message.htm" />
         <HelpTOCNode Title="Name Property " Url="html/P_SolidFire_Core_JsonRpcError_Name.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="c65f3726-af5e-4454-80a9-e5eeb8b991a4" Title="JsonRpcRequestDispatcher Class" Url="html/T_SolidFire_Core_JsonRpcRequestDispatcher.htm">
-      <HelpTOCNode Id="af5fcf58-6a77-4a7e-95f3-e6528959e6ab" Title="JsonRpcRequestDispatcher Constructor " Url="html/Overload_SolidFire_Core_JsonRpcRequestDispatcher__ctor.htm">
+    <HelpTOCNode Id="a75f6843-97e2-4147-aed7-171ead59280c" Title="JsonRpcRequestDispatcher Class" Url="html/T_SolidFire_Core_JsonRpcRequestDispatcher.htm">
+      <HelpTOCNode Id="1964327d-b2b3-467d-8130-01539b43e239" Title="JsonRpcRequestDispatcher Constructor " Url="html/Overload_SolidFire_Core_JsonRpcRequestDispatcher__ctor.htm">
         <HelpTOCNode Title="JsonRpcRequestDispatcher Constructor (Uri, Boolean)" Url="html/M_SolidFire_Core_JsonRpcRequestDispatcher__ctor.htm" />
         <HelpTOCNode Title="JsonRpcRequestDispatcher Constructor (Uri, NetworkCredential, Boolean)" Url="html/M_SolidFire_Core_JsonRpcRequestDispatcher__ctor_1.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="a8ebd389-4a3e-4371-bcdd-16d8283487da" Title="JsonRpcRequestDispatcher Methods" Url="html/Methods_T_SolidFire_Core_JsonRpcRequestDispatcher.htm">
+      <HelpTOCNode Id="db4c8d58-4340-4b90-8a01-75eff1b4ec8e" Title="JsonRpcRequestDispatcher Methods" Url="html/Methods_T_SolidFire_Core_JsonRpcRequestDispatcher.htm">
         <HelpTOCNode Title="Clone Method " Url="html/M_SolidFire_Core_JsonRpcRequestDispatcher_Clone.htm" />
         <HelpTOCNode Title="Dispatch Method " Url="html/M_SolidFire_Core_JsonRpcRequestDispatcher_Dispatch.htm" />
         <HelpTOCNode Title="GetConnectionVersion Method " Url="html/M_SolidFire_Core_JsonRpcRequestDispatcher_GetConnectionVersion.htm" />
@@ -40,43 +40,43 @@
         <HelpTOCNode Title="SetTimeoutToDefault Method " Url="html/M_SolidFire_Core_JsonRpcRequestDispatcher_SetTimeoutToDefault.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="e97c8354-fb5a-4bd4-8d43-4e29b572096d" Title="JsonRpcResponse(T) Class" Url="html/T_SolidFire_Core_JsonRpcResponse_1.htm">
+    <HelpTOCNode Id="01fcd143-8ae1-458f-aba5-66157b26b3c0" Title="JsonRpcResponse(T) Class" Url="html/T_SolidFire_Core_JsonRpcResponse_1.htm">
       <HelpTOCNode Title="JsonRpcResponse(T) Constructor " Url="html/M_SolidFire_Core_JsonRpcResponse_1__ctor.htm" />
-      <HelpTOCNode Id="0d79d3d8-e7f0-42bf-bd07-c535cc5e55f8" Title="JsonRpcResponse(T) Properties" Url="html/Properties_T_SolidFire_Core_JsonRpcResponse_1.htm">
+      <HelpTOCNode Id="b6693c8d-b373-4e56-b8fe-274ade1811c1" Title="JsonRpcResponse(T) Properties" Url="html/Properties_T_SolidFire_Core_JsonRpcResponse_1.htm">
         <HelpTOCNode Title="Error Property " Url="html/P_SolidFire_Core_JsonRpcResponse_1_Error.htm" />
         <HelpTOCNode Title="Id Property " Url="html/P_SolidFire_Core_JsonRpcResponse_1_Id.htm" />
         <HelpTOCNode Title="Result Property " Url="html/P_SolidFire_Core_JsonRpcResponse_1_Result.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="0aaed167-ae40-4ebd-96b9-97bfa1a67a85" Title="RpcBase Class" Url="html/T_SolidFire_Core_RpcBase.htm">
+    <HelpTOCNode Id="5608e54c-cfd5-4b9a-bc97-8f9b0c82a99d" Title="RpcBase Class" Url="html/T_SolidFire_Core_RpcBase.htm">
       <HelpTOCNode Title="RpcBase Constructor " Url="html/M_SolidFire_Core_RpcBase__ctor.htm" />
-      <HelpTOCNode Id="55ddd87d-da80-486d-969b-4e36ca46faeb" Title="RpcBase Methods" Url="html/Methods_T_SolidFire_Core_RpcBase.htm">
+      <HelpTOCNode Id="4f73e74c-ba01-44bd-9dc4-4047ec09d068" Title="RpcBase Methods" Url="html/Methods_T_SolidFire_Core_RpcBase.htm">
         <HelpTOCNode Title="MkString Method " Url="html/M_SolidFire_Core_RpcBase_MkString.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="5095ce40-1e09-491c-8f9a-10d9ea3889c3" Title="ServiceBase Class" Url="html/T_SolidFire_Core_ServiceBase.htm">
+    <HelpTOCNode Id="e4d45234-7e84-46ac-bb5e-590b850e3d63" Title="ServiceBase Class" Url="html/T_SolidFire_Core_ServiceBase.htm">
       <HelpTOCNode Title="ServiceBase Constructor " Url="html/M_SolidFire_Core_ServiceBase__ctor.htm" />
-      <HelpTOCNode Id="c0b91676-cd42-4f8c-8042-3ae82a25dcbb" Title="ServiceBase Properties" Url="html/Properties_T_SolidFire_Core_ServiceBase.htm">
+      <HelpTOCNode Id="92d2ce4c-5446-4167-8939-093d07e77f1d" Title="ServiceBase Properties" Url="html/Properties_T_SolidFire_Core_ServiceBase.htm">
         <HelpTOCNode Title="SerializerSettings Property " Url="html/P_SolidFire_Core_ServiceBase_SerializerSettings.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="fc2ec0a5-6452-472e-bb15-dcc42b0b28ee" Title="ServiceBase Methods" Url="html/Methods_T_SolidFire_Core_ServiceBase.htm">
+      <HelpTOCNode Id="e4ab762e-c649-4f4f-a3d0-30236b52303a" Title="ServiceBase Methods" Url="html/Methods_T_SolidFire_Core_ServiceBase.htm">
         <HelpTOCNode Title="GetUri Method " Url="html/M_SolidFire_Core_ServiceBase_GetUri.htm" />
         <HelpTOCNode Title="ResetSerializerSettings Method " Url="html/M_SolidFire_Core_ServiceBase_ResetSerializerSettings.htm" />
-        <HelpTOCNode Id="765aa54e-76f3-42a0-8360-6d304a487c22" Title="SendRequestAsync Method " Url="html/Overload_SolidFire_Core_ServiceBase_SendRequestAsync.htm">
+        <HelpTOCNode Id="ad7153d3-ca14-4259-8591-e0d7cb158bc0" Title="SendRequestAsync Method " Url="html/Overload_SolidFire_Core_ServiceBase_SendRequestAsync.htm">
           <HelpTOCNode Title="SendRequestAsync(TResult) Method (String, Nullable(Int32))" Url="html/M_SolidFire_Core_ServiceBase_SendRequestAsync__1.htm" />
           <HelpTOCNode Title="SendRequestAsync(TResult) Method (String, Object, Nullable(Int32))" Url="html/M_SolidFire_Core_ServiceBase_SendRequestAsync__1_1.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="SetTimeout Method " Url="html/M_SolidFire_Core_ServiceBase_SetTimeout.htm" />
         <HelpTOCNode Title="SetTimeoutToDefault Method " Url="html/M_SolidFire_Core_ServiceBase_SetTimeoutToDefault.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="fb451397-3b08-4b4f-abae-7fedf001ba8f" Title="ServiceBase Events" Url="html/Events_T_SolidFire_Core_ServiceBase.htm">
+      <HelpTOCNode Id="bacf4388-31df-4817-bae0-fc329ad2824a" Title="ServiceBase Events" Url="html/Events_T_SolidFire_Core_ServiceBase.htm">
         <HelpTOCNode Title="OnRequest Event" Url="html/E_SolidFire_Core_ServiceBase_OnRequest.htm" />
         <HelpTOCNode Title="OnResponse Event" Url="html/E_SolidFire_Core_ServiceBase_OnResponse.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="ServiceBase.RpcEventHandler Delegate" Url="html/T_SolidFire_Core_ServiceBase_RpcEventHandler.htm" />
-    <HelpTOCNode Id="c9bb9de6-0e73-4948-9fee-af8ad866d0f8" Title="Utilities Class" Url="html/T_SolidFire_Core_Utilities.htm">
-      <HelpTOCNode Id="62fd7fb6-d6d3-40bb-8e91-3e88c25aa5cd" Title="Utilities Methods" Url="html/Methods_T_SolidFire_Core_Utilities.htm">
+    <HelpTOCNode Id="dfeb5759-ea55-44c9-be74-d7243215d31b" Title="Utilities Class" Url="html/T_SolidFire_Core_Utilities.htm">
+      <HelpTOCNode Id="7f8e9d74-e6d9-48fd-bf9b-aa11eb7c837c" Title="Utilities Methods" Url="html/Methods_T_SolidFire_Core_Utilities.htm">
         <HelpTOCNode Title="EnsureArgumentNotNull Method " Url="html/M_SolidFire_Core_Utilities_EnsureArgumentNotNull.htm" />
         <HelpTOCNode Title="IsGreaterThan Method " Url="html/M_SolidFire_Core_Utilities_IsGreaterThan.htm" />
         <HelpTOCNode Title="IsLessThanOrEqualTo Method " Url="html/M_SolidFire_Core_Utilities_IsLessThanOrEqualTo.htm" />
@@ -86,92 +86,92 @@
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="a0ddbdc4-988b-40e0-8ef7-b73eb0b23f53" Title="SolidFire.Core.Attributes" Url="html/N_SolidFire_Core_Attributes.htm">
-    <HelpTOCNode Id="4ff5a804-8c87-4d16-911c-72be79767235" Title="DeprecatedAfterAttribute Class" Url="html/T_SolidFire_Core_Attributes_DeprecatedAfterAttribute.htm">
+  <HelpTOCNode Id="aa37e3c8-5e28-4eef-9738-5bea6e10ecaf" Title="SolidFire.Core.Attributes" Url="html/N_SolidFire_Core_Attributes.htm">
+    <HelpTOCNode Id="feb96602-16a9-43c1-81a6-baa244ac340a" Title="DeprecatedAfterAttribute Class" Url="html/T_SolidFire_Core_Attributes_DeprecatedAfterAttribute.htm">
       <HelpTOCNode Title="DeprecatedAfterAttribute Constructor " Url="html/M_SolidFire_Core_Attributes_DeprecatedAfterAttribute__ctor.htm" />
-      <HelpTOCNode Id="1056b7a4-9bb1-4281-9492-d9dc2d2ca872" Title="DeprecatedAfterAttribute Properties" Url="html/Properties_T_SolidFire_Core_Attributes_DeprecatedAfterAttribute.htm">
+      <HelpTOCNode Id="eeb5ae08-7009-43a2-a27d-f397fa66973d" Title="DeprecatedAfterAttribute Properties" Url="html/Properties_T_SolidFire_Core_Attributes_DeprecatedAfterAttribute.htm">
         <HelpTOCNode Title="Version Property " Url="html/P_SolidFire_Core_Attributes_DeprecatedAfterAttribute_Version.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="c569aa10-e9be-46eb-87df-6fbbc8b44637" Title="DeprecatedAfterAttribute Methods" Url="html/Methods_T_SolidFire_Core_Attributes_DeprecatedAfterAttribute.htm">
+      <HelpTOCNode Id="2e5c5b02-0228-45de-b359-80fbf36db65d" Title="DeprecatedAfterAttribute Methods" Url="html/Methods_T_SolidFire_Core_Attributes_DeprecatedAfterAttribute.htm">
         <HelpTOCNode Title="ToString Method " Url="html/M_SolidFire_Core_Attributes_DeprecatedAfterAttribute_ToString.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="e4738f7c-a453-4846-97b0-908598146798" Title="OptionalAttribute Class" Url="html/T_SolidFire_Core_Attributes_OptionalAttribute.htm">
+    <HelpTOCNode Id="b2716ec3-3bc1-4f5b-a7e5-db0d6505ebad" Title="OptionalAttribute Class" Url="html/T_SolidFire_Core_Attributes_OptionalAttribute.htm">
       <HelpTOCNode Title="OptionalAttribute Constructor " Url="html/M_SolidFire_Core_Attributes_OptionalAttribute__ctor.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="e3d91272-14f8-4d1e-8481-5853fb218a29" Title="SinceAttribute Class" Url="html/T_SolidFire_Core_Attributes_SinceAttribute.htm">
+    <HelpTOCNode Id="4275f92d-bbf1-4309-8bff-5de33c91f24a" Title="SinceAttribute Class" Url="html/T_SolidFire_Core_Attributes_SinceAttribute.htm">
       <HelpTOCNode Title="SinceAttribute Constructor " Url="html/M_SolidFire_Core_Attributes_SinceAttribute__ctor.htm" />
-      <HelpTOCNode Id="a8dd496f-5096-4158-988e-a2be9eabaa3f" Title="SinceAttribute Properties" Url="html/Properties_T_SolidFire_Core_Attributes_SinceAttribute.htm">
+      <HelpTOCNode Id="c3a9facc-76af-4436-acee-4766fea37217" Title="SinceAttribute Properties" Url="html/Properties_T_SolidFire_Core_Attributes_SinceAttribute.htm">
         <HelpTOCNode Title="Version Property " Url="html/P_SolidFire_Core_Attributes_SinceAttribute_Version.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="1e29689a-de5d-4836-89cc-c2aae4615228" Title="SinceAttribute Methods" Url="html/Methods_T_SolidFire_Core_Attributes_SinceAttribute.htm">
+      <HelpTOCNode Id="357030eb-70b3-494a-bccb-b1931577401d" Title="SinceAttribute Methods" Url="html/Methods_T_SolidFire_Core_Attributes_SinceAttribute.htm">
         <HelpTOCNode Title="ToString Method " Url="html/M_SolidFire_Core_Attributes_SinceAttribute_ToString.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="b4ee928d-4ce0-4c50-a5ab-d349a9a071ee" Title="SolidFire.Core.Converters" Url="html/N_SolidFire_Core_Converters.htm">
-    <HelpTOCNode Id="db5f9d09-e48d-4dcd-b21b-5b822ecf645f" Title="AddressBlocksConverter Class" Url="html/T_SolidFire_Core_Converters_AddressBlocksConverter.htm">
+  <HelpTOCNode Id="bc57e5cd-ebaf-42da-b9fc-0b863115fdb4" Title="SolidFire.Core.Converters" Url="html/N_SolidFire_Core_Converters.htm">
+    <HelpTOCNode Id="e8afb156-0eb5-47bc-a784-492e4c265a52" Title="AddressBlocksConverter Class" Url="html/T_SolidFire_Core_Converters_AddressBlocksConverter.htm">
       <HelpTOCNode Title="AddressBlocksConverter Constructor " Url="html/M_SolidFire_Core_Converters_AddressBlocksConverter__ctor.htm" />
       <HelpTOCNode Title="AddressBlocksConverter Properties" Url="html/Properties_T_SolidFire_Core_Converters_AddressBlocksConverter.htm" />
-      <HelpTOCNode Id="b723e2ec-8b9f-421d-83c9-100004b79d47" Title="AddressBlocksConverter Methods" Url="html/Methods_T_SolidFire_Core_Converters_AddressBlocksConverter.htm">
+      <HelpTOCNode Id="6d46ead9-c609-4d18-9cb0-c5fdc0ec0a41" Title="AddressBlocksConverter Methods" Url="html/Methods_T_SolidFire_Core_Converters_AddressBlocksConverter.htm">
         <HelpTOCNode Title="CanConvert Method " Url="html/M_SolidFire_Core_Converters_AddressBlocksConverter_CanConvert.htm" />
         <HelpTOCNode Title="ReadJson Method " Url="html/M_SolidFire_Core_Converters_AddressBlocksConverter_ReadJson.htm" />
         <HelpTOCNode Title="WriteJson Method " Url="html/M_SolidFire_Core_Converters_AddressBlocksConverter_WriteJson.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="c88e992c-28e9-46d3-b4f5-12b62bfc7d95" Title="AttributesConverter Class" Url="html/T_SolidFire_Core_Converters_AttributesConverter.htm">
+    <HelpTOCNode Id="5cf5bcbb-e608-4faf-b1c5-6f2571b6e803" Title="AttributesConverter Class" Url="html/T_SolidFire_Core_Converters_AttributesConverter.htm">
       <HelpTOCNode Title="AttributesConverter Constructor " Url="html/M_SolidFire_Core_Converters_AttributesConverter__ctor.htm" />
       <HelpTOCNode Title="AttributesConverter Properties" Url="html/Properties_T_SolidFire_Core_Converters_AttributesConverter.htm" />
-      <HelpTOCNode Id="4ad63d62-5f74-4d62-8c27-497ed0273afb" Title="AttributesConverter Methods" Url="html/Methods_T_SolidFire_Core_Converters_AttributesConverter.htm">
+      <HelpTOCNode Id="03586557-3b9d-4490-8c28-702607879f40" Title="AttributesConverter Methods" Url="html/Methods_T_SolidFire_Core_Converters_AttributesConverter.htm">
         <HelpTOCNode Title="CanConvert Method " Url="html/M_SolidFire_Core_Converters_AttributesConverter_CanConvert.htm" />
         <HelpTOCNode Title="ReadJson Method " Url="html/M_SolidFire_Core_Converters_AttributesConverter_ReadJson.htm" />
         <HelpTOCNode Title="WriteJson Method " Url="html/M_SolidFire_Core_Converters_AttributesConverter_WriteJson.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="4cc5021b-07b6-4bd8-9e04-a0e8fb462f2f" Title="EventDetailsConverter Class" Url="html/T_SolidFire_Core_Converters_EventDetailsConverter.htm">
+    <HelpTOCNode Id="a62905ee-49f7-4ee0-badb-78fafc048732" Title="EventDetailsConverter Class" Url="html/T_SolidFire_Core_Converters_EventDetailsConverter.htm">
       <HelpTOCNode Title="EventDetailsConverter Constructor " Url="html/M_SolidFire_Core_Converters_EventDetailsConverter__ctor.htm" />
       <HelpTOCNode Title="EventDetailsConverter Properties" Url="html/Properties_T_SolidFire_Core_Converters_EventDetailsConverter.htm" />
-      <HelpTOCNode Id="93175884-6aa3-4bd4-9f78-f6c294b375cd" Title="EventDetailsConverter Methods" Url="html/Methods_T_SolidFire_Core_Converters_EventDetailsConverter.htm">
+      <HelpTOCNode Id="e993b21c-a1c6-43e1-a50f-34c189502d84" Title="EventDetailsConverter Methods" Url="html/Methods_T_SolidFire_Core_Converters_EventDetailsConverter.htm">
         <HelpTOCNode Title="CanConvert Method " Url="html/M_SolidFire_Core_Converters_EventDetailsConverter_CanConvert.htm" />
         <HelpTOCNode Title="ReadJson Method " Url="html/M_SolidFire_Core_Converters_EventDetailsConverter_ReadJson.htm" />
         <HelpTOCNode Title="WriteJson Method " Url="html/M_SolidFire_Core_Converters_EventDetailsConverter_WriteJson.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="89be1cf6-b8c3-4b56-bd3d-dac4313cd6c2" Title="SolidFire.Core.Exceptions" Url="html/N_SolidFire_Core_Exceptions.htm">
-    <HelpTOCNode Id="fd229730-9a92-424f-a2b0-9abddbb6f3d6" Title="ApiServerException Class" Url="html/T_SolidFire_Core_Exceptions_ApiServerException.htm">
-      <HelpTOCNode Id="b82d2f19-afcb-4641-921e-804e655a77ff" Title="ApiServerException Constructor " Url="html/Overload_SolidFire_Core_Exceptions_ApiServerException__ctor.htm">
+  <HelpTOCNode Id="748a7104-cfc8-4ebe-9646-42a1a68d4dbc" Title="SolidFire.Core.Exceptions" Url="html/N_SolidFire_Core_Exceptions.htm">
+    <HelpTOCNode Id="2e475982-ba0e-4ced-b810-4657a1d7fa5b" Title="ApiServerException Class" Url="html/T_SolidFire_Core_Exceptions_ApiServerException.htm">
+      <HelpTOCNode Id="b102aaa4-3fda-4f4b-95ab-fe73832df7dd" Title="ApiServerException Constructor " Url="html/Overload_SolidFire_Core_Exceptions_ApiServerException__ctor.htm">
         <HelpTOCNode Title="ApiServerException Constructor (JsonRpcError)" Url="html/M_SolidFire_Core_Exceptions_ApiServerException__ctor.htm" />
         <HelpTOCNode Title="ApiServerException Constructor (Int32, String, String)" Url="html/M_SolidFire_Core_Exceptions_ApiServerException__ctor_1.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="49bce6df-04d4-40ae-8a1c-54422bbd76b0" Title="ApiServerException Properties" Url="html/Properties_T_SolidFire_Core_Exceptions_ApiServerException.htm">
+      <HelpTOCNode Id="60bf54d5-ae16-4028-b59e-772e6921bf00" Title="ApiServerException Properties" Url="html/Properties_T_SolidFire_Core_Exceptions_ApiServerException.htm">
         <HelpTOCNode Title="ErrorCode Property " Url="html/P_SolidFire_Core_Exceptions_ApiServerException_ErrorCode.htm" />
         <HelpTOCNode Title="Name Property " Url="html/P_SolidFire_Core_Exceptions_ApiServerException_Name.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="1344c927-62d4-4d28-a320-6e2268c8651b" Title="IncompatibleVersionException Class" Url="html/T_SolidFire_Core_Exceptions_IncompatibleVersionException.htm">
+    <HelpTOCNode Id="f393c58e-d3b6-41d4-9208-a7cd45b96e44" Title="IncompatibleVersionException Class" Url="html/T_SolidFire_Core_Exceptions_IncompatibleVersionException.htm">
       <HelpTOCNode Title="IncompatibleVersionException Constructor " Url="html/M_SolidFire_Core_Exceptions_IncompatibleVersionException__ctor.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="63fe96a8-a78e-4ce6-8968-9c5cee47e66d" Title="MethodNotFoundException Class" Url="html/T_SolidFire_Core_Exceptions_MethodNotFoundException.htm">
+    <HelpTOCNode Id="305778b9-6a06-485c-bc78-97e17979eb14" Title="MethodNotFoundException Class" Url="html/T_SolidFire_Core_Exceptions_MethodNotFoundException.htm">
       <HelpTOCNode Title="MethodNotFoundException Constructor " Url="html/M_SolidFire_Core_Exceptions_MethodNotFoundException__ctor.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="b42d5e39-6dc7-426e-bce0-f7686d098577" Title="MissingParameterException Class" Url="html/T_SolidFire_Core_Exceptions_MissingParameterException.htm">
+    <HelpTOCNode Id="faf581b7-0a59-4d0c-b11b-1175344d9391" Title="MissingParameterException Class" Url="html/T_SolidFire_Core_Exceptions_MissingParameterException.htm">
       <HelpTOCNode Title="MissingParameterException Constructor " Url="html/M_SolidFire_Core_Exceptions_MissingParameterException__ctor.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="28bd90c8-6312-434f-a95b-995ec36c60cd" Title="MissingVersionException Class" Url="html/T_SolidFire_Core_Exceptions_MissingVersionException.htm">
+    <HelpTOCNode Id="f28ea3c2-6630-487a-aa8a-d42b5e4df143" Title="MissingVersionException Class" Url="html/T_SolidFire_Core_Exceptions_MissingVersionException.htm">
       <HelpTOCNode Title="MissingVersionException Constructor " Url="html/M_SolidFire_Core_Exceptions_MissingVersionException__ctor.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="803bc4aa-f4b2-4cfb-abb7-0f3c1839749f" Title="SolidFire.Element" Url="html/N_SolidFire_Element.htm">
-    <HelpTOCNode Id="4d1de2a5-036a-4395-b16d-2e1fa83260f8" Title="ElementFactory Class" Url="html/T_SolidFire_Element_ElementFactory.htm">
-      <HelpTOCNode Id="49b3f8fb-2bb9-4491-8ee5-50254f00ca5f" Title="ElementFactory Methods" Url="html/Methods_T_SolidFire_Element_ElementFactory.htm">
-        <HelpTOCNode Id="ce2deb77-db24-4b40-9059-427af585dd91" Title="Create Method " Url="html/Overload_SolidFire_Element_ElementFactory_Create.htm">
+  <HelpTOCNode Id="fc6b692d-24da-489a-9425-31aae0e5d973" Title="SolidFire.Element" Url="html/N_SolidFire_Element.htm">
+    <HelpTOCNode Id="0616f22f-40b8-4c7c-8271-6f490578bdd6" Title="ElementFactory Class" Url="html/T_SolidFire_Element_ElementFactory.htm">
+      <HelpTOCNode Id="0bf77db2-d116-4494-817a-304653017762" Title="ElementFactory Methods" Url="html/Methods_T_SolidFire_Element_ElementFactory.htm">
+        <HelpTOCNode Id="0ced6a7b-c36d-4e42-ab97-39e2a3361ca1" Title="Create Method " Url="html/Overload_SolidFire_Element_ElementFactory_Create.htm">
           <HelpTOCNode Title="Create Method (String, String, Nullable(TimeSpan))" Url="html/M_SolidFire_Element_ElementFactory_Create_1.htm" />
           <HelpTOCNode Title="Create Method (String, NetworkCredential, String, Nullable(TimeSpan))" Url="html/M_SolidFire_Element_ElementFactory_Create.htm" />
           <HelpTOCNode Title="Create Method (String, String, SecureString, String, Nullable(TimeSpan))" Url="html/M_SolidFire_Element_ElementFactory_Create_2.htm" />
           <HelpTOCNode Title="Create Method (String, String, String, String, Nullable(TimeSpan))" Url="html/M_SolidFire_Element_ElementFactory_Create_3.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="e905e3a6-9e92-4238-a107-c341c4d00a77" Title="CreateAsync Method " Url="html/Overload_SolidFire_Element_ElementFactory_CreateAsync.htm">
+        <HelpTOCNode Id="07816127-f5a4-4323-8b51-2958e9bb4e4d" Title="CreateAsync Method " Url="html/Overload_SolidFire_Element_ElementFactory_CreateAsync.htm">
           <HelpTOCNode Title="CreateAsync Method (String, String, Nullable(TimeSpan))" Url="html/M_SolidFire_Element_ElementFactory_CreateAsync_1.htm" />
           <HelpTOCNode Title="CreateAsync Method (String, NetworkCredential, String, Nullable(TimeSpan))" Url="html/M_SolidFire_Element_ElementFactory_CreateAsync.htm" />
           <HelpTOCNode Title="CreateAsync Method (String, String, SecureString, String, Nullable(TimeSpan))" Url="html/M_SolidFire_Element_ElementFactory_CreateAsync_2.htm" />
@@ -181,10 +181,10 @@
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="47894e00-d77f-4c19-b460-1250c2cc0510" Title="SolidFire.Element.Api" Url="html/N_SolidFire_Element_Api.htm">
-    <HelpTOCNode Id="6c3d35ea-164a-488e-a4cf-98eedf3e15d8" Title="Account Class" Url="html/T_SolidFire_Element_Api_Account.htm">
+  <HelpTOCNode Id="a8b14957-ee7d-4dda-a1a9-89a2f51cc071" Title="SolidFire.Element.Api" Url="html/N_SolidFire_Element_Api.htm">
+    <HelpTOCNode Id="076aed34-0d61-4cdf-85c1-21be4378e10c" Title="Account Class" Url="html/T_SolidFire_Element_Api_Account.htm">
       <HelpTOCNode Title="Account Constructor " Url="html/M_SolidFire_Element_Api_Account__ctor.htm" />
-      <HelpTOCNode Id="4abeae4c-b0c6-451d-a57f-5d09c7d3ad0d" Title="Account Properties" Url="html/Properties_T_SolidFire_Element_Api_Account.htm">
+      <HelpTOCNode Id="5ebb5ac2-6989-4793-859e-9d6d2e34611c" Title="Account Properties" Url="html/Properties_T_SolidFire_Element_Api_Account.htm">
         <HelpTOCNode Title="AccountID Property " Url="html/P_SolidFire_Element_Api_Account_AccountID.htm" />
         <HelpTOCNode Title="Attributes Property " Url="html/P_SolidFire_Element_Api_Account_Attributes.htm" />
         <HelpTOCNode Title="InitiatorSecret Property " Url="html/P_SolidFire_Element_Api_Account_InitiatorSecret.htm" />
@@ -195,9 +195,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="Account Methods" Url="html/Methods_T_SolidFire_Element_Api_Account.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="1b12b1ac-0104-479a-b357-36bfbc3a60c7" Title="AddAccountRequest Class" Url="html/T_SolidFire_Element_Api_AddAccountRequest.htm">
+    <HelpTOCNode Id="9f9143a7-5c32-49c4-bae1-6cc610ab178c" Title="AddAccountRequest Class" Url="html/T_SolidFire_Element_Api_AddAccountRequest.htm">
       <HelpTOCNode Title="AddAccountRequest Constructor " Url="html/M_SolidFire_Element_Api_AddAccountRequest__ctor.htm" />
-      <HelpTOCNode Id="3ff9b63f-f899-4690-9347-d3369406da1a" Title="AddAccountRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_AddAccountRequest.htm">
+      <HelpTOCNode Id="c5d98b3b-7122-4d92-a998-f23da1ca9f78" Title="AddAccountRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_AddAccountRequest.htm">
         <HelpTOCNode Title="Attributes Property " Url="html/P_SolidFire_Element_Api_AddAccountRequest_Attributes.htm" />
         <HelpTOCNode Title="InitiatorSecret Property " Url="html/P_SolidFire_Element_Api_AddAccountRequest_InitiatorSecret.htm" />
         <HelpTOCNode Title="TargetSecret Property " Url="html/P_SolidFire_Element_Api_AddAccountRequest_TargetSecret.htm" />
@@ -205,39 +205,39 @@
       </HelpTOCNode>
       <HelpTOCNode Title="AddAccountRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_AddAccountRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="0406d683-8f00-4870-96d5-f6b46a8aaf9c" Title="AddAccountResult Class" Url="html/T_SolidFire_Element_Api_AddAccountResult.htm">
+    <HelpTOCNode Id="ceb6c827-0c76-494e-901e-20daec7eab82" Title="AddAccountResult Class" Url="html/T_SolidFire_Element_Api_AddAccountResult.htm">
       <HelpTOCNode Title="AddAccountResult Constructor " Url="html/M_SolidFire_Element_Api_AddAccountResult__ctor.htm" />
-      <HelpTOCNode Id="3188275a-e6ef-49b5-97d5-3495818f197a" Title="AddAccountResult Properties" Url="html/Properties_T_SolidFire_Element_Api_AddAccountResult.htm">
+      <HelpTOCNode Id="40f4beb9-3305-4279-84b2-7635a37589ee" Title="AddAccountResult Properties" Url="html/Properties_T_SolidFire_Element_Api_AddAccountResult.htm">
         <HelpTOCNode Title="AccountID Property " Url="html/P_SolidFire_Element_Api_AddAccountResult_AccountID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="AddAccountResult Methods" Url="html/Methods_T_SolidFire_Element_Api_AddAccountResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="70876e64-06a9-4eb0-a18f-9509e2071182" Title="AddInitiatorsToVolumeAccessGroupRequest Class" Url="html/T_SolidFire_Element_Api_AddInitiatorsToVolumeAccessGroupRequest.htm">
+    <HelpTOCNode Id="a8a248c2-bcac-48d1-b056-ae1531be2a4c" Title="AddInitiatorsToVolumeAccessGroupRequest Class" Url="html/T_SolidFire_Element_Api_AddInitiatorsToVolumeAccessGroupRequest.htm">
       <HelpTOCNode Title="AddInitiatorsToVolumeAccessGroupRequest Constructor " Url="html/M_SolidFire_Element_Api_AddInitiatorsToVolumeAccessGroupRequest__ctor.htm" />
-      <HelpTOCNode Id="22e9ab42-4630-4161-a21e-ece81f5d6878" Title="AddInitiatorsToVolumeAccessGroupRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_AddInitiatorsToVolumeAccessGroupRequest.htm">
+      <HelpTOCNode Id="1b2ff8e1-2380-459b-af39-c2ac3738ba77" Title="AddInitiatorsToVolumeAccessGroupRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_AddInitiatorsToVolumeAccessGroupRequest.htm">
         <HelpTOCNode Title="Initiators Property " Url="html/P_SolidFire_Element_Api_AddInitiatorsToVolumeAccessGroupRequest_Initiators.htm" />
         <HelpTOCNode Title="VolumeAccessGroupID Property " Url="html/P_SolidFire_Element_Api_AddInitiatorsToVolumeAccessGroupRequest_VolumeAccessGroupID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="AddInitiatorsToVolumeAccessGroupRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_AddInitiatorsToVolumeAccessGroupRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="960f2694-996e-4ad8-9eb9-fbadd45051ab" Title="AddVolumesToVolumeAccessGroupRequest Class" Url="html/T_SolidFire_Element_Api_AddVolumesToVolumeAccessGroupRequest.htm">
+    <HelpTOCNode Id="ab8893c4-bfe4-4905-8399-6741007f178c" Title="AddVolumesToVolumeAccessGroupRequest Class" Url="html/T_SolidFire_Element_Api_AddVolumesToVolumeAccessGroupRequest.htm">
       <HelpTOCNode Title="AddVolumesToVolumeAccessGroupRequest Constructor " Url="html/M_SolidFire_Element_Api_AddVolumesToVolumeAccessGroupRequest__ctor.htm" />
-      <HelpTOCNode Id="b8b6d984-bbc9-433e-adda-139ed26365ce" Title="AddVolumesToVolumeAccessGroupRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_AddVolumesToVolumeAccessGroupRequest.htm">
+      <HelpTOCNode Id="10827ebc-72f9-4025-969f-2c443ac07d74" Title="AddVolumesToVolumeAccessGroupRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_AddVolumesToVolumeAccessGroupRequest.htm">
         <HelpTOCNode Title="VolumeAccessGroupID Property " Url="html/P_SolidFire_Element_Api_AddVolumesToVolumeAccessGroupRequest_VolumeAccessGroupID.htm" />
         <HelpTOCNode Title="Volumes Property " Url="html/P_SolidFire_Element_Api_AddVolumesToVolumeAccessGroupRequest_Volumes.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="AddVolumesToVolumeAccessGroupRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_AddVolumesToVolumeAccessGroupRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="74a271ff-b94f-4a88-a935-34cbd22036be" Title="AsyncResult Class" Url="html/T_SolidFire_Element_Api_AsyncResult.htm">
+    <HelpTOCNode Id="1f7406fe-dab3-4286-b814-a65395999fe0" Title="AsyncResult Class" Url="html/T_SolidFire_Element_Api_AsyncResult.htm">
       <HelpTOCNode Title="AsyncResult Constructor " Url="html/M_SolidFire_Element_Api_AsyncResult__ctor.htm" />
-      <HelpTOCNode Id="186ce747-89fb-412b-a80c-815904efb501" Title="AsyncResult Properties" Url="html/Properties_T_SolidFire_Element_Api_AsyncResult.htm">
+      <HelpTOCNode Id="42262d10-b5cf-49a7-bdf5-eebd444378ed" Title="AsyncResult Properties" Url="html/Properties_T_SolidFire_Element_Api_AsyncResult.htm">
         <HelpTOCNode Title="Message Property " Url="html/P_SolidFire_Element_Api_AsyncResult_Message.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="AsyncResult Methods" Url="html/Methods_T_SolidFire_Element_Api_AsyncResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="73503e9c-5afe-4e5a-b41e-e02a02544eb6" Title="CloneVolumeRequest Class" Url="html/T_SolidFire_Element_Api_CloneVolumeRequest.htm">
+    <HelpTOCNode Id="e616ab73-2cad-4651-9537-da3467f6114d" Title="CloneVolumeRequest Class" Url="html/T_SolidFire_Element_Api_CloneVolumeRequest.htm">
       <HelpTOCNode Title="CloneVolumeRequest Constructor " Url="html/M_SolidFire_Element_Api_CloneVolumeRequest__ctor.htm" />
-      <HelpTOCNode Id="e9c22e93-b262-478a-a2bb-d07805f719f8" Title="CloneVolumeRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_CloneVolumeRequest.htm">
+      <HelpTOCNode Id="9e31d9e5-375c-4c7e-995f-c34d40ee9272" Title="CloneVolumeRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_CloneVolumeRequest.htm">
         <HelpTOCNode Title="Access Property " Url="html/P_SolidFire_Element_Api_CloneVolumeRequest_Access.htm" />
         <HelpTOCNode Title="Attributes Property " Url="html/P_SolidFire_Element_Api_CloneVolumeRequest_Attributes.htm" />
         <HelpTOCNode Title="Name Property " Url="html/P_SolidFire_Element_Api_CloneVolumeRequest_Name.htm" />
@@ -248,18 +248,18 @@
       </HelpTOCNode>
       <HelpTOCNode Title="CloneVolumeRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_CloneVolumeRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="f9e9fef4-9fd6-4ab6-a608-6b471f4e3523" Title="CloneVolumeResult Class" Url="html/T_SolidFire_Element_Api_CloneVolumeResult.htm">
+    <HelpTOCNode Id="fcc52a27-b91c-4fd4-90bb-4c25d5ceb66d" Title="CloneVolumeResult Class" Url="html/T_SolidFire_Element_Api_CloneVolumeResult.htm">
       <HelpTOCNode Title="CloneVolumeResult Constructor " Url="html/M_SolidFire_Element_Api_CloneVolumeResult__ctor.htm" />
-      <HelpTOCNode Id="01484493-8092-452c-8a51-fbfcd6f364b1" Title="CloneVolumeResult Properties" Url="html/Properties_T_SolidFire_Element_Api_CloneVolumeResult.htm">
+      <HelpTOCNode Id="fb390561-096f-4061-a7a6-341ecbf00107" Title="CloneVolumeResult Properties" Url="html/Properties_T_SolidFire_Element_Api_CloneVolumeResult.htm">
         <HelpTOCNode Title="AsyncHandle Property " Url="html/P_SolidFire_Element_Api_CloneVolumeResult_AsyncHandle.htm" />
         <HelpTOCNode Title="CloneID Property " Url="html/P_SolidFire_Element_Api_CloneVolumeResult_CloneID.htm" />
         <HelpTOCNode Title="VolumeID Property " Url="html/P_SolidFire_Element_Api_CloneVolumeResult_VolumeID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="CloneVolumeResult Methods" Url="html/Methods_T_SolidFire_Element_Api_CloneVolumeResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="d47950bb-bd18-45a5-a964-62bf64f34550" Title="CreateGroupSnapshotRequest Class" Url="html/T_SolidFire_Element_Api_CreateGroupSnapshotRequest.htm">
+    <HelpTOCNode Id="c34ff687-1269-4200-bc43-51f15f1af1f6" Title="CreateGroupSnapshotRequest Class" Url="html/T_SolidFire_Element_Api_CreateGroupSnapshotRequest.htm">
       <HelpTOCNode Title="CreateGroupSnapshotRequest Constructor " Url="html/M_SolidFire_Element_Api_CreateGroupSnapshotRequest__ctor.htm" />
-      <HelpTOCNode Id="68cc7377-00a3-41be-a08b-09ab6cba7030" Title="CreateGroupSnapshotRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_CreateGroupSnapshotRequest.htm">
+      <HelpTOCNode Id="a3baf88a-8a81-4de1-988d-3bcc162d8a13" Title="CreateGroupSnapshotRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_CreateGroupSnapshotRequest.htm">
         <HelpTOCNode Title="Attributes Property " Url="html/P_SolidFire_Element_Api_CreateGroupSnapshotRequest_Attributes.htm" />
         <HelpTOCNode Title="EnableRemoteReplication Property " Url="html/P_SolidFire_Element_Api_CreateGroupSnapshotRequest_EnableRemoteReplication.htm" />
         <HelpTOCNode Title="Name Property " Url="html/P_SolidFire_Element_Api_CreateGroupSnapshotRequest_Name.htm" />
@@ -268,17 +268,17 @@
       </HelpTOCNode>
       <HelpTOCNode Title="CreateGroupSnapshotRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_CreateGroupSnapshotRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="0b92ff6d-4627-4216-99a2-553a7e36f837" Title="CreateGroupSnapshotResult Class" Url="html/T_SolidFire_Element_Api_CreateGroupSnapshotResult.htm">
+    <HelpTOCNode Id="cab85271-6b26-40cf-adcc-82002f4698ca" Title="CreateGroupSnapshotResult Class" Url="html/T_SolidFire_Element_Api_CreateGroupSnapshotResult.htm">
       <HelpTOCNode Title="CreateGroupSnapshotResult Constructor " Url="html/M_SolidFire_Element_Api_CreateGroupSnapshotResult__ctor.htm" />
-      <HelpTOCNode Id="05286642-16ec-449c-88c5-fdbe03709eba" Title="CreateGroupSnapshotResult Properties" Url="html/Properties_T_SolidFire_Element_Api_CreateGroupSnapshotResult.htm">
+      <HelpTOCNode Id="14baa9cf-917f-4b87-8573-b8caf47aff1c" Title="CreateGroupSnapshotResult Properties" Url="html/Properties_T_SolidFire_Element_Api_CreateGroupSnapshotResult.htm">
         <HelpTOCNode Title="GroupSnapshotID Property " Url="html/P_SolidFire_Element_Api_CreateGroupSnapshotResult_GroupSnapshotID.htm" />
         <HelpTOCNode Title="Members Property " Url="html/P_SolidFire_Element_Api_CreateGroupSnapshotResult_Members.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="CreateGroupSnapshotResult Methods" Url="html/Methods_T_SolidFire_Element_Api_CreateGroupSnapshotResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="3a7d3c6c-72cd-4966-9be4-1961537ee1fa" Title="CreateSnapshotRequest Class" Url="html/T_SolidFire_Element_Api_CreateSnapshotRequest.htm">
+    <HelpTOCNode Id="b9d0f4de-a136-4831-9b65-8ccb19a28c26" Title="CreateSnapshotRequest Class" Url="html/T_SolidFire_Element_Api_CreateSnapshotRequest.htm">
       <HelpTOCNode Title="CreateSnapshotRequest Constructor " Url="html/M_SolidFire_Element_Api_CreateSnapshotRequest__ctor.htm" />
-      <HelpTOCNode Id="ca8278ae-ad48-41ee-a616-8554722958b0" Title="CreateSnapshotRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_CreateSnapshotRequest.htm">
+      <HelpTOCNode Id="7c703f69-ed05-4d75-ad34-a2c525e4fbcb" Title="CreateSnapshotRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_CreateSnapshotRequest.htm">
         <HelpTOCNode Title="Attributes Property " Url="html/P_SolidFire_Element_Api_CreateSnapshotRequest_Attributes.htm" />
         <HelpTOCNode Title="EnableRemoteReplication Property " Url="html/P_SolidFire_Element_Api_CreateSnapshotRequest_EnableRemoteReplication.htm" />
         <HelpTOCNode Title="Name Property " Url="html/P_SolidFire_Element_Api_CreateSnapshotRequest_Name.htm" />
@@ -288,17 +288,17 @@
       </HelpTOCNode>
       <HelpTOCNode Title="CreateSnapshotRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_CreateSnapshotRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="65ae57d2-34d9-492a-b8fc-e585f69b8461" Title="CreateSnapshotResult Class" Url="html/T_SolidFire_Element_Api_CreateSnapshotResult.htm">
+    <HelpTOCNode Id="a78c33c8-f2dc-492c-b085-040fbb89e3d2" Title="CreateSnapshotResult Class" Url="html/T_SolidFire_Element_Api_CreateSnapshotResult.htm">
       <HelpTOCNode Title="CreateSnapshotResult Constructor " Url="html/M_SolidFire_Element_Api_CreateSnapshotResult__ctor.htm" />
-      <HelpTOCNode Id="db14075c-4d52-4388-9675-5859687b2668" Title="CreateSnapshotResult Properties" Url="html/Properties_T_SolidFire_Element_Api_CreateSnapshotResult.htm">
+      <HelpTOCNode Id="b09ca936-221c-4801-96be-c7aa1e139557" Title="CreateSnapshotResult Properties" Url="html/Properties_T_SolidFire_Element_Api_CreateSnapshotResult.htm">
         <HelpTOCNode Title="Checksum Property " Url="html/P_SolidFire_Element_Api_CreateSnapshotResult_Checksum.htm" />
         <HelpTOCNode Title="SnapshotID Property " Url="html/P_SolidFire_Element_Api_CreateSnapshotResult_SnapshotID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="CreateSnapshotResult Methods" Url="html/Methods_T_SolidFire_Element_Api_CreateSnapshotResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="72dd2cff-da2b-46ed-9b99-da2ad78a5c1c" Title="CreateVolumeAccessGroupRequest Class" Url="html/T_SolidFire_Element_Api_CreateVolumeAccessGroupRequest.htm">
+    <HelpTOCNode Id="af75e5f5-8693-4a2b-887f-759bc3313fa2" Title="CreateVolumeAccessGroupRequest Class" Url="html/T_SolidFire_Element_Api_CreateVolumeAccessGroupRequest.htm">
       <HelpTOCNode Title="CreateVolumeAccessGroupRequest Constructor " Url="html/M_SolidFire_Element_Api_CreateVolumeAccessGroupRequest__ctor.htm" />
-      <HelpTOCNode Id="a4d3010b-a2bd-42fe-8502-59546b1deb31" Title="CreateVolumeAccessGroupRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_CreateVolumeAccessGroupRequest.htm">
+      <HelpTOCNode Id="6a43539c-9bed-4fa8-8400-c8682bdd17c8" Title="CreateVolumeAccessGroupRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_CreateVolumeAccessGroupRequest.htm">
         <HelpTOCNode Title="Attributes Property " Url="html/P_SolidFire_Element_Api_CreateVolumeAccessGroupRequest_Attributes.htm" />
         <HelpTOCNode Title="Initiators Property " Url="html/P_SolidFire_Element_Api_CreateVolumeAccessGroupRequest_Initiators.htm" />
         <HelpTOCNode Title="Name Property " Url="html/P_SolidFire_Element_Api_CreateVolumeAccessGroupRequest_Name.htm" />
@@ -308,16 +308,16 @@
       </HelpTOCNode>
       <HelpTOCNode Title="CreateVolumeAccessGroupRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_CreateVolumeAccessGroupRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="71633379-12f6-4e3b-9332-d472918396b7" Title="CreateVolumeAccessGroupResult Class" Url="html/T_SolidFire_Element_Api_CreateVolumeAccessGroupResult.htm">
+    <HelpTOCNode Id="afb2b2ca-8f33-4dc4-ba44-c891d8f0c24b" Title="CreateVolumeAccessGroupResult Class" Url="html/T_SolidFire_Element_Api_CreateVolumeAccessGroupResult.htm">
       <HelpTOCNode Title="CreateVolumeAccessGroupResult Constructor " Url="html/M_SolidFire_Element_Api_CreateVolumeAccessGroupResult__ctor.htm" />
-      <HelpTOCNode Id="b8e7906f-94b6-470e-9274-a04457316924" Title="CreateVolumeAccessGroupResult Properties" Url="html/Properties_T_SolidFire_Element_Api_CreateVolumeAccessGroupResult.htm">
+      <HelpTOCNode Id="602a8aa5-67d4-4492-afc8-99fce52cc0bd" Title="CreateVolumeAccessGroupResult Properties" Url="html/Properties_T_SolidFire_Element_Api_CreateVolumeAccessGroupResult.htm">
         <HelpTOCNode Title="VolumeAccessGroupID Property " Url="html/P_SolidFire_Element_Api_CreateVolumeAccessGroupResult_VolumeAccessGroupID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="CreateVolumeAccessGroupResult Methods" Url="html/Methods_T_SolidFire_Element_Api_CreateVolumeAccessGroupResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="39c4fd1f-f7b4-4f62-9eca-f5b6a79918fd" Title="CreateVolumeRequest Class" Url="html/T_SolidFire_Element_Api_CreateVolumeRequest.htm">
+    <HelpTOCNode Id="3f9cd752-69f4-4477-b06b-3f19941e0a57" Title="CreateVolumeRequest Class" Url="html/T_SolidFire_Element_Api_CreateVolumeRequest.htm">
       <HelpTOCNode Title="CreateVolumeRequest Constructor " Url="html/M_SolidFire_Element_Api_CreateVolumeRequest__ctor.htm" />
-      <HelpTOCNode Id="b635ccb9-4dd4-40b3-9719-eb69b517ecca" Title="CreateVolumeRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_CreateVolumeRequest.htm">
+      <HelpTOCNode Id="f99d47e3-5bc5-44bc-8d28-2372405ff163" Title="CreateVolumeRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_CreateVolumeRequest.htm">
         <HelpTOCNode Title="AccountID Property " Url="html/P_SolidFire_Element_Api_CreateVolumeRequest_AccountID.htm" />
         <HelpTOCNode Title="Attributes Property " Url="html/P_SolidFire_Element_Api_CreateVolumeRequest_Attributes.htm" />
         <HelpTOCNode Title="Enable512e Property " Url="html/P_SolidFire_Element_Api_CreateVolumeRequest_Enable512e.htm" />
@@ -327,114 +327,114 @@
       </HelpTOCNode>
       <HelpTOCNode Title="CreateVolumeRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_CreateVolumeRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="04975adb-9e63-4e77-9887-c23515c8f265" Title="CreateVolumeResult Class" Url="html/T_SolidFire_Element_Api_CreateVolumeResult.htm">
+    <HelpTOCNode Id="2e47c268-491f-40e2-8ee5-930a9138a62b" Title="CreateVolumeResult Class" Url="html/T_SolidFire_Element_Api_CreateVolumeResult.htm">
       <HelpTOCNode Title="CreateVolumeResult Constructor " Url="html/M_SolidFire_Element_Api_CreateVolumeResult__ctor.htm" />
-      <HelpTOCNode Id="f92031d2-dcf2-45a2-8c84-223d9327d328" Title="CreateVolumeResult Properties" Url="html/Properties_T_SolidFire_Element_Api_CreateVolumeResult.htm">
+      <HelpTOCNode Id="ca03207d-b3df-450e-842b-32baf97f8640" Title="CreateVolumeResult Properties" Url="html/Properties_T_SolidFire_Element_Api_CreateVolumeResult.htm">
         <HelpTOCNode Title="Curve Property " Url="html/P_SolidFire_Element_Api_CreateVolumeResult_Curve.htm" />
         <HelpTOCNode Title="VolumeID Property " Url="html/P_SolidFire_Element_Api_CreateVolumeResult_VolumeID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="CreateVolumeResult Methods" Url="html/Methods_T_SolidFire_Element_Api_CreateVolumeResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="0729635c-c89e-4ac5-93ca-a9d9a31560aa" Title="DeleteGroupSnapshotRequest Class" Url="html/T_SolidFire_Element_Api_DeleteGroupSnapshotRequest.htm">
+    <HelpTOCNode Id="75d10b16-b976-490d-bac0-cef7549afc64" Title="DeleteGroupSnapshotRequest Class" Url="html/T_SolidFire_Element_Api_DeleteGroupSnapshotRequest.htm">
       <HelpTOCNode Title="DeleteGroupSnapshotRequest Constructor " Url="html/M_SolidFire_Element_Api_DeleteGroupSnapshotRequest__ctor.htm" />
-      <HelpTOCNode Id="5ceceb29-2907-40c6-8e9e-d47ec6652509" Title="DeleteGroupSnapshotRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_DeleteGroupSnapshotRequest.htm">
+      <HelpTOCNode Id="20f9bac7-07dc-4fdf-b178-72b4c786f7ee" Title="DeleteGroupSnapshotRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_DeleteGroupSnapshotRequest.htm">
         <HelpTOCNode Title="GroupSnapshotID Property " Url="html/P_SolidFire_Element_Api_DeleteGroupSnapshotRequest_GroupSnapshotID.htm" />
         <HelpTOCNode Title="SaveMembers Property " Url="html/P_SolidFire_Element_Api_DeleteGroupSnapshotRequest_SaveMembers.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="DeleteGroupSnapshotRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_DeleteGroupSnapshotRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="c6a6b597-df4b-4b55-8456-7cb436e1a99d" Title="DeleteGroupSnapshotResult Class" Url="html/T_SolidFire_Element_Api_DeleteGroupSnapshotResult.htm">
+    <HelpTOCNode Id="a43964ca-96af-4eb9-8a8b-aba6d1deeb06" Title="DeleteGroupSnapshotResult Class" Url="html/T_SolidFire_Element_Api_DeleteGroupSnapshotResult.htm">
       <HelpTOCNode Title="DeleteGroupSnapshotResult Constructor " Url="html/M_SolidFire_Element_Api_DeleteGroupSnapshotResult__ctor.htm" />
       <HelpTOCNode Title="DeleteGroupSnapshotResult Methods" Url="html/Methods_T_SolidFire_Element_Api_DeleteGroupSnapshotResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="b2a3cc36-c617-492b-9052-94df03069f0d" Title="DeleteSnapshotRequest Class" Url="html/T_SolidFire_Element_Api_DeleteSnapshotRequest.htm">
+    <HelpTOCNode Id="5cc78c4d-a174-4244-916a-2c23354d0e8e" Title="DeleteSnapshotRequest Class" Url="html/T_SolidFire_Element_Api_DeleteSnapshotRequest.htm">
       <HelpTOCNode Title="DeleteSnapshotRequest Constructor " Url="html/M_SolidFire_Element_Api_DeleteSnapshotRequest__ctor.htm" />
-      <HelpTOCNode Id="99eccd2e-5c70-4a5b-99bd-0bb16dbba5b4" Title="DeleteSnapshotRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_DeleteSnapshotRequest.htm">
+      <HelpTOCNode Id="753d7243-b80f-47f3-8bcc-12abfa8799c0" Title="DeleteSnapshotRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_DeleteSnapshotRequest.htm">
         <HelpTOCNode Title="SnapshotID Property " Url="html/P_SolidFire_Element_Api_DeleteSnapshotRequest_SnapshotID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="DeleteSnapshotRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_DeleteSnapshotRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="d3c58376-666f-4220-b17a-05afb95b6625" Title="DeleteSnapshotResult Class" Url="html/T_SolidFire_Element_Api_DeleteSnapshotResult.htm">
+    <HelpTOCNode Id="69ada5ee-f646-4c79-a2e6-2d335a7bb24d" Title="DeleteSnapshotResult Class" Url="html/T_SolidFire_Element_Api_DeleteSnapshotResult.htm">
       <HelpTOCNode Title="DeleteSnapshotResult Constructor " Url="html/M_SolidFire_Element_Api_DeleteSnapshotResult__ctor.htm" />
       <HelpTOCNode Title="DeleteSnapshotResult Methods" Url="html/Methods_T_SolidFire_Element_Api_DeleteSnapshotResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="2bc252f8-105b-4b6f-b00d-81db83ae1bae" Title="DeleteVolumeAccessGroupRequest Class" Url="html/T_SolidFire_Element_Api_DeleteVolumeAccessGroupRequest.htm">
+    <HelpTOCNode Id="94ed60e3-b484-4471-b3f7-c56e073fa782" Title="DeleteVolumeAccessGroupRequest Class" Url="html/T_SolidFire_Element_Api_DeleteVolumeAccessGroupRequest.htm">
       <HelpTOCNode Title="DeleteVolumeAccessGroupRequest Constructor " Url="html/M_SolidFire_Element_Api_DeleteVolumeAccessGroupRequest__ctor.htm" />
-      <HelpTOCNode Id="98ee1c8c-89ab-46ef-afef-bc930009337d" Title="DeleteVolumeAccessGroupRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_DeleteVolumeAccessGroupRequest.htm">
+      <HelpTOCNode Id="3d9381ef-02bc-473f-8d5a-b264a0eb129b" Title="DeleteVolumeAccessGroupRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_DeleteVolumeAccessGroupRequest.htm">
         <HelpTOCNode Title="VolumeAccessGroupID Property " Url="html/P_SolidFire_Element_Api_DeleteVolumeAccessGroupRequest_VolumeAccessGroupID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="DeleteVolumeAccessGroupRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_DeleteVolumeAccessGroupRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="dc784b7c-f1e5-4633-a406-06493d329c90" Title="DeleteVolumeAccessGroupResult Class" Url="html/T_SolidFire_Element_Api_DeleteVolumeAccessGroupResult.htm">
+    <HelpTOCNode Id="6e515f96-65c6-4f25-9797-ab4af97ec302" Title="DeleteVolumeAccessGroupResult Class" Url="html/T_SolidFire_Element_Api_DeleteVolumeAccessGroupResult.htm">
       <HelpTOCNode Title="DeleteVolumeAccessGroupResult Constructor " Url="html/M_SolidFire_Element_Api_DeleteVolumeAccessGroupResult__ctor.htm" />
       <HelpTOCNode Title="DeleteVolumeAccessGroupResult Methods" Url="html/Methods_T_SolidFire_Element_Api_DeleteVolumeAccessGroupResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="0bd5398d-5514-4e17-bff4-8c2ae8e11d58" Title="DeleteVolumeRequest Class" Url="html/T_SolidFire_Element_Api_DeleteVolumeRequest.htm">
+    <HelpTOCNode Id="acee447c-3d6d-48b8-82b7-8bd871d83c6e" Title="DeleteVolumeRequest Class" Url="html/T_SolidFire_Element_Api_DeleteVolumeRequest.htm">
       <HelpTOCNode Title="DeleteVolumeRequest Constructor " Url="html/M_SolidFire_Element_Api_DeleteVolumeRequest__ctor.htm" />
-      <HelpTOCNode Id="5ae497df-ac1b-4d00-89d5-f084563981c9" Title="DeleteVolumeRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_DeleteVolumeRequest.htm">
+      <HelpTOCNode Id="159c857d-74a7-4172-9849-8795b410f0bb" Title="DeleteVolumeRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_DeleteVolumeRequest.htm">
         <HelpTOCNode Title="VolumeID Property " Url="html/P_SolidFire_Element_Api_DeleteVolumeRequest_VolumeID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="DeleteVolumeRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_DeleteVolumeRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="a3ec5648-c616-480c-8a1b-37c4bc7de6c2" Title="DeleteVolumeResult Class" Url="html/T_SolidFire_Element_Api_DeleteVolumeResult.htm">
+    <HelpTOCNode Id="c882b9e9-a5d3-4eaa-b003-be378a6a5704" Title="DeleteVolumeResult Class" Url="html/T_SolidFire_Element_Api_DeleteVolumeResult.htm">
       <HelpTOCNode Title="DeleteVolumeResult Constructor " Url="html/M_SolidFire_Element_Api_DeleteVolumeResult__ctor.htm" />
       <HelpTOCNode Title="DeleteVolumeResult Methods" Url="html/Methods_T_SolidFire_Element_Api_DeleteVolumeResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="1d0b45b1-b58a-40bd-af9c-4bba021369f1" Title="GetAccountByIDRequest Class" Url="html/T_SolidFire_Element_Api_GetAccountByIDRequest.htm">
+    <HelpTOCNode Id="549bf637-ddda-47a7-8abf-bf9af3452da9" Title="GetAccountByIDRequest Class" Url="html/T_SolidFire_Element_Api_GetAccountByIDRequest.htm">
       <HelpTOCNode Title="GetAccountByIDRequest Constructor " Url="html/M_SolidFire_Element_Api_GetAccountByIDRequest__ctor.htm" />
-      <HelpTOCNode Id="81cb7269-7b64-451c-96b1-2d992bf1f34e" Title="GetAccountByIDRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_GetAccountByIDRequest.htm">
+      <HelpTOCNode Id="18435a9e-e3f9-48fb-b125-7ea1c212458f" Title="GetAccountByIDRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_GetAccountByIDRequest.htm">
         <HelpTOCNode Title="AccountID Property " Url="html/P_SolidFire_Element_Api_GetAccountByIDRequest_AccountID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="GetAccountByIDRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_GetAccountByIDRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="10629316-5901-4f73-8083-9e673d67b286" Title="GetAccountByNameRequest Class" Url="html/T_SolidFire_Element_Api_GetAccountByNameRequest.htm">
+    <HelpTOCNode Id="90c197a7-5e23-4902-a562-51285c7beb15" Title="GetAccountByNameRequest Class" Url="html/T_SolidFire_Element_Api_GetAccountByNameRequest.htm">
       <HelpTOCNode Title="GetAccountByNameRequest Constructor " Url="html/M_SolidFire_Element_Api_GetAccountByNameRequest__ctor.htm" />
-      <HelpTOCNode Id="63bd4bb1-5648-421f-98b4-fa7cfbb68733" Title="GetAccountByNameRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_GetAccountByNameRequest.htm">
+      <HelpTOCNode Id="ef91ccfc-14a4-47cd-8177-d9cb5675e930" Title="GetAccountByNameRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_GetAccountByNameRequest.htm">
         <HelpTOCNode Title="Username Property " Url="html/P_SolidFire_Element_Api_GetAccountByNameRequest_Username.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="GetAccountByNameRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_GetAccountByNameRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="d0bdf6ac-8ade-4847-826e-3f96454115d3" Title="GetAccountResult Class" Url="html/T_SolidFire_Element_Api_GetAccountResult.htm">
+    <HelpTOCNode Id="bf09e521-4060-4166-93ce-4b88d574a25d" Title="GetAccountResult Class" Url="html/T_SolidFire_Element_Api_GetAccountResult.htm">
       <HelpTOCNode Title="GetAccountResult Constructor " Url="html/M_SolidFire_Element_Api_GetAccountResult__ctor.htm" />
-      <HelpTOCNode Id="7d728ad9-724e-4f09-bdfd-5b4eb25fd249" Title="GetAccountResult Properties" Url="html/Properties_T_SolidFire_Element_Api_GetAccountResult.htm">
+      <HelpTOCNode Id="942592aa-4987-48f0-938e-78bafd85fde9" Title="GetAccountResult Properties" Url="html/Properties_T_SolidFire_Element_Api_GetAccountResult.htm">
         <HelpTOCNode Title="Account Property " Url="html/P_SolidFire_Element_Api_GetAccountResult_Account.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="GetAccountResult Methods" Url="html/Methods_T_SolidFire_Element_Api_GetAccountResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="4840760a-0dea-4331-9589-63de6bcfd95e" Title="GetAPIResult Class" Url="html/T_SolidFire_Element_Api_GetAPIResult.htm">
+    <HelpTOCNode Id="29e2e6a7-533c-4130-b6b9-fa39c3889a9f" Title="GetAPIResult Class" Url="html/T_SolidFire_Element_Api_GetAPIResult.htm">
       <HelpTOCNode Title="GetAPIResult Constructor " Url="html/M_SolidFire_Element_Api_GetAPIResult__ctor.htm" />
-      <HelpTOCNode Id="39240161-4cf5-465b-aa84-7969239bc80b" Title="GetAPIResult Properties" Url="html/Properties_T_SolidFire_Element_Api_GetAPIResult.htm">
+      <HelpTOCNode Id="9cc45565-a89d-4ecc-b599-85e8accb768d" Title="GetAPIResult Properties" Url="html/Properties_T_SolidFire_Element_Api_GetAPIResult.htm">
         <HelpTOCNode Title="CurrentVersion Property " Url="html/P_SolidFire_Element_Api_GetAPIResult_CurrentVersion.htm" />
         <HelpTOCNode Title="SupportedVersions Property " Url="html/P_SolidFire_Element_Api_GetAPIResult_SupportedVersions.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="GetAPIResult Methods" Url="html/Methods_T_SolidFire_Element_Api_GetAPIResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="05c7c08a-61d3-478a-abf5-93ce99f88768" Title="GetAsyncResultRequest Class" Url="html/T_SolidFire_Element_Api_GetAsyncResultRequest.htm">
+    <HelpTOCNode Id="748fd9b6-d68b-4957-b4c2-930cd2720652" Title="GetAsyncResultRequest Class" Url="html/T_SolidFire_Element_Api_GetAsyncResultRequest.htm">
       <HelpTOCNode Title="GetAsyncResultRequest Constructor " Url="html/M_SolidFire_Element_Api_GetAsyncResultRequest__ctor.htm" />
-      <HelpTOCNode Id="6803b570-ccff-43fd-92e3-b2c37d671716" Title="GetAsyncResultRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_GetAsyncResultRequest.htm">
+      <HelpTOCNode Id="56d65e06-acf8-4afc-b6e3-4bcffc163829" Title="GetAsyncResultRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_GetAsyncResultRequest.htm">
         <HelpTOCNode Title="AsyncHandle Property " Url="html/P_SolidFire_Element_Api_GetAsyncResultRequest_AsyncHandle.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="GetAsyncResultRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_GetAsyncResultRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="ca21b907-1c65-40c1-a18b-f64b90703beb" Title="GetAsyncResultResult Class" Url="html/T_SolidFire_Element_Api_GetAsyncResultResult.htm">
+    <HelpTOCNode Id="bf6721a2-489c-49d8-aafd-069a56598074" Title="GetAsyncResultResult Class" Url="html/T_SolidFire_Element_Api_GetAsyncResultResult.htm">
       <HelpTOCNode Title="GetAsyncResultResult Constructor " Url="html/M_SolidFire_Element_Api_GetAsyncResultResult__ctor.htm" />
-      <HelpTOCNode Id="d7da6f30-3eb6-4605-9872-55086b7e6766" Title="GetAsyncResultResult Properties" Url="html/Properties_T_SolidFire_Element_Api_GetAsyncResultResult.htm">
+      <HelpTOCNode Id="ad981984-00e2-43bc-93e8-f9b0ab9624db" Title="GetAsyncResultResult Properties" Url="html/Properties_T_SolidFire_Element_Api_GetAsyncResultResult.htm">
         <HelpTOCNode Title="Result Property " Url="html/P_SolidFire_Element_Api_GetAsyncResultResult_Result.htm" />
         <HelpTOCNode Title="Status Property " Url="html/P_SolidFire_Element_Api_GetAsyncResultResult_Status.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="GetAsyncResultResult Methods" Url="html/Methods_T_SolidFire_Element_Api_GetAsyncResultResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="a9260944-eb79-44b3-a63b-b5ca540d0770" Title="GetVolumeEfficiencyRequest Class" Url="html/T_SolidFire_Element_Api_GetVolumeEfficiencyRequest.htm">
+    <HelpTOCNode Id="2af44c14-99fd-4d34-bcb1-c28fa9abc8bf" Title="GetVolumeEfficiencyRequest Class" Url="html/T_SolidFire_Element_Api_GetVolumeEfficiencyRequest.htm">
       <HelpTOCNode Title="GetVolumeEfficiencyRequest Constructor " Url="html/M_SolidFire_Element_Api_GetVolumeEfficiencyRequest__ctor.htm" />
-      <HelpTOCNode Id="46d87ca8-23d6-4233-9e99-26415e151341" Title="GetVolumeEfficiencyRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_GetVolumeEfficiencyRequest.htm">
+      <HelpTOCNode Id="2f4fa2a4-d7be-4a67-9627-7f01a4c669f0" Title="GetVolumeEfficiencyRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_GetVolumeEfficiencyRequest.htm">
         <HelpTOCNode Title="Force Property " Url="html/P_SolidFire_Element_Api_GetVolumeEfficiencyRequest_Force.htm" />
         <HelpTOCNode Title="VolumeID Property " Url="html/P_SolidFire_Element_Api_GetVolumeEfficiencyRequest_VolumeID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="GetVolumeEfficiencyRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_GetVolumeEfficiencyRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="90105875-8898-48a0-b9b6-5ec3c07a0b55" Title="GetVolumeEfficiencyResult Class" Url="html/T_SolidFire_Element_Api_GetVolumeEfficiencyResult.htm">
+    <HelpTOCNode Id="964ea5e0-d488-4c82-a540-ab126cc62b97" Title="GetVolumeEfficiencyResult Class" Url="html/T_SolidFire_Element_Api_GetVolumeEfficiencyResult.htm">
       <HelpTOCNode Title="GetVolumeEfficiencyResult Constructor " Url="html/M_SolidFire_Element_Api_GetVolumeEfficiencyResult__ctor.htm" />
-      <HelpTOCNode Id="9c0e5e48-9f74-4ca6-8acb-50e19db1d067" Title="GetVolumeEfficiencyResult Properties" Url="html/Properties_T_SolidFire_Element_Api_GetVolumeEfficiencyResult.htm">
+      <HelpTOCNode Id="15c91f24-09ca-46ba-b559-8a44affaf83d" Title="GetVolumeEfficiencyResult Properties" Url="html/Properties_T_SolidFire_Element_Api_GetVolumeEfficiencyResult.htm">
         <HelpTOCNode Title="Compression Property " Url="html/P_SolidFire_Element_Api_GetVolumeEfficiencyResult_Compression.htm" />
         <HelpTOCNode Title="Deduplication Property " Url="html/P_SolidFire_Element_Api_GetVolumeEfficiencyResult_Deduplication.htm" />
         <HelpTOCNode Title="MissingVolumes Property " Url="html/P_SolidFire_Element_Api_GetVolumeEfficiencyResult_MissingVolumes.htm" />
@@ -443,23 +443,23 @@
       </HelpTOCNode>
       <HelpTOCNode Title="GetVolumeEfficiencyResult Methods" Url="html/Methods_T_SolidFire_Element_Api_GetVolumeEfficiencyResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="ff54b787-53f1-4e8b-9871-88a16e3c8a92" Title="GetVolumeStatsRequest Class" Url="html/T_SolidFire_Element_Api_GetVolumeStatsRequest.htm">
+    <HelpTOCNode Id="1441cca0-5938-45d0-ae72-878506a892b6" Title="GetVolumeStatsRequest Class" Url="html/T_SolidFire_Element_Api_GetVolumeStatsRequest.htm">
       <HelpTOCNode Title="GetVolumeStatsRequest Constructor " Url="html/M_SolidFire_Element_Api_GetVolumeStatsRequest__ctor.htm" />
-      <HelpTOCNode Id="be56ab0b-6bde-40a6-8f59-4c2feceff3c4" Title="GetVolumeStatsRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_GetVolumeStatsRequest.htm">
+      <HelpTOCNode Id="d75a53bd-784a-49b3-a4d9-5ef91893547b" Title="GetVolumeStatsRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_GetVolumeStatsRequest.htm">
         <HelpTOCNode Title="VolumeID Property " Url="html/P_SolidFire_Element_Api_GetVolumeStatsRequest_VolumeID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="GetVolumeStatsRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_GetVolumeStatsRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="3a65cf72-7249-495a-a69e-5828f85c2938" Title="GetVolumeStatsResult Class" Url="html/T_SolidFire_Element_Api_GetVolumeStatsResult.htm">
+    <HelpTOCNode Id="e9ac6fc8-0ac4-4276-abee-548906548d93" Title="GetVolumeStatsResult Class" Url="html/T_SolidFire_Element_Api_GetVolumeStatsResult.htm">
       <HelpTOCNode Title="GetVolumeStatsResult Constructor " Url="html/M_SolidFire_Element_Api_GetVolumeStatsResult__ctor.htm" />
-      <HelpTOCNode Id="824c041a-02ca-43e1-ae45-3e11200b8e73" Title="GetVolumeStatsResult Properties" Url="html/Properties_T_SolidFire_Element_Api_GetVolumeStatsResult.htm">
+      <HelpTOCNode Id="5042022a-bd2c-4e15-9a23-6eec37d06586" Title="GetVolumeStatsResult Properties" Url="html/Properties_T_SolidFire_Element_Api_GetVolumeStatsResult.htm">
         <HelpTOCNode Title="VolumeStats Property " Url="html/P_SolidFire_Element_Api_GetVolumeStatsResult_VolumeStats.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="GetVolumeStatsResult Methods" Url="html/Methods_T_SolidFire_Element_Api_GetVolumeStatsResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="fd270837-1895-43e5-93f1-72e7a5544014" Title="GroupSnapshot Class" Url="html/T_SolidFire_Element_Api_GroupSnapshot.htm">
+    <HelpTOCNode Id="a9002d85-597c-473c-afdb-ae00a74d4e5c" Title="GroupSnapshot Class" Url="html/T_SolidFire_Element_Api_GroupSnapshot.htm">
       <HelpTOCNode Title="GroupSnapshot Constructor " Url="html/M_SolidFire_Element_Api_GroupSnapshot__ctor.htm" />
-      <HelpTOCNode Id="60c825af-b52c-44a0-8fe2-b14ab0e46a9d" Title="GroupSnapshot Properties" Url="html/Properties_T_SolidFire_Element_Api_GroupSnapshot.htm">
+      <HelpTOCNode Id="38915544-2bda-493e-875e-0369011af3ef" Title="GroupSnapshot Properties" Url="html/Properties_T_SolidFire_Element_Api_GroupSnapshot.htm">
         <HelpTOCNode Title="Attributes Property " Url="html/P_SolidFire_Element_Api_GroupSnapshot_Attributes.htm" />
         <HelpTOCNode Title="CreateTime Property " Url="html/P_SolidFire_Element_Api_GroupSnapshot_CreateTime.htm" />
         <HelpTOCNode Title="GroupSnapshotID Property " Url="html/P_SolidFire_Element_Api_GroupSnapshot_GroupSnapshotID.htm" />
@@ -470,17 +470,17 @@
       </HelpTOCNode>
       <HelpTOCNode Title="GroupSnapshot Methods" Url="html/Methods_T_SolidFire_Element_Api_GroupSnapshot.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="562e3182-b53b-4ea5-b9a7-f03efc42cb1c" Title="GroupSnapshotMembers Class" Url="html/T_SolidFire_Element_Api_GroupSnapshotMembers.htm">
+    <HelpTOCNode Id="6e9d2c29-392f-4c2d-abb7-277b353e993f" Title="GroupSnapshotMembers Class" Url="html/T_SolidFire_Element_Api_GroupSnapshotMembers.htm">
       <HelpTOCNode Title="GroupSnapshotMembers Constructor " Url="html/M_SolidFire_Element_Api_GroupSnapshotMembers__ctor.htm" />
-      <HelpTOCNode Id="7ccc4d4b-af51-4959-a9de-2f7f2359fa01" Title="GroupSnapshotMembers Properties" Url="html/Properties_T_SolidFire_Element_Api_GroupSnapshotMembers.htm">
+      <HelpTOCNode Id="8b365448-ae5a-47f3-b6d3-4a88b121690b" Title="GroupSnapshotMembers Properties" Url="html/Properties_T_SolidFire_Element_Api_GroupSnapshotMembers.htm">
         <HelpTOCNode Title="Checksum Property " Url="html/P_SolidFire_Element_Api_GroupSnapshotMembers_Checksum.htm" />
         <HelpTOCNode Title="SnapshotID Property " Url="html/P_SolidFire_Element_Api_GroupSnapshotMembers_SnapshotID.htm" />
         <HelpTOCNode Title="VolumeID Property " Url="html/P_SolidFire_Element_Api_GroupSnapshotMembers_VolumeID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="GroupSnapshotMembers Methods" Url="html/Methods_T_SolidFire_Element_Api_GroupSnapshotMembers.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="1151e2b5-a006-438a-bf37-2dea9617b9f3" Title="ISolidFireElement Interface" Url="html/T_SolidFire_Element_Api_ISolidFireElement.htm">
-      <HelpTOCNode Id="cf482b42-559f-431d-9ee8-4bbd0ebf7620" Title="ISolidFireElement Methods" Url="html/Methods_T_SolidFire_Element_Api_ISolidFireElement.htm">
+    <HelpTOCNode Id="a403dc2a-a469-42b5-97da-9e1be83ced19" Title="ISolidFireElement Interface" Url="html/T_SolidFire_Element_Api_ISolidFireElement.htm">
+      <HelpTOCNode Id="958ef3d9-20a5-496f-bd0d-985fb87832ef" Title="ISolidFireElement Methods" Url="html/Methods_T_SolidFire_Element_Api_ISolidFireElement.htm">
         <HelpTOCNode Title="AddAccountAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_AddAccountAsync.htm" />
         <HelpTOCNode Title="AddInitiatorsToVolumeAccessGroupAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_AddInitiatorsToVolumeAccessGroupAsync.htm" />
         <HelpTOCNode Title="AddVolumesToVolumeAccessGroupAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_AddVolumesToVolumeAccessGroupAsync.htm" />
@@ -490,44 +490,44 @@
         <HelpTOCNode Title="CreateVolumeAccessGroupAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_CreateVolumeAccessGroupAsync.htm" />
         <HelpTOCNode Title="CreateVolumeAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_CreateVolumeAsync.htm" />
         <HelpTOCNode Title="DeleteGroupSnapshotAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_DeleteGroupSnapshotAsync.htm" />
-        <HelpTOCNode Id="887cb1e4-8bb8-4423-bc35-0c896c91ff7f" Title="DeleteSnapshotAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_DeleteSnapshotAsync.htm">
+        <HelpTOCNode Id="b5e9bcde-3b2a-4e05-92e6-5447f95d2a03" Title="DeleteSnapshotAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_DeleteSnapshotAsync.htm">
           <HelpTOCNode Title="DeleteSnapshotAsync Method (Int64)" Url="html/M_SolidFire_Element_Api_ISolidFireElement_DeleteSnapshotAsync_1.htm" />
           <HelpTOCNode Title="DeleteSnapshotAsync Method (DeleteSnapshotRequest)" Url="html/M_SolidFire_Element_Api_ISolidFireElement_DeleteSnapshotAsync.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="0bf9ed79-1251-42bd-b9d7-222d10be0ff0" Title="DeleteVolumeAccessGroupAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_DeleteVolumeAccessGroupAsync.htm">
+        <HelpTOCNode Id="6f4f1c65-c9de-4bf2-b9e8-16b461e1e57c" Title="DeleteVolumeAccessGroupAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_DeleteVolumeAccessGroupAsync.htm">
           <HelpTOCNode Title="DeleteVolumeAccessGroupAsync Method (Int64)" Url="html/M_SolidFire_Element_Api_ISolidFireElement_DeleteVolumeAccessGroupAsync_1.htm" />
           <HelpTOCNode Title="DeleteVolumeAccessGroupAsync Method (DeleteVolumeAccessGroupRequest)" Url="html/M_SolidFire_Element_Api_ISolidFireElement_DeleteVolumeAccessGroupAsync.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="88b8ba5b-7574-4db6-a58c-76ce3ce36763" Title="DeleteVolumeAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_DeleteVolumeAsync.htm">
+        <HelpTOCNode Id="6b98ac1c-b19d-40c3-bc8f-5a9355841d6d" Title="DeleteVolumeAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_DeleteVolumeAsync.htm">
           <HelpTOCNode Title="DeleteVolumeAsync Method (Int64)" Url="html/M_SolidFire_Element_Api_ISolidFireElement_DeleteVolumeAsync_1.htm" />
           <HelpTOCNode Title="DeleteVolumeAsync Method (DeleteVolumeRequest)" Url="html/M_SolidFire_Element_Api_ISolidFireElement_DeleteVolumeAsync.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="ca918722-641f-4568-abdc-74d586c4d871" Title="GetAccountByIDAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetAccountByIDAsync.htm">
+        <HelpTOCNode Id="235c128f-2ff3-4b5f-b56e-2bf0029ac4a1" Title="GetAccountByIDAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetAccountByIDAsync.htm">
           <HelpTOCNode Title="GetAccountByIDAsync Method (Int64)" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetAccountByIDAsync_1.htm" />
           <HelpTOCNode Title="GetAccountByIDAsync Method (GetAccountByIDRequest)" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetAccountByIDAsync.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="e7bc5ba9-98a1-47cc-9e77-b212b5caac01" Title="GetAccountByNameAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetAccountByNameAsync.htm">
+        <HelpTOCNode Id="7364633d-6af7-42aa-a431-14cb8c1e181f" Title="GetAccountByNameAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetAccountByNameAsync.htm">
           <HelpTOCNode Title="GetAccountByNameAsync Method (String)" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetAccountByNameAsync_1.htm" />
           <HelpTOCNode Title="GetAccountByNameAsync Method (GetAccountByNameRequest)" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetAccountByNameAsync.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="GetAPIAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetAPIAsync.htm" />
-        <HelpTOCNode Id="9bcab66c-743a-4c85-aadb-fdac5fed84cb" Title="GetAsyncResultAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetAsyncResultAsync.htm">
+        <HelpTOCNode Id="83fca082-45d2-4814-8521-4faba026c978" Title="GetAsyncResultAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetAsyncResultAsync.htm">
           <HelpTOCNode Title="GetAsyncResultAsync Method (Int64)" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetAsyncResultAsync_1.htm" />
           <HelpTOCNode Title="GetAsyncResultAsync Method (GetAsyncResultRequest)" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetAsyncResultAsync.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="GetVolumeEfficiencyAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetVolumeEfficiencyAsync.htm" />
-        <HelpTOCNode Id="05b9b922-0ceb-4ecd-b1c7-a1428edb0256" Title="GetVolumeStatsAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetVolumeStatsAsync.htm">
+        <HelpTOCNode Id="30e946c0-9b2c-440f-9d7b-866af5a5b806" Title="GetVolumeStatsAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetVolumeStatsAsync.htm">
           <HelpTOCNode Title="GetVolumeStatsAsync Method (Int64)" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetVolumeStatsAsync_1.htm" />
           <HelpTOCNode Title="GetVolumeStatsAsync Method (GetVolumeStatsRequest)" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetVolumeStatsAsync.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="ListAccountsAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListAccountsAsync.htm" />
         <HelpTOCNode Title="ListActiveVolumesAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListActiveVolumesAsync.htm" />
         <HelpTOCNode Title="ListDeletedVolumesAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListDeletedVolumesAsync.htm" />
-        <HelpTOCNode Id="e560e036-91cf-4011-b0e1-bec762839c6f" Title="ListGroupSnapshotsAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ListGroupSnapshotsAsync.htm">
+        <HelpTOCNode Id="efd36edf-2ddc-43d2-9ee2-8c06e53c35d7" Title="ListGroupSnapshotsAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ListGroupSnapshotsAsync.htm">
           <HelpTOCNode Title="ListGroupSnapshotsAsync Method (Nullable(Int64))" Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListGroupSnapshotsAsync_1.htm" />
           <HelpTOCNode Title="ListGroupSnapshotsAsync Method (ListGroupSnapshotsRequest)" Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListGroupSnapshotsAsync.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="81988432-2ef9-4718-bea9-c102bab35390" Title="ListSnapshotsAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ListSnapshotsAsync.htm">
+        <HelpTOCNode Id="82383e8f-dfd9-4e31-9a01-8ceb32fdf101" Title="ListSnapshotsAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ListSnapshotsAsync.htm">
           <HelpTOCNode Title="ListSnapshotsAsync Method (Nullable(Int64))" Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListSnapshotsAsync_1.htm" />
           <HelpTOCNode Title="ListSnapshotsAsync Method (ListSnapshotsRequest)" Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListSnapshotsAsync.htm" />
         </HelpTOCNode>
@@ -535,7 +535,7 @@
         <HelpTOCNode Title="ListVolumesAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListVolumesAsync.htm" />
         <HelpTOCNode Title="ListVolumesForAccountAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListVolumesForAccountAsync.htm" />
         <HelpTOCNode Title="ListVolumeStatsByAccountAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListVolumeStatsByAccountAsync.htm" />
-        <HelpTOCNode Id="86e222c4-51b6-4312-a3de-73f03c669eab" Title="ListVolumeStatsByVolumeAccessGroupAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ListVolumeStatsByVolumeAccessGroupAsync.htm">
+        <HelpTOCNode Id="169654ff-c2ea-4fdb-9719-fe8d09858cb7" Title="ListVolumeStatsByVolumeAccessGroupAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ListVolumeStatsByVolumeAccessGroupAsync.htm">
           <HelpTOCNode Title="ListVolumeStatsByVolumeAccessGroupAsync Method (Int64[])" Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListVolumeStatsByVolumeAccessGroupAsync_1.htm" />
           <HelpTOCNode Title="ListVolumeStatsByVolumeAccessGroupAsync Method (ListVolumeStatsByVolumeAccessGroupRequest)" Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListVolumeStatsByVolumeAccessGroupAsync.htm" />
         </HelpTOCNode>
@@ -545,17 +545,17 @@
         <HelpTOCNode Title="ModifySnapshotAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_ModifySnapshotAsync.htm" />
         <HelpTOCNode Title="ModifyVolumeAccessGroupAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_ModifyVolumeAccessGroupAsync.htm" />
         <HelpTOCNode Title="ModifyVolumeAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_ModifyVolumeAsync.htm" />
-        <HelpTOCNode Id="addfda7e-f8bd-4d53-bdc7-c7508f8417b2" Title="PurgeDeletedVolumeAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_PurgeDeletedVolumeAsync.htm">
+        <HelpTOCNode Id="49844650-79f7-441a-93d2-25ba169c52e8" Title="PurgeDeletedVolumeAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_PurgeDeletedVolumeAsync.htm">
           <HelpTOCNode Title="PurgeDeletedVolumeAsync Method (Int64)" Url="html/M_SolidFire_Element_Api_ISolidFireElement_PurgeDeletedVolumeAsync_1.htm" />
           <HelpTOCNode Title="PurgeDeletedVolumeAsync Method (PurgeDeletedVolumeRequest)" Url="html/M_SolidFire_Element_Api_ISolidFireElement_PurgeDeletedVolumeAsync.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="489b00c3-b88b-4e67-9956-a2220b5f56e3" Title="RemoveAccountAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_RemoveAccountAsync.htm">
+        <HelpTOCNode Id="e2b32268-66ff-4c14-922b-ee6f111845c8" Title="RemoveAccountAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_RemoveAccountAsync.htm">
           <HelpTOCNode Title="RemoveAccountAsync Method (Int64)" Url="html/M_SolidFire_Element_Api_ISolidFireElement_RemoveAccountAsync_1.htm" />
           <HelpTOCNode Title="RemoveAccountAsync Method (RemoveAccountRequest)" Url="html/M_SolidFire_Element_Api_ISolidFireElement_RemoveAccountAsync.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="RemoveInitiatorsFromVolumeAccessGroupAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_RemoveInitiatorsFromVolumeAccessGroupAsync.htm" />
         <HelpTOCNode Title="RemoveVolumesFromVolumeAccessGroupAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_RemoveVolumesFromVolumeAccessGroupAsync.htm" />
-        <HelpTOCNode Id="cc178c1a-449d-4497-aed1-81f34f353c73" Title="RestoreDeletedVolumeAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_RestoreDeletedVolumeAsync.htm">
+        <HelpTOCNode Id="a8b4729e-3f1c-4664-b37c-306dc66eb78f" Title="RestoreDeletedVolumeAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_RestoreDeletedVolumeAsync.htm">
           <HelpTOCNode Title="RestoreDeletedVolumeAsync Method (Int64)" Url="html/M_SolidFire_Element_Api_ISolidFireElement_RestoreDeletedVolumeAsync_1.htm" />
           <HelpTOCNode Title="RestoreDeletedVolumeAsync Method (RestoreDeletedVolumeRequest)" Url="html/M_SolidFire_Element_Api_ISolidFireElement_RestoreDeletedVolumeAsync.htm" />
         </HelpTOCNode>
@@ -563,105 +563,105 @@
         <HelpTOCNode Title="RollbackToSnapshotAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_RollbackToSnapshotAsync.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="8c72f322-69a3-4833-8598-f8252a43c9d1" Title="ListAccountsRequest Class" Url="html/T_SolidFire_Element_Api_ListAccountsRequest.htm">
+    <HelpTOCNode Id="338cb3b7-2e50-40c1-9bd8-6e0fa79e3e11" Title="ListAccountsRequest Class" Url="html/T_SolidFire_Element_Api_ListAccountsRequest.htm">
       <HelpTOCNode Title="ListAccountsRequest Constructor " Url="html/M_SolidFire_Element_Api_ListAccountsRequest__ctor.htm" />
-      <HelpTOCNode Id="b078361f-7ba1-4c46-ad92-c5aae5194720" Title="ListAccountsRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ListAccountsRequest.htm">
+      <HelpTOCNode Id="ea678599-3186-435b-96b8-566834175d33" Title="ListAccountsRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ListAccountsRequest.htm">
         <HelpTOCNode Title="Limit Property " Url="html/P_SolidFire_Element_Api_ListAccountsRequest_Limit.htm" />
         <HelpTOCNode Title="StartAccountID Property " Url="html/P_SolidFire_Element_Api_ListAccountsRequest_StartAccountID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ListAccountsRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_ListAccountsRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="cfcf9e64-b773-414b-bba1-99c4b7a97587" Title="ListAccountsResult Class" Url="html/T_SolidFire_Element_Api_ListAccountsResult.htm">
+    <HelpTOCNode Id="68effa1f-0584-4034-bbcb-f8fd91617088" Title="ListAccountsResult Class" Url="html/T_SolidFire_Element_Api_ListAccountsResult.htm">
       <HelpTOCNode Title="ListAccountsResult Constructor " Url="html/M_SolidFire_Element_Api_ListAccountsResult__ctor.htm" />
-      <HelpTOCNode Id="566537d8-f028-42ae-994a-0ccaa9dccde1" Title="ListAccountsResult Properties" Url="html/Properties_T_SolidFire_Element_Api_ListAccountsResult.htm">
+      <HelpTOCNode Id="c27a057e-124c-4ef0-934f-f22987bdc084" Title="ListAccountsResult Properties" Url="html/Properties_T_SolidFire_Element_Api_ListAccountsResult.htm">
         <HelpTOCNode Title="Accounts Property " Url="html/P_SolidFire_Element_Api_ListAccountsResult_Accounts.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ListAccountsResult Methods" Url="html/Methods_T_SolidFire_Element_Api_ListAccountsResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="81173cdd-9bd7-4f6d-8750-3a0ae6e325b7" Title="ListActiveVolumesRequest Class" Url="html/T_SolidFire_Element_Api_ListActiveVolumesRequest.htm">
+    <HelpTOCNode Id="1f65f08c-7a5c-42ed-9755-cc79037f03e8" Title="ListActiveVolumesRequest Class" Url="html/T_SolidFire_Element_Api_ListActiveVolumesRequest.htm">
       <HelpTOCNode Title="ListActiveVolumesRequest Constructor " Url="html/M_SolidFire_Element_Api_ListActiveVolumesRequest__ctor.htm" />
-      <HelpTOCNode Id="1e5fe56f-9274-403d-a3ab-10c6b3101e9a" Title="ListActiveVolumesRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ListActiveVolumesRequest.htm">
+      <HelpTOCNode Id="4bc216e9-27ae-46e7-90d9-755211836e5b" Title="ListActiveVolumesRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ListActiveVolumesRequest.htm">
         <HelpTOCNode Title="Limit Property " Url="html/P_SolidFire_Element_Api_ListActiveVolumesRequest_Limit.htm" />
         <HelpTOCNode Title="StartVolumeID Property " Url="html/P_SolidFire_Element_Api_ListActiveVolumesRequest_StartVolumeID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ListActiveVolumesRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_ListActiveVolumesRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="497127f5-b93d-4eb6-813d-9f6608a37616" Title="ListActiveVolumesResult Class" Url="html/T_SolidFire_Element_Api_ListActiveVolumesResult.htm">
+    <HelpTOCNode Id="0f250a55-a034-4e42-ad52-ef2e1e5ba08b" Title="ListActiveVolumesResult Class" Url="html/T_SolidFire_Element_Api_ListActiveVolumesResult.htm">
       <HelpTOCNode Title="ListActiveVolumesResult Constructor " Url="html/M_SolidFire_Element_Api_ListActiveVolumesResult__ctor.htm" />
-      <HelpTOCNode Id="446962c8-e63c-48c1-94d1-4c4704857110" Title="ListActiveVolumesResult Properties" Url="html/Properties_T_SolidFire_Element_Api_ListActiveVolumesResult.htm">
+      <HelpTOCNode Id="dd719de9-851b-4a61-aa6e-3c8cbc02974f" Title="ListActiveVolumesResult Properties" Url="html/Properties_T_SolidFire_Element_Api_ListActiveVolumesResult.htm">
         <HelpTOCNode Title="Volumes Property " Url="html/P_SolidFire_Element_Api_ListActiveVolumesResult_Volumes.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ListActiveVolumesResult Methods" Url="html/Methods_T_SolidFire_Element_Api_ListActiveVolumesResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="2a6a0921-db89-4365-a7c1-fa3053359b16" Title="ListDeletedVolumesResult Class" Url="html/T_SolidFire_Element_Api_ListDeletedVolumesResult.htm">
+    <HelpTOCNode Id="c08f2fac-3123-4028-bb61-c6355e4b1e68" Title="ListDeletedVolumesResult Class" Url="html/T_SolidFire_Element_Api_ListDeletedVolumesResult.htm">
       <HelpTOCNode Title="ListDeletedVolumesResult Constructor " Url="html/M_SolidFire_Element_Api_ListDeletedVolumesResult__ctor.htm" />
-      <HelpTOCNode Id="77f36085-24e7-4732-b3c9-98f6bcc5a278" Title="ListDeletedVolumesResult Properties" Url="html/Properties_T_SolidFire_Element_Api_ListDeletedVolumesResult.htm">
+      <HelpTOCNode Id="8df8c917-39b7-45bd-aa7d-2e915e08c3d4" Title="ListDeletedVolumesResult Properties" Url="html/Properties_T_SolidFire_Element_Api_ListDeletedVolumesResult.htm">
         <HelpTOCNode Title="Volumes Property " Url="html/P_SolidFire_Element_Api_ListDeletedVolumesResult_Volumes.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ListDeletedVolumesResult Methods" Url="html/Methods_T_SolidFire_Element_Api_ListDeletedVolumesResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="4506d8c8-4e41-47f1-b76f-cd8f1fb69157" Title="ListGroupSnapshotsRequest Class" Url="html/T_SolidFire_Element_Api_ListGroupSnapshotsRequest.htm">
+    <HelpTOCNode Id="7c1c334d-8938-47aa-a6c1-bfab7ca10755" Title="ListGroupSnapshotsRequest Class" Url="html/T_SolidFire_Element_Api_ListGroupSnapshotsRequest.htm">
       <HelpTOCNode Title="ListGroupSnapshotsRequest Constructor " Url="html/M_SolidFire_Element_Api_ListGroupSnapshotsRequest__ctor.htm" />
-      <HelpTOCNode Id="ef40346e-b763-4903-a406-a329aef4d3d4" Title="ListGroupSnapshotsRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ListGroupSnapshotsRequest.htm">
+      <HelpTOCNode Id="e47da49c-c1fa-4f4e-b542-bbdc698c0d37" Title="ListGroupSnapshotsRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ListGroupSnapshotsRequest.htm">
         <HelpTOCNode Title="VolumeID Property " Url="html/P_SolidFire_Element_Api_ListGroupSnapshotsRequest_VolumeID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ListGroupSnapshotsRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_ListGroupSnapshotsRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="038860b5-1bfc-4ccf-89a8-2e5800c008c6" Title="ListGroupSnapshotsResult Class" Url="html/T_SolidFire_Element_Api_ListGroupSnapshotsResult.htm">
+    <HelpTOCNode Id="c621f6a0-685b-4a50-bced-ab35f9ec65ca" Title="ListGroupSnapshotsResult Class" Url="html/T_SolidFire_Element_Api_ListGroupSnapshotsResult.htm">
       <HelpTOCNode Title="ListGroupSnapshotsResult Constructor " Url="html/M_SolidFire_Element_Api_ListGroupSnapshotsResult__ctor.htm" />
-      <HelpTOCNode Id="d1a7206e-5e63-48ca-a14f-23e2a5798584" Title="ListGroupSnapshotsResult Properties" Url="html/Properties_T_SolidFire_Element_Api_ListGroupSnapshotsResult.htm">
+      <HelpTOCNode Id="d2607b81-b386-48d4-a3cc-24a1b75d55bf" Title="ListGroupSnapshotsResult Properties" Url="html/Properties_T_SolidFire_Element_Api_ListGroupSnapshotsResult.htm">
         <HelpTOCNode Title="GroupSnapshots Property " Url="html/P_SolidFire_Element_Api_ListGroupSnapshotsResult_GroupSnapshots.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ListGroupSnapshotsResult Methods" Url="html/Methods_T_SolidFire_Element_Api_ListGroupSnapshotsResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="7e961e9f-5477-4f93-800e-e7db88076b0c" Title="ListSnapshotsRequest Class" Url="html/T_SolidFire_Element_Api_ListSnapshotsRequest.htm">
+    <HelpTOCNode Id="1583600f-2943-4578-8a1a-ca0f6e4da203" Title="ListSnapshotsRequest Class" Url="html/T_SolidFire_Element_Api_ListSnapshotsRequest.htm">
       <HelpTOCNode Title="ListSnapshotsRequest Constructor " Url="html/M_SolidFire_Element_Api_ListSnapshotsRequest__ctor.htm" />
-      <HelpTOCNode Id="24d7f6e3-9c68-4eda-b1b2-ee41510f3038" Title="ListSnapshotsRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ListSnapshotsRequest.htm">
+      <HelpTOCNode Id="7280fdad-e3b4-42cf-861f-d5ecd6838fba" Title="ListSnapshotsRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ListSnapshotsRequest.htm">
         <HelpTOCNode Title="VolumeID Property " Url="html/P_SolidFire_Element_Api_ListSnapshotsRequest_VolumeID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ListSnapshotsRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_ListSnapshotsRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="355fae2c-f339-45f3-ba92-3c2ff51c2ce9" Title="ListSnapshotsResult Class" Url="html/T_SolidFire_Element_Api_ListSnapshotsResult.htm">
+    <HelpTOCNode Id="85a341a1-a6e8-40d8-9abb-1e3bbf9a3ccf" Title="ListSnapshotsResult Class" Url="html/T_SolidFire_Element_Api_ListSnapshotsResult.htm">
       <HelpTOCNode Title="ListSnapshotsResult Constructor " Url="html/M_SolidFire_Element_Api_ListSnapshotsResult__ctor.htm" />
-      <HelpTOCNode Id="fec4791e-151e-425d-94a3-371427a2bbcb" Title="ListSnapshotsResult Properties" Url="html/Properties_T_SolidFire_Element_Api_ListSnapshotsResult.htm">
+      <HelpTOCNode Id="b2eb017b-0b89-4dd2-8596-2dcf68f49b8e" Title="ListSnapshotsResult Properties" Url="html/Properties_T_SolidFire_Element_Api_ListSnapshotsResult.htm">
         <HelpTOCNode Title="Snapshots Property " Url="html/P_SolidFire_Element_Api_ListSnapshotsResult_Snapshots.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ListSnapshotsResult Methods" Url="html/Methods_T_SolidFire_Element_Api_ListSnapshotsResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="1a4d24b5-86e4-446b-9edd-9bac8c5ee9e0" Title="ListVolumeAccessGroupsRequest Class" Url="html/T_SolidFire_Element_Api_ListVolumeAccessGroupsRequest.htm">
+    <HelpTOCNode Id="12f895c1-f427-4993-8cea-a47807a60153" Title="ListVolumeAccessGroupsRequest Class" Url="html/T_SolidFire_Element_Api_ListVolumeAccessGroupsRequest.htm">
       <HelpTOCNode Title="ListVolumeAccessGroupsRequest Constructor " Url="html/M_SolidFire_Element_Api_ListVolumeAccessGroupsRequest__ctor.htm" />
-      <HelpTOCNode Id="bb8e3e2a-5b22-4703-adfa-ea407648fb8d" Title="ListVolumeAccessGroupsRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ListVolumeAccessGroupsRequest.htm">
+      <HelpTOCNode Id="414aac5d-ad24-40c0-b894-a2633fd988bc" Title="ListVolumeAccessGroupsRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ListVolumeAccessGroupsRequest.htm">
         <HelpTOCNode Title="Limit Property " Url="html/P_SolidFire_Element_Api_ListVolumeAccessGroupsRequest_Limit.htm" />
         <HelpTOCNode Title="StartVolumeAccessGroupID Property " Url="html/P_SolidFire_Element_Api_ListVolumeAccessGroupsRequest_StartVolumeAccessGroupID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ListVolumeAccessGroupsRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_ListVolumeAccessGroupsRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="d2dcdc76-beac-4cdb-b401-f2ea30eec236" Title="ListVolumeAccessGroupsResult Class" Url="html/T_SolidFire_Element_Api_ListVolumeAccessGroupsResult.htm">
+    <HelpTOCNode Id="a2df2c52-b794-49db-8ced-0d97dfa97d00" Title="ListVolumeAccessGroupsResult Class" Url="html/T_SolidFire_Element_Api_ListVolumeAccessGroupsResult.htm">
       <HelpTOCNode Title="ListVolumeAccessGroupsResult Constructor " Url="html/M_SolidFire_Element_Api_ListVolumeAccessGroupsResult__ctor.htm" />
-      <HelpTOCNode Id="382327d0-7032-4d2c-ab5b-10d4c75bb093" Title="ListVolumeAccessGroupsResult Properties" Url="html/Properties_T_SolidFire_Element_Api_ListVolumeAccessGroupsResult.htm">
+      <HelpTOCNode Id="ca9e8b43-e87d-4f3c-8b08-03714cb6bff8" Title="ListVolumeAccessGroupsResult Properties" Url="html/Properties_T_SolidFire_Element_Api_ListVolumeAccessGroupsResult.htm">
         <HelpTOCNode Title="VolumeAccessGroups Property " Url="html/P_SolidFire_Element_Api_ListVolumeAccessGroupsResult_VolumeAccessGroups.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ListVolumeAccessGroupsResult Methods" Url="html/Methods_T_SolidFire_Element_Api_ListVolumeAccessGroupsResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="5f1ca7ca-2686-4294-af37-e08369b22b49" Title="ListVolumesForAccountRequest Class" Url="html/T_SolidFire_Element_Api_ListVolumesForAccountRequest.htm">
+    <HelpTOCNode Id="fced18e9-002b-4fcc-b4c0-dc36674f33a3" Title="ListVolumesForAccountRequest Class" Url="html/T_SolidFire_Element_Api_ListVolumesForAccountRequest.htm">
       <HelpTOCNode Title="ListVolumesForAccountRequest Constructor " Url="html/M_SolidFire_Element_Api_ListVolumesForAccountRequest__ctor.htm" />
-      <HelpTOCNode Id="5df80aa2-9743-444c-a886-1584f88a5562" Title="ListVolumesForAccountRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ListVolumesForAccountRequest.htm">
+      <HelpTOCNode Id="d9522d04-b8ee-4ef3-942f-b86d15a053d1" Title="ListVolumesForAccountRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ListVolumesForAccountRequest.htm">
         <HelpTOCNode Title="AccountID Property " Url="html/P_SolidFire_Element_Api_ListVolumesForAccountRequest_AccountID.htm" />
         <HelpTOCNode Title="Limit Property " Url="html/P_SolidFire_Element_Api_ListVolumesForAccountRequest_Limit.htm" />
         <HelpTOCNode Title="StartVolumeID Property " Url="html/P_SolidFire_Element_Api_ListVolumesForAccountRequest_StartVolumeID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ListVolumesForAccountRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_ListVolumesForAccountRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="9b232a38-19d6-4f40-a418-72ee93b98c6f" Title="ListVolumesForAccountResult Class" Url="html/T_SolidFire_Element_Api_ListVolumesForAccountResult.htm">
+    <HelpTOCNode Id="5fbbec5a-28ca-4b34-9c97-2ab862c391ca" Title="ListVolumesForAccountResult Class" Url="html/T_SolidFire_Element_Api_ListVolumesForAccountResult.htm">
       <HelpTOCNode Title="ListVolumesForAccountResult Constructor " Url="html/M_SolidFire_Element_Api_ListVolumesForAccountResult__ctor.htm" />
-      <HelpTOCNode Id="f9fa366e-367f-4de2-b4f4-bac5b9526689" Title="ListVolumesForAccountResult Properties" Url="html/Properties_T_SolidFire_Element_Api_ListVolumesForAccountResult.htm">
+      <HelpTOCNode Id="5666424f-a408-4a58-81e8-b01c7721c841" Title="ListVolumesForAccountResult Properties" Url="html/Properties_T_SolidFire_Element_Api_ListVolumesForAccountResult.htm">
         <HelpTOCNode Title="Volumes Property " Url="html/P_SolidFire_Element_Api_ListVolumesForAccountResult_Volumes.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ListVolumesForAccountResult Methods" Url="html/Methods_T_SolidFire_Element_Api_ListVolumesForAccountResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="050b25c3-84ca-4c4a-b277-63fd83cc9fb1" Title="ListVolumesRequest Class" Url="html/T_SolidFire_Element_Api_ListVolumesRequest.htm">
+    <HelpTOCNode Id="a086c046-e06e-4480-88ea-0ec26aa201a7" Title="ListVolumesRequest Class" Url="html/T_SolidFire_Element_Api_ListVolumesRequest.htm">
       <HelpTOCNode Title="ListVolumesRequest Constructor " Url="html/M_SolidFire_Element_Api_ListVolumesRequest__ctor.htm" />
-      <HelpTOCNode Id="24f38c05-c712-4a6f-8d62-9408f11727ee" Title="ListVolumesRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ListVolumesRequest.htm">
+      <HelpTOCNode Id="6467d559-56a0-48a9-97ae-e7b53ddff376" Title="ListVolumesRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ListVolumesRequest.htm">
         <HelpTOCNode Title="Accounts Property " Url="html/P_SolidFire_Element_Api_ListVolumesRequest_Accounts.htm" />
         <HelpTOCNode Title="IsPaired Property " Url="html/P_SolidFire_Element_Api_ListVolumesRequest_IsPaired.htm" />
         <HelpTOCNode Title="Limit Property " Url="html/P_SolidFire_Element_Api_ListVolumesRequest_Limit.htm" />
@@ -670,53 +670,53 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ListVolumesRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_ListVolumesRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="1b70c652-bb79-445c-b418-0c01006bb022" Title="ListVolumesResult Class" Url="html/T_SolidFire_Element_Api_ListVolumesResult.htm">
+    <HelpTOCNode Id="d0f59163-78e8-4c74-a462-df9d8134aa78" Title="ListVolumesResult Class" Url="html/T_SolidFire_Element_Api_ListVolumesResult.htm">
       <HelpTOCNode Title="ListVolumesResult Constructor " Url="html/M_SolidFire_Element_Api_ListVolumesResult__ctor.htm" />
-      <HelpTOCNode Id="7b5d4926-229d-49f6-b8f5-c29495532dcc" Title="ListVolumesResult Properties" Url="html/Properties_T_SolidFire_Element_Api_ListVolumesResult.htm">
+      <HelpTOCNode Id="3dedc4b3-8038-4ac9-a0e8-e75ef248676a" Title="ListVolumesResult Properties" Url="html/Properties_T_SolidFire_Element_Api_ListVolumesResult.htm">
         <HelpTOCNode Title="Volumes Property " Url="html/P_SolidFire_Element_Api_ListVolumesResult_Volumes.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ListVolumesResult Methods" Url="html/Methods_T_SolidFire_Element_Api_ListVolumesResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="e6cc8ef1-a671-4a7b-bb37-cf16138ca35b" Title="ListVolumeStatsByAccountResult Class" Url="html/T_SolidFire_Element_Api_ListVolumeStatsByAccountResult.htm">
+    <HelpTOCNode Id="f4aa85db-2ce1-4b6b-84c7-fc70915c760f" Title="ListVolumeStatsByAccountResult Class" Url="html/T_SolidFire_Element_Api_ListVolumeStatsByAccountResult.htm">
       <HelpTOCNode Title="ListVolumeStatsByAccountResult Constructor " Url="html/M_SolidFire_Element_Api_ListVolumeStatsByAccountResult__ctor.htm" />
-      <HelpTOCNode Id="19cffc7a-f02c-4910-9a34-44b016adb5eb" Title="ListVolumeStatsByAccountResult Properties" Url="html/Properties_T_SolidFire_Element_Api_ListVolumeStatsByAccountResult.htm">
+      <HelpTOCNode Id="9cdd84b0-3aee-496f-9256-618dcd5c6b33" Title="ListVolumeStatsByAccountResult Properties" Url="html/Properties_T_SolidFire_Element_Api_ListVolumeStatsByAccountResult.htm">
         <HelpTOCNode Title="VolumeStats Property " Url="html/P_SolidFire_Element_Api_ListVolumeStatsByAccountResult_VolumeStats.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ListVolumeStatsByAccountResult Methods" Url="html/Methods_T_SolidFire_Element_Api_ListVolumeStatsByAccountResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="be27e2a8-f0ba-420a-8540-62106366d316" Title="ListVolumeStatsByVolumeAccessGroupRequest Class" Url="html/T_SolidFire_Element_Api_ListVolumeStatsByVolumeAccessGroupRequest.htm">
+    <HelpTOCNode Id="32fa0d6a-931e-4b70-be51-14302b790704" Title="ListVolumeStatsByVolumeAccessGroupRequest Class" Url="html/T_SolidFire_Element_Api_ListVolumeStatsByVolumeAccessGroupRequest.htm">
       <HelpTOCNode Title="ListVolumeStatsByVolumeAccessGroupRequest Constructor " Url="html/M_SolidFire_Element_Api_ListVolumeStatsByVolumeAccessGroupRequest__ctor.htm" />
-      <HelpTOCNode Id="6a4e2d04-6744-4459-9a08-1a409e55da80" Title="ListVolumeStatsByVolumeAccessGroupRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ListVolumeStatsByVolumeAccessGroupRequest.htm">
+      <HelpTOCNode Id="dd9872a5-b90e-42b1-a40c-b50361390369" Title="ListVolumeStatsByVolumeAccessGroupRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ListVolumeStatsByVolumeAccessGroupRequest.htm">
         <HelpTOCNode Title="VolumeAccessGroups Property " Url="html/P_SolidFire_Element_Api_ListVolumeStatsByVolumeAccessGroupRequest_VolumeAccessGroups.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ListVolumeStatsByVolumeAccessGroupRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_ListVolumeStatsByVolumeAccessGroupRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="4f36ebff-2940-44ff-9570-7fc21f5227cf" Title="ListVolumeStatsByVolumeAccessGroupResult Class" Url="html/T_SolidFire_Element_Api_ListVolumeStatsByVolumeAccessGroupResult.htm">
+    <HelpTOCNode Id="3725455d-8aba-4301-9261-53b32c9176d2" Title="ListVolumeStatsByVolumeAccessGroupResult Class" Url="html/T_SolidFire_Element_Api_ListVolumeStatsByVolumeAccessGroupResult.htm">
       <HelpTOCNode Title="ListVolumeStatsByVolumeAccessGroupResult Constructor " Url="html/M_SolidFire_Element_Api_ListVolumeStatsByVolumeAccessGroupResult__ctor.htm" />
-      <HelpTOCNode Id="a21aca8b-ba40-40f9-ab9f-df66f1814e13" Title="ListVolumeStatsByVolumeAccessGroupResult Properties" Url="html/Properties_T_SolidFire_Element_Api_ListVolumeStatsByVolumeAccessGroupResult.htm">
+      <HelpTOCNode Id="8bb3cad0-66ae-44b0-a9a9-f9ae6d9d99e0" Title="ListVolumeStatsByVolumeAccessGroupResult Properties" Url="html/Properties_T_SolidFire_Element_Api_ListVolumeStatsByVolumeAccessGroupResult.htm">
         <HelpTOCNode Title="VolumeStats Property " Url="html/P_SolidFire_Element_Api_ListVolumeStatsByVolumeAccessGroupResult_VolumeStats.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ListVolumeStatsByVolumeAccessGroupResult Methods" Url="html/Methods_T_SolidFire_Element_Api_ListVolumeStatsByVolumeAccessGroupResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="71511d2d-a184-427a-b0cf-e08bf74273d3" Title="ListVolumeStatsByVolumeResult Class" Url="html/T_SolidFire_Element_Api_ListVolumeStatsByVolumeResult.htm">
+    <HelpTOCNode Id="f7915507-4776-47c3-aaea-c9b6445aea3a" Title="ListVolumeStatsByVolumeResult Class" Url="html/T_SolidFire_Element_Api_ListVolumeStatsByVolumeResult.htm">
       <HelpTOCNode Title="ListVolumeStatsByVolumeResult Constructor " Url="html/M_SolidFire_Element_Api_ListVolumeStatsByVolumeResult__ctor.htm" />
-      <HelpTOCNode Id="3b7b9157-8c78-49fb-bb83-ed7a249cbc89" Title="ListVolumeStatsByVolumeResult Properties" Url="html/Properties_T_SolidFire_Element_Api_ListVolumeStatsByVolumeResult.htm">
+      <HelpTOCNode Id="58eaaadb-dc1f-48d0-bba5-6c4aa633c5a4" Title="ListVolumeStatsByVolumeResult Properties" Url="html/Properties_T_SolidFire_Element_Api_ListVolumeStatsByVolumeResult.htm">
         <HelpTOCNode Title="VolumeStats Property " Url="html/P_SolidFire_Element_Api_ListVolumeStatsByVolumeResult_VolumeStats.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ListVolumeStatsByVolumeResult Methods" Url="html/Methods_T_SolidFire_Element_Api_ListVolumeStatsByVolumeResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="61fce515-d82f-4b52-b428-131173a2140d" Title="MetadataHosts Class" Url="html/T_SolidFire_Element_Api_MetadataHosts.htm">
+    <HelpTOCNode Id="ac00a8e6-af00-45d1-827a-0cbf19178cdb" Title="MetadataHosts Class" Url="html/T_SolidFire_Element_Api_MetadataHosts.htm">
       <HelpTOCNode Title="MetadataHosts Constructor " Url="html/M_SolidFire_Element_Api_MetadataHosts__ctor.htm" />
-      <HelpTOCNode Id="207ed238-9d90-4710-8eb7-61a91ad3b90f" Title="MetadataHosts Properties" Url="html/Properties_T_SolidFire_Element_Api_MetadataHosts.htm">
+      <HelpTOCNode Id="fb0fe8d4-6954-4c24-84d1-01e4246421d9" Title="MetadataHosts Properties" Url="html/Properties_T_SolidFire_Element_Api_MetadataHosts.htm">
         <HelpTOCNode Title="DeadSecondaries Property " Url="html/P_SolidFire_Element_Api_MetadataHosts_DeadSecondaries.htm" />
         <HelpTOCNode Title="LiveSecondaries Property " Url="html/P_SolidFire_Element_Api_MetadataHosts_LiveSecondaries.htm" />
         <HelpTOCNode Title="Primary Property " Url="html/P_SolidFire_Element_Api_MetadataHosts_Primary.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="MetadataHosts Methods" Url="html/Methods_T_SolidFire_Element_Api_MetadataHosts.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="c23bd703-5edd-4ce3-90a7-9235155187e2" Title="ModifyAccountRequest Class" Url="html/T_SolidFire_Element_Api_ModifyAccountRequest.htm">
+    <HelpTOCNode Id="316d069d-f5ae-4aa1-8013-22aec127d33b" Title="ModifyAccountRequest Class" Url="html/T_SolidFire_Element_Api_ModifyAccountRequest.htm">
       <HelpTOCNode Title="ModifyAccountRequest Constructor " Url="html/M_SolidFire_Element_Api_ModifyAccountRequest__ctor.htm" />
-      <HelpTOCNode Id="91080b63-0d44-42aa-a2c4-1a4466742ba0" Title="ModifyAccountRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ModifyAccountRequest.htm">
+      <HelpTOCNode Id="be79df23-5ead-4da7-bbc9-dc798c712205" Title="ModifyAccountRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ModifyAccountRequest.htm">
         <HelpTOCNode Title="AccountID Property " Url="html/P_SolidFire_Element_Api_ModifyAccountRequest_AccountID.htm" />
         <HelpTOCNode Title="Attributes Property " Url="html/P_SolidFire_Element_Api_ModifyAccountRequest_Attributes.htm" />
         <HelpTOCNode Title="InitiatorSecret Property " Url="html/P_SolidFire_Element_Api_ModifyAccountRequest_InitiatorSecret.htm" />
@@ -726,39 +726,39 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ModifyAccountRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_ModifyAccountRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="5081a0f8-296a-4bc8-a467-b53264d49946" Title="ModifyAccountResult Class" Url="html/T_SolidFire_Element_Api_ModifyAccountResult.htm">
+    <HelpTOCNode Id="339298ed-f183-4514-9453-6760f8cdf904" Title="ModifyAccountResult Class" Url="html/T_SolidFire_Element_Api_ModifyAccountResult.htm">
       <HelpTOCNode Title="ModifyAccountResult Constructor " Url="html/M_SolidFire_Element_Api_ModifyAccountResult__ctor.htm" />
       <HelpTOCNode Title="ModifyAccountResult Methods" Url="html/Methods_T_SolidFire_Element_Api_ModifyAccountResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="d9535fc9-7867-4500-bec0-acb2dfb1c5b2" Title="ModifyGroupSnapshotRequest Class" Url="html/T_SolidFire_Element_Api_ModifyGroupSnapshotRequest.htm">
+    <HelpTOCNode Id="acbd9772-fa22-4af6-98f1-2aee88ae2020" Title="ModifyGroupSnapshotRequest Class" Url="html/T_SolidFire_Element_Api_ModifyGroupSnapshotRequest.htm">
       <HelpTOCNode Title="ModifyGroupSnapshotRequest Constructor " Url="html/M_SolidFire_Element_Api_ModifyGroupSnapshotRequest__ctor.htm" />
-      <HelpTOCNode Id="4e57d9ba-50fd-48f4-8cd5-9bb921163827" Title="ModifyGroupSnapshotRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ModifyGroupSnapshotRequest.htm">
+      <HelpTOCNode Id="08ff6d1b-1a68-4aa9-ac00-a44698ae3671" Title="ModifyGroupSnapshotRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ModifyGroupSnapshotRequest.htm">
         <HelpTOCNode Title="EnableRemoteReplication Property " Url="html/P_SolidFire_Element_Api_ModifyGroupSnapshotRequest_EnableRemoteReplication.htm" />
         <HelpTOCNode Title="ExpirationTime Property " Url="html/P_SolidFire_Element_Api_ModifyGroupSnapshotRequest_ExpirationTime.htm" />
         <HelpTOCNode Title="GroupSnapshotID Property " Url="html/P_SolidFire_Element_Api_ModifyGroupSnapshotRequest_GroupSnapshotID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ModifyGroupSnapshotRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_ModifyGroupSnapshotRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="5644ec07-1c24-4245-aafa-f8065da1d163" Title="ModifyGroupSnapshotResult Class" Url="html/T_SolidFire_Element_Api_ModifyGroupSnapshotResult.htm">
+    <HelpTOCNode Id="776166db-e300-4fb9-86e9-d5f68059cdd6" Title="ModifyGroupSnapshotResult Class" Url="html/T_SolidFire_Element_Api_ModifyGroupSnapshotResult.htm">
       <HelpTOCNode Title="ModifyGroupSnapshotResult Constructor " Url="html/M_SolidFire_Element_Api_ModifyGroupSnapshotResult__ctor.htm" />
       <HelpTOCNode Title="ModifyGroupSnapshotResult Methods" Url="html/Methods_T_SolidFire_Element_Api_ModifyGroupSnapshotResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="bbad59af-3185-4208-b9ae-fbabb439e113" Title="ModifySnapshotRequest Class" Url="html/T_SolidFire_Element_Api_ModifySnapshotRequest.htm">
+    <HelpTOCNode Id="4183781f-d396-4073-b914-6c4a1ed0f983" Title="ModifySnapshotRequest Class" Url="html/T_SolidFire_Element_Api_ModifySnapshotRequest.htm">
       <HelpTOCNode Title="ModifySnapshotRequest Constructor " Url="html/M_SolidFire_Element_Api_ModifySnapshotRequest__ctor.htm" />
-      <HelpTOCNode Id="51fe9067-5819-4878-a9a6-d3be35a9cfa0" Title="ModifySnapshotRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ModifySnapshotRequest.htm">
+      <HelpTOCNode Id="529de98f-922c-4bfc-bfa5-822048aaffb0" Title="ModifySnapshotRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ModifySnapshotRequest.htm">
         <HelpTOCNode Title="EnableRemoteReplication Property " Url="html/P_SolidFire_Element_Api_ModifySnapshotRequest_EnableRemoteReplication.htm" />
         <HelpTOCNode Title="ExpirationTime Property " Url="html/P_SolidFire_Element_Api_ModifySnapshotRequest_ExpirationTime.htm" />
         <HelpTOCNode Title="SnapshotID Property " Url="html/P_SolidFire_Element_Api_ModifySnapshotRequest_SnapshotID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ModifySnapshotRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_ModifySnapshotRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="fddecf7f-76af-4476-908f-fa0e05c6a131" Title="ModifySnapshotResult Class" Url="html/T_SolidFire_Element_Api_ModifySnapshotResult.htm">
+    <HelpTOCNode Id="ce4b6d0b-d72f-4e30-b4ac-8480a85fb2d1" Title="ModifySnapshotResult Class" Url="html/T_SolidFire_Element_Api_ModifySnapshotResult.htm">
       <HelpTOCNode Title="ModifySnapshotResult Constructor " Url="html/M_SolidFire_Element_Api_ModifySnapshotResult__ctor.htm" />
       <HelpTOCNode Title="ModifySnapshotResult Methods" Url="html/Methods_T_SolidFire_Element_Api_ModifySnapshotResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="1b0bd286-5920-4294-8194-bb635c6067e0" Title="ModifyVolumeAccessGroupRequest Class" Url="html/T_SolidFire_Element_Api_ModifyVolumeAccessGroupRequest.htm">
+    <HelpTOCNode Id="5228bad4-81d5-421f-9ff8-50b38d3c0674" Title="ModifyVolumeAccessGroupRequest Class" Url="html/T_SolidFire_Element_Api_ModifyVolumeAccessGroupRequest.htm">
       <HelpTOCNode Title="ModifyVolumeAccessGroupRequest Constructor " Url="html/M_SolidFire_Element_Api_ModifyVolumeAccessGroupRequest__ctor.htm" />
-      <HelpTOCNode Id="2393c94c-07e6-4998-a12b-e894e16f80f3" Title="ModifyVolumeAccessGroupRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ModifyVolumeAccessGroupRequest.htm">
+      <HelpTOCNode Id="c556196e-35ce-482a-8379-04186b41dc6e" Title="ModifyVolumeAccessGroupRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ModifyVolumeAccessGroupRequest.htm">
         <HelpTOCNode Title="Attributes Property " Url="html/P_SolidFire_Element_Api_ModifyVolumeAccessGroupRequest_Attributes.htm" />
         <HelpTOCNode Title="Initiators Property " Url="html/P_SolidFire_Element_Api_ModifyVolumeAccessGroupRequest_Initiators.htm" />
         <HelpTOCNode Title="Name Property " Url="html/P_SolidFire_Element_Api_ModifyVolumeAccessGroupRequest_Name.htm" />
@@ -769,13 +769,13 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ModifyVolumeAccessGroupRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_ModifyVolumeAccessGroupRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="c59412cc-efe9-4628-89fe-8596fc856ed0" Title="ModifyVolumeAccessGroupResult Class" Url="html/T_SolidFire_Element_Api_ModifyVolumeAccessGroupResult.htm">
+    <HelpTOCNode Id="14e32e66-a87c-4b42-b1ba-2595dda733e2" Title="ModifyVolumeAccessGroupResult Class" Url="html/T_SolidFire_Element_Api_ModifyVolumeAccessGroupResult.htm">
       <HelpTOCNode Title="ModifyVolumeAccessGroupResult Constructor " Url="html/M_SolidFire_Element_Api_ModifyVolumeAccessGroupResult__ctor.htm" />
       <HelpTOCNode Title="ModifyVolumeAccessGroupResult Methods" Url="html/Methods_T_SolidFire_Element_Api_ModifyVolumeAccessGroupResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="c6e9e0c1-16e1-4d6f-a13e-369b163603b7" Title="ModifyVolumeRequest Class" Url="html/T_SolidFire_Element_Api_ModifyVolumeRequest.htm">
+    <HelpTOCNode Id="f3fcbc59-f8b5-4505-98b3-12160299e2b7" Title="ModifyVolumeRequest Class" Url="html/T_SolidFire_Element_Api_ModifyVolumeRequest.htm">
       <HelpTOCNode Title="ModifyVolumeRequest Constructor " Url="html/M_SolidFire_Element_Api_ModifyVolumeRequest__ctor.htm" />
-      <HelpTOCNode Id="37b5daae-1ff1-4051-b382-c06f3a654866" Title="ModifyVolumeRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ModifyVolumeRequest.htm">
+      <HelpTOCNode Id="ab82d2db-4e5b-4757-bbb8-fdc0fc130d68" Title="ModifyVolumeRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_ModifyVolumeRequest.htm">
         <HelpTOCNode Title="Access Property " Url="html/P_SolidFire_Element_Api_ModifyVolumeRequest_Access.htm" />
         <HelpTOCNode Title="AccountID Property " Url="html/P_SolidFire_Element_Api_ModifyVolumeRequest_AccountID.htm" />
         <HelpTOCNode Title="Attributes Property " Url="html/P_SolidFire_Element_Api_ModifyVolumeRequest_Attributes.htm" />
@@ -786,27 +786,27 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ModifyVolumeRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_ModifyVolumeRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="dce23f60-90da-49de-ba14-5eea808977d6" Title="ModifyVolumeResult Class" Url="html/T_SolidFire_Element_Api_ModifyVolumeResult.htm">
+    <HelpTOCNode Id="4c1e3cce-d87d-4494-9d17-68962da884a2" Title="ModifyVolumeResult Class" Url="html/T_SolidFire_Element_Api_ModifyVolumeResult.htm">
       <HelpTOCNode Title="ModifyVolumeResult Constructor " Url="html/M_SolidFire_Element_Api_ModifyVolumeResult__ctor.htm" />
-      <HelpTOCNode Id="27603e59-5af5-403b-92bb-755051e438d5" Title="ModifyVolumeResult Properties" Url="html/Properties_T_SolidFire_Element_Api_ModifyVolumeResult.htm">
+      <HelpTOCNode Id="29ab4aa3-48b0-4a82-a9ad-bcdbf511183c" Title="ModifyVolumeResult Properties" Url="html/Properties_T_SolidFire_Element_Api_ModifyVolumeResult.htm">
         <HelpTOCNode Title="Curve Property " Url="html/P_SolidFire_Element_Api_ModifyVolumeResult_Curve.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ModifyVolumeResult Methods" Url="html/Methods_T_SolidFire_Element_Api_ModifyVolumeResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="0535dede-4d4e-44e8-b561-6dc6b3be0408" Title="PurgeDeletedVolumeRequest Class" Url="html/T_SolidFire_Element_Api_PurgeDeletedVolumeRequest.htm">
+    <HelpTOCNode Id="c68ebdc2-2355-4577-a13f-55bf9ae17b49" Title="PurgeDeletedVolumeRequest Class" Url="html/T_SolidFire_Element_Api_PurgeDeletedVolumeRequest.htm">
       <HelpTOCNode Title="PurgeDeletedVolumeRequest Constructor " Url="html/M_SolidFire_Element_Api_PurgeDeletedVolumeRequest__ctor.htm" />
-      <HelpTOCNode Id="4b205d24-8eaf-4160-8278-cd71ac38819d" Title="PurgeDeletedVolumeRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_PurgeDeletedVolumeRequest.htm">
+      <HelpTOCNode Id="6a831d50-afeb-45f5-b695-29c6f4eb2b66" Title="PurgeDeletedVolumeRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_PurgeDeletedVolumeRequest.htm">
         <HelpTOCNode Title="VolumeID Property " Url="html/P_SolidFire_Element_Api_PurgeDeletedVolumeRequest_VolumeID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="PurgeDeletedVolumeRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_PurgeDeletedVolumeRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="a229dc7b-f517-4afd-8387-b9c1f2b29222" Title="PurgeDeletedVolumeResult Class" Url="html/T_SolidFire_Element_Api_PurgeDeletedVolumeResult.htm">
+    <HelpTOCNode Id="4f632d1a-fcd5-4d6f-b734-bf78cd5f77b7" Title="PurgeDeletedVolumeResult Class" Url="html/T_SolidFire_Element_Api_PurgeDeletedVolumeResult.htm">
       <HelpTOCNode Title="PurgeDeletedVolumeResult Constructor " Url="html/M_SolidFire_Element_Api_PurgeDeletedVolumeResult__ctor.htm" />
       <HelpTOCNode Title="PurgeDeletedVolumeResult Methods" Url="html/Methods_T_SolidFire_Element_Api_PurgeDeletedVolumeResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="39dbabf7-49d6-4f8f-890c-0371409d406a" Title="QoS Class" Url="html/T_SolidFire_Element_Api_QoS.htm">
+    <HelpTOCNode Id="0facf85e-3b76-46b1-9dc6-3fd0b76c16b1" Title="QoS Class" Url="html/T_SolidFire_Element_Api_QoS.htm">
       <HelpTOCNode Title="QoS Constructor " Url="html/M_SolidFire_Element_Api_QoS__ctor.htm" />
-      <HelpTOCNode Id="cdef6721-a6e2-486e-ad3f-63351ec853e2" Title="QoS Properties" Url="html/Properties_T_SolidFire_Element_Api_QoS.htm">
+      <HelpTOCNode Id="bcb1c011-41c2-4466-a0dc-49a1ee8a9faa" Title="QoS Properties" Url="html/Properties_T_SolidFire_Element_Api_QoS.htm">
         <HelpTOCNode Title="BurstIOPS Property " Url="html/P_SolidFire_Element_Api_QoS_BurstIOPS.htm" />
         <HelpTOCNode Title="BurstTime Property " Url="html/P_SolidFire_Element_Api_QoS_BurstTime.htm" />
         <HelpTOCNode Title="MaxIOPS Property " Url="html/P_SolidFire_Element_Api_QoS_MaxIOPS.htm" />
@@ -814,9 +814,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="QoS Methods" Url="html/Methods_T_SolidFire_Element_Api_QoS.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="eb9d29a0-27fb-4a5c-8af3-e5ac228ae77c" Title="QoSResult Class" Url="html/T_SolidFire_Element_Api_QoSResult.htm">
+    <HelpTOCNode Id="6b992e15-adc5-4884-8758-26aaba84e49e" Title="QoSResult Class" Url="html/T_SolidFire_Element_Api_QoSResult.htm">
       <HelpTOCNode Title="QoSResult Constructor " Url="html/M_SolidFire_Element_Api_QoSResult__ctor.htm" />
-      <HelpTOCNode Id="2e37e8d4-efba-4657-ab1e-c32cbcb543b5" Title="QoSResult Properties" Url="html/Properties_T_SolidFire_Element_Api_QoSResult.htm">
+      <HelpTOCNode Id="0546a5c1-1598-4dc4-a42e-80293ad55992" Title="QoSResult Properties" Url="html/Properties_T_SolidFire_Element_Api_QoSResult.htm">
         <HelpTOCNode Title="BurstIOPS Property " Url="html/P_SolidFire_Element_Api_QoSResult_BurstIOPS.htm" />
         <HelpTOCNode Title="BurstTime Property " Url="html/P_SolidFire_Element_Api_QoSResult_BurstTime.htm" />
         <HelpTOCNode Title="Curve Property " Url="html/P_SolidFire_Element_Api_QoSResult_Curve.htm" />
@@ -825,47 +825,47 @@
       </HelpTOCNode>
       <HelpTOCNode Title="QoSResult Methods" Url="html/Methods_T_SolidFire_Element_Api_QoSResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="863baf5a-48a8-497c-8540-1b44ef16305d" Title="RemoveAccountRequest Class" Url="html/T_SolidFire_Element_Api_RemoveAccountRequest.htm">
+    <HelpTOCNode Id="c398a85d-36fa-48cc-8ae1-1a2aaf07f59c" Title="RemoveAccountRequest Class" Url="html/T_SolidFire_Element_Api_RemoveAccountRequest.htm">
       <HelpTOCNode Title="RemoveAccountRequest Constructor " Url="html/M_SolidFire_Element_Api_RemoveAccountRequest__ctor.htm" />
-      <HelpTOCNode Id="4dcab420-d996-4215-b3c5-8d5548c22dfa" Title="RemoveAccountRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_RemoveAccountRequest.htm">
+      <HelpTOCNode Id="7fa55526-8cca-45c6-a0c7-7528d960fd3d" Title="RemoveAccountRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_RemoveAccountRequest.htm">
         <HelpTOCNode Title="AccountID Property " Url="html/P_SolidFire_Element_Api_RemoveAccountRequest_AccountID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="RemoveAccountRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_RemoveAccountRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="c67faed5-6391-482a-a38f-0c0ac33fb6cb" Title="RemoveAccountResult Class" Url="html/T_SolidFire_Element_Api_RemoveAccountResult.htm">
+    <HelpTOCNode Id="366b7d64-1d92-4f96-8163-97fede0b40a0" Title="RemoveAccountResult Class" Url="html/T_SolidFire_Element_Api_RemoveAccountResult.htm">
       <HelpTOCNode Title="RemoveAccountResult Constructor " Url="html/M_SolidFire_Element_Api_RemoveAccountResult__ctor.htm" />
       <HelpTOCNode Title="RemoveAccountResult Methods" Url="html/Methods_T_SolidFire_Element_Api_RemoveAccountResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="79bc5d55-b84a-4691-a9f7-2cd8da1c51d2" Title="RemoveInitiatorsFromVolumeAccessGroupRequest Class" Url="html/T_SolidFire_Element_Api_RemoveInitiatorsFromVolumeAccessGroupRequest.htm">
+    <HelpTOCNode Id="e18dc084-c2fd-456c-bc18-37b71670e722" Title="RemoveInitiatorsFromVolumeAccessGroupRequest Class" Url="html/T_SolidFire_Element_Api_RemoveInitiatorsFromVolumeAccessGroupRequest.htm">
       <HelpTOCNode Title="RemoveInitiatorsFromVolumeAccessGroupRequest Constructor " Url="html/M_SolidFire_Element_Api_RemoveInitiatorsFromVolumeAccessGroupRequest__ctor.htm" />
-      <HelpTOCNode Id="4e6ea62b-1df2-4520-9da2-47b1d48abe44" Title="RemoveInitiatorsFromVolumeAccessGroupRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_RemoveInitiatorsFromVolumeAccessGroupRequest.htm">
+      <HelpTOCNode Id="dfcfdb3f-09dc-4c63-a00c-70aaab1c2b55" Title="RemoveInitiatorsFromVolumeAccessGroupRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_RemoveInitiatorsFromVolumeAccessGroupRequest.htm">
         <HelpTOCNode Title="Initiators Property " Url="html/P_SolidFire_Element_Api_RemoveInitiatorsFromVolumeAccessGroupRequest_Initiators.htm" />
         <HelpTOCNode Title="VolumeAccessGroupID Property " Url="html/P_SolidFire_Element_Api_RemoveInitiatorsFromVolumeAccessGroupRequest_VolumeAccessGroupID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="RemoveInitiatorsFromVolumeAccessGroupRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_RemoveInitiatorsFromVolumeAccessGroupRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="6e3be82e-82f0-4112-83e1-07366bcb46dc" Title="RemoveVolumesFromVolumeAccessGroupRequest Class" Url="html/T_SolidFire_Element_Api_RemoveVolumesFromVolumeAccessGroupRequest.htm">
+    <HelpTOCNode Id="e60de5a3-f8b9-4b39-83ff-5afaa1d321dc" Title="RemoveVolumesFromVolumeAccessGroupRequest Class" Url="html/T_SolidFire_Element_Api_RemoveVolumesFromVolumeAccessGroupRequest.htm">
       <HelpTOCNode Title="RemoveVolumesFromVolumeAccessGroupRequest Constructor " Url="html/M_SolidFire_Element_Api_RemoveVolumesFromVolumeAccessGroupRequest__ctor.htm" />
-      <HelpTOCNode Id="e0784277-04bc-411e-a7a2-30e90a4b8223" Title="RemoveVolumesFromVolumeAccessGroupRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_RemoveVolumesFromVolumeAccessGroupRequest.htm">
+      <HelpTOCNode Id="40844704-4f34-476e-bfb9-f6010d319596" Title="RemoveVolumesFromVolumeAccessGroupRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_RemoveVolumesFromVolumeAccessGroupRequest.htm">
         <HelpTOCNode Title="VolumeAccessGroupID Property " Url="html/P_SolidFire_Element_Api_RemoveVolumesFromVolumeAccessGroupRequest_VolumeAccessGroupID.htm" />
         <HelpTOCNode Title="Volumes Property " Url="html/P_SolidFire_Element_Api_RemoveVolumesFromVolumeAccessGroupRequest_Volumes.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="RemoveVolumesFromVolumeAccessGroupRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_RemoveVolumesFromVolumeAccessGroupRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="16e0f500-642a-494e-b97c-52aae48be2a3" Title="RestoreDeletedVolumeRequest Class" Url="html/T_SolidFire_Element_Api_RestoreDeletedVolumeRequest.htm">
+    <HelpTOCNode Id="821a9ac9-88ba-4c34-92c2-208ea2ceb877" Title="RestoreDeletedVolumeRequest Class" Url="html/T_SolidFire_Element_Api_RestoreDeletedVolumeRequest.htm">
       <HelpTOCNode Title="RestoreDeletedVolumeRequest Constructor " Url="html/M_SolidFire_Element_Api_RestoreDeletedVolumeRequest__ctor.htm" />
-      <HelpTOCNode Id="6850b56b-605e-4ae5-b298-f817ca58b43d" Title="RestoreDeletedVolumeRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_RestoreDeletedVolumeRequest.htm">
+      <HelpTOCNode Id="3c3965dc-585f-438b-a80e-e745d2c7d4b6" Title="RestoreDeletedVolumeRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_RestoreDeletedVolumeRequest.htm">
         <HelpTOCNode Title="VolumeID Property " Url="html/P_SolidFire_Element_Api_RestoreDeletedVolumeRequest_VolumeID.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="RestoreDeletedVolumeRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_RestoreDeletedVolumeRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="920a003a-0f54-4609-9287-d9b92b5dc008" Title="RestoreDeletedVolumeResult Class" Url="html/T_SolidFire_Element_Api_RestoreDeletedVolumeResult.htm">
+    <HelpTOCNode Id="d40e84f8-98d3-42b4-bedb-c6d6e54331db" Title="RestoreDeletedVolumeResult Class" Url="html/T_SolidFire_Element_Api_RestoreDeletedVolumeResult.htm">
       <HelpTOCNode Title="RestoreDeletedVolumeResult Constructor " Url="html/M_SolidFire_Element_Api_RestoreDeletedVolumeResult__ctor.htm" />
       <HelpTOCNode Title="RestoreDeletedVolumeResult Methods" Url="html/Methods_T_SolidFire_Element_Api_RestoreDeletedVolumeResult.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="d402e3e3-41ea-45a0-b91c-88d7779d0060" Title="RollbackToGroupSnapshotRequest Class" Url="html/T_SolidFire_Element_Api_RollbackToGroupSnapshotRequest.htm">
+    <HelpTOCNode Id="915feead-37fa-466b-b3c6-9d2031456071" Title="RollbackToGroupSnapshotRequest Class" Url="html/T_SolidFire_Element_Api_RollbackToGroupSnapshotRequest.htm">
       <HelpTOCNode Title="RollbackToGroupSnapshotRequest Constructor " Url="html/M_SolidFire_Element_Api_RollbackToGroupSnapshotRequest__ctor.htm" />
-      <HelpTOCNode Id="f4e36c6a-361b-4491-af38-a3445b766d10" Title="RollbackToGroupSnapshotRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_RollbackToGroupSnapshotRequest.htm">
+      <HelpTOCNode Id="d6b2561d-0569-4731-a045-d82a70b60a8e" Title="RollbackToGroupSnapshotRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_RollbackToGroupSnapshotRequest.htm">
         <HelpTOCNode Title="Attributes Property " Url="html/P_SolidFire_Element_Api_RollbackToGroupSnapshotRequest_Attributes.htm" />
         <HelpTOCNode Title="GroupSnapshotID Property " Url="html/P_SolidFire_Element_Api_RollbackToGroupSnapshotRequest_GroupSnapshotID.htm" />
         <HelpTOCNode Title="Name Property " Url="html/P_SolidFire_Element_Api_RollbackToGroupSnapshotRequest_Name.htm" />
@@ -873,9 +873,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="RollbackToGroupSnapshotRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_RollbackToGroupSnapshotRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="f0b55819-591d-48a3-a22e-f95af701474c" Title="RollbackToSnapshotRequest Class" Url="html/T_SolidFire_Element_Api_RollbackToSnapshotRequest.htm">
+    <HelpTOCNode Id="ccd6d641-b79f-4bcb-a283-b0f508b42c0f" Title="RollbackToSnapshotRequest Class" Url="html/T_SolidFire_Element_Api_RollbackToSnapshotRequest.htm">
       <HelpTOCNode Title="RollbackToSnapshotRequest Constructor " Url="html/M_SolidFire_Element_Api_RollbackToSnapshotRequest__ctor.htm" />
-      <HelpTOCNode Id="b11c94e6-66ba-46d8-8156-052d137c2cf8" Title="RollbackToSnapshotRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_RollbackToSnapshotRequest.htm">
+      <HelpTOCNode Id="6c5c2fd6-95b1-48cc-a4ce-5bd8ad65ef14" Title="RollbackToSnapshotRequest Properties" Url="html/Properties_T_SolidFire_Element_Api_RollbackToSnapshotRequest.htm">
         <HelpTOCNode Title="Attributes Property " Url="html/P_SolidFire_Element_Api_RollbackToSnapshotRequest_Attributes.htm" />
         <HelpTOCNode Title="Name Property " Url="html/P_SolidFire_Element_Api_RollbackToSnapshotRequest_Name.htm" />
         <HelpTOCNode Title="SaveCurrentState Property " Url="html/P_SolidFire_Element_Api_RollbackToSnapshotRequest_SaveCurrentState.htm" />
@@ -884,9 +884,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="RollbackToSnapshotRequest Methods" Url="html/Methods_T_SolidFire_Element_Api_RollbackToSnapshotRequest.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="a3743022-7e87-4287-805e-8d3f538cb3ee" Title="Snapshot Class" Url="html/T_SolidFire_Element_Api_Snapshot.htm">
+    <HelpTOCNode Id="bde2efb8-912f-4cb8-9cf8-7878fefc0a21" Title="Snapshot Class" Url="html/T_SolidFire_Element_Api_Snapshot.htm">
       <HelpTOCNode Title="Snapshot Constructor " Url="html/M_SolidFire_Element_Api_Snapshot__ctor.htm" />
-      <HelpTOCNode Id="c00dd60c-4d60-4c61-b47f-4d655a0efb75" Title="Snapshot Properties" Url="html/Properties_T_SolidFire_Element_Api_Snapshot.htm">
+      <HelpTOCNode Id="af5339fc-5860-408b-9587-b85d31d4e921" Title="Snapshot Properties" Url="html/Properties_T_SolidFire_Element_Api_Snapshot.htm">
         <HelpTOCNode Title="Attributes Property " Url="html/P_SolidFire_Element_Api_Snapshot_Attributes.htm" />
         <HelpTOCNode Title="Checksum Property " Url="html/P_SolidFire_Element_Api_Snapshot_Checksum.htm" />
         <HelpTOCNode Title="CreateTime Property " Url="html/P_SolidFire_Element_Api_Snapshot_CreateTime.htm" />
@@ -906,10 +906,10 @@
       </HelpTOCNode>
       <HelpTOCNode Title="Snapshot Methods" Url="html/Methods_T_SolidFire_Element_Api_Snapshot.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="3e9da008-f9de-426b-8194-f2a29272a06a" Title="SolidFireElement Class" Url="html/T_SolidFire_Element_Api_SolidFireElement.htm">
+    <HelpTOCNode Id="952a148e-ac21-491f-89e9-b0ac94c6475f" Title="SolidFireElement Class" Url="html/T_SolidFire_Element_Api_SolidFireElement.htm">
       <HelpTOCNode Title="SolidFireElement Constructor " Url="html/M_SolidFire_Element_Api_SolidFireElement__ctor.htm" />
       <HelpTOCNode Title="SolidFireElement Properties" Url="html/Properties_T_SolidFire_Element_Api_SolidFireElement.htm" />
-      <HelpTOCNode Id="8920fd27-15c4-4132-a7d3-b31fa4e144ae" Title="SolidFireElement Methods" Url="html/Methods_T_SolidFire_Element_Api_SolidFireElement.htm">
+      <HelpTOCNode Id="d5815f24-f5a6-4650-9bbf-b138eab82a18" Title="SolidFireElement Methods" Url="html/Methods_T_SolidFire_Element_Api_SolidFireElement.htm">
         <HelpTOCNode Title="AddAccountAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_AddAccountAsync.htm" />
         <HelpTOCNode Title="AddInitiatorsToVolumeAccessGroupAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_AddInitiatorsToVolumeAccessGroupAsync.htm" />
         <HelpTOCNode Title="AddVolumesToVolumeAccessGroupAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_AddVolumesToVolumeAccessGroupAsync.htm" />
@@ -919,44 +919,44 @@
         <HelpTOCNode Title="CreateVolumeAccessGroupAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_CreateVolumeAccessGroupAsync.htm" />
         <HelpTOCNode Title="CreateVolumeAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_CreateVolumeAsync.htm" />
         <HelpTOCNode Title="DeleteGroupSnapshotAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_DeleteGroupSnapshotAsync.htm" />
-        <HelpTOCNode Id="63665b22-68f9-40f1-9b71-ccb97eee6279" Title="DeleteSnapshotAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_DeleteSnapshotAsync.htm">
+        <HelpTOCNode Id="e6bf67bd-bc03-4c94-95c1-8f61a0e35e40" Title="DeleteSnapshotAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_DeleteSnapshotAsync.htm">
           <HelpTOCNode Title="DeleteSnapshotAsync Method (Int64)" Url="html/M_SolidFire_Element_Api_SolidFireElement_DeleteSnapshotAsync_1.htm" />
           <HelpTOCNode Title="DeleteSnapshotAsync Method (DeleteSnapshotRequest)" Url="html/M_SolidFire_Element_Api_SolidFireElement_DeleteSnapshotAsync.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="55fc3976-7073-49b3-b800-0858eb724502" Title="DeleteVolumeAccessGroupAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_DeleteVolumeAccessGroupAsync.htm">
+        <HelpTOCNode Id="f0986ab8-dda0-4e88-b45b-0dff7ed4aa01" Title="DeleteVolumeAccessGroupAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_DeleteVolumeAccessGroupAsync.htm">
           <HelpTOCNode Title="DeleteVolumeAccessGroupAsync Method (Int64)" Url="html/M_SolidFire_Element_Api_SolidFireElement_DeleteVolumeAccessGroupAsync_1.htm" />
           <HelpTOCNode Title="DeleteVolumeAccessGroupAsync Method (DeleteVolumeAccessGroupRequest)" Url="html/M_SolidFire_Element_Api_SolidFireElement_DeleteVolumeAccessGroupAsync.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="2e46686c-1622-40b8-9f26-d54819df0f71" Title="DeleteVolumeAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_DeleteVolumeAsync.htm">
+        <HelpTOCNode Id="b4a736cf-c14e-408a-9bb5-566b6cd1ddee" Title="DeleteVolumeAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_DeleteVolumeAsync.htm">
           <HelpTOCNode Title="DeleteVolumeAsync Method (Int64)" Url="html/M_SolidFire_Element_Api_SolidFireElement_DeleteVolumeAsync_1.htm" />
           <HelpTOCNode Title="DeleteVolumeAsync Method (DeleteVolumeRequest)" Url="html/M_SolidFire_Element_Api_SolidFireElement_DeleteVolumeAsync.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="9901438e-a3d7-4da0-a9e9-c5b50bc9fec0" Title="GetAccountByIDAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetAccountByIDAsync.htm">
+        <HelpTOCNode Id="b5566870-ce3a-48f1-a5fb-ef8c4111c837" Title="GetAccountByIDAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetAccountByIDAsync.htm">
           <HelpTOCNode Title="GetAccountByIDAsync Method (Int64)" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetAccountByIDAsync_1.htm" />
           <HelpTOCNode Title="GetAccountByIDAsync Method (GetAccountByIDRequest)" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetAccountByIDAsync.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="9e44182c-c694-4887-abfe-e4a39404a639" Title="GetAccountByNameAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetAccountByNameAsync.htm">
+        <HelpTOCNode Id="f0bdeaa5-4c45-4af6-9dcc-74314b48708d" Title="GetAccountByNameAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetAccountByNameAsync.htm">
           <HelpTOCNode Title="GetAccountByNameAsync Method (String)" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetAccountByNameAsync_1.htm" />
           <HelpTOCNode Title="GetAccountByNameAsync Method (GetAccountByNameRequest)" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetAccountByNameAsync.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="GetAPIAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_GetAPIAsync.htm" />
-        <HelpTOCNode Id="9a816ed0-5e04-45df-9020-dedd72280b75" Title="GetAsyncResultAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetAsyncResultAsync.htm">
+        <HelpTOCNode Id="b1351b89-2154-48bc-8642-f2c8cd061141" Title="GetAsyncResultAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetAsyncResultAsync.htm">
           <HelpTOCNode Title="GetAsyncResultAsync Method (Int64)" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetAsyncResultAsync_1.htm" />
           <HelpTOCNode Title="GetAsyncResultAsync Method (GetAsyncResultRequest)" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetAsyncResultAsync.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="GetVolumeEfficiencyAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_GetVolumeEfficiencyAsync.htm" />
-        <HelpTOCNode Id="d764998e-1021-4c89-b443-cde79bab4720" Title="GetVolumeStatsAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetVolumeStatsAsync.htm">
+        <HelpTOCNode Id="36284bab-9c88-458f-97cc-221262647764" Title="GetVolumeStatsAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetVolumeStatsAsync.htm">
           <HelpTOCNode Title="GetVolumeStatsAsync Method (Int64)" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetVolumeStatsAsync_1.htm" />
           <HelpTOCNode Title="GetVolumeStatsAsync Method (GetVolumeStatsRequest)" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetVolumeStatsAsync.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="ListAccountsAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_ListAccountsAsync.htm" />
         <HelpTOCNode Title="ListActiveVolumesAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_ListActiveVolumesAsync.htm" />
         <HelpTOCNode Title="ListDeletedVolumesAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_ListDeletedVolumesAsync.htm" />
-        <HelpTOCNode Id="53194c00-0afa-4667-8652-fc866eacf20a" Title="ListGroupSnapshotsAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ListGroupSnapshotsAsync.htm">
+        <HelpTOCNode Id="7f2ce139-e57a-4c7a-9128-95714167d908" Title="ListGroupSnapshotsAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ListGroupSnapshotsAsync.htm">
           <HelpTOCNode Title="ListGroupSnapshotsAsync Method (Nullable(Int64))" Url="html/M_SolidFire_Element_Api_SolidFireElement_ListGroupSnapshotsAsync_1.htm" />
           <HelpTOCNode Title="ListGroupSnapshotsAsync Method (ListGroupSnapshotsRequest)" Url="html/M_SolidFire_Element_Api_SolidFireElement_ListGroupSnapshotsAsync.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="2b0ff761-1e5e-4d63-b616-c36702dd13c4" Title="ListSnapshotsAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ListSnapshotsAsync.htm">
+        <HelpTOCNode Id="1340248e-6b0d-411b-a7a8-d0af020b56df" Title="ListSnapshotsAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ListSnapshotsAsync.htm">
           <HelpTOCNode Title="ListSnapshotsAsync Method (Nullable(Int64))" Url="html/M_SolidFire_Element_Api_SolidFireElement_ListSnapshotsAsync_1.htm" />
           <HelpTOCNode Title="ListSnapshotsAsync Method (ListSnapshotsRequest)" Url="html/M_SolidFire_Element_Api_SolidFireElement_ListSnapshotsAsync.htm" />
         </HelpTOCNode>
@@ -964,7 +964,7 @@
         <HelpTOCNode Title="ListVolumesAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_ListVolumesAsync.htm" />
         <HelpTOCNode Title="ListVolumesForAccountAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_ListVolumesForAccountAsync.htm" />
         <HelpTOCNode Title="ListVolumeStatsByAccountAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_ListVolumeStatsByAccountAsync.htm" />
-        <HelpTOCNode Id="c048c591-23b7-46da-a0e1-a577d9e3ceaf" Title="ListVolumeStatsByVolumeAccessGroupAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ListVolumeStatsByVolumeAccessGroupAsync.htm">
+        <HelpTOCNode Id="f1f88857-0a3e-41bc-86f6-cded40258c51" Title="ListVolumeStatsByVolumeAccessGroupAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ListVolumeStatsByVolumeAccessGroupAsync.htm">
           <HelpTOCNode Title="ListVolumeStatsByVolumeAccessGroupAsync Method (Int64[])" Url="html/M_SolidFire_Element_Api_SolidFireElement_ListVolumeStatsByVolumeAccessGroupAsync_1.htm" />
           <HelpTOCNode Title="ListVolumeStatsByVolumeAccessGroupAsync Method (ListVolumeStatsByVolumeAccessGroupRequest)" Url="html/M_SolidFire_Element_Api_SolidFireElement_ListVolumeStatsByVolumeAccessGroupAsync.htm" />
         </HelpTOCNode>
@@ -974,17 +974,17 @@
         <HelpTOCNode Title="ModifySnapshotAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_ModifySnapshotAsync.htm" />
         <HelpTOCNode Title="ModifyVolumeAccessGroupAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_ModifyVolumeAccessGroupAsync.htm" />
         <HelpTOCNode Title="ModifyVolumeAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_ModifyVolumeAsync.htm" />
-        <HelpTOCNode Id="034f1f0d-f130-4f1f-98b4-880937c793a2" Title="PurgeDeletedVolumeAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_PurgeDeletedVolumeAsync.htm">
+        <HelpTOCNode Id="32516cef-f1dc-4ebe-8bd4-d77e4fa18297" Title="PurgeDeletedVolumeAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_PurgeDeletedVolumeAsync.htm">
           <HelpTOCNode Title="PurgeDeletedVolumeAsync Method (Int64)" Url="html/M_SolidFire_Element_Api_SolidFireElement_PurgeDeletedVolumeAsync_1.htm" />
           <HelpTOCNode Title="PurgeDeletedVolumeAsync Method (PurgeDeletedVolumeRequest)" Url="html/M_SolidFire_Element_Api_SolidFireElement_PurgeDeletedVolumeAsync.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="3a748db1-dce5-4cbd-94ec-8667eb47a54f" Title="RemoveAccountAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_RemoveAccountAsync.htm">
+        <HelpTOCNode Id="c809e8e8-5d2c-4fd7-aab6-ca30eb7ff60b" Title="RemoveAccountAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_RemoveAccountAsync.htm">
           <HelpTOCNode Title="RemoveAccountAsync Method (Int64)" Url="html/M_SolidFire_Element_Api_SolidFireElement_RemoveAccountAsync_1.htm" />
           <HelpTOCNode Title="RemoveAccountAsync Method (RemoveAccountRequest)" Url="html/M_SolidFire_Element_Api_SolidFireElement_RemoveAccountAsync.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="RemoveInitiatorsFromVolumeAccessGroupAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_RemoveInitiatorsFromVolumeAccessGroupAsync.htm" />
         <HelpTOCNode Title="RemoveVolumesFromVolumeAccessGroupAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_RemoveVolumesFromVolumeAccessGroupAsync.htm" />
-        <HelpTOCNode Id="618a95c0-f1f1-428e-b9b7-7030dec0b21f" Title="RestoreDeletedVolumeAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_RestoreDeletedVolumeAsync.htm">
+        <HelpTOCNode Id="b6e8e524-b655-4a02-85bc-96ef843e8331" Title="RestoreDeletedVolumeAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_RestoreDeletedVolumeAsync.htm">
           <HelpTOCNode Title="RestoreDeletedVolumeAsync Method (Int64)" Url="html/M_SolidFire_Element_Api_SolidFireElement_RestoreDeletedVolumeAsync_1.htm" />
           <HelpTOCNode Title="RestoreDeletedVolumeAsync Method (RestoreDeletedVolumeRequest)" Url="html/M_SolidFire_Element_Api_SolidFireElement_RestoreDeletedVolumeAsync.htm" />
         </HelpTOCNode>
@@ -993,9 +993,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="SolidFireElement Events" Url="html/Events_T_SolidFire_Element_Api_SolidFireElement.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="9a8bd990-d1b7-42f6-9355-15f1d26b62ee" Title="Volume Class" Url="html/T_SolidFire_Element_Api_Volume.htm">
+    <HelpTOCNode Id="a889f567-ea2d-47db-8a0c-d4c5fc8e17b9" Title="Volume Class" Url="html/T_SolidFire_Element_Api_Volume.htm">
       <HelpTOCNode Title="Volume Constructor " Url="html/M_SolidFire_Element_Api_Volume__ctor.htm" />
-      <HelpTOCNode Id="22f664cf-3412-4c4e-acac-48d895e0bad0" Title="Volume Properties" Url="html/Properties_T_SolidFire_Element_Api_Volume.htm">
+      <HelpTOCNode Id="d51bf603-df17-4634-9dd5-02de73c38f38" Title="Volume Properties" Url="html/Properties_T_SolidFire_Element_Api_Volume.htm">
         <HelpTOCNode Title="Access Property " Url="html/P_SolidFire_Element_Api_Volume_Access.htm" />
         <HelpTOCNode Title="AccountID Property " Url="html/P_SolidFire_Element_Api_Volume_AccountID.htm" />
         <HelpTOCNode Title="Attributes Property " Url="html/P_SolidFire_Element_Api_Volume_Attributes.htm" />
@@ -1019,9 +1019,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="Volume Methods" Url="html/Methods_T_SolidFire_Element_Api_Volume.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="a88feeea-4f65-490f-963e-83c1747a2e37" Title="VolumeAccessGroup Class" Url="html/T_SolidFire_Element_Api_VolumeAccessGroup.htm">
+    <HelpTOCNode Id="eeeb107b-f7eb-4263-93ed-70f92b93f4f8" Title="VolumeAccessGroup Class" Url="html/T_SolidFire_Element_Api_VolumeAccessGroup.htm">
       <HelpTOCNode Title="VolumeAccessGroup Constructor " Url="html/M_SolidFire_Element_Api_VolumeAccessGroup__ctor.htm" />
-      <HelpTOCNode Id="1047743e-6d40-468c-b95c-b699e3cdfe46" Title="VolumeAccessGroup Properties" Url="html/Properties_T_SolidFire_Element_Api_VolumeAccessGroup.htm">
+      <HelpTOCNode Id="5b18d4ec-c15e-4028-a514-de9135266c49" Title="VolumeAccessGroup Properties" Url="html/Properties_T_SolidFire_Element_Api_VolumeAccessGroup.htm">
         <HelpTOCNode Title="Initiators Property " Url="html/P_SolidFire_Element_Api_VolumeAccessGroup_Initiators.htm" />
         <HelpTOCNode Title="Name Property " Url="html/P_SolidFire_Element_Api_VolumeAccessGroup_Name.htm" />
         <HelpTOCNode Title="VolumeAccessGroupID Property " Url="html/P_SolidFire_Element_Api_VolumeAccessGroup_VolumeAccessGroupID.htm" />
@@ -1029,9 +1029,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="VolumeAccessGroup Methods" Url="html/Methods_T_SolidFire_Element_Api_VolumeAccessGroup.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="fdf59634-9a5e-4953-91ce-c45c8ba4c9d2" Title="VolumePair Class" Url="html/T_SolidFire_Element_Api_VolumePair.htm">
+    <HelpTOCNode Id="3cc93549-864b-470b-aa1b-1ed7861340d9" Title="VolumePair Class" Url="html/T_SolidFire_Element_Api_VolumePair.htm">
       <HelpTOCNode Title="VolumePair Constructor " Url="html/M_SolidFire_Element_Api_VolumePair__ctor.htm" />
-      <HelpTOCNode Id="508e8e40-644f-43d0-b652-2f5ea934419b" Title="VolumePair Properties" Url="html/Properties_T_SolidFire_Element_Api_VolumePair.htm">
+      <HelpTOCNode Id="6ccdc949-7e66-48fe-ae86-827242e91886" Title="VolumePair Properties" Url="html/Properties_T_SolidFire_Element_Api_VolumePair.htm">
         <HelpTOCNode Title="ClusterPairID Property " Url="html/P_SolidFire_Element_Api_VolumePair_ClusterPairID.htm" />
         <HelpTOCNode Title="RemoteSliceID Property " Url="html/P_SolidFire_Element_Api_VolumePair_RemoteSliceID.htm" />
         <HelpTOCNode Title="RemoteVolumeID Property " Url="html/P_SolidFire_Element_Api_VolumePair_RemoteVolumeID.htm" />
@@ -1040,9 +1040,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="VolumePair Methods" Url="html/Methods_T_SolidFire_Element_Api_VolumePair.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="8a4fced7-6913-4828-8be7-a4df2b5105f8" Title="VolumeStats Class" Url="html/T_SolidFire_Element_Api_VolumeStats.htm">
+    <HelpTOCNode Id="d53d9a88-eca0-4ecf-99eb-ffc64c0b5744" Title="VolumeStats Class" Url="html/T_SolidFire_Element_Api_VolumeStats.htm">
       <HelpTOCNode Title="VolumeStats Constructor " Url="html/M_SolidFire_Element_Api_VolumeStats__ctor.htm" />
-      <HelpTOCNode Id="b59ac041-cb26-41ee-b0c5-6e977df65dbc" Title="VolumeStats Properties" Url="html/Properties_T_SolidFire_Element_Api_VolumeStats.htm">
+      <HelpTOCNode Id="929a67a2-db2c-4995-a794-6bd5d72a62a2" Title="VolumeStats Properties" Url="html/Properties_T_SolidFire_Element_Api_VolumeStats.htm">
         <HelpTOCNode Title="AccountID Property " Url="html/P_SolidFire_Element_Api_VolumeStats_AccountID.htm" />
         <HelpTOCNode Title="ActualIOPS Property " Url="html/P_SolidFire_Element_Api_VolumeStats_ActualIOPS.htm" />
         <HelpTOCNode Title="AsyncDelay Property " Url="html/P_SolidFire_Element_Api_VolumeStats_AsyncDelay.htm" />
