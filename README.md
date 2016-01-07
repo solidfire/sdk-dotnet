@@ -20,10 +20,10 @@ If you have any questions or comments about this product, contact <sdk@solidfire
 
 ##Install via Nuget
 
-To install SolidFire.Element.Public, run the following command in the Package Manager Console
+To install SolidFire.SDK, run the following command in the Package Manager Console
 
 ```
-Install-Package SolidFire.Element.Public
+Install-Package SolidFire.SDK
 ```
 
 ___Dependencies___:
