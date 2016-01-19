@@ -30,7 +30,7 @@ ___Dependencies___:
 
 | Component       | Version    |
 | --------------- | ---------- |
-| SolidFire.Core  | 1.0.0.28   |
+| SolidFire.Core  | 1.0.0.30   |
 | Newtonsoft.Json | 7.0.1      |
 
 
@@ -189,9 +189,8 @@ Public Class VBDotNetSDKExample
         Dim volumeID = sfe.CreateVolumeAsync(createVolumeRequest).Result.VolumeID
 
         Dim listVolumesRequest = New ListVolumesRequest()
-        Dim accounts = New List(Of Long)
-        accounts.Add(accountID)
-        listVolumesRequest.Accounts = accounts.ToArray()   ' optional - AccountID to filter volumes by account
+        Dim accounts = {accountID}
+        listVolumesRequest.Accounts = accounts             ' optional - AccountID to filter volumes by account
         listVolumesRequest.StartVolumeID = volumeID        ' optional - ID to start list of returned Volumes
         listVolumesRequest.Limit = 1                       ' optional - to limit the number of Volumes with IDs greater than StartVolumeID
 
