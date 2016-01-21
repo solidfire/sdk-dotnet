@@ -1793,6 +1793,7 @@ outline:medium none
 }
 
 img {
+display:block;
 height:auto;
 margin:10px auto 20px;
 max-width:100%;
@@ -1861,7 +1862,7 @@ header.page-header {
 -moz-border-top-colors:none;
 background-color:#313131;
 border-color:#9d1b1b -moz-use-text-color -moz-use-text-color;
-height:83px;
+height:110px;
 left:0;
 margin:0;
 padding:0;
