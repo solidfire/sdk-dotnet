@@ -3,7 +3,7 @@
 .NET SDK for interacting with SolidFire Element OS
 
 ##Current Release
-Version 1.0
+Version 1.0.0.34
 
 ##Description
 The SolidFire .NET SDK is a collection of libraries that facilitate integration and orchestration between proprietary systems and third-party applications. The .NET SDK allows developers to deeply integrate SolidFire system API with the C# or Visual Basic programming language. The SolidFire .NET SDK reduces the amount of additional coding time required for integration.
@@ -30,15 +30,15 @@ ___Dependencies___:
 
 | Component       | Version    |
 | --------------- | ---------- |
-| SolidFire.Core  | 1.0.0.30   |
+| SolidFire.Core  | 1.0.0.34   |
 | Newtonsoft.Json | 7.0.1      |
 
 
 ##Documentation (v1.0)
 
-[MSDN Docs](http://solidfire.github.io/sdk-dotnet/help/v1.0/html/N_SolidFire_Element.htm) 
+[MSDN Docs](http://solidfire.github.io/sdk-dotnet/help/v1.0/html/N_SolidFire_Core.htm) 
 
-[Release Notes ** need link](http://solidfire.github.io/sdk-dotnet)
+[Release Notes](https://github.com/solidfire/sdk-dotnet/raw/gh-pages/Dot%20NET%20SDK%20Release%20Notes_v1.0.pdf)
 
 ##Examples
 
