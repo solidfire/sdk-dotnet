@@ -212,7 +212,7 @@ End Class
 ##Roadmap
 | Version | Release Date      | Notes                                                            |
 | ------- | ----------------- | ---------------------------------------------------------------- |
-| 1.0     | January 20, 2016  | Accounts, Volumes, Access Groups, Snapshots, and Group Snapshots |
+| 1.0     | February 2, 2016  | Accounts, Volumes, Access Groups, Snapshots, and Group Snapshots |
 | 1.1     | ___TBD___         | Complete Nitorgen & Oxygen API Coverage                          |
 | 1.2     | ___TBD___         | Fluorine API Coverage                                            |
 
