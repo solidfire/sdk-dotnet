@@ -222,8 +222,13 @@ div.caption {
 
 /* Collapsible region styles */
 .collapsibleAreaRegion {
-	margin-top: 15px;
-	margin-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    background-color: #f3f3f3;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
 }
 .collapseToggle {
 	padding-right: 5px;
