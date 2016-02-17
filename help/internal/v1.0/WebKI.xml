@@ -1524,8 +1524,8 @@
     <HelpKINode Title="DriveConfigInfo.Dev Property " Url="html/P_SolidFire_Element_Api_DriveConfigInfo_Dev.htm" />
     <HelpKINode Title="DriveHardwareInfo.Dev Property " Url="html/P_SolidFire_Element_Api_DriveHardwareInfo_Dev.htm" />
   </HelpKINode>
-  <HelpKINode Title="Devpath property" Url="html/P_SolidFire_Element_Api_DriveHardwareInfo_Devpath.htm" />
   <HelpKINode Title="DevPath property" Url="html/P_SolidFire_Element_Api_DriveConfigInfo_DevPath.htm" />
+  <HelpKINode Title="Devpath property" Url="html/P_SolidFire_Element_Api_DriveHardwareInfo_Devpath.htm" />
   <HelpKINode Title="DisableLdapAuthenticationAsync method">
     <HelpKINode Title="ISolidFireElement.DisableLdapAuthenticationAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_DisableLdapAuthenticationAsync.htm" />
     <HelpKINode Title="SolidFireElement.DisableLdapAuthenticationAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_DisableLdapAuthenticationAsync.htm" />
@@ -1872,6 +1872,8 @@
     <HelpKINode Title="CreateSupportBundleRequest.ExtraArgs Property " Url="html/P_SolidFire_Element_Api_CreateSupportBundleRequest_ExtraArgs.htm" />
     <HelpKINode Title="SupportBundleDetails.ExtraArgs Property " Url="html/P_SolidFire_Element_Api_SupportBundleDetails_ExtraArgs.htm" />
   </HelpKINode>
+  <HelpKINode Title="ExtractResult(Of TResult) method" Url="html/M_SolidFire_Core_ServiceBase_ExtractResult__1.htm" />
+  <HelpKINode Title="ExtractResult&lt;TResult&gt; method" Url="html/M_SolidFire_Core_ServiceBase_ExtractResult__1.htm" />
   <HelpKINode Title="FailedDieCount property" Url="html/P_SolidFire_Element_Api_DriveStats_FailedDieCount.htm" />
   <HelpKINode Title="Family property" Url="html/P_SolidFire_Element_Api_NetworkConfig_Family.htm" />
   <HelpKINode Title="FastCloneVirtualVolumeAsync method">
@@ -2368,6 +2370,19 @@
   <HelpKINode Title="GetLimitsResult.VolumesPerAccountCountMax property" Url="html/P_SolidFire_Element_Api_GetLimitsResult_VolumesPerAccountCountMax.htm" />
   <HelpKINode Title="GetLimitsResult.VolumesPerGroupSnapshotMax property" Url="html/P_SolidFire_Element_Api_GetLimitsResult_VolumesPerGroupSnapshotMax.htm" />
   <HelpKINode Title="GetLimitsResult.VolumesPerVolumeAccessGroupCountMax property" Url="html/P_SolidFire_Element_Api_GetLimitsResult_VolumesPerVolumeAccessGroupCountMax.htm" />
+  <HelpKINode Title="GetLoginSessionInfoAsync method">
+    <HelpKINode Title="ISolidFireElement.GetLoginSessionInfoAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetLoginSessionInfoAsync.htm" />
+    <HelpKINode Title="SolidFireElement.GetLoginSessionInfoAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_GetLoginSessionInfoAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetLoginSessionInfoResult class">
+    <HelpKINode Title="GetLoginSessionInfoResult Class" Url="html/T_SolidFire_Element_Api_GetLoginSessionInfoResult.htm" />
+    <HelpKINode Title="about GetLoginSessionInfoResult class" Url="html/T_SolidFire_Element_Api_GetLoginSessionInfoResult.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_GetLoginSessionInfoResult__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_GetLoginSessionInfoResult.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_GetLoginSessionInfoResult.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetLoginSessionInfoResult.GetLoginSessionInfoResult constructor" Url="html/M_SolidFire_Element_Api_GetLoginSessionInfoResult__ctor.htm" />
+  <HelpKINode Title="GetLoginSessionInfoResult.LoginSessionInfo property" Url="html/P_SolidFire_Element_Api_GetLoginSessionInfoResult_LoginSessionInfo.htm" />
   <HelpKINode Title="GetNetworkConfigAsync method">
     <HelpKINode Title="ISolidFireElement.GetNetworkConfigAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetNetworkConfigAsync.htm" />
     <HelpKINode Title="SolidFireElement.GetNetworkConfigAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_GetNetworkConfigAsync.htm" />
@@ -2417,6 +2432,19 @@
   <HelpKINode Title="GetNtpInfoResult.Broadcastclient property" Url="html/P_SolidFire_Element_Api_GetNtpInfoResult_Broadcastclient.htm" />
   <HelpKINode Title="GetNtpInfoResult.GetNtpInfoResult constructor" Url="html/M_SolidFire_Element_Api_GetNtpInfoResult__ctor.htm" />
   <HelpKINode Title="GetNtpInfoResult.Servers property" Url="html/P_SolidFire_Element_Api_GetNtpInfoResult_Servers.htm" />
+  <HelpKINode Title="GetRemoteLoggingHostsAsync method">
+    <HelpKINode Title="ISolidFireElement.GetRemoteLoggingHostsAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetRemoteLoggingHostsAsync.htm" />
+    <HelpKINode Title="SolidFireElement.GetRemoteLoggingHostsAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_GetRemoteLoggingHostsAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetRemoteLoggingHostsResult class">
+    <HelpKINode Title="GetRemoteLoggingHostsResult Class" Url="html/T_SolidFire_Element_Api_GetRemoteLoggingHostsResult.htm" />
+    <HelpKINode Title="about GetRemoteLoggingHostsResult class" Url="html/T_SolidFire_Element_Api_GetRemoteLoggingHostsResult.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_GetRemoteLoggingHostsResult__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_GetRemoteLoggingHostsResult.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_GetRemoteLoggingHostsResult.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetRemoteLoggingHostsResult.GetRemoteLoggingHostsResult constructor" Url="html/M_SolidFire_Element_Api_GetRemoteLoggingHostsResult__ctor.htm" />
+  <HelpKINode Title="GetRemoteLoggingHostsResult.RemoteHosts property" Url="html/P_SolidFire_Element_Api_GetRemoteLoggingHostsResult_RemoteHosts.htm" />
   <HelpKINode Title="GetScheduleAsync method">
     <HelpKINode Title="ISolidFireElement.GetScheduleAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetScheduleAsync.htm" />
     <HelpKINode Title="SolidFireElement.GetScheduleAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetScheduleAsync.htm" />
@@ -2730,7 +2758,10 @@
   </HelpKINode>
   <HelpKINode Title="HasError property" Url="html/P_SolidFire_Element_Api_Schedule_HasError.htm" />
   <HelpKINode Title="HbaPort property" Url="html/P_SolidFire_Element_Api_FibreChannelPortInfo_HbaPort.htm" />
-  <HelpKINode Title="Host property" Url="html/P_SolidFire_Element_Api_SnmpTrapRecipient_Host.htm" />
+  <HelpKINode Title="Host property">
+    <HelpKINode Title="LoggingServer.Host Property " Url="html/P_SolidFire_Element_Api_LoggingServer_Host.htm" />
+    <HelpKINode Title="SnmpTrapRecipient.Host Property " Url="html/P_SolidFire_Element_Api_SnmpTrapRecipient_Host.htm" />
+  </HelpKINode>
   <HelpKINode Title="HostAddress property">
     <HelpKINode Title="CreateVirtualVolumeHostRequest.HostAddress Property " Url="html/P_SolidFire_Element_Api_CreateVirtualVolumeHostRequest_HostAddress.htm" />
     <HelpKINode Title="ModifyVirtualVolumeHostRequest.HostAddress Property " Url="html/P_SolidFire_Element_Api_ModifyVirtualVolumeHostRequest_HostAddress.htm" />
@@ -2884,9 +2915,11 @@
   <HelpKINode Title="ISolidFireElement.GetDriveStatsAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetDriveStatsAsync.htm" />
   <HelpKINode Title="ISolidFireElement.GetLdapConfigurationAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetLdapConfigurationAsync.htm" />
   <HelpKINode Title="ISolidFireElement.GetLimitsAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetLimitsAsync.htm" />
+  <HelpKINode Title="ISolidFireElement.GetLoginSessionInfoAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetLoginSessionInfoAsync.htm" />
   <HelpKINode Title="ISolidFireElement.GetNetworkConfigAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetNetworkConfigAsync.htm" />
   <HelpKINode Title="ISolidFireElement.GetNodeStatsAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetNodeStatsAsync.htm" />
   <HelpKINode Title="ISolidFireElement.GetNtpInfoAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetNtpInfoAsync.htm" />
+  <HelpKINode Title="ISolidFireElement.GetRemoteLoggingHostsAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetRemoteLoggingHostsAsync.htm" />
   <HelpKINode Title="ISolidFireElement.GetScheduleAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetScheduleAsync.htm" />
   <HelpKINode Title="ISolidFireElement.GetSnmpACLAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetSnmpACLAsync.htm" />
   <HelpKINode Title="ISolidFireElement.GetSnmpInfoAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetSnmpInfoAsync.htm" />
@@ -2975,8 +3008,10 @@
   <HelpKINode Title="ISolidFireElement.SecureEraseDrivesAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_SecureEraseDrivesAsync.htm" />
   <HelpKINode Title="ISolidFireElement.SetClusterConfigAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_SetClusterConfigAsync.htm" />
   <HelpKINode Title="ISolidFireElement.SetDatabaseEntryAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_SetDatabaseEntryAsync.htm" />
+  <HelpKINode Title="ISolidFireElement.SetLoginSessionInfoAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_SetLoginSessionInfoAsync.htm" />
   <HelpKINode Title="ISolidFireElement.SetNetworkConfigAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_SetNetworkConfigAsync.htm" />
   <HelpKINode Title="ISolidFireElement.SetNtpInfoAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_SetNtpInfoAsync.htm" />
+  <HelpKINode Title="ISolidFireElement.SetRemoteLoggingHostsAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_SetRemoteLoggingHostsAsync.htm" />
   <HelpKINode Title="ISolidFireElement.SetSnmpACLAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_SetSnmpACLAsync.htm" />
   <HelpKINode Title="ISolidFireElement.SetSnmpInfoAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_SetSnmpInfoAsync.htm" />
   <HelpKINode Title="ISolidFireElement.SetSnmpTrapInfoAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_SetSnmpTrapInfoAsync.htm" />
@@ -3814,7 +3849,27 @@
   <HelpKINode Title="ListVolumeStatsByVolumeResult.ListVolumeStatsByVolumeResult constructor" Url="html/M_SolidFire_Element_Api_ListVolumeStatsByVolumeResult__ctor.htm" />
   <HelpKINode Title="ListVolumeStatsByVolumeResult.VolumeStats property" Url="html/P_SolidFire_Element_Api_ListVolumeStatsByVolumeResult_VolumeStats.htm" />
   <HelpKINode Title="LiveSecondaries property" Url="html/P_SolidFire_Element_Api_MetadataHosts_LiveSecondaries.htm" />
+  <HelpKINode Title="LoggingServer class">
+    <HelpKINode Title="LoggingServer Class" Url="html/T_SolidFire_Element_Api_LoggingServer.htm" />
+    <HelpKINode Title="about LoggingServer class" Url="html/T_SolidFire_Element_Api_LoggingServer.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_LoggingServer__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_LoggingServer.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_LoggingServer.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LoggingServer.Host property" Url="html/P_SolidFire_Element_Api_LoggingServer_Host.htm" />
+  <HelpKINode Title="LoggingServer.LoggingServer constructor" Url="html/M_SolidFire_Element_Api_LoggingServer__ctor.htm" />
+  <HelpKINode Title="LoggingServer.Port property" Url="html/P_SolidFire_Element_Api_LoggingServer_Port.htm" />
   <HelpKINode Title="Logicalname property" Url="html/P_SolidFire_Element_Api_DriveHardwareInfo_Logicalname.htm" />
+  <HelpKINode Title="LoginSessionInfo class">
+    <HelpKINode Title="LoginSessionInfo Class" Url="html/T_SolidFire_Element_Api_LoginSessionInfo.htm" />
+    <HelpKINode Title="about LoginSessionInfo class" Url="html/T_SolidFire_Element_Api_LoginSessionInfo.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_LoginSessionInfo__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_LoginSessionInfo.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_LoginSessionInfo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LoginSessionInfo property" Url="html/P_SolidFire_Element_Api_GetLoginSessionInfoResult_LoginSessionInfo.htm" />
+  <HelpKINode Title="LoginSessionInfo.LoginSessionInfo constructor" Url="html/M_SolidFire_Element_Api_LoginSessionInfo__ctor.htm" />
+  <HelpKINode Title="LoginSessionInfo.Timeout property" Url="html/P_SolidFire_Element_Api_LoginSessionInfo_Timeout.htm" />
   <HelpKINode Title="Lun property" Url="html/P_SolidFire_Element_Api_LunAssignment_Lun.htm" />
   <HelpKINode Title="LunAssignment class">
     <HelpKINode Title="LunAssignment Class" Url="html/T_SolidFire_Element_Api_LunAssignment.htm" />
@@ -4685,7 +4740,10 @@
     <HelpKINode Title="Node.PlatformInfo Property " Url="html/P_SolidFire_Element_Api_Node_PlatformInfo.htm" />
     <HelpKINode Title="PendingNode.PlatformInfo Property " Url="html/P_SolidFire_Element_Api_PendingNode_PlatformInfo.htm" />
   </HelpKINode>
-  <HelpKINode Title="Port property" Url="html/P_SolidFire_Element_Api_SnmpTrapRecipient_Port.htm" />
+  <HelpKINode Title="Port property">
+    <HelpKINode Title="LoggingServer.Port Property " Url="html/P_SolidFire_Element_Api_LoggingServer_Port.htm" />
+    <HelpKINode Title="SnmpTrapRecipient.Port Property " Url="html/P_SolidFire_Element_Api_SnmpTrapRecipient_Port.htm" />
+  </HelpKINode>
   <HelpKINode Title="PowerOnHours property" Url="html/P_SolidFire_Element_Api_DriveStats_PowerOnHours.htm" />
   <HelpKINode Title="PrepareVirtualSnapshotAsync method">
     <HelpKINode Title="ISolidFireElement.PrepareVirtualSnapshotAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_PrepareVirtualSnapshotAsync.htm" />
@@ -4858,6 +4916,10 @@
   <HelpKINode Title="RemainingTime property">
     <HelpKINode Title="BulkVolumeJob.RemainingTime Property " Url="html/P_SolidFire_Element_Api_BulkVolumeJob_RemainingTime.htm" />
     <HelpKINode Title="SyncJob.RemainingTime Property " Url="html/P_SolidFire_Element_Api_SyncJob_RemainingTime.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RemoteHosts property">
+    <HelpKINode Title="GetRemoteLoggingHostsResult.RemoteHosts Property " Url="html/P_SolidFire_Element_Api_GetRemoteLoggingHostsResult_RemoteHosts.htm" />
+    <HelpKINode Title="SetRemoteLoggingHostsRequest.RemoteHosts Property " Url="html/P_SolidFire_Element_Api_SetRemoteLoggingHostsRequest_RemoteHosts.htm" />
   </HelpKINode>
   <HelpKINode Title="RemoteReplication class">
     <HelpKINode Title="RemoteReplication Class" Url="html/T_SolidFire_Element_Api_RemoteReplication.htm" />
@@ -5312,6 +5374,8 @@
     <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Core_ServiceBase.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Core_ServiceBase.htm" />
   </HelpKINode>
+  <HelpKINode Title="ServiceBase.ExtractResult(Of TResult) method" Url="html/M_SolidFire_Core_ServiceBase_ExtractResult__1.htm" />
+  <HelpKINode Title="ServiceBase.ExtractResult&lt;TResult&gt; method" Url="html/M_SolidFire_Core_ServiceBase_ExtractResult__1.htm" />
   <HelpKINode Title="ServiceBase.GetUri method" Url="html/M_SolidFire_Core_ServiceBase_GetUri.htm" />
   <HelpKINode Title="ServiceBase.OnRequest event" Url="html/E_SolidFire_Core_ServiceBase_OnRequest.htm" />
   <HelpKINode Title="ServiceBase.OnResponse event" Url="html/E_SolidFire_Core_ServiceBase_OnResponse.htm" />
@@ -5374,6 +5438,26 @@
   <HelpKINode Title="SetDatabaseEntryRequest.DataVersion property" Url="html/P_SolidFire_Element_Api_SetDatabaseEntryRequest_DataVersion.htm" />
   <HelpKINode Title="SetDatabaseEntryRequest.Path property" Url="html/P_SolidFire_Element_Api_SetDatabaseEntryRequest_Path.htm" />
   <HelpKINode Title="SetDatabaseEntryRequest.SetDatabaseEntryRequest constructor" Url="html/M_SolidFire_Element_Api_SetDatabaseEntryRequest__ctor.htm" />
+  <HelpKINode Title="SetLoginSessionInfoAsync method">
+    <HelpKINode Title="ISolidFireElement.SetLoginSessionInfoAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_SetLoginSessionInfoAsync.htm" />
+    <HelpKINode Title="SolidFireElement.SetLoginSessionInfoAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_SetLoginSessionInfoAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetLoginSessionInfoRequest class">
+    <HelpKINode Title="SetLoginSessionInfoRequest Class" Url="html/T_SolidFire_Element_Api_SetLoginSessionInfoRequest.htm" />
+    <HelpKINode Title="about SetLoginSessionInfoRequest class" Url="html/T_SolidFire_Element_Api_SetLoginSessionInfoRequest.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_SetLoginSessionInfoRequest__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_SetLoginSessionInfoRequest.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_SetLoginSessionInfoRequest.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetLoginSessionInfoRequest.SetLoginSessionInfoRequest constructor" Url="html/M_SolidFire_Element_Api_SetLoginSessionInfoRequest__ctor.htm" />
+  <HelpKINode Title="SetLoginSessionInfoRequest.Timeout property" Url="html/P_SolidFire_Element_Api_SetLoginSessionInfoRequest_Timeout.htm" />
+  <HelpKINode Title="SetLoginSessionInfoResult class">
+    <HelpKINode Title="SetLoginSessionInfoResult Class" Url="html/T_SolidFire_Element_Api_SetLoginSessionInfoResult.htm" />
+    <HelpKINode Title="about SetLoginSessionInfoResult class" Url="html/T_SolidFire_Element_Api_SetLoginSessionInfoResult.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_SetLoginSessionInfoResult__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_SetLoginSessionInfoResult.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetLoginSessionInfoResult.SetLoginSessionInfoResult constructor" Url="html/M_SolidFire_Element_Api_SetLoginSessionInfoResult__ctor.htm" />
   <HelpKINode Title="SetNetworkConfigAsync method">
     <HelpKINode Title="ISolidFireElement.SetNetworkConfigAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_SetNetworkConfigAsync.htm" />
     <HelpKINode Title="SolidFireElement.SetNetworkConfigAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_SetNetworkConfigAsync.htm" />
@@ -5417,6 +5501,26 @@
     <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_SetNtpInfoResult.htm" />
   </HelpKINode>
   <HelpKINode Title="SetNtpInfoResult.SetNtpInfoResult constructor" Url="html/M_SolidFire_Element_Api_SetNtpInfoResult__ctor.htm" />
+  <HelpKINode Title="SetRemoteLoggingHostsAsync method">
+    <HelpKINode Title="ISolidFireElement.SetRemoteLoggingHostsAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_SetRemoteLoggingHostsAsync.htm" />
+    <HelpKINode Title="SolidFireElement.SetRemoteLoggingHostsAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_SetRemoteLoggingHostsAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetRemoteLoggingHostsRequest class">
+    <HelpKINode Title="SetRemoteLoggingHostsRequest Class" Url="html/T_SolidFire_Element_Api_SetRemoteLoggingHostsRequest.htm" />
+    <HelpKINode Title="about SetRemoteLoggingHostsRequest class" Url="html/T_SolidFire_Element_Api_SetRemoteLoggingHostsRequest.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_SetRemoteLoggingHostsRequest__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_SetRemoteLoggingHostsRequest.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_SetRemoteLoggingHostsRequest.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetRemoteLoggingHostsRequest.RemoteHosts property" Url="html/P_SolidFire_Element_Api_SetRemoteLoggingHostsRequest_RemoteHosts.htm" />
+  <HelpKINode Title="SetRemoteLoggingHostsRequest.SetRemoteLoggingHostsRequest constructor" Url="html/M_SolidFire_Element_Api_SetRemoteLoggingHostsRequest__ctor.htm" />
+  <HelpKINode Title="SetRemoteLoggingHostsResult class">
+    <HelpKINode Title="SetRemoteLoggingHostsResult Class" Url="html/T_SolidFire_Element_Api_SetRemoteLoggingHostsResult.htm" />
+    <HelpKINode Title="about SetRemoteLoggingHostsResult class" Url="html/T_SolidFire_Element_Api_SetRemoteLoggingHostsResult.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_SetRemoteLoggingHostsResult__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_SetRemoteLoggingHostsResult.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetRemoteLoggingHostsResult.SetRemoteLoggingHostsResult constructor" Url="html/M_SolidFire_Element_Api_SetRemoteLoggingHostsResult__ctor.htm" />
   <HelpKINode Title="SetSnmpACLAsync method">
     <HelpKINode Title="ISolidFireElement.SetSnmpACLAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_SetSnmpACLAsync.htm" />
     <HelpKINode Title="SolidFireElement.SetSnmpACLAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_SetSnmpACLAsync.htm" />
@@ -5834,10 +5938,12 @@
   <HelpKINode Title="SolidFire.Element.Api.GetEfficiencyResult class" Url="html/T_SolidFire_Element_Api_GetEfficiencyResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetLdapConfigurationResult class" Url="html/T_SolidFire_Element_Api_GetLdapConfigurationResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetLimitsResult class" Url="html/T_SolidFire_Element_Api_GetLimitsResult.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.GetLoginSessionInfoResult class" Url="html/T_SolidFire_Element_Api_GetLoginSessionInfoResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetNetworkConfigResult class" Url="html/T_SolidFire_Element_Api_GetNetworkConfigResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetNodeStatsRequest class" Url="html/T_SolidFire_Element_Api_GetNodeStatsRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetNodeStatsResult class" Url="html/T_SolidFire_Element_Api_GetNodeStatsResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetNtpInfoResult class" Url="html/T_SolidFire_Element_Api_GetNtpInfoResult.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.GetRemoteLoggingHostsResult class" Url="html/T_SolidFire_Element_Api_GetRemoteLoggingHostsResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetScheduleRequest class" Url="html/T_SolidFire_Element_Api_GetScheduleRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetScheduleResult class" Url="html/T_SolidFire_Element_Api_GetScheduleResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetSnmpACLResult class" Url="html/T_SolidFire_Element_Api_GetSnmpACLResult.htm" />
@@ -5922,6 +6028,8 @@
   <HelpKINode Title="SolidFire.Element.Api.ListVolumeStatsByVolumeAccessGroupRequest class" Url="html/T_SolidFire_Element_Api_ListVolumeStatsByVolumeAccessGroupRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ListVolumeStatsByVolumeAccessGroupResult class" Url="html/T_SolidFire_Element_Api_ListVolumeStatsByVolumeAccessGroupResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ListVolumeStatsByVolumeResult class" Url="html/T_SolidFire_Element_Api_ListVolumeStatsByVolumeResult.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.LoggingServer class" Url="html/T_SolidFire_Element_Api_LoggingServer.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.LoginSessionInfo class" Url="html/T_SolidFire_Element_Api_LoginSessionInfo.htm" />
   <HelpKINode Title="SolidFire.Element.Api.LunAssignment class" Url="html/T_SolidFire_Element_Api_LunAssignment.htm" />
   <HelpKINode Title="SolidFire.Element.Api.MetadataHosts class" Url="html/T_SolidFire_Element_Api_MetadataHosts.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ModifyAccountRequest class" Url="html/T_SolidFire_Element_Api_ModifyAccountRequest.htm" />
@@ -5999,10 +6107,14 @@
   <HelpKINode Title="SolidFire.Element.Api.SetClusterConfigRequest class" Url="html/T_SolidFire_Element_Api_SetClusterConfigRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.SetClusterConfigResult class" Url="html/T_SolidFire_Element_Api_SetClusterConfigResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.SetDatabaseEntryRequest class" Url="html/T_SolidFire_Element_Api_SetDatabaseEntryRequest.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.SetLoginSessionInfoRequest class" Url="html/T_SolidFire_Element_Api_SetLoginSessionInfoRequest.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.SetLoginSessionInfoResult class" Url="html/T_SolidFire_Element_Api_SetLoginSessionInfoResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.SetNetworkConfigRequest class" Url="html/T_SolidFire_Element_Api_SetNetworkConfigRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.SetNetworkConfigResult class" Url="html/T_SolidFire_Element_Api_SetNetworkConfigResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.SetNtpInfoRequest class" Url="html/T_SolidFire_Element_Api_SetNtpInfoRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.SetNtpInfoResult class" Url="html/T_SolidFire_Element_Api_SetNtpInfoResult.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.SetRemoteLoggingHostsRequest class" Url="html/T_SolidFire_Element_Api_SetRemoteLoggingHostsRequest.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.SetRemoteLoggingHostsResult class" Url="html/T_SolidFire_Element_Api_SetRemoteLoggingHostsResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.SetSnmpACLRequest class" Url="html/T_SolidFire_Element_Api_SetSnmpACLRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.SetSnmpACLResult class" Url="html/T_SolidFire_Element_Api_SetSnmpACLResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.SetSnmpInfoRequest class" Url="html/T_SolidFire_Element_Api_SetSnmpInfoRequest.htm" />
@@ -6127,9 +6239,11 @@
   <HelpKINode Title="SolidFireElement.GetDriveStatsAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetDriveStatsAsync.htm" />
   <HelpKINode Title="SolidFireElement.GetLdapConfigurationAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetLdapConfigurationAsync.htm" />
   <HelpKINode Title="SolidFireElement.GetLimitsAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetLimitsAsync.htm" />
+  <HelpKINode Title="SolidFireElement.GetLoginSessionInfoAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetLoginSessionInfoAsync.htm" />
   <HelpKINode Title="SolidFireElement.GetNetworkConfigAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetNetworkConfigAsync.htm" />
   <HelpKINode Title="SolidFireElement.GetNodeStatsAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetNodeStatsAsync.htm" />
   <HelpKINode Title="SolidFireElement.GetNtpInfoAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetNtpInfoAsync.htm" />
+  <HelpKINode Title="SolidFireElement.GetRemoteLoggingHostsAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetRemoteLoggingHostsAsync.htm" />
   <HelpKINode Title="SolidFireElement.GetScheduleAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetScheduleAsync.htm" />
   <HelpKINode Title="SolidFireElement.GetSnmpACLAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetSnmpACLAsync.htm" />
   <HelpKINode Title="SolidFireElement.GetSnmpInfoAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetSnmpInfoAsync.htm" />
@@ -6218,8 +6332,10 @@
   <HelpKINode Title="SolidFireElement.SecureEraseDrivesAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_SecureEraseDrivesAsync.htm" />
   <HelpKINode Title="SolidFireElement.SetClusterConfigAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_SetClusterConfigAsync.htm" />
   <HelpKINode Title="SolidFireElement.SetDatabaseEntryAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_SetDatabaseEntryAsync.htm" />
+  <HelpKINode Title="SolidFireElement.SetLoginSessionInfoAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_SetLoginSessionInfoAsync.htm" />
   <HelpKINode Title="SolidFireElement.SetNetworkConfigAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_SetNetworkConfigAsync.htm" />
   <HelpKINode Title="SolidFireElement.SetNtpInfoAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_SetNtpInfoAsync.htm" />
+  <HelpKINode Title="SolidFireElement.SetRemoteLoggingHostsAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_SetRemoteLoggingHostsAsync.htm" />
   <HelpKINode Title="SolidFireElement.SetSnmpACLAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_SetSnmpACLAsync.htm" />
   <HelpKINode Title="SolidFireElement.SetSnmpInfoAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_SetSnmpInfoAsync.htm" />
   <HelpKINode Title="SolidFireElement.SetSnmpTrapInfoAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_SetSnmpTrapInfoAsync.htm" />
@@ -6467,7 +6583,11 @@
   <HelpKINode Title="Throttle property" Url="html/P_SolidFire_Element_Api_VolumeStats_Throttle.htm" />
   <HelpKINode Title="TimeOfPublish property" Url="html/P_SolidFire_Element_Api_EventInfo_TimeOfPublish.htm" />
   <HelpKINode Title="TimeOfReport property" Url="html/P_SolidFire_Element_Api_EventInfo_TimeOfReport.htm" />
-  <HelpKINode Title="Timeout property" Url="html/P_SolidFire_Element_Api_SnapshotVirtualVolumeRequest_Timeout.htm" />
+  <HelpKINode Title="Timeout property">
+    <HelpKINode Title="LoginSessionInfo.Timeout Property " Url="html/P_SolidFire_Element_Api_LoginSessionInfo_Timeout.htm" />
+    <HelpKINode Title="SetLoginSessionInfoRequest.Timeout Property " Url="html/P_SolidFire_Element_Api_SetLoginSessionInfoRequest_Timeout.htm" />
+    <HelpKINode Title="SnapshotVirtualVolumeRequest.Timeout Property " Url="html/P_SolidFire_Element_Api_SnapshotVirtualVolumeRequest_Timeout.htm" />
+  </HelpKINode>
   <HelpKINode Title="TimeoutSec property">
     <HelpKINode Title="CreateSupportBundleRequest.TimeoutSec Property " Url="html/P_SolidFire_Element_Api_CreateSupportBundleRequest_TimeoutSec.htm" />
     <HelpKINode Title="SupportBundleDetails.TimeoutSec Property " Url="html/P_SolidFire_Element_Api_SupportBundleDetails_TimeoutSec.htm" />
