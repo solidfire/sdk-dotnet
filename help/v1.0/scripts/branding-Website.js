@@ -1,24 +1,4 @@
-﻿//===============================================================================================================
-// System  : Sandcastle Help File Builder
-// File    : branding-Website.js
-// Author  : Eric Woodruff  (Eric@EWoodruff.us)
-// Updated : 03/04/2015
-// Note    : Copyright 2014-2015, Eric Woodruff, All rights reserved
-//           Portions Copyright 2014 Sam Harwell, All rights reserved
-//
-// This file contains the methods necessary to implement the lightweight TOC and search functionality.
-//
-// This code is published under the Microsoft Public License (Ms-PL).  A copy of the license should be
-// distributed with the code.  It can also be found at the project website: https://GitHub.com/EWSoftware/SHFB.  This
-// notice, the author's name, and all copyright notices must remain intact in all applications, documentation,
-// and source files.
-//
-//    Date     Who  Comments
-// ==============================================================================================================
-// 05/04/2014  EFW  Created the code based on a combination of the lightweight TOC code from Sam Harwell and
-//                  the existing search code from SHFB.
-//===============================================================================================================
-
+﻿
 // Width of the TOC
 var tocWidth;
 

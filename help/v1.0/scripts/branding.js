@@ -1,25 +1,4 @@
-﻿//===============================================================================================================
-// System  : Sandcastle Help File Builder
-// File    : branding.js
-// Author  : Eric Woodruff  (Eric@EWoodruff.us)
-// Updated : 10/08/2015
-// Note    : Copyright 2014-2015, Eric Woodruff, All rights reserved
-//           Portions Copyright 2010-2014 Microsoft, All rights reserved
-//
-// This file contains the methods necessary to implement the language filtering, collapsible section, and
-// copy to clipboard options.
-//
-// This code is published under the Microsoft Public License (Ms-PL).  A copy of the license should be
-// distributed with the code and can be found at the project website: https://GitHub.com/EWSoftware/SHFB.  This
-// notice, the author's name, and all copyright notices must remain intact in all applications, documentation,
-// and source files.
-//
-//    Date     Who  Comments
-// ==============================================================================================================
-// 05/04/2014  EFW  Created the code based on the MS Help Viewer script
-//===============================================================================================================
-
-// The IDs of all code snippet sets on the same page are stored so that we can keep them in synch when a tab is
+﻿// The IDs of all code snippet sets on the same page are stored so that we can keep them in synch when a tab is
 // selected.
 var allTabSetIds = new Array();
 
