@@ -31,7 +31,7 @@ ___Dependencies___:
 
 | Component       | Version    |
 |:---------------:|:----------:|
-| Newtonsoft.Json | 8.0.0      |
+| Newtonsoft.Json | 9.0.1      |
 
 
 ## Documentation (v1.1)
