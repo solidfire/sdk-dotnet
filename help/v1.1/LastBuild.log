@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="2015.1.12.0" projectFile="C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet-public\help.shfbproj" started="9/6/2016 3:45:03 PM">
+<shfbBuild product="Sandcastle Help File Builder" version="2015.1.12.0" projectFile="C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet-public\help.shfbproj" started="9/14/2016 12:19:04 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -20,7 +20,7 @@ Parsing project files
     Found assembly &#39;C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet-public\Element\bin\Debug\SolidFire.SDK.dll&#39;
 
 References to include (excluding framework assemblies):
-    Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL
+    Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL
 
 Copying XML comments files
     C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet-public\Element\bin\Debug\SolidFire.SDK.xml -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\SolidFire.SDK.xml
@@ -28,16 +28,16 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0469
+</plugIn>    Last step completed in 00:00:00.1330
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0625
+    Last step completed in 00:00:00.0801
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 9/6/2016 3:45:05 PM.
+Build started 9/14/2016 12:19:07 PM.
 Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -46,7 +46,7 @@ GenerateRefInfo:
   Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
   Loaded 1 assemblies for reflection and 2 dependency assemblies.
-  Wrote information on 6 namespaces, 373 types, and 2417 members
+  Wrote information on 6 namespaces, 373 types, and 2411 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2015.1.12.0)
   Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
@@ -56,13 +56,13 @@ Done Building Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\
 
 Build succeeded.
 
-Time Elapsed 00:00:02.77
-    Last step completed in 00:00:03.1458
+Time Elapsed 00:00:02.60
+    Last step completed in 00:00:03.1099
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 9/6/2016 3:45:08 PM.
+Build started 9/14/2016 12:19:10 PM.
 Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2015.1.12.0)
@@ -173,8 +173,8 @@ TransformManifest:
     Unique name M_SolidFire_Element_Api_ISolidFireElement_SetNetworkConfigAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.SetNetworkConfigAsync(SolidFire.Element.Api.SetNetworkConfigRequest,System.Threading.CancellationToken)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_SetRemoteLoggingHosts_1 generated for M:SolidFire.Element.Api.ISolidFireElement.SetRemoteLoggingHosts(SolidFire.Element.Api.SetRemoteLoggingHostsRequest)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_SetRemoteLoggingHostsAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.SetRemoteLoggingHostsAsync(SolidFire.Element.Api.SetRemoteLoggingHostsRequest,System.Threading.CancellationToken)
-    Unique name M_SolidFire_Element_Api_ISolidFireElement_TestConnectEnsemble_1 generated for M:SolidFire.Element.Api.ISolidFireElement.TestConnectEnsemble(System.String)
-    Unique name M_SolidFire_Element_Api_ISolidFireElement_TestConnectEnsembleAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.TestConnectEnsembleAsync(System.String,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_TestConnectEnsemble_1 generated for M:SolidFire.Element.Api.ISolidFireElement.TestConnectEnsemble(System.String[])
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_TestConnectEnsembleAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.TestConnectEnsembleAsync(System.String[],System.Threading.CancellationToken)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_TestConnectMvip_1 generated for M:SolidFire.Element.Api.ISolidFireElement.TestConnectMvip(System.String)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_TestConnectMvipAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.TestConnectMvipAsync(System.String,System.Threading.CancellationToken)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_TestConnectSvip_1 generated for M:SolidFire.Element.Api.ISolidFireElement.TestConnectSvip(System.String)
@@ -271,8 +271,8 @@ TransformManifest:
     Unique name M_SolidFire_Element_Api_SolidFireElement_SetNetworkConfigAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.SetNetworkConfigAsync(SolidFire.Element.Api.SetNetworkConfigRequest,System.Threading.CancellationToken)
     Unique name M_SolidFire_Element_Api_SolidFireElement_SetRemoteLoggingHosts_1 generated for M:SolidFire.Element.Api.SolidFireElement.SetRemoteLoggingHosts(SolidFire.Element.Api.SetRemoteLoggingHostsRequest)
     Unique name M_SolidFire_Element_Api_SolidFireElement_SetRemoteLoggingHostsAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.SetRemoteLoggingHostsAsync(SolidFire.Element.Api.SetRemoteLoggingHostsRequest,System.Threading.CancellationToken)
-    Unique name M_SolidFire_Element_Api_SolidFireElement_TestConnectEnsemble_1 generated for M:SolidFire.Element.Api.SolidFireElement.TestConnectEnsemble(System.String)
-    Unique name M_SolidFire_Element_Api_SolidFireElement_TestConnectEnsembleAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.TestConnectEnsembleAsync(System.String,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_TestConnectEnsemble_1 generated for M:SolidFire.Element.Api.SolidFireElement.TestConnectEnsemble(System.String[])
+    Unique name M_SolidFire_Element_Api_SolidFireElement_TestConnectEnsembleAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.TestConnectEnsembleAsync(System.String[],System.Threading.CancellationToken)
     Unique name M_SolidFire_Element_Api_SolidFireElement_TestConnectMvip_1 generated for M:SolidFire.Element.Api.SolidFireElement.TestConnectMvip(System.String)
     Unique name M_SolidFire_Element_Api_SolidFireElement_TestConnectMvipAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.TestConnectMvipAsync(System.String,System.Threading.CancellationToken)
     Unique name M_SolidFire_Element_Api_SolidFireElement_TestConnectSvip_1 generated for M:SolidFire.Element.Api.SolidFireElement.TestConnectSvip(System.String)
@@ -285,26 +285,26 @@ Done Building Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\
 
 Build succeeded.
 
-Time Elapsed 00:00:10.34
-    Last step completed in 00:00:11.1420
+Time Elapsed 00:00:12.00
+    Last step completed in 00:00:12.7207
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.2002
+    Last step completed in 00:00:00.2161
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0529
+    Last step completed in 00:00:00.1010
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0156
+    Last step completed in 00:00:00.0295
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 9/6/2016 3:45:20 PM.
+Build started 9/14/2016 12:19:24 PM.
 Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2015.1.12.0)
@@ -315,24 +315,24 @@ Done Building Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\
 
 Build succeeded.
 
-Time Elapsed 00:00:00.69
+Time Elapsed 00:00:00.67
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01.1038
+    Last step completed in 00:00:01.1528
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.5574
+    Last step completed in 00:00:00.9110
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\sandcastle.config
-    Last step completed in 00:00:00.2053
+    Last step completed in 00:00:00.1731
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 9/6/2016 3:45:22 PM.
+Build started 9/14/2016 12:19:26 PM.
 Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj&quot; on node 1 (default targets).
 BuildReferenceTopics:
   BuildAssembler (v2015.1.12.0)
@@ -388,6 +388,8 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Dyn
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;P:Newtonsoft.Json.Serialization.DefaultContractResolver.IgnoreSerializableInterface&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;P:Newtonsoft.Json.Serialization.DefaultContractResolver.NamingStrategy&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;P:Newtonsoft.Json.Serialization.DefaultContractResolver.SerializeCompilerGeneratedMembers&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateArrayContract(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
@@ -436,6 +438,8 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFi
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;P:Newtonsoft.Json.Serialization.DefaultContractResolver.IgnoreSerializableAttribute&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;P:Newtonsoft.Json.Serialization.DefaultContractResolver.IgnoreSerializableInterface&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;P:Newtonsoft.Json.Serialization.DefaultContractResolver.NamingStrategy&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;P:Newtonsoft.Json.Serialization.DefaultContractResolver.SerializeCompilerGeneratedMembers&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
@@ -674,10 +678,6 @@ BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.ElementFac
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.ElementFactory.Create(System.String,System.String,System.String,System.String,System.Nullable{System.TimeSpan},System.Nullable{System.Int32})] Missing &lt;returns&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.ElementFactory.CreateAsync(System.String,System.String,System.Security.SecureString,System.Threading.CancellationToken,System.String,System.Nullable{System.TimeSpan},System.Nullable{System.Int32})] Missing &lt;returns&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.ElementFactory.CreateAsync(System.String,System.String,System.String,System.Threading.CancellationToken,System.String,System.Nullable{System.TimeSpan},System.Nullable{System.Int32})] Missing &lt;returns&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.AddVirtualNetworkRequest.Gateway] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.AddVirtualNetworkRequest.Namespace] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DaysOfMonthFrequency] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DaysOfWeekFrequency] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.EnableLdapAuthenticationRequest.UserSearchFilter] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.Frequency] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetClusterStateResult.State] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
@@ -1290,10 +1290,10 @@ BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.ISolid
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.ISolidFireElement.StartVolumePairingAsync(SolidFire.Element.Api.StartVolumePairingRequest,System.Threading.CancellationToken)] Missing &lt;param name=&quot;cancellationToken&quot;/&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.ISolidFireElement.TestConnectEnsemble(SolidFire.Element.Api.TestConnectEnsembleRequest)] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.ISolidFireElement.TestConnectEnsemble(SolidFire.Element.Api.TestConnectEnsembleRequest)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.ISolidFireElement.TestConnectEnsemble(System.String)] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.ISolidFireElement.TestConnectEnsemble(System.String[])] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.ISolidFireElement.TestConnectEnsembleAsync(SolidFire.Element.Api.TestConnectEnsembleRequest,System.Threading.CancellationToken)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.ISolidFireElement.TestConnectEnsembleAsync(SolidFire.Element.Api.TestConnectEnsembleRequest,System.Threading.CancellationToken)] Missing &lt;param name=&quot;cancellationToken&quot;/&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.ISolidFireElement.TestConnectEnsembleAsync(System.String,System.Threading.CancellationToken)] Missing &lt;param name=&quot;cancellationToken&quot;/&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.ISolidFireElement.TestConnectEnsembleAsync(System.String[],System.Threading.CancellationToken)] Missing &lt;param name=&quot;cancellationToken&quot;/&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.ISolidFireElement.TestConnectMvip(SolidFire.Element.Api.TestConnectMvipRequest)] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.ISolidFireElement.TestConnectMvip(SolidFire.Element.Api.TestConnectMvipRequest)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.ISolidFireElement.TestConnectMvip(System.String)] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
@@ -1322,8 +1322,6 @@ BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.ISolid
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.ISolidFireElement.UpdateBulkVolumeStatus(SolidFire.Element.Api.UpdateBulkVolumeStatusRequest)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.ISolidFireElement.UpdateBulkVolumeStatusAsync(SolidFire.Element.Api.UpdateBulkVolumeStatusRequest,System.Threading.CancellationToken)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.ISolidFireElement.UpdateBulkVolumeStatusAsync(SolidFire.Element.Api.UpdateBulkVolumeStatusRequest,System.Threading.CancellationToken)] Missing &lt;param name=&quot;cancellationToken&quot;/&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ModifyVirtualNetworkRequest.Gateway] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ModifyVirtualNetworkRequest.Namespace] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.SolidFireElement.#ctor(SolidFire.Core.IRpcRequestDispatcher)] Missing &lt;param name=&quot;dispatcher&quot;/&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.SolidFireElement.AddAccount(SolidFire.Element.Api.AddAccountRequest)] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.SolidFireElement.AddAccount(SolidFire.Element.Api.AddAccountRequest)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
@@ -1935,10 +1933,10 @@ BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.SolidF
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.SolidFireElement.StartVolumePairingAsync(SolidFire.Element.Api.StartVolumePairingRequest,System.Threading.CancellationToken)] Missing &lt;param name=&quot;cancellationToken&quot;/&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.SolidFireElement.TestConnectEnsemble(SolidFire.Element.Api.TestConnectEnsembleRequest)] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.SolidFireElement.TestConnectEnsemble(SolidFire.Element.Api.TestConnectEnsembleRequest)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.SolidFireElement.TestConnectEnsemble(System.String)] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.SolidFireElement.TestConnectEnsemble(System.String[])] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.SolidFireElement.TestConnectEnsembleAsync(SolidFire.Element.Api.TestConnectEnsembleRequest,System.Threading.CancellationToken)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.SolidFireElement.TestConnectEnsembleAsync(SolidFire.Element.Api.TestConnectEnsembleRequest,System.Threading.CancellationToken)] Missing &lt;param name=&quot;cancellationToken&quot;/&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.SolidFireElement.TestConnectEnsembleAsync(System.String,System.Threading.CancellationToken)] Missing &lt;param name=&quot;cancellationToken&quot;/&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.SolidFireElement.TestConnectEnsembleAsync(System.String[],System.Threading.CancellationToken)] Missing &lt;param name=&quot;cancellationToken&quot;/&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.SolidFireElement.TestConnectMvip(SolidFire.Element.Api.TestConnectMvipRequest)] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.SolidFireElement.TestConnectMvip(SolidFire.Element.Api.TestConnectMvipRequest)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.SolidFireElement.TestConnectMvip(System.String)] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
@@ -1968,25 +1966,24 @@ BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.SolidF
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.SolidFireElement.UpdateBulkVolumeStatusAsync(SolidFire.Element.Api.UpdateBulkVolumeStatusRequest,System.Threading.CancellationToken)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.SolidFireElement.UpdateBulkVolumeStatusAsync(SolidFire.Element.Api.UpdateBulkVolumeStatusRequest,System.Threading.CancellationToken)] Missing &lt;param name=&quot;cancellationToken&quot;/&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.SupportBundleDetails.Output] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.TimeIntervalFrequency] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.UpdateBulkVolumeStatusResult.Status] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.Weekday] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
-  Processed 3692 topic(s)
-  1631 warning(s)
+  Processed 3687 topic(s)
+  1628 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 9 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
 Done Building Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:02:17.60
-    Last step completed in 00:02:18.0204
+Time Elapsed 00:02:33.83
+    Last step completed in 00:02:34.2706
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
 
 Clearing any prior web output
-    Last step completed in 00:00:02.3222
+    Last step completed in 00:00:03.0503
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -1998,11 +1995,11 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing website files in C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website
-Processed 3692 HTML files
+Processed 3687 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\WebKI.xml
 Saving website table of contents to C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\WebTOC.xml
-    Last step completed in 00:00:32.8759
+    Last step completed in 00:00:38.0745
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -2082,18 +2079,18 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\TocOpen.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:02.7300
+    Last step completed in 00:00:02.1749
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0225
+    Last step completed in 00:00:00.0100
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:01:19.1524
+</plugIn>    Last step completed in 00:01:32.5401
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -2144,16 +2141,16 @@ Copied 4300 files
 Copied 4400 files
 Copied 4500 files
 Copied 4600 files
-Copied 4699 files for the website content
-    Last step completed in 00:00:12.0361
+Copied 4695 files for the website content
+    Last step completed in 00:00:43.9218
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:02.3171
+    Last step completed in 00:00:03.0441
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 9/6/2016 3:49:52 PM.  Total time: 00:04:48.9219
+Build completed successfully at 9/14/2016 12:25:03 PM.  Total time: 00:05:58.5067
 
 </buildStep>
 </shfbBuild>
