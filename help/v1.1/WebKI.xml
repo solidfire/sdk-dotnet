@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpKI>
+  <HelpKINode Title="AcceptEula property">
+    <HelpKINode Title="AddClusterAdminRequest.AcceptEula Property " Url="html/P_SolidFire_Element_Api_AddClusterAdminRequest_AcceptEula.htm" />
+    <HelpKINode Title="AddLdapClusterAdminRequest.AcceptEula Property " Url="html/P_SolidFire_Element_Api_AddLdapClusterAdminRequest_AcceptEula.htm" />
+    <HelpKINode Title="CreateClusterRequest.AcceptEula Property " Url="html/P_SolidFire_Element_Api_CreateClusterRequest_AcceptEula.htm" />
+  </HelpKINode>
   <HelpKINode Title="Access property">
     <HelpKINode Title="AddClusterAdminRequest.Access Property " Url="html/P_SolidFire_Element_Api_AddClusterAdminRequest_Access.htm" />
     <HelpKINode Title="AddLdapClusterAdminRequest.Access Property " Url="html/P_SolidFire_Element_Api_AddLdapClusterAdminRequest_Access.htm" />
@@ -101,6 +106,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_AddClusterAdminRequest.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_AddClusterAdminRequest.htm" />
   </HelpKINode>
+  <HelpKINode Title="AddClusterAdminRequest.AcceptEula property" Url="html/P_SolidFire_Element_Api_AddClusterAdminRequest_AcceptEula.htm" />
   <HelpKINode Title="AddClusterAdminRequest.Access property" Url="html/P_SolidFire_Element_Api_AddClusterAdminRequest_Access.htm" />
   <HelpKINode Title="AddClusterAdminRequest.AddClusterAdminRequest constructor" Url="html/M_SolidFire_Element_Api_AddClusterAdminRequest__ctor.htm" />
   <HelpKINode Title="AddClusterAdminRequest.Attributes property" Url="html/P_SolidFire_Element_Api_AddClusterAdminRequest_Attributes.htm" />
@@ -182,6 +188,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_AddLdapClusterAdminRequest.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_AddLdapClusterAdminRequest.htm" />
   </HelpKINode>
+  <HelpKINode Title="AddLdapClusterAdminRequest.AcceptEula property" Url="html/P_SolidFire_Element_Api_AddLdapClusterAdminRequest_AcceptEula.htm" />
   <HelpKINode Title="AddLdapClusterAdminRequest.Access property" Url="html/P_SolidFire_Element_Api_AddLdapClusterAdminRequest_Access.htm" />
   <HelpKINode Title="AddLdapClusterAdminRequest.AddLdapClusterAdminRequest constructor" Url="html/M_SolidFire_Element_Api_AddLdapClusterAdminRequest__ctor.htm" />
   <HelpKINode Title="AddLdapClusterAdminRequest.Attributes property" Url="html/P_SolidFire_Element_Api_AddLdapClusterAdminRequest_Attributes.htm" />
@@ -268,7 +275,9 @@
   <HelpKINode Title="AddVirtualNetworkRequest.AddressBlocks property" Url="html/P_SolidFire_Element_Api_AddVirtualNetworkRequest_AddressBlocks.htm" />
   <HelpKINode Title="AddVirtualNetworkRequest.AddVirtualNetworkRequest constructor" Url="html/M_SolidFire_Element_Api_AddVirtualNetworkRequest__ctor.htm" />
   <HelpKINode Title="AddVirtualNetworkRequest.Attributes property" Url="html/P_SolidFire_Element_Api_AddVirtualNetworkRequest_Attributes.htm" />
+  <HelpKINode Title="AddVirtualNetworkRequest.Gateway property" Url="html/P_SolidFire_Element_Api_AddVirtualNetworkRequest_Gateway.htm" />
   <HelpKINode Title="AddVirtualNetworkRequest.Name property" Url="html/P_SolidFire_Element_Api_AddVirtualNetworkRequest_Name.htm" />
+  <HelpKINode Title="AddVirtualNetworkRequest.Namespace property" Url="html/P_SolidFire_Element_Api_AddVirtualNetworkRequest_Namespace.htm" />
   <HelpKINode Title="AddVirtualNetworkRequest.Netmask property" Url="html/P_SolidFire_Element_Api_AddVirtualNetworkRequest_Netmask.htm" />
   <HelpKINode Title="AddVirtualNetworkRequest.Svip property" Url="html/P_SolidFire_Element_Api_AddVirtualNetworkRequest_Svip.htm" />
   <HelpKINode Title="AddVirtualNetworkRequest.VirtualNetworkTag property" Url="html/P_SolidFire_Element_Api_AddVirtualNetworkRequest_VirtualNetworkTag.htm" />
@@ -1145,6 +1154,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_CreateClusterRequest.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_CreateClusterRequest.htm" />
   </HelpKINode>
+  <HelpKINode Title="CreateClusterRequest.AcceptEula property" Url="html/P_SolidFire_Element_Api_CreateClusterRequest_AcceptEula.htm" />
   <HelpKINode Title="CreateClusterRequest.Attributes property" Url="html/P_SolidFire_Element_Api_CreateClusterRequest_Attributes.htm" />
   <HelpKINode Title="CreateClusterRequest.CreateClusterRequest constructor" Url="html/M_SolidFire_Element_Api_CreateClusterRequest__ctor.htm" />
   <HelpKINode Title="CreateClusterRequest.Mvip property" Url="html/P_SolidFire_Element_Api_CreateClusterRequest_Mvip.htm" />
@@ -1570,8 +1580,8 @@
     <HelpKINode Title="DriveHardwareInfo.Dev Property " Url="html/P_SolidFire_Element_Api_DriveHardwareInfo_Dev.htm" />
   </HelpKINode>
   <HelpKINode Title="DevPath property">
-    <HelpKINode Title="DriveConfigInfo.DevPath Property " Url="html/P_SolidFire_Element_Api_DriveConfigInfo_DevPath.htm" />
     <HelpKINode Title="DriveHardware.DevPath Property " Url="html/P_SolidFire_Element_Api_DriveHardware_DevPath.htm" />
+    <HelpKINode Title="DriveConfigInfo.DevPath Property " Url="html/P_SolidFire_Element_Api_DriveConfigInfo_DevPath.htm" />
   </HelpKINode>
   <HelpKINode Title="Devpath property" Url="html/P_SolidFire_Element_Api_DriveHardwareInfo_Devpath.htm" />
   <HelpKINode Title="DisableEncryptionAtRest method">
@@ -2093,7 +2103,12 @@
     <HelpKINode Title="GetClusterFullThresholdResult.Fullness Property " Url="html/P_SolidFire_Element_Api_GetClusterFullThresholdResult_Fullness.htm" />
     <HelpKINode Title="ModifyClusterFullThresholdResult.Fullness Property " Url="html/P_SolidFire_Element_Api_ModifyClusterFullThresholdResult_Fullness.htm" />
   </HelpKINode>
-  <HelpKINode Title="Gateway property" Url="html/P_SolidFire_Element_Api_NetworkConfig_Gateway.htm" />
+  <HelpKINode Title="Gateway property">
+    <HelpKINode Title="AddVirtualNetworkRequest.Gateway Property " Url="html/P_SolidFire_Element_Api_AddVirtualNetworkRequest_Gateway.htm" />
+    <HelpKINode Title="ModifyVirtualNetworkRequest.Gateway Property " Url="html/P_SolidFire_Element_Api_ModifyVirtualNetworkRequest_Gateway.htm" />
+    <HelpKINode Title="NetworkConfig.Gateway Property " Url="html/P_SolidFire_Element_Api_NetworkConfig_Gateway.htm" />
+    <HelpKINode Title="VirtualNetwork.Gateway Property " Url="html/P_SolidFire_Element_Api_VirtualNetwork_Gateway.htm" />
+  </HelpKINode>
   <HelpKINode Title="GetAccountByID method">
     <HelpKINode Title="ISolidFireElement.GetAccountByID Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetAccountByID.htm" />
     <HelpKINode Title="SolidFireElement.GetAccountByID Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetAccountByID.htm" />
@@ -4634,10 +4649,8 @@
     <HelpKINode Title="about ModifyScheduleResult class" Url="html/T_SolidFire_Element_Api_ModifyScheduleResult.htm" />
     <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_ModifyScheduleResult__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_ModifyScheduleResult.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_ModifyScheduleResult.htm" />
   </HelpKINode>
   <HelpKINode Title="ModifyScheduleResult.ModifyScheduleResult constructor" Url="html/M_SolidFire_Element_Api_ModifyScheduleResult__ctor.htm" />
-  <HelpKINode Title="ModifyScheduleResult.Schedule property" Url="html/P_SolidFire_Element_Api_ModifyScheduleResult_Schedule.htm" />
   <HelpKINode Title="ModifySnapshot method">
     <HelpKINode Title="ISolidFireElement.ModifySnapshot Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_ModifySnapshot.htm" />
     <HelpKINode Title="SolidFireElement.ModifySnapshot Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_ModifySnapshot.htm" />
@@ -4681,8 +4694,10 @@
   </HelpKINode>
   <HelpKINode Title="ModifyVirtualNetworkRequest.AddressBlocks property" Url="html/P_SolidFire_Element_Api_ModifyVirtualNetworkRequest_AddressBlocks.htm" />
   <HelpKINode Title="ModifyVirtualNetworkRequest.Attributes property" Url="html/P_SolidFire_Element_Api_ModifyVirtualNetworkRequest_Attributes.htm" />
+  <HelpKINode Title="ModifyVirtualNetworkRequest.Gateway property" Url="html/P_SolidFire_Element_Api_ModifyVirtualNetworkRequest_Gateway.htm" />
   <HelpKINode Title="ModifyVirtualNetworkRequest.ModifyVirtualNetworkRequest constructor" Url="html/M_SolidFire_Element_Api_ModifyVirtualNetworkRequest__ctor.htm" />
   <HelpKINode Title="ModifyVirtualNetworkRequest.Name property" Url="html/P_SolidFire_Element_Api_ModifyVirtualNetworkRequest_Name.htm" />
+  <HelpKINode Title="ModifyVirtualNetworkRequest.Namespace property" Url="html/P_SolidFire_Element_Api_ModifyVirtualNetworkRequest_Namespace.htm" />
   <HelpKINode Title="ModifyVirtualNetworkRequest.Netmask property" Url="html/P_SolidFire_Element_Api_ModifyVirtualNetworkRequest_Netmask.htm" />
   <HelpKINode Title="ModifyVirtualNetworkRequest.Svip property" Url="html/P_SolidFire_Element_Api_ModifyVirtualNetworkRequest_Svip.htm" />
   <HelpKINode Title="ModifyVirtualNetworkRequest.VirtualNetworkID property" Url="html/P_SolidFire_Element_Api_ModifyVirtualNetworkRequest_VirtualNetworkID.htm" />
@@ -4855,6 +4870,11 @@
     <HelpKINode Title="VirtualNetwork.Name Property " Url="html/P_SolidFire_Element_Api_VirtualNetwork_Name.htm" />
     <HelpKINode Title="Volume.Name Property " Url="html/P_SolidFire_Element_Api_Volume_Name.htm" />
     <HelpKINode Title="VolumeAccessGroup.Name Property " Url="html/P_SolidFire_Element_Api_VolumeAccessGroup_Name.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Namespace property">
+    <HelpKINode Title="AddVirtualNetworkRequest.Namespace Property " Url="html/P_SolidFire_Element_Api_AddVirtualNetworkRequest_Namespace.htm" />
+    <HelpKINode Title="ModifyVirtualNetworkRequest.Namespace Property " Url="html/P_SolidFire_Element_Api_ModifyVirtualNetworkRequest_Namespace.htm" />
+    <HelpKINode Title="VirtualNetwork.Namespace Property " Url="html/P_SolidFire_Element_Api_VirtualNetwork_Namespace.htm" />
   </HelpKINode>
   <HelpKINode Title="Netmask property">
     <HelpKINode Title="AddVirtualNetworkRequest.Netmask Property " Url="html/P_SolidFire_Element_Api_AddVirtualNetworkRequest_Netmask.htm" />
@@ -5818,7 +5838,6 @@
     <HelpKINode Title="CreateScheduleRequest.Schedule Property " Url="html/P_SolidFire_Element_Api_CreateScheduleRequest_Schedule.htm" />
     <HelpKINode Title="GetScheduleResult.Schedule Property " Url="html/P_SolidFire_Element_Api_GetScheduleResult_Schedule.htm" />
     <HelpKINode Title="ModifyScheduleRequest.Schedule Property " Url="html/P_SolidFire_Element_Api_ModifyScheduleRequest_Schedule.htm" />
-    <HelpKINode Title="ModifyScheduleResult.Schedule Property " Url="html/P_SolidFire_Element_Api_ModifyScheduleResult_Schedule.htm" />
   </HelpKINode>
   <HelpKINode Title="Schedule.Frequency property" Url="html/P_SolidFire_Element_Api_Schedule_Frequency.htm" />
   <HelpKINode Title="Schedule.HasError property" Url="html/P_SolidFire_Element_Api_Schedule_HasError.htm" />
@@ -7797,7 +7816,9 @@
   </HelpKINode>
   <HelpKINode Title="VirtualNetwork.AddressBlocks property" Url="html/P_SolidFire_Element_Api_VirtualNetwork_AddressBlocks.htm" />
   <HelpKINode Title="VirtualNetwork.Attributes property" Url="html/P_SolidFire_Element_Api_VirtualNetwork_Attributes.htm" />
+  <HelpKINode Title="VirtualNetwork.Gateway property" Url="html/P_SolidFire_Element_Api_VirtualNetwork_Gateway.htm" />
   <HelpKINode Title="VirtualNetwork.Name property" Url="html/P_SolidFire_Element_Api_VirtualNetwork_Name.htm" />
+  <HelpKINode Title="VirtualNetwork.Namespace property" Url="html/P_SolidFire_Element_Api_VirtualNetwork_Namespace.htm" />
   <HelpKINode Title="VirtualNetwork.Netmask property" Url="html/P_SolidFire_Element_Api_VirtualNetwork_Netmask.htm" />
   <HelpKINode Title="VirtualNetwork.Svip property" Url="html/P_SolidFire_Element_Api_VirtualNetwork_Svip.htm" />
   <HelpKINode Title="VirtualNetwork.VirtualNetwork constructor" Url="html/M_SolidFire_Element_Api_VirtualNetwork__ctor.htm" />
