@@ -157,9 +157,9 @@ namespace SolidFire.SDK.Examples
 }
 ~~~
 
-### [More Examples](examples)
+### [More Examples](https://github.com/solidfire/sdk-dotnet/tree/gh-pages/examples)
 
-For more examples check out the tutorials in the [examples folder](examples) of this repo.
+For more examples check out the tutorials in the [examples folder](https://github.com/solidfire/sdk-dotnet/tree/gh-pages/examples) of this repo.
 
 ## Roadmap
 
