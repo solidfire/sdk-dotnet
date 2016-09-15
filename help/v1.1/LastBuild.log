@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="2015.1.12.0" projectFile="C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet-public\help.shfbproj" started="9/15/2016 2:33:56 PM">
+<shfbBuild product="Sandcastle Help File Builder" version="2015.1.12.0" projectFile="C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet-public\help.shfbproj" started="9/15/2016 2:50:24 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -28,16 +28,16 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.1316
+</plugIn>    Last step completed in 00:00:00.0312
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0312
+    Last step completed in 00:00:00.0313
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 9/15/2016 2:34:01 PM.
+Build started 9/15/2016 2:50:26 PM.
 Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -56,13 +56,13 @@ Done Building Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\
 
 Build succeeded.
 
-Time Elapsed 00:00:04.62
-    Last step completed in 00:00:05.4251
+Time Elapsed 00:00:05.32
+    Last step completed in 00:00:05.9631
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 9/15/2016 2:34:06 PM.
+Build started 9/15/2016 2:50:32 PM.
 Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2015.1.12.0)
@@ -285,26 +285,26 @@ Done Building Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\
 
 Build succeeded.
 
-Time Elapsed 00:00:14.22
-    Last step completed in 00:00:15.1947
+Time Elapsed 00:00:11.42
+    Last step completed in 00:00:12.4291
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.2516
+    Last step completed in 00:00:00.2076
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0503
+    Last step completed in 00:00:00.0005
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0409
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 9/15/2016 2:34:22 PM.
+Build started 9/15/2016 2:50:45 PM.
 Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2015.1.12.0)
@@ -315,24 +315,24 @@ Done Building Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\
 
 Build succeeded.
 
-Time Elapsed 00:00:02.44
+Time Elapsed 00:00:02.38
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:03.2381
+    Last step completed in 00:00:03.0476
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:01.1262
+    Last step completed in 00:00:00.5429
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\sandcastle.config
-    Last step completed in 00:00:00.2477
+    Last step completed in 00:00:00.1156
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 9/15/2016 2:34:27 PM.
+Build started 9/15/2016 2:50:48 PM.
 Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj&quot; on node 1 (default targets).
 BuildReferenceTopics:
   BuildAssembler (v2015.1.12.0)
@@ -547,14 +547,14 @@ Done Building Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\
 
 Build succeeded.
 
-Time Elapsed 00:01:55.55
-    Last step completed in 00:01:56.6531
+Time Elapsed 00:01:56.57
+    Last step completed in 00:01:57.2508
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
 
 Clearing any prior web output
-    Last step completed in 00:00:03.1624
+    Last step completed in 00:00:02.7839
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -570,7 +570,7 @@ Processed 3694 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\WebKI.xml
 Saving website table of contents to C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\WebTOC.xml
-    Last step completed in 00:00:33.5542
+    Last step completed in 00:00:40.0164
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -579,6 +579,7 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\AlertSecurity.png
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\CFW.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon-old.ico -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\favicon-old.ico
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\favicon.ico
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\privclass.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\privdelegate.gif
@@ -650,18 +651,18 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\TocOpen.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:03.0282
+    Last step completed in 00:00:01.3250
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0470
+    Last step completed in 00:00:00.0100
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:01:14.2721
+</plugIn>    Last step completed in 00:01:27.1168
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -713,16 +714,16 @@ Copied 4400 files
 Copied 4500 files
 Copied 4600 files
 Copied 4700 files
-Copied 4701 files for the website content
-    Last step completed in 00:00:31.0077
+Copied 4702 files for the website content
+    Last step completed in 00:00:32.2875
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:02.7304
+    Last step completed in 00:00:02.4596
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 9/15/2016 2:38:51 PM.  Total time: 00:04:55.2964
+Build completed successfully at 9/15/2016 2:55:31 PM.  Total time: 00:05:07.6944
 
 </buildStep>
 </shfbBuild>

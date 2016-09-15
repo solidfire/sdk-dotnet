@@ -1579,11 +1579,11 @@
     <HelpKINode Title="DriveHardware.Dev Property " Url="html/P_SolidFire_Element_Api_DriveHardware_Dev.htm" />
     <HelpKINode Title="DriveHardwareInfo.Dev Property " Url="html/P_SolidFire_Element_Api_DriveHardwareInfo_Dev.htm" />
   </HelpKINode>
-  <HelpKINode Title="DevPath property">
-    <HelpKINode Title="DriveHardware.DevPath Property " Url="html/P_SolidFire_Element_Api_DriveHardware_DevPath.htm" />
-    <HelpKINode Title="DriveConfigInfo.DevPath Property " Url="html/P_SolidFire_Element_Api_DriveConfigInfo_DevPath.htm" />
-  </HelpKINode>
   <HelpKINode Title="Devpath property" Url="html/P_SolidFire_Element_Api_DriveHardwareInfo_Devpath.htm" />
+  <HelpKINode Title="DevPath property">
+    <HelpKINode Title="DriveConfigInfo.DevPath Property " Url="html/P_SolidFire_Element_Api_DriveConfigInfo_DevPath.htm" />
+    <HelpKINode Title="DriveHardware.DevPath Property " Url="html/P_SolidFire_Element_Api_DriveHardware_DevPath.htm" />
+  </HelpKINode>
   <HelpKINode Title="DisableEncryptionAtRest method">
     <HelpKINode Title="ISolidFireElement.DisableEncryptionAtRest Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_DisableEncryptionAtRest.htm" />
     <HelpKINode Title="SolidFireElement.DisableEncryptionAtRest Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_DisableEncryptionAtRest.htm" />
