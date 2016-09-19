@@ -8,7 +8,7 @@ Examples for:
 
 - [List all Accounts](#list-all-accounts)
 - [Get one Account](#get-one-account)
-- [Create an Account](#create-an-account)
+- [Add an Account](#add-an-account)
 - [Modify an Account](#modify-an-account)
 
 ### Documentation
