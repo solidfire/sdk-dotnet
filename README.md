@@ -38,7 +38,7 @@ ___Dependencies___:
 
 [MSDN Docs](http://solidfire.github.io/sdk-dotnet/help/v1.1/html/R_Project_SolidFire__NET_SDK_Documentation.htm) 
 
-[Release Notes](https://github.com/solidfire/sdk-dotnet/raw/gh-pages/Dot%20NET%20SDK%20Release%20Notes_v1.1.pdf)
+[Release Notes](https://github.com/solidfire/sdk-dotnet/raw/gh-pages/SolidFire_Dot_NET_SDK_Release_Notes_v1.1.pdf)
 
 ## Instructions
 
