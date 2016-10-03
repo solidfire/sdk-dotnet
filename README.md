@@ -69,18 +69,18 @@ var addAccountRequest = new AddAccountRequest()
 
 ### Step 3 - Call the API method and retrieve the result
 
-All service methods in [SolidFireElement](http://solidfire.github.io/sdk-dotnet/help/v1.1/html/T_SolidFire_Element_Api_SolidFireElement.htm) call API endpoints syncronously and asyncronously.
+All service methods in [SolidFireElement](http://solidfire.github.io/sdk-dotnet/help/v1.1/html/T_SolidFire_Element_Api_SolidFireElement.htm) call API endpoints synchronously and asynchronously.
 
-_Send request and handle result Asyncronously_
+_Send request and handle result asynchronously_
 
 ~~~ csharp
-// Send the Async request and await the returned Task
+// Send the async request and await the returned Task
 var addAccountResult = await sfe.AddAccountAsync(addAccountRequest, CancellationToken.None);
 // Now pull the account ID from the result object
 var accountID = accountResult.AccountID;
 ~~~
 
-_Send request and handle result Syncronously_
+_Send request and handle result synchronously_
 
 ~~~ csharp
 // Send the request and wait for the result then pull the AccountID
