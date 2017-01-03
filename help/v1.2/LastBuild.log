@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="2015.1.12.0" projectFile="C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet\help.shfbproj" started="12/22/2016 3:31:32 PM">
+<shfbBuild product="Sandcastle Help File Builder" version="2015.1.12.0" projectFile="C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet\help.shfbproj" started="1/3/2017 11:56:02 AM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -11,17 +11,11 @@ Lightweight Website Style Version 2015.1.12.0
 Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved
 Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
 </buildStep>
-<buildStep step="ClearWorkFolder">
-Clearing working folder...
-</buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
 Source: C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet\src\DotNetSdk\bin\Debug\net46\DotNetSdk.dll
     Found assembly &#39;C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet\src\DotNetSdk\bin\Debug\net46\DotNetSdk.dll&#39;
 Source: C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet\src\DotNetSdk\bin\Debug\net46\DotNetSdk.xml
-
-References to include (excluding framework assemblies):
-    C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet\src\DotNetSdk\.\bin\DotNetSdk.dll
 
 Copying XML comments files
     C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet\src\DotNetSdk\bin\Debug\net46\DotNetSdk.xml -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\DotNetSdk.xml
@@ -29,16 +23,16 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.1920
+</plugIn>    Last step completed in 00:00:00.2630
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0835
+    Last step completed in 00:00:00.1020
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 12/22/2016 3:31:37 PM.
+Build started 1/3/2017 11:56:05 AM.
 Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -47,7 +41,7 @@ GenerateRefInfo:
   Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
   Loaded 1 assemblies for reflection and 0 dependency assemblies.
-  Wrote information on 7 namespaces, 492 types, and 3465 members
+  Wrote information on 7 namespaces, 483 types, and 3439 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2015.1.12.0)
   Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
@@ -57,13 +51,13 @@ Done Building Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\
 
 Build succeeded.
 
-Time Elapsed 00:00:03.22
-    Last step completed in 00:00:03.4547
+Time Elapsed 00:00:03.20
+    Last step completed in 00:00:03.5723
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 12/22/2016 3:31:40 PM.
+Build started 1/3/2017 11:56:08 AM.
 Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2015.1.12.0)
@@ -310,6 +304,8 @@ TransformManifest:
     Unique name M_SolidFire_Element_Api_ISolidFireElement_RemoveVolumesFromVolumeAccessGroupAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RemoveVolumesFromVolumeAccessGroupAsync(System.Threading.CancellationToken,System.Int64,System.Int64[])
     Unique name M_SolidFire_Element_Api_ISolidFireElement_ResetDrives_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ResetDrives(System.String,System.Boolean)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_ResetDrivesAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ResetDrivesAsync(System.Threading.CancellationToken,System.String,System.Boolean)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ResetNode_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ResetNode(System.String,System.Boolean,System.String)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ResetNodeAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ResetNodeAsync(System.Threading.CancellationToken,System.String,System.Boolean,System.String)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_RestartNetworking_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RestartNetworking(System.Boolean)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_RestartNetworkingAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RestartNetworkingAsync(System.Threading.CancellationToken,System.Boolean)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_RestartServices_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RestartServices(System.Boolean,System.String,System.String)
@@ -342,6 +338,8 @@ TransformManifest:
     Unique name M_SolidFire_Element_Api_ISolidFireElement_SetSnmpInfoAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.SetSnmpInfoAsync(System.Threading.CancellationToken,SolidFire.Element.Api.SnmpNetwork[],System.Nullable{System.Boolean},System.Nullable{System.Boolean},SolidFire.Element.Api.SnmpV3UsmUser[])
     Unique name M_SolidFire_Element_Api_ISolidFireElement_SetSnmpTrapInfo_1 generated for M:SolidFire.Element.Api.ISolidFireElement.SetSnmpTrapInfo(SolidFire.Element.Api.SnmpTrapRecipient[],System.Boolean,System.Boolean,System.Boolean)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_SetSnmpTrapInfoAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.SetSnmpTrapInfoAsync(System.Threading.CancellationToken,SolidFire.Element.Api.SnmpTrapRecipient[],System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_Shutdown_1 generated for M:SolidFire.Element.Api.ISolidFireElement.Shutdown(System.String)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ShutdownAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ShutdownAsync(System.Threading.CancellationToken,System.String)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_StartBulkVolumeRead_1 generated for M:SolidFire.Element.Api.ISolidFireElement.StartBulkVolumeRead(System.Int64,System.String,System.Nullable{System.Int64},System.String,System.Collections.Hashtable,System.Collections.Hashtable)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_StartBulkVolumeReadAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.StartBulkVolumeReadAsync(System.Threading.CancellationToken,System.Int64,System.String,System.Nullable{System.Int64},System.String,System.Collections.Hashtable,System.Collections.Hashtable)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_StartBulkVolumeWrite_1 generated for M:SolidFire.Element.Api.ISolidFireElement.StartBulkVolumeWrite(System.Int64,System.String,System.String,System.Collections.Hashtable,System.Collections.Hashtable)
@@ -592,6 +590,8 @@ TransformManifest:
     Unique name M_SolidFire_Element_Api_SolidFireElement_RemoveVolumesFromVolumeAccessGroupAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.RemoveVolumesFromVolumeAccessGroupAsync(System.Threading.CancellationToken,System.Int64,System.Int64[])
     Unique name M_SolidFire_Element_Api_SolidFireElement_ResetDrives_1 generated for M:SolidFire.Element.Api.SolidFireElement.ResetDrives(System.String,System.Boolean)
     Unique name M_SolidFire_Element_Api_SolidFireElement_ResetDrivesAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.ResetDrivesAsync(System.Threading.CancellationToken,System.String,System.Boolean)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ResetNode_1 generated for M:SolidFire.Element.Api.SolidFireElement.ResetNode(System.String,System.Boolean,System.String)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ResetNodeAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.ResetNodeAsync(System.Threading.CancellationToken,System.String,System.Boolean,System.String)
     Unique name M_SolidFire_Element_Api_SolidFireElement_RestartNetworking_1 generated for M:SolidFire.Element.Api.SolidFireElement.RestartNetworking(System.Boolean)
     Unique name M_SolidFire_Element_Api_SolidFireElement_RestartNetworkingAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.RestartNetworkingAsync(System.Threading.CancellationToken,System.Boolean)
     Unique name M_SolidFire_Element_Api_SolidFireElement_RestartServices_1 generated for M:SolidFire.Element.Api.SolidFireElement.RestartServices(System.Boolean,System.String,System.String)
@@ -624,6 +624,8 @@ TransformManifest:
     Unique name M_SolidFire_Element_Api_SolidFireElement_SetSnmpInfoAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.SetSnmpInfoAsync(System.Threading.CancellationToken,SolidFire.Element.Api.SnmpNetwork[],System.Nullable{System.Boolean},System.Nullable{System.Boolean},SolidFire.Element.Api.SnmpV3UsmUser[])
     Unique name M_SolidFire_Element_Api_SolidFireElement_SetSnmpTrapInfo_1 generated for M:SolidFire.Element.Api.SolidFireElement.SetSnmpTrapInfo(SolidFire.Element.Api.SnmpTrapRecipient[],System.Boolean,System.Boolean,System.Boolean)
     Unique name M_SolidFire_Element_Api_SolidFireElement_SetSnmpTrapInfoAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.SetSnmpTrapInfoAsync(System.Threading.CancellationToken,SolidFire.Element.Api.SnmpTrapRecipient[],System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_Shutdown_1 generated for M:SolidFire.Element.Api.SolidFireElement.Shutdown(System.String)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ShutdownAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.ShutdownAsync(System.Threading.CancellationToken,System.String)
     Unique name M_SolidFire_Element_Api_SolidFireElement_StartBulkVolumeRead_1 generated for M:SolidFire.Element.Api.SolidFireElement.StartBulkVolumeRead(System.Int64,System.String,System.Nullable{System.Int64},System.String,System.Collections.Hashtable,System.Collections.Hashtable)
     Unique name M_SolidFire_Element_Api_SolidFireElement_StartBulkVolumeReadAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.StartBulkVolumeReadAsync(System.Threading.CancellationToken,System.Int64,System.String,System.Nullable{System.Int64},System.String,System.Collections.Hashtable,System.Collections.Hashtable)
     Unique name M_SolidFire_Element_Api_SolidFireElement_StartBulkVolumeWrite_1 generated for M:SolidFire.Element.Api.SolidFireElement.StartBulkVolumeWrite(System.Int64,System.String,System.String,System.Collections.Hashtable,System.Collections.Hashtable)
@@ -652,26 +654,26 @@ Done Building Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\
 
 Build succeeded.
 
-Time Elapsed 00:00:18.86
-    Last step completed in 00:00:19.4744
+Time Elapsed 00:00:25.67
+    Last step completed in 00:00:26.4020
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.2530
+    Last step completed in 00:00:00.2670
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0070
+    Last step completed in 00:00:00.0340
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0165
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 12/22/2016 3:32:00 PM.
+Build started 1/3/2017 11:56:35 AM.
 Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2015.1.12.0)
@@ -682,24 +684,24 @@ Done Building Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\
 
 Build succeeded.
 
-Time Elapsed 00:00:00.74
+Time Elapsed 00:00:00.81
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.9761
+    Last step completed in 00:00:01.2922
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.9886
+    Last step completed in 00:00:00.7621
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\sandcastle.config
-    Last step completed in 00:00:00.1410
+    Last step completed in 00:00:00.1170
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 12/22/2016 3:32:02 PM.
+Build started 1/3/2017 11:56:38 AM.
 Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj&quot; on node 1 (default targets).
 BuildReferenceTopics:
   BuildAssembler (v2015.1.12.0)
@@ -965,49 +967,18 @@ BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Core.Exceptions.Me
 BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Core.Exceptions.MissingParameterException] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Core.Exceptions.MissingVersionException] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Core.Exceptions.RequestParameterException] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.AddAccountRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.AddAccountResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.AddClusterAdminRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.AddClusterAdminResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.AddDrivesRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.AddDrivesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.AddedNode] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.AddedNode.NodeID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.AddedNode.PendingNodeID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.AddInitiatorsToVolumeAccessGroupRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.AddLdapClusterAdminRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.AddLdapClusterAdminResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.AddNodesRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.AddNodesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.AddVirtualNetworkRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.AddVirtualNetworkRequest.Gateway] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.AddVirtualNetworkRequest.Namespace] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.AddVirtualNetworkResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.AddVolumesToVolumeAccessGroupRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.AsyncHandle] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.AsyncHandleResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.AsyncHandleResult.AsyncHandle] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.BulkVolumeJob] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CancelCloneRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.CancelCloneRequest.CloneID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CancelCloneResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CancelGroupCloneRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CancelGroupCloneResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ClearClusterFaultsRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ClearClusterFaultsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CloneMultipleVolumeParams] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CloneMultipleVolumesRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CloneMultipleVolumesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CloneVolumeRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CloneVolumeResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ClusterAdmin] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ClusterAdmin.Access] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ClusterAdmin.ClusterAdminID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ClusterAdmin.Username] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ClusterConfig.NodeID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ClusterConfig.PendingNodeID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ClusterConfig.State] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ClusterFaultInfo] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ClusterFaultInfo.ClusterFaultID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ClusterFaultInfo.Code] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ClusterFaultInfo.Data] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
@@ -1021,84 +992,31 @@ BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Cluste
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ClusterFaultInfo.ServiceID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ClusterFaultInfo.Severity] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ClusterFaultInfo.Type] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ClusterHardwareInfo] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ClusterHardwareInfo.Drives] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ClusterHardwareInfo.Nodes] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ClusterInfo.State] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ClusterInfo.Uuid] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ClusterStats] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ClusterStats.ClientQueueDepth] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ClusterVersionInfo.NodeID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ClusterVersionInfo.NodeInternalRevision] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ClusterVersionInfo.NodeVersion] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CompleteClusterPairingRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CompleteClusterPairingResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CompleteVolumePairingRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CompleteVolumePairingResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.Config] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Config.Cluster] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Config.Network] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CopyVolumeRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CopyVolumeResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.CopyVolumeResult.CloneID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CreateBackupTargetRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CreateBackupTargetResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CreateClusterRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CreateClusterResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CreateClusterSupportBundleRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CreateClusterSupportBundleResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CreateGroupSnapshotRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CreateGroupSnapshotResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CreateInitiatorsRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CreateInitiatorsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CreateScheduleRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CreateScheduleResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.CreateScheduleResult.ScheduleID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CreateSnapshotRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CreateSnapshotResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CreateStorageContainerRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CreateStorageContainerResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.CreateStorageContainerResult.StorageContainer] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CreateSupportBundleRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CreateSupportBundleResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CreateVirtualVolumeHostRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.CreateVirtualVolumeHostRequest.CallingVirtualVolumeHostID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.CreateVirtualVolumeHostRequest.InitiatorNames] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CreateVolumeAccessGroupRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CreateVolumeAccessGroupResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.CreateVolumeAccessGroupResult.VolumeAccessGroup] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CreateVolumeRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.CreateVolumeResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DaysOfMonthFrequency] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DaysOfWeekFrequency] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DeleteAllSupportBundlesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DeleteGroupSnapshotRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DeleteGroupSnapshotResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DeleteInitiatorsRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DeleteInitiatorsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DeleteSnapshotRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DeleteSnapshotResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DeleteStorageContainerResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DeleteStorageContainersRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DeleteVolumeAccessGroupRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DeleteVolumeAccessGroupResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DeleteVolumeRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DeleteVolumeResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DeleteVolumesRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DeleteVolumesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DeleteVolumesResult.Curve] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DetailedService] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DetailedService.Drive] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DetailedService.Drives] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DetailedService.Node] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DetailedService.Service] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DisableEncryptionAtRestResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DisableLdapAuthenticationResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DisableSnmpResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.Drive] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Drive.CustomerSliceFileCapacity] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Drive.ReservedSliceFileCapacity] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DriveConfigInfo] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveConfigInfo.CanonicalName] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveConfigInfo.Connected] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveConfigInfo.Dev] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
@@ -1131,7 +1049,6 @@ BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveC
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveConfigInfo.Uuid] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveConfigInfo.Vendor] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveConfigInfo.Version] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DriveHardware] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveHardware.CanonicalName] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveHardware.Connected] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveHardware.Dev] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
@@ -1161,7 +1078,6 @@ BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveH
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveHardware.Uuid] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveHardware.Vendor] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveHardware.Version] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DriveHardwareInfo] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveHardwareInfo.Description] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveHardwareInfo.Dev] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveHardwareInfo.Devpath] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
@@ -1177,10 +1093,8 @@ BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveH
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveHardwareInfo.Size] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveHardwareInfo.Uuid] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveHardwareInfo.Version] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DriveInfo] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveInfo.Status] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveInfo.Type] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DrivesConfigInfo] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DrivesConfigInfo.Drives] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DrivesConfigInfo.NumBlockActual] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DrivesConfigInfo.NumBlockExpected] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
@@ -1188,9 +1102,7 @@ BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Drives
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DrivesConfigInfo.NumSliceExpected] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DrivesConfigInfo.NumTotalActual] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DrivesConfigInfo.NumTotalExpected] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DrivesHardware] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DrivesHardware.DriveHardware] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.DriveStats] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveStats.ActiveSessions] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveStats.DriveID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveStats.FailedDieCount] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
@@ -1208,15 +1120,7 @@ BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveS
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveStats.UsedMemory] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveStats.WriteBytes] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.DriveStats.WriteOps] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.EnableEncryptionAtRestResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.EnableFeatureRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.EnableFeatureResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.EnableLdapAuthenticationRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.EnableLdapAuthenticationRequest.UserSearchFilter] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.EnableLdapAuthenticationResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.EnableSnmpRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.EnableSnmpResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.EventInfo] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.EventInfo.Details] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.EventInfo.DriveID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.EventInfo.EventID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
@@ -1227,68 +1131,26 @@ BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.EventI
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.EventInfo.Severity] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.EventInfo.TimeOfPublish] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.EventInfo.TimeOfReport] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.FeatureObject] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.Frequency] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetAccountByIDRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetAccountByNameRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetAccountEfficiencyRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetAccountResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetAPIResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetAPIResult.CurrentVersion] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetAPIResult.SupportedVersions] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetAsyncResultRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetBackupTargetRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetBackupTargetResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetBootstrapConfigResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetClusterCapacityResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetClusterCapacityResult.ClusterCapacity] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetClusterConfigResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetClusterFullThresholdResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetClusterHardwareInfoRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetClusterHardwareInfoResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetClusterInfoResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetClusterInfoResult.ClusterInfo] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetClusterMasterNodeIDResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetClusterStateRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetClusterStateResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetClusterStatsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetClusterStatsResult.ClusterStats] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetClusterVersionInfoResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetClusterVersionInfoResult.ClusterAPIVersion] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetClusterVersionInfoResult.ClusterVersion] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetClusterVersionInfoResult.ClusterVersionInfo] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetClusterVersionInfoResult.SoftwareVersionInfo] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetConfigRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetConfigResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetCurrentClusterAdminResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetDriveConfigResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetDriveHardwareInfoRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetDriveHardwareInfoResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetDriveHardwareInfoResult.DriveHardwareInfo] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetDriveStatsRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetDriveStatsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetDriveStatsResult.DriveStats] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetEfficiencyResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetFeatureStatusRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetFeatureStatusResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetHardwareConfigResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetHardwareInfoResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetIpmiConfigNodesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetIpmiConfigNodesResult.NodeID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetIpmiConfigNodesResult.Result] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetIpmiConfigRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetIpmiConfigRequest.Force] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetIpmiConfigResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetIpmiConfigResult.Nodes] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetIpmiInfoNodesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetIpmiInfoNodesResult.NodeID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetIpmiInfoNodesResult.Result] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetIpmiInfoNodesResultObject] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetIpmiInfoNodesResultObject.IpmiInfo] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetIpmiInfoRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetIpmiInfoRequest.Force] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetIpmiInfoResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetLdapConfigurationResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetLimitsResult.AccountCountMax] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetLimitsResult.AccountNameLengthMax] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetLimitsResult.AccountNameLengthMin] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
@@ -1325,55 +1187,19 @@ BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetLim
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetLimitsResult.VolumesPerAccountCountMax] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetLimitsResult.VolumesPerGroupSnapshotMax] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetLimitsResult.VolumesPerVolumeAccessGroupCountMax] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetLoginSessionInfoResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetNetworkConfigResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetNetworkConfigResult.Network] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetNodeHardwareInfoRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetNodeHardwareInfoResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetNodeStatsRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetNodeStatsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetNtpInfoResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetNvramInfoResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetOriginNode] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetOriginNode.NodeID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetOriginNode.Result] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetOriginNodeResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetOriginNodeResult.Origin] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetOriginRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetOriginRequest.Force] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetOriginResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetOriginResult.Nodes] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetPendingOperationResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetPendingOperationResult.PendingOperation] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetRemoteLoggingHostsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetScheduleRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetScheduleResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetSnmpACLResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetSnmpInfoResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetSnmpStateResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetSnmpTrapInfoResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetStorageContainerEfficiencyRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetStorageContainerEfficiencyResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetStorageContainerEfficiencyResult.Compression] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetStorageContainerEfficiencyResult.Deduplication] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetStorageContainerEfficiencyResult.ThinProvisioning] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetSystemStatusRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetSystemStatusResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetSystemStatusResult.RebootRequired] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetVirtualVolumeCountResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetVirtualVolumeTaskUpdateRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetVirtualVolumeTaskUpdateRequest.CallingVirtualVolumeHostID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetVirtualVolumeUnsharedChunksRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.GetVirtualVolumeUnsharedChunksRequest.CallingVirtualVolumeHostID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetVolumeAccessGroupEfficiencyRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetVolumeAccessGroupLunAssignmentsRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetVolumeAccessGroupLunAssignmentsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetVolumeCountResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetVolumeEfficiencyRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetVolumeEfficiencyResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetVolumeStatsRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.GetVolumeStatsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.HardwareConfig] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.HardwareConfig.BiosRevision] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.HardwareConfig.BiosVendor] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.HardwareConfig.BiosVersion] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
@@ -1406,15 +1232,7 @@ BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Hardwa
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.HardwareConfig.SliceDriveSizeBytes] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.HardwareConfig.SlotOffset] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.HardwareConfig.SolidfireDefaults] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.HardwareInfo.FileSystemUsage] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.HardwareInfo.SystemMemory] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.InvokeSFApiRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.IpmiConfig] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.IpmiConfigs] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.IpmiConfigs.IpmiConfig] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.IpmiInfo] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.IpmiInfo.Sensors] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ISCSISession] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ISCSISession.AccountID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ISCSISession.AccountName] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ISCSISession.CreateTime] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
@@ -1444,147 +1262,46 @@ BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.ISolid
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.ISolidFireElement.ListVolumeStats(System.Int64[])] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.ISolidFireElement.ListVolumeStatsAsync(SolidFire.Element.Api.ListVolumeStatsRequest,System.Threading.CancellationToken)] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.ISolidFireElement.ListVolumeStatsAsync(System.Threading.CancellationToken,System.Int64[])] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.KernelCrashDump] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.KernelCrashDump.KernelCrashDumpDefaultState] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.KernelCrashDump.KernelCrashDumpDirectory] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.KernelCrashDump.KernelCrashDumpKernelOptions] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.KernelCrashDump.KernelCrashDumpMakedumpfileLevel] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.KernelCrashDump.KernelCrashDumpMinFreeGb] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListAccountsRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListAccountsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListActiveNodesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListActiveNodesResult.Nodes] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListActivePairedVolumesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListActiveVolumesRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListActiveVolumesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListAllNodesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListAllNodesResult.Nodes] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListAllNodesResult.PendingNodes] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListAsyncResultsRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListAsyncResultsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListBackupTargetsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListBulkVolumeJobsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListClusterAdminsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListClusterFaultsRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListClusterFaultsRequest.Exceptions] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListClusterFaultsRequest.Update] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListClusterFaultsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListClusterPairsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListDeletedVolumesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListDriveHardwareRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListDriveHardwareResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListDriveHardwareResult.Nodes] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListDrivesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListDriveStatsRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListDriveStatsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListEventsRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListEventsRequest.EventQueueType] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListEventsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListEventsResult.EventQueueType] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListEventsResult.Events] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListGroupSnapshotsRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListGroupSnapshotsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListInitiatorsRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListInitiatorsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListISCSISessionsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListISCSISessionsResult.Sessions] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListNetworkInterfacesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListNetworkInterfacesResult.Interfaces] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListNodeFibreChannelPortInfoRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListNodeStatsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListPendingActiveNodesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListPendingNodesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListPendingNodesResult.PendingNodes] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListProtocolEndpointsRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListProtocolEndpointsRequest.ProtocolEndpointIDs] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListProtocolEndpointsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListProtocolEndpointsResult.ProtocolEndpoints] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListSchedulesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListServicesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListServicesResult.Services] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListSnapshotsRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListSnapshotsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListStorageContainersRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListStorageContainersResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListStorageContainersResult.StorageContainers] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListSyncJobsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListSyncJobsResult.SyncJobs] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListTestsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListUtilitiesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListVirtualNetworksRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListVirtualNetworksResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListVirtualVolumeBindingsRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListVirtualVolumeBindingsRequest.VirtualVolumeBindingIDs] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListVirtualVolumeBindingsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListVirtualVolumeBindingsResult.Bindings] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListVirtualVolumeHostsRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListVirtualVolumeHostsRequest.VirtualVolumeHostIDs] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListVirtualVolumeHostsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListVirtualVolumesRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListVirtualVolumesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListVirtualVolumesResult.NextVirtualVolumeID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListVirtualVolumesResult.VirtualVolumes] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListVirtualVolumeTasksRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListVirtualVolumeTasksRequest.VirtualVolumeTaskIDs] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListVirtualVolumeTasksResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListVolumeAccessGroupsRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListVolumeAccessGroupsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListVolumesForAccountRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListVolumesForAccountResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListVolumesRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListVolumesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListVolumeStatsByAccountResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListVolumeStatsByVirtualVolumeRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListVolumeStatsByVirtualVolumeResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListVolumeStatsByVirtualVolumeResult.VolumeStats] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListVolumeStatsByVolumeAccessGroupRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListVolumeStatsByVolumeAccessGroupResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListVolumeStatsByVolumeResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListVolumeStatsRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ListVolumeStatsRequest.VolumeIDs] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ListVolumeStatsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.LoggingServer] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.LoginSessionInfo] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.LoginSessionInfo.Timeout] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyAccountRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyAccountResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyBackupTargetRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyBackupTargetResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyClusterAdminRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyClusterAdminResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyClusterFullThresholdRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyClusterFullThresholdResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyGroupSnapshotRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyGroupSnapshotResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyInitiatorsRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyInitiatorsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyScheduleRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyScheduleResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifySnapshotRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifySnapshotResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyStorageContainerRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ModifyStorageContainerRequest.InitiatorSecret] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ModifyStorageContainerRequest.StorageContainerID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ModifyStorageContainerRequest.TargetSecret] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyStorageContainerResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ModifyStorageContainerResult.StorageContainer] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyVirtualNetworkRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ModifyVirtualNetworkRequest.Gateway] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ModifyVirtualNetworkRequest.Namespace] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyVolumeAccessGroupLunAssignmentsRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyVolumeAccessGroupLunAssignmentsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyVolumeAccessGroupRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyVolumeAccessGroupResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyVolumePairRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyVolumePairResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyVolumeRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyVolumeResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyVolumesRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ModifyVolumesRequest.Attributes] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ModifyVolumesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ModifyVolumesResult.Qos] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ModifyVolumesResult.Volumes] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.Network] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Network.Bond10G] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Network.Bond1G] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Network.Eth0] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
@@ -1592,7 +1309,6 @@ BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Networ
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Network.Eth2] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Network.Eth3] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Network.Lo] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.NetworkConfig] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NetworkConfig.Address] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NetworkConfig.Auto] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NetworkConfig.BondDowndelay] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
@@ -1622,28 +1338,18 @@ BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Networ
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NetworkConfig.SymmetricRouteRules] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NetworkConfig.UpAndRunning] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NetworkConfig.VirtualNetworkTag] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.NetworkInterface] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.NewDrive] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Node.AssociatedFServiceID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Node.Attributes] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Node.FibreChannelTargetPortGroup] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Node.Name] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Node.VirtualNetworks] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.NodeDriveHardware] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NodeDriveHardware.NodeID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NodeDriveHardware.Result] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.NodeStateInfo] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NodeStateInfo.State] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.NodeStateResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.NodeStatsInfo] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NodeStatsInfo.NodeID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.NodeStatsNodes] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.NodeSystemStatus] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NodeSystemStatus.NodeID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NodeSystemStatus.Result] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.NodeSystemStatusInfo] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NodeSystemStatusInfo.RebootRequired] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.NodeWaitingToJoin] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NodeWaitingToJoin.Cip] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NodeWaitingToJoin.Mip] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NodeWaitingToJoin.Name] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
@@ -1651,7 +1357,6 @@ BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NodeWa
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NodeWaitingToJoin.PendingNodeID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NodeWaitingToJoin.Sip] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NodeWaitingToJoin.Version] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.Origin] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Origin.ContractDate] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Origin.ContractName] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Origin.ContractQuantity] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
@@ -1661,8 +1366,6 @@ BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Origin
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Origin.Organization] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Origin.signature] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Origin.Type] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.PairedCluster] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.PendingActiveNode] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.PendingActiveNode.ActiveNodeKey] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.PendingActiveNode.AssignedNodeID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.PendingActiveNode.AsyncHandle] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
@@ -1675,8 +1378,6 @@ BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Pendin
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.PendingNode.AssignedNodeID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.PendingNode.Compatible] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.PendingNode.PendingNodeID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.PendingOperation] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.PhysicalAdapter] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.PhysicalAdapter.Address] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.PhysicalAdapter.MacAddress] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.PhysicalAdapter.MacAddressPermanent] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
@@ -1684,103 +1385,31 @@ BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Physic
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.PhysicalAdapter.Netmask] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.PhysicalAdapter.Network] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.PhysicalAdapter.UpAndRunning] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.Platform] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.PrepareVirtualSnapshotRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.PrepareVirtualSnapshotRequest.CallingVirtualVolumeHostID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.PrepareVirtualSnapshotResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ProtocolEndpoint] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ProtocolEndpoint.PrimaryProviderID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ProtocolEndpoint.ProtocolEndpointID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ProtocolEndpoint.ProtocolEndpointState] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ProtocolEndpoint.ProviderType] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ProtocolEndpoint.ScsiNAADeviceID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ProtocolEndpoint.SecondaryProviderID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.PurgeDeletedVolumeRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.PurgeDeletedVolumeResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.PurgeDeletedVolumesRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.PurgeDeletedVolumesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RemoveAccountRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RemoveAccountResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RemoveBackupTargetRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RemoveBackupTargetResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RemoveClusterAdminRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RemoveClusterAdminResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RemoveClusterPairRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RemoveClusterPairResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RemoveDrivesRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RemoveInitiatorsFromVolumeAccessGroupRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RemoveNodesRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RemoveNodesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RemoveVirtualNetworkRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RemoveVirtualNetworkResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RemoveVolumePairRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RemoveVolumePairResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RemoveVolumesFromVolumeAccessGroupRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ResetDriveDetails] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ResetDriveDetails.ReturnCode] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ResetDriveDetails.Stderr] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ResetDriveDetails.Stdout] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ResetDrivesDetails] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ResetDrivesRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ResetDrivesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ResetNodeRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ResetNodeResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RestartNetworkingRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RestartNetworkingResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.RestartNetworkingResult.Details] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RestartServicesRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RestartServicesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.RestartServicesResult.Details] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RestoreDeletedVolumeRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RestoreDeletedVolumeResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RollbackToGroupSnapshotRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.RollbackToSnapshotRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ScheduleInfo] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SecureEraseDrivesRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.Service] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Service.DriveIDs] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Service.ServiceType] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Service.StartedDriveIDs] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Service.Status] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SetClusterConfigRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SetClusterConfigResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SetConfigRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SetConfigResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SetDefaultQoSRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SetDefaultQoSResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SetLoginSessionInfoRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SetLoginSessionInfoResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SetNetworkConfigRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SetNetworkConfigResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.SetNetworkConfigResult.Network] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SetNtpInfoRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SetNtpInfoResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SetRemoteLoggingHostsRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SetRemoteLoggingHostsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SetSnmpACLRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SetSnmpACLResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SetSnmpInfoRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SetSnmpInfoResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SetSnmpTrapInfoRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SetSnmpTrapInfoResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ShutdownRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.ShutdownResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.Signature] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Signature.Data] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Signature.Pubkey] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Signature.Version] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SnapshotRemoteStatus] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.SnapshotRemoteStatus.RemoteStatus] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SnapshotReplication] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SnmpSendTestTrapsResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.SnmpSendTestTrapsResult.Status] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SoftwareVersionInfo] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.SoftwareVersionInfo.CurrentVersion] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.SoftwareVersionInfo.NodeID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.SoftwareVersionInfo.PackageName] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.SoftwareVersionInfo.PendingVersion] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.SoftwareVersionInfo.StartTime] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SolidfireDefaults] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.SolidfireDefaults.BufferCacheGB] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.SolidfireDefaults.ConfiguredIops] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.SolidfireDefaults.CpuDmaLatency] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
@@ -1802,14 +1431,6 @@ BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.SolidF
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.SolidFireElement.ListVolumeStatsAsync(SolidFire.Element.Api.ListVolumeStatsRequest,System.Threading.CancellationToken)] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.SolidFireElement.ListVolumeStatsAsync(System.Threading.CancellationToken,System.Int64[])] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.Element.Api.SolidFireElement.ModifySchedule(SolidFire.Element.Api.ApiModifyScheduleRequest)] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.StartBulkVolumeReadRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.StartBulkVolumeReadResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.StartBulkVolumeWriteRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.StartBulkVolumeWriteResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.StartClusterPairingResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.StartVolumePairingRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.StartVolumePairingResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.StorageContainer] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.StorageContainer.AccountID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.StorageContainer.InitiatorSecret] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.StorageContainer.Name] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
@@ -1817,9 +1438,7 @@ BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Storag
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.StorageContainer.Status] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.StorageContainer.StorageContainerID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.StorageContainer.TargetSecret] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SupportBundleDetails] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.SupportBundleDetails.Output] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.SyncJob] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.SyncJob.BlocksPerSecond] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.SyncJob.BytesPerSecond] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.SyncJob.CloneID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
@@ -1837,41 +1456,17 @@ BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.SyncJo
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.SyncJob.Stage] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.SyncJob.TotalBytes] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.SyncJob.Type] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.SystemMemory.Free] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.SystemMemory.Total] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.SystemMemory.Used] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.TestConnectEnsembleDetails] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.TestConnectEnsembleRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.TestConnectEnsembleResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.TestConnectEnsembleResult.Details] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.TestConnectMvipDetails] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.TestConnectMvipRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.TestConnectMvipResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.TestConnectSvipDetails] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.TestConnectSvipRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.TestConnectSvipResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.TestDrivesRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.TestDrivesResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.TestDrivesResult.Details] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.TestLdapAuthenticationRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.TestLdapAuthenticationResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.TestPingRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.TestPingResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.TimeIntervalFrequency] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.UpdateBulkVolumeStatusRequest] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.UpdateBulkVolumeStatusResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.VirtualNetwork] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.VirtualNetwork.Gateway] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.VirtualNetwork.Namespace] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.VirtualVolumeBinding] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.VirtualVolumeHost] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.VirtualVolumeHost.Bindings] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.VirtualVolumeHost.ClusterID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.VirtualVolumeHost.HostAddress] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.VirtualVolumeHost.InitiatorNames] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.VirtualVolumeHost.VirtualVolumeHostID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.VirtualVolumeHost.VisibleProtocolEndpointIDs] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.VirtualVolumeInfo] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.VirtualVolumeInfo.Bindings] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.VirtualVolumeInfo.Children] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.VirtualVolumeInfo.Metadata] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
@@ -1885,8 +1480,6 @@ BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Virtua
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.VirtualVolumeInfo.VirtualVolumeType] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.VirtualVolumeInfo.VolumeID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.VirtualVolumeInfo.VolumeInfo] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.VirtualVolumeNullResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.VirtualVolumeTask] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.VirtualVolumeTask.Cancelled] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.VirtualVolumeTask.CloneVirtualVolumeID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.VirtualVolumeTask.Operation] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
@@ -1897,28 +1490,26 @@ BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Virtua
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.VirtualVolumeTask.VirtualVolumeHostID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.VirtualVolumeTask.VirtualvolumeID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.VirtualVolumeTask.VirtualVolumeTaskID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.VirtualVolumeTaskResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.VirtualVolumeUnsharedChunkResult] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.Weekday] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.SDK.Adaptor.ScheduleAdaptor] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.SDK.Adaptor.ScheduleAdaptor.ToApiSchedule(SolidFire.Element.Api.Schedule)] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.SDK.Adaptor.ScheduleAdaptor.ToSchedule(SolidFire.Element.Api.ApiSchedule)] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-  Processed 5446 topic(s)
-  1196 warning(s)
+  Processed 5401 topic(s)
+  785 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 7 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
 Done Building Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:04:27.16
-    Last step completed in 00:04:27.4297
+Time Elapsed 00:03:55.80
+    Last step completed in 00:03:56.0950
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
 
 Clearing any prior web output
-    Last step completed in 00:00:05.2157
+    Last step completed in 00:00:04.0716
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -1930,11 +1521,11 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing website files in C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\Output\Website
-Processed 5446 HTML files
+Processed 5401 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\WebKI.xml
 Saving website table of contents to C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\WebTOC.xml
-    Last step completed in 00:01:39.6937
+    Last step completed in 00:01:29.2400
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -2015,18 +1606,18 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\Output\Website\icons\TocOpen.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:01.2397
+    Last step completed in 00:00:01.1298
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0045
+    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:03:16.6699
+</plugIn>    Last step completed in 00:02:59.1164
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -2100,17 +1691,16 @@ Copied 6600 files
 Copied 6700 files
 Copied 6800 files
 Copied 6900 files
-Copied 7000 files
-Copied 7054 files for the website content
-    Last step completed in 00:01:14.2274
+Copied 6999 files for the website content
+    Last step completed in 00:01:00.1251
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:04.0880
+    Last step completed in 00:00:04.0275
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 12/22/2016 3:42:50 PM.  Total time: 00:11:18.2540
+Build completed successfully at 1/3/2017 12:06:11 PM.  Total time: 00:10:08.8671
 
 </buildStep>
 </shfbBuild>

@@ -680,7 +680,6 @@
     <HelpKINode Title="QoS.BurstTime Property " Url="html/P_SolidFire_Element_Api_QoS_BurstTime.htm" />
     <HelpKINode Title="VolumeQOS.BurstTime Property " Url="html/P_SolidFire_Element_Api_VolumeQOS_BurstTime.htm" />
   </HelpKINode>
-  <HelpKINode Title="Bus property" Url="html/P_SolidFire_Element_Api_HardwareInfo_Bus.htm" />
   <HelpKINode Title="BytesPerSecond property" Url="html/P_SolidFire_Element_Api_SyncJob_BytesPerSecond.htm" />
   <HelpKINode Title="CallingVirtualVolumeHostID property">
     <HelpKINode Title="CreateVirtualVolumeHostRequest.CallingVirtualVolumeHostID Property " Url="html/P_SolidFire_Element_Api_CreateVirtualVolumeHostRequest_CallingVirtualVolumeHostID.htm" />
@@ -1919,8 +1918,6 @@
     <HelpKINode Title="EventInfo.Details Property " Url="html/P_SolidFire_Element_Api_EventInfo_Details.htm" />
     <HelpKINode Title="ListVirtualVolumesRequest.Details Property " Url="html/P_SolidFire_Element_Api_ListVirtualVolumesRequest_Details.htm" />
     <HelpKINode Title="ResetDrivesResult.Details Property " Url="html/P_SolidFire_Element_Api_ResetDrivesResult_Details.htm" />
-    <HelpKINode Title="RestartNetworkingResult.Details Property " Url="html/P_SolidFire_Element_Api_RestartNetworkingResult_Details.htm" />
-    <HelpKINode Title="RestartServicesResult.Details Property " Url="html/P_SolidFire_Element_Api_RestartServicesResult_Details.htm" />
     <HelpKINode Title="TestConnectEnsembleResult.Details Property " Url="html/P_SolidFire_Element_Api_TestConnectEnsembleResult_Details.htm" />
     <HelpKINode Title="TestConnectMvipResult.Details Property " Url="html/P_SolidFire_Element_Api_TestConnectMvipResult_Details.htm" />
     <HelpKINode Title="TestConnectSvipResult.Details Property " Url="html/P_SolidFire_Element_Api_TestConnectSvipResult_Details.htm" />
@@ -2071,10 +2068,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_DriveHardware.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_DriveHardware.htm" />
   </HelpKINode>
-  <HelpKINode Title="DriveHardware property">
-    <HelpKINode Title="DrivesHardware.DriveHardware Property " Url="html/P_SolidFire_Element_Api_DrivesHardware_DriveHardware.htm" />
-    <HelpKINode Title="HardwareInfo.DriveHardware Property " Url="html/P_SolidFire_Element_Api_HardwareInfo_DriveHardware.htm" />
-  </HelpKINode>
+  <HelpKINode Title="DriveHardware property" Url="html/P_SolidFire_Element_Api_DrivesHardware_DriveHardware.htm" />
   <HelpKINode Title="DriveHardware.CanonicalName property" Url="html/P_SolidFire_Element_Api_DriveHardware_CanonicalName.htm" />
   <HelpKINode Title="DriveHardware.Connected property" Url="html/P_SolidFire_Element_Api_DriveHardware_Connected.htm" />
   <HelpKINode Title="DriveHardware.Dev property" Url="html/P_SolidFire_Element_Api_DriveHardware_Dev.htm" />
@@ -2242,8 +2236,6 @@
   <HelpKINode Title="Duration property">
     <HelpKINode Title="CreateClusterSupportBundleResult.Duration Property " Url="html/P_SolidFire_Element_Api_CreateClusterSupportBundleResult_Duration.htm" />
     <HelpKINode Title="CreateSupportBundleResult.Duration Property " Url="html/P_SolidFire_Element_Api_CreateSupportBundleResult_Duration.htm" />
-    <HelpKINode Title="RestartNetworkingResult.Duration Property " Url="html/P_SolidFire_Element_Api_RestartNetworkingResult_Duration.htm" />
-    <HelpKINode Title="RestartServicesResult.Duration Property " Url="html/P_SolidFire_Element_Api_RestartServicesResult_Duration.htm" />
     <HelpKINode Title="TestConnectEnsembleResult.Duration Property " Url="html/P_SolidFire_Element_Api_TestConnectEnsembleResult_Duration.htm" />
     <HelpKINode Title="TestConnectMvipResult.Duration Property " Url="html/P_SolidFire_Element_Api_TestConnectMvipResult_Duration.htm" />
     <HelpKINode Title="TestConnectSvipResult.Duration Property " Url="html/P_SolidFire_Element_Api_TestConnectSvipResult_Duration.htm" />
@@ -2520,10 +2512,7 @@
   </HelpKINode>
   <HelpKINode Title="FibreChannelPortList.FibreChannelPortList constructor" Url="html/M_SolidFire_Element_Api_FibreChannelPortList__ctor.htm" />
   <HelpKINode Title="FibreChannelPortList.FibreChannelPorts property" Url="html/P_SolidFire_Element_Api_FibreChannelPortList_FibreChannelPorts.htm" />
-  <HelpKINode Title="FibreChannelPorts property">
-    <HelpKINode Title="FibreChannelPortList.FibreChannelPorts Property " Url="html/P_SolidFire_Element_Api_FibreChannelPortList_FibreChannelPorts.htm" />
-    <HelpKINode Title="HardwareInfo.FibreChannelPorts Property " Url="html/P_SolidFire_Element_Api_HardwareInfo_FibreChannelPorts.htm" />
-  </HelpKINode>
+  <HelpKINode Title="FibreChannelPorts property" Url="html/P_SolidFire_Element_Api_FibreChannelPortList_FibreChannelPorts.htm" />
   <HelpKINode Title="FibreChannelSession class">
     <HelpKINode Title="FibreChannelSession Class" Url="html/T_SolidFire_Element_Api_FibreChannelSession.htm" />
     <HelpKINode Title="about FibreChannelSession class" Url="html/T_SolidFire_Element_Api_FibreChannelSession.htm" />
@@ -2539,18 +2528,14 @@
   <HelpKINode Title="FibreChannelSession.VolumeAccessGroupID property" Url="html/P_SolidFire_Element_Api_FibreChannelSession_VolumeAccessGroupID.htm" />
   <HelpKINode Title="FibreChannelTargetPortGroup property" Url="html/P_SolidFire_Element_Api_Node_FibreChannelTargetPortGroup.htm" />
   <HelpKINode Title="Files property" Url="html/P_SolidFire_Element_Api_SupportBundleDetails_Files.htm" />
-  <HelpKINode Title="FileSystemUsage property" Url="html/P_SolidFire_Element_Api_HardwareInfo_FileSystemUsage.htm" />
   <HelpKINode Title="Firmware property" Url="html/P_SolidFire_Element_Api_FibreChannelPortInfo_Firmware.htm" />
   <HelpKINode Title="FirstTimeStartup property" Url="html/P_SolidFire_Element_Api_Service_FirstTimeStartup.htm" />
   <HelpKINode Title="Force property">
     <HelpKINode Title="GetClusterStateRequest.Force Property " Url="html/P_SolidFire_Element_Api_GetClusterStateRequest_Force.htm" />
-    <HelpKINode Title="GetConfigRequest.Force Property " Url="html/P_SolidFire_Element_Api_GetConfigRequest_Force.htm" />
     <HelpKINode Title="GetIpmiConfigRequest.Force Property " Url="html/P_SolidFire_Element_Api_GetIpmiConfigRequest_Force.htm" />
     <HelpKINode Title="GetIpmiInfoRequest.Force Property " Url="html/P_SolidFire_Element_Api_GetIpmiInfoRequest_Force.htm" />
     <HelpKINode Title="GetOriginRequest.Force Property " Url="html/P_SolidFire_Element_Api_GetOriginRequest_Force.htm" />
-    <HelpKINode Title="GetSystemStatusRequest.Force Property " Url="html/P_SolidFire_Element_Api_GetSystemStatusRequest_Force.htm" />
     <HelpKINode Title="ListDriveHardwareRequest.Force Property " Url="html/P_SolidFire_Element_Api_ListDriveHardwareRequest_Force.htm" />
-    <HelpKINode Title="ListNodeFibreChannelPortInfoRequest.Force Property " Url="html/P_SolidFire_Element_Api_ListNodeFibreChannelPortInfoRequest_Force.htm" />
     <HelpKINode Title="ResetDrivesRequest.Force Property " Url="html/P_SolidFire_Element_Api_ResetDrivesRequest_Force.htm" />
     <HelpKINode Title="ResetNodeRequest.Force Property " Url="html/P_SolidFire_Element_Api_ResetNodeRequest_Force.htm" />
     <HelpKINode Title="RestartNetworkingRequest.Force Property " Url="html/P_SolidFire_Element_Api_RestartNetworkingRequest_Force.htm" />
@@ -2561,7 +2546,6 @@
     <HelpKINode Title="StartBulkVolumeReadRequest.Format Property " Url="html/P_SolidFire_Element_Api_StartBulkVolumeReadRequest_Format.htm" />
     <HelpKINode Title="StartBulkVolumeWriteRequest.Format Property " Url="html/P_SolidFire_Element_Api_StartBulkVolumeWriteRequest_Format.htm" />
   </HelpKINode>
-  <HelpKINode Title="Free property" Url="html/P_SolidFire_Element_Api_SystemMemory_Free.htm" />
   <HelpKINode Title="Frequency class">
     <HelpKINode Title="Frequency Class" Url="html/T_SolidFire_Element_Api_Frequency.htm" />
     <HelpKINode Title="about Frequency class" Url="html/T_SolidFire_Element_Api_Frequency.htm" />
@@ -2939,15 +2923,6 @@
     <HelpKINode Title="ISolidFireElement.GetConfigAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetConfigAsync.htm" />
     <HelpKINode Title="SolidFireElement.GetConfigAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_GetConfigAsync.htm" />
   </HelpKINode>
-  <HelpKINode Title="GetConfigRequest class">
-    <HelpKINode Title="GetConfigRequest Class" Url="html/T_SolidFire_Element_Api_GetConfigRequest.htm" />
-    <HelpKINode Title="about GetConfigRequest class" Url="html/T_SolidFire_Element_Api_GetConfigRequest.htm" />
-    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_GetConfigRequest__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_GetConfigRequest.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_GetConfigRequest.htm" />
-  </HelpKINode>
-  <HelpKINode Title="GetConfigRequest.Force property" Url="html/P_SolidFire_Element_Api_GetConfigRequest_Force.htm" />
-  <HelpKINode Title="GetConfigRequest.GetConfigRequest constructor" Url="html/M_SolidFire_Element_Api_GetConfigRequest__ctor.htm" />
   <HelpKINode Title="GetConfigResult class">
     <HelpKINode Title="GetConfigResult Class" Url="html/T_SolidFire_Element_Api_GetConfigResult.htm" />
     <HelpKINode Title="about GetConfigResult class" Url="html/T_SolidFire_Element_Api_GetConfigResult.htm" />
@@ -3629,15 +3604,6 @@
     <HelpKINode Title="ISolidFireElement.GetSystemStatusAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetSystemStatusAsync.htm" />
     <HelpKINode Title="SolidFireElement.GetSystemStatusAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_GetSystemStatusAsync.htm" />
   </HelpKINode>
-  <HelpKINode Title="GetSystemStatusRequest class">
-    <HelpKINode Title="GetSystemStatusRequest Class" Url="html/T_SolidFire_Element_Api_GetSystemStatusRequest.htm" />
-    <HelpKINode Title="about GetSystemStatusRequest class" Url="html/T_SolidFire_Element_Api_GetSystemStatusRequest.htm" />
-    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_GetSystemStatusRequest__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_GetSystemStatusRequest.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_GetSystemStatusRequest.htm" />
-  </HelpKINode>
-  <HelpKINode Title="GetSystemStatusRequest.Force property" Url="html/P_SolidFire_Element_Api_GetSystemStatusRequest_Force.htm" />
-  <HelpKINode Title="GetSystemStatusRequest.GetSystemStatusRequest constructor" Url="html/M_SolidFire_Element_Api_GetSystemStatusRequest__ctor.htm" />
   <HelpKINode Title="GetSystemStatusResult class">
     <HelpKINode Title="GetSystemStatusResult Class" Url="html/T_SolidFire_Element_Api_GetSystemStatusResult.htm" />
     <HelpKINode Title="about GetSystemStatusResult class" Url="html/T_SolidFire_Element_Api_GetSystemStatusResult.htm" />
@@ -3905,10 +3871,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_HardwareConfig.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_HardwareConfig.htm" />
   </HelpKINode>
-  <HelpKINode Title="HardwareConfig property">
-    <HelpKINode Title="GetHardwareConfigResult.HardwareConfig Property " Url="html/P_SolidFire_Element_Api_GetHardwareConfigResult_HardwareConfig.htm" />
-    <HelpKINode Title="HardwareInfo.HardwareConfig Property " Url="html/P_SolidFire_Element_Api_HardwareInfo_HardwareConfig.htm" />
-  </HelpKINode>
+  <HelpKINode Title="HardwareConfig property" Url="html/P_SolidFire_Element_Api_GetHardwareConfigResult_HardwareConfig.htm" />
   <HelpKINode Title="HardwareConfig.BiosRevision property" Url="html/P_SolidFire_Element_Api_HardwareConfig_BiosRevision.htm" />
   <HelpKINode Title="HardwareConfig.BiosVendor property" Url="html/P_SolidFire_Element_Api_HardwareConfig_BiosVendor.htm" />
   <HelpKINode Title="HardwareConfig.BiosVersion property" Url="html/P_SolidFire_Element_Api_HardwareConfig_BiosVersion.htm" />
@@ -3942,33 +3905,7 @@
   <HelpKINode Title="HardwareConfig.SliceDriveSizeBytes property" Url="html/P_SolidFire_Element_Api_HardwareConfig_SliceDriveSizeBytes.htm" />
   <HelpKINode Title="HardwareConfig.SlotOffset property" Url="html/P_SolidFire_Element_Api_HardwareConfig_SlotOffset.htm" />
   <HelpKINode Title="HardwareConfig.SolidfireDefaults property" Url="html/P_SolidFire_Element_Api_HardwareConfig_SolidfireDefaults.htm" />
-  <HelpKINode Title="HardwareInfo class">
-    <HelpKINode Title="HardwareInfo Class" Url="html/T_SolidFire_Element_Api_HardwareInfo.htm" />
-    <HelpKINode Title="about HardwareInfo class" Url="html/T_SolidFire_Element_Api_HardwareInfo.htm" />
-    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_HardwareInfo__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_HardwareInfo.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_HardwareInfo.htm" />
-  </HelpKINode>
   <HelpKINode Title="HardwareInfo property" Url="html/P_SolidFire_Element_Api_GetHardwareInfoResult_HardwareInfo.htm" />
-  <HelpKINode Title="HardwareInfo.Bus property" Url="html/P_SolidFire_Element_Api_HardwareInfo_Bus.htm" />
-  <HelpKINode Title="HardwareInfo.DriveHardware property" Url="html/P_SolidFire_Element_Api_HardwareInfo_DriveHardware.htm" />
-  <HelpKINode Title="HardwareInfo.FibreChannelPorts property" Url="html/P_SolidFire_Element_Api_HardwareInfo_FibreChannelPorts.htm" />
-  <HelpKINode Title="HardwareInfo.FileSystemUsage property" Url="html/P_SolidFire_Element_Api_HardwareInfo_FileSystemUsage.htm" />
-  <HelpKINode Title="HardwareInfo.HardwareConfig property" Url="html/P_SolidFire_Element_Api_HardwareInfo_HardwareConfig.htm" />
-  <HelpKINode Title="HardwareInfo.HardwareInfo constructor" Url="html/M_SolidFire_Element_Api_HardwareInfo__ctor.htm" />
-  <HelpKINode Title="HardwareInfo.KernelCrashDumpState property" Url="html/P_SolidFire_Element_Api_HardwareInfo_KernelCrashDumpState.htm" />
-  <HelpKINode Title="HardwareInfo.Memory property" Url="html/P_SolidFire_Element_Api_HardwareInfo_Memory.htm" />
-  <HelpKINode Title="HardwareInfo.Network property" Url="html/P_SolidFire_Element_Api_HardwareInfo_Network.htm" />
-  <HelpKINode Title="HardwareInfo.NetworkInterfaces property" Url="html/P_SolidFire_Element_Api_HardwareInfo_NetworkInterfaces.htm" />
-  <HelpKINode Title="HardwareInfo.Nvram property" Url="html/P_SolidFire_Element_Api_HardwareInfo_Nvram.htm" />
-  <HelpKINode Title="HardwareInfo.Origin property" Url="html/P_SolidFire_Element_Api_HardwareInfo_Origin.htm" />
-  <HelpKINode Title="HardwareInfo.Platform property" Url="html/P_SolidFire_Element_Api_HardwareInfo_Platform.htm" />
-  <HelpKINode Title="HardwareInfo.Serial property" Url="html/P_SolidFire_Element_Api_HardwareInfo_Serial.htm" />
-  <HelpKINode Title="HardwareInfo.Storage property" Url="html/P_SolidFire_Element_Api_HardwareInfo_Storage.htm" />
-  <HelpKINode Title="HardwareInfo.Sysinfo property" Url="html/P_SolidFire_Element_Api_HardwareInfo_Sysinfo.htm" />
-  <HelpKINode Title="HardwareInfo.System property" Url="html/P_SolidFire_Element_Api_HardwareInfo_System.htm" />
-  <HelpKINode Title="HardwareInfo.SystemMemory property" Url="html/P_SolidFire_Element_Api_HardwareInfo_SystemMemory.htm" />
-  <HelpKINode Title="HardwareInfo.Uuid property" Url="html/P_SolidFire_Element_Api_HardwareInfo_Uuid.htm" />
   <HelpKINode Title="HasError property">
     <HelpKINode Title="ApiSchedule.HasError Property " Url="html/P_SolidFire_Element_Api_ApiSchedule_HasError.htm" />
     <HelpKINode Title="Schedule.HasError Property " Url="html/P_SolidFire_Element_Api_Schedule_HasError.htm" />
@@ -4092,26 +4029,6 @@
   <HelpKINode Title="InvokeSFApiRequest.Method property" Url="html/P_SolidFire_Element_Api_InvokeSFApiRequest_Method.htm" />
   <HelpKINode Title="InvokeSFApiRequest.Parameters property" Url="html/P_SolidFire_Element_Api_InvokeSFApiRequest_Parameters.htm" />
   <HelpKINode Title="IpcPort property" Url="html/P_SolidFire_Element_Api_Service_IpcPort.htm" />
-  <HelpKINode Title="IpmiConfig class">
-    <HelpKINode Title="IpmiConfig Class" Url="html/T_SolidFire_Element_Api_IpmiConfig.htm" />
-    <HelpKINode Title="about IpmiConfig class" Url="html/T_SolidFire_Element_Api_IpmiConfig.htm" />
-    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_IpmiConfig__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_IpmiConfig.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_IpmiConfig.htm" />
-  </HelpKINode>
-  <HelpKINode Title="IpmiConfig property" Url="html/P_SolidFire_Element_Api_IpmiConfigs_IpmiConfig.htm" />
-  <HelpKINode Title="IpmiConfig.IpmiConfig constructor" Url="html/M_SolidFire_Element_Api_IpmiConfig__ctor.htm" />
-  <HelpKINode Title="IpmiConfig.SensorName property" Url="html/P_SolidFire_Element_Api_IpmiConfig_SensorName.htm" />
-  <HelpKINode Title="IpmiConfig.UniqueSensorID property" Url="html/P_SolidFire_Element_Api_IpmiConfig_UniqueSensorID.htm" />
-  <HelpKINode Title="IpmiConfigs class">
-    <HelpKINode Title="IpmiConfigs Class" Url="html/T_SolidFire_Element_Api_IpmiConfigs.htm" />
-    <HelpKINode Title="about IpmiConfigs class" Url="html/T_SolidFire_Element_Api_IpmiConfigs.htm" />
-    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_IpmiConfigs__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_IpmiConfigs.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_IpmiConfigs.htm" />
-  </HelpKINode>
-  <HelpKINode Title="IpmiConfigs.IpmiConfig property" Url="html/P_SolidFire_Element_Api_IpmiConfigs_IpmiConfig.htm" />
-  <HelpKINode Title="IpmiConfigs.IpmiConfigs constructor" Url="html/M_SolidFire_Element_Api_IpmiConfigs__ctor.htm" />
   <HelpKINode Title="IpmiInfo class">
     <HelpKINode Title="IpmiInfo Class" Url="html/T_SolidFire_Element_Api_IpmiInfo.htm" />
     <HelpKINode Title="about IpmiInfo class" Url="html/T_SolidFire_Element_Api_IpmiInfo.htm" />
@@ -4522,6 +4439,8 @@
   <HelpKINode Title="ISolidFireElement.RemoveVolumesFromVolumeAccessGroupAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_RemoveVolumesFromVolumeAccessGroupAsync.htm" />
   <HelpKINode Title="ISolidFireElement.ResetDrives method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ResetDrives.htm" />
   <HelpKINode Title="ISolidFireElement.ResetDrivesAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ResetDrivesAsync.htm" />
+  <HelpKINode Title="ISolidFireElement.ResetNode method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ResetNode.htm" />
+  <HelpKINode Title="ISolidFireElement.ResetNodeAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ResetNodeAsync.htm" />
   <HelpKINode Title="ISolidFireElement.RestartNetworking method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_RestartNetworking.htm" />
   <HelpKINode Title="ISolidFireElement.RestartNetworkingAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_RestartNetworkingAsync.htm" />
   <HelpKINode Title="ISolidFireElement.RestartServices method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_RestartServices.htm" />
@@ -4554,6 +4473,8 @@
   <HelpKINode Title="ISolidFireElement.SetSnmpInfoAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_SetSnmpInfoAsync.htm" />
   <HelpKINode Title="ISolidFireElement.SetSnmpTrapInfo method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_SetSnmpTrapInfo.htm" />
   <HelpKINode Title="ISolidFireElement.SetSnmpTrapInfoAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_SetSnmpTrapInfoAsync.htm" />
+  <HelpKINode Title="ISolidFireElement.Shutdown method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_Shutdown.htm" />
+  <HelpKINode Title="ISolidFireElement.ShutdownAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ShutdownAsync.htm" />
   <HelpKINode Title="ISolidFireElement.SnmpSendTestTraps method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_SnmpSendTestTraps.htm" />
   <HelpKINode Title="ISolidFireElement.SnmpSendTestTrapsAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_SnmpSendTestTrapsAsync.htm" />
   <HelpKINode Title="ISolidFireElement.StartBulkVolumeRead method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_StartBulkVolumeRead.htm" />
@@ -4646,7 +4567,6 @@
   <HelpKINode Title="KernelCrashDumpKernelOptions property" Url="html/P_SolidFire_Element_Api_KernelCrashDump_KernelCrashDumpKernelOptions.htm" />
   <HelpKINode Title="KernelCrashDumpMakedumpfileLevel property" Url="html/P_SolidFire_Element_Api_KernelCrashDump_KernelCrashDumpMakedumpfileLevel.htm" />
   <HelpKINode Title="KernelCrashDumpMinFreeGb property" Url="html/P_SolidFire_Element_Api_KernelCrashDump_KernelCrashDumpMinFreeGb.htm" />
-  <HelpKINode Title="KernelCrashDumpState property" Url="html/P_SolidFire_Element_Api_HardwareInfo_KernelCrashDumpState.htm" />
   <HelpKINode Title="Key property">
     <HelpKINode Title="BulkVolumeJob.Key Property " Url="html/P_SolidFire_Element_Api_BulkVolumeJob_Key.htm" />
     <HelpKINode Title="StartBulkVolumeReadResult.Key Property " Url="html/P_SolidFire_Element_Api_StartBulkVolumeReadResult_Key.htm" />
@@ -5184,15 +5104,6 @@
     <HelpKINode Title="ISolidFireElement.ListNodeFibreChannelPortInfoAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListNodeFibreChannelPortInfoAsync.htm" />
     <HelpKINode Title="SolidFireElement.ListNodeFibreChannelPortInfoAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_ListNodeFibreChannelPortInfoAsync.htm" />
   </HelpKINode>
-  <HelpKINode Title="ListNodeFibreChannelPortInfoRequest class">
-    <HelpKINode Title="ListNodeFibreChannelPortInfoRequest Class" Url="html/T_SolidFire_Element_Api_ListNodeFibreChannelPortInfoRequest.htm" />
-    <HelpKINode Title="about ListNodeFibreChannelPortInfoRequest class" Url="html/T_SolidFire_Element_Api_ListNodeFibreChannelPortInfoRequest.htm" />
-    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_ListNodeFibreChannelPortInfoRequest__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_ListNodeFibreChannelPortInfoRequest.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_ListNodeFibreChannelPortInfoRequest.htm" />
-  </HelpKINode>
-  <HelpKINode Title="ListNodeFibreChannelPortInfoRequest.Force property" Url="html/P_SolidFire_Element_Api_ListNodeFibreChannelPortInfoRequest_Force.htm" />
-  <HelpKINode Title="ListNodeFibreChannelPortInfoRequest.ListNodeFibreChannelPortInfoRequest constructor" Url="html/M_SolidFire_Element_Api_ListNodeFibreChannelPortInfoRequest__ctor.htm" />
   <HelpKINode Title="ListNodeFibreChannelPortInfoResult class">
     <HelpKINode Title="ListNodeFibreChannelPortInfoResult Class" Url="html/T_SolidFire_Element_Api_ListNodeFibreChannelPortInfoResult.htm" />
     <HelpKINode Title="about ListNodeFibreChannelPortInfoResult class" Url="html/T_SolidFire_Element_Api_ListNodeFibreChannelPortInfoResult.htm" />
@@ -5829,7 +5740,6 @@
     <HelpKINode Title="CreateGroupSnapshotResult.Members Property " Url="html/P_SolidFire_Element_Api_CreateGroupSnapshotResult_Members.htm" />
     <HelpKINode Title="GroupSnapshot.Members Property " Url="html/P_SolidFire_Element_Api_GroupSnapshot_Members.htm" />
   </HelpKINode>
-  <HelpKINode Title="Memory property" Url="html/P_SolidFire_Element_Api_HardwareInfo_Memory.htm" />
   <HelpKINode Title="MemoryGB property" Url="html/P_SolidFire_Element_Api_HardwareConfig_MemoryGB.htm" />
   <HelpKINode Title="MemoryMhz property" Url="html/P_SolidFire_Element_Api_HardwareConfig_MemoryMhz.htm" />
   <HelpKINode Title="Message property">
@@ -6443,7 +6353,6 @@
   <HelpKINode Title="Network property">
     <HelpKINode Title="Config.Network Property " Url="html/P_SolidFire_Element_Api_Config_Network.htm" />
     <HelpKINode Title="GetNetworkConfigResult.Network Property " Url="html/P_SolidFire_Element_Api_GetNetworkConfigResult_Network.htm" />
-    <HelpKINode Title="HardwareInfo.Network Property " Url="html/P_SolidFire_Element_Api_HardwareInfo_Network.htm" />
     <HelpKINode Title="NetworkConfig.Network Property " Url="html/P_SolidFire_Element_Api_NetworkConfig_Network.htm" />
     <HelpKINode Title="PhysicalAdapter.Network Property " Url="html/P_SolidFire_Element_Api_PhysicalAdapter_Network.htm" />
     <HelpKINode Title="SetNetworkConfigRequest.Network Property " Url="html/P_SolidFire_Element_Api_SetNetworkConfigRequest_Network.htm" />
@@ -6513,7 +6422,6 @@
   <HelpKINode Title="NetworkInterface.Status property" Url="html/P_SolidFire_Element_Api_NetworkInterface_Status.htm" />
   <HelpKINode Title="NetworkInterface.Type property" Url="html/P_SolidFire_Element_Api_NetworkInterface_Type.htm" />
   <HelpKINode Title="NetworkInterface.VirtualNetworkTag property" Url="html/P_SolidFire_Element_Api_NetworkInterface_VirtualNetworkTag.htm" />
-  <HelpKINode Title="NetworkInterfaces property" Url="html/P_SolidFire_Element_Api_HardwareInfo_NetworkInterfaces.htm" />
   <HelpKINode Title="Networks property">
     <HelpKINode Title="GetSnmpACLResult.Networks Property " Url="html/P_SolidFire_Element_Api_GetSnmpACLResult_Networks.htm" />
     <HelpKINode Title="GetSnmpInfoResult.Networks Property " Url="html/P_SolidFire_Element_Api_GetSnmpInfoResult_Networks.htm" />
@@ -6761,7 +6669,6 @@
     <HelpKINode Title="DriveConfigInfo.NumTotalExpected Property " Url="html/P_SolidFire_Element_Api_DriveConfigInfo_NumTotalExpected.htm" />
     <HelpKINode Title="DrivesConfigInfo.NumTotalExpected Property " Url="html/P_SolidFire_Element_Api_DrivesConfigInfo_NumTotalExpected.htm" />
   </HelpKINode>
-  <HelpKINode Title="Nvram property" Url="html/P_SolidFire_Element_Api_HardwareInfo_Nvram.htm" />
   <HelpKINode Title="NvramInfo property" Url="html/P_SolidFire_Element_Api_GetNvramInfoResult_NvramInfo.htm" />
   <HelpKINode Title="Offset property" Url="html/P_SolidFire_Element_Api_ApiScheduleWeekday_Offset.htm" />
   <HelpKINode Title="OnRequest event" Url="html/E_SolidFire_Core_ServiceBase_OnRequest.htm" />
@@ -6789,10 +6696,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_Origin.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_Origin.htm" />
   </HelpKINode>
-  <HelpKINode Title="Origin property">
-    <HelpKINode Title="GetOriginNodeResult.Origin Property " Url="html/P_SolidFire_Element_Api_GetOriginNodeResult_Origin.htm" />
-    <HelpKINode Title="HardwareInfo.Origin Property " Url="html/P_SolidFire_Element_Api_HardwareInfo_Origin.htm" />
-  </HelpKINode>
+  <HelpKINode Title="Origin property" Url="html/P_SolidFire_Element_Api_GetOriginNodeResult_Origin.htm" />
   <HelpKINode Title="Origin.ContractDate property" Url="html/P_SolidFire_Element_Api_Origin_ContractDate.htm" />
   <HelpKINode Title="Origin.ContractName property" Url="html/P_SolidFire_Element_Api_Origin_ContractName.htm" />
   <HelpKINode Title="Origin.ContractQuantity property" Url="html/P_SolidFire_Element_Api_Origin_ContractQuantity.htm" />
@@ -6951,7 +6855,6 @@
     <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_Platform.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_Platform.htm" />
   </HelpKINode>
-  <HelpKINode Title="Platform property" Url="html/P_SolidFire_Element_Api_HardwareInfo_Platform.htm" />
   <HelpKINode Title="Platform.ChassisType property" Url="html/P_SolidFire_Element_Api_Platform_ChassisType.htm" />
   <HelpKINode Title="Platform.CpuModel property" Url="html/P_SolidFire_Element_Api_Platform_CpuModel.htm" />
   <HelpKINode Title="Platform.NodeMemoryGB property" Url="html/P_SolidFire_Element_Api_Platform_NodeMemoryGB.htm" />
@@ -7462,6 +7365,14 @@
   </HelpKINode>
   <HelpKINode Title="ResetDrivesResult.Details property" Url="html/P_SolidFire_Element_Api_ResetDrivesResult_Details.htm" />
   <HelpKINode Title="ResetDrivesResult.ResetDrivesResult constructor" Url="html/M_SolidFire_Element_Api_ResetDrivesResult__ctor.htm" />
+  <HelpKINode Title="ResetNode method">
+    <HelpKINode Title="ISolidFireElement.ResetNode Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ResetNode.htm" />
+    <HelpKINode Title="SolidFireElement.ResetNode Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ResetNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResetNodeAsync method">
+    <HelpKINode Title="ISolidFireElement.ResetNodeAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ResetNodeAsync.htm" />
+    <HelpKINode Title="SolidFireElement.ResetNodeAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ResetNodeAsync.htm" />
+  </HelpKINode>
   <HelpKINode Title="ResetNodeRequest class">
     <HelpKINode Title="ResetNodeRequest Class" Url="html/T_SolidFire_Element_Api_ResetNodeRequest.htm" />
     <HelpKINode Title="about ResetNodeRequest class" Url="html/T_SolidFire_Element_Api_ResetNodeRequest.htm" />
@@ -7502,17 +7413,6 @@
   </HelpKINode>
   <HelpKINode Title="RestartNetworkingRequest.Force property" Url="html/P_SolidFire_Element_Api_RestartNetworkingRequest_Force.htm" />
   <HelpKINode Title="RestartNetworkingRequest.RestartNetworkingRequest constructor" Url="html/M_SolidFire_Element_Api_RestartNetworkingRequest__ctor.htm" />
-  <HelpKINode Title="RestartNetworkingResult class">
-    <HelpKINode Title="RestartNetworkingResult Class" Url="html/T_SolidFire_Element_Api_RestartNetworkingResult.htm" />
-    <HelpKINode Title="about RestartNetworkingResult class" Url="html/T_SolidFire_Element_Api_RestartNetworkingResult.htm" />
-    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_RestartNetworkingResult__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_RestartNetworkingResult.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_RestartNetworkingResult.htm" />
-  </HelpKINode>
-  <HelpKINode Title="RestartNetworkingResult.Details property" Url="html/P_SolidFire_Element_Api_RestartNetworkingResult_Details.htm" />
-  <HelpKINode Title="RestartNetworkingResult.Duration property" Url="html/P_SolidFire_Element_Api_RestartNetworkingResult_Duration.htm" />
-  <HelpKINode Title="RestartNetworkingResult.RestartNetworkingResult constructor" Url="html/M_SolidFire_Element_Api_RestartNetworkingResult__ctor.htm" />
-  <HelpKINode Title="RestartNetworkingResult.Result property" Url="html/P_SolidFire_Element_Api_RestartNetworkingResult_Result.htm" />
   <HelpKINode Title="RestartServices method">
     <HelpKINode Title="ISolidFireElement.RestartServices Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_RestartServices.htm" />
     <HelpKINode Title="SolidFireElement.RestartServices Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_RestartServices.htm" />
@@ -7532,17 +7432,6 @@
   <HelpKINode Title="RestartServicesRequest.Force property" Url="html/P_SolidFire_Element_Api_RestartServicesRequest_Force.htm" />
   <HelpKINode Title="RestartServicesRequest.RestartServicesRequest constructor" Url="html/M_SolidFire_Element_Api_RestartServicesRequest__ctor.htm" />
   <HelpKINode Title="RestartServicesRequest.Service property" Url="html/P_SolidFire_Element_Api_RestartServicesRequest_Service.htm" />
-  <HelpKINode Title="RestartServicesResult class">
-    <HelpKINode Title="RestartServicesResult Class" Url="html/T_SolidFire_Element_Api_RestartServicesResult.htm" />
-    <HelpKINode Title="about RestartServicesResult class" Url="html/T_SolidFire_Element_Api_RestartServicesResult.htm" />
-    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_RestartServicesResult__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_RestartServicesResult.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_RestartServicesResult.htm" />
-  </HelpKINode>
-  <HelpKINode Title="RestartServicesResult.Details property" Url="html/P_SolidFire_Element_Api_RestartServicesResult_Details.htm" />
-  <HelpKINode Title="RestartServicesResult.Duration property" Url="html/P_SolidFire_Element_Api_RestartServicesResult_Duration.htm" />
-  <HelpKINode Title="RestartServicesResult.RestartServicesResult constructor" Url="html/M_SolidFire_Element_Api_RestartServicesResult__ctor.htm" />
-  <HelpKINode Title="RestartServicesResult.Result property" Url="html/P_SolidFire_Element_Api_RestartServicesResult_Result.htm" />
   <HelpKINode Title="RestoreDeletedVolume method">
     <HelpKINode Title="ISolidFireElement.RestoreDeletedVolume Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_RestoreDeletedVolume.htm" />
     <HelpKINode Title="SolidFireElement.RestoreDeletedVolume Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_RestoreDeletedVolume.htm" />
@@ -7580,8 +7469,6 @@
     <HelpKINode Title="NodeFibreChannelPortInfoResult.Result Property " Url="html/P_SolidFire_Element_Api_NodeFibreChannelPortInfoResult_Result.htm" />
     <HelpKINode Title="NodeStateResult.Result Property " Url="html/P_SolidFire_Element_Api_NodeStateResult_Result.htm" />
     <HelpKINode Title="NodeSystemStatus.Result Property " Url="html/P_SolidFire_Element_Api_NodeSystemStatus_Result.htm" />
-    <HelpKINode Title="RestartNetworkingResult.Result Property " Url="html/P_SolidFire_Element_Api_RestartNetworkingResult_Result.htm" />
-    <HelpKINode Title="RestartServicesResult.Result Property " Url="html/P_SolidFire_Element_Api_RestartServicesResult_Result.htm" />
     <HelpKINode Title="TestConnectEnsembleResult.Result Property " Url="html/P_SolidFire_Element_Api_TestConnectEnsembleResult_Result.htm" />
     <HelpKINode Title="TestConnectMvipResult.Result Property " Url="html/P_SolidFire_Element_Api_TestConnectMvipResult_Result.htm" />
     <HelpKINode Title="TestConnectSvipResult.Result Property " Url="html/P_SolidFire_Element_Api_TestConnectSvipResult_Result.htm" />
@@ -7817,7 +7704,6 @@
   <HelpKINode Title="SegmentLength property" Url="html/P_SolidFire_Element_Api_GetVirtualVolumeUnsharedChunksRequest_SegmentLength.htm" />
   <HelpKINode Title="SegmentStart property" Url="html/P_SolidFire_Element_Api_GetVirtualVolumeUnsharedChunksRequest_SegmentStart.htm" />
   <HelpKINode Title="SendRequestAsync method" Url="html/Overload_SolidFire_Core_ServiceBase_SendRequestAsync.htm" />
-  <HelpKINode Title="SensorName property" Url="html/P_SolidFire_Element_Api_IpmiConfig_SensorName.htm" />
   <HelpKINode Title="Sensors property" Url="html/P_SolidFire_Element_Api_IpmiInfo_Sensors.htm" />
   <HelpKINode Title="Serial property">
     <HelpKINode Title="Drive.Serial Property " Url="html/P_SolidFire_Element_Api_Drive_Serial.htm" />
@@ -7826,7 +7712,6 @@
     <HelpKINode Title="DriveHardwareInfo.Serial Property " Url="html/P_SolidFire_Element_Api_DriveHardwareInfo_Serial.htm" />
     <HelpKINode Title="DriveInfo.Serial Property " Url="html/P_SolidFire_Element_Api_DriveInfo_Serial.htm" />
     <HelpKINode Title="FibreChannelPortInfo.Serial Property " Url="html/P_SolidFire_Element_Api_FibreChannelPortInfo_Serial.htm" />
-    <HelpKINode Title="HardwareInfo.Serial Property " Url="html/P_SolidFire_Element_Api_HardwareInfo_Serial.htm" />
   </HelpKINode>
   <HelpKINode Title="SerializerSettings property" Url="html/P_SolidFire_Core_ServiceBase_SerializerSettings.htm" />
   <HelpKINode Title="Servers property">
@@ -8175,6 +8060,14 @@
     <HelpKINode Title="EventInfo.Severity Property " Url="html/P_SolidFire_Element_Api_EventInfo_Severity.htm" />
   </HelpKINode>
   <HelpKINode Title="ShouldAutoGenerate property" Url="html/P_SolidFire_Element_Api_CHAPSecret_ShouldAutoGenerate.htm" />
+  <HelpKINode Title="Shutdown method">
+    <HelpKINode Title="ISolidFireElement.Shutdown Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_Shutdown.htm" />
+    <HelpKINode Title="SolidFireElement.Shutdown Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_Shutdown.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShutdownAsync method">
+    <HelpKINode Title="ISolidFireElement.ShutdownAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ShutdownAsync.htm" />
+    <HelpKINode Title="SolidFireElement.ShutdownAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ShutdownAsync.htm" />
+  </HelpKINode>
   <HelpKINode Title="ShutdownRequest class">
     <HelpKINode Title="ShutdownRequest Class" Url="html/T_SolidFire_Element_Api_ShutdownRequest.htm" />
     <HelpKINode Title="about ShutdownRequest class" Url="html/T_SolidFire_Element_Api_ShutdownRequest.htm" />
@@ -8577,7 +8470,6 @@
   <HelpKINode Title="SolidFire.Element.Api.GetClusterStateResult class" Url="html/T_SolidFire_Element_Api_GetClusterStateResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetClusterStatsResult class" Url="html/T_SolidFire_Element_Api_GetClusterStatsResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetClusterVersionInfoResult class" Url="html/T_SolidFire_Element_Api_GetClusterVersionInfoResult.htm" />
-  <HelpKINode Title="SolidFire.Element.Api.GetConfigRequest class" Url="html/T_SolidFire_Element_Api_GetConfigRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetConfigResult class" Url="html/T_SolidFire_Element_Api_GetConfigResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetCurrentClusterAdminResult class" Url="html/T_SolidFire_Element_Api_GetCurrentClusterAdminResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetDriveConfigResult class" Url="html/T_SolidFire_Element_Api_GetDriveConfigResult.htm" />
@@ -8621,7 +8513,6 @@
   <HelpKINode Title="SolidFire.Element.Api.GetSnmpTrapInfoResult class" Url="html/T_SolidFire_Element_Api_GetSnmpTrapInfoResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetStorageContainerEfficiencyRequest class" Url="html/T_SolidFire_Element_Api_GetStorageContainerEfficiencyRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetStorageContainerEfficiencyResult class" Url="html/T_SolidFire_Element_Api_GetStorageContainerEfficiencyResult.htm" />
-  <HelpKINode Title="SolidFire.Element.Api.GetSystemStatusRequest class" Url="html/T_SolidFire_Element_Api_GetSystemStatusRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetSystemStatusResult class" Url="html/T_SolidFire_Element_Api_GetSystemStatusResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetVirtualVolumeCountResult class" Url="html/T_SolidFire_Element_Api_GetVirtualVolumeCountResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetVirtualVolumeTaskUpdateRequest class" Url="html/T_SolidFire_Element_Api_GetVirtualVolumeTaskUpdateRequest.htm" />
@@ -8638,12 +8529,9 @@
   <HelpKINode Title="SolidFire.Element.Api.GroupSnapshot class" Url="html/T_SolidFire_Element_Api_GroupSnapshot.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GroupSnapshotMembers class" Url="html/T_SolidFire_Element_Api_GroupSnapshotMembers.htm" />
   <HelpKINode Title="SolidFire.Element.Api.HardwareConfig class" Url="html/T_SolidFire_Element_Api_HardwareConfig.htm" />
-  <HelpKINode Title="SolidFire.Element.Api.HardwareInfo class" Url="html/T_SolidFire_Element_Api_HardwareInfo.htm" />
   <HelpKINode Title="SolidFire.Element.Api.IAccountRequest interface" Url="html/T_SolidFire_Element_Api_IAccountRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.Initiator class" Url="html/T_SolidFire_Element_Api_Initiator.htm" />
   <HelpKINode Title="SolidFire.Element.Api.InvokeSFApiRequest class" Url="html/T_SolidFire_Element_Api_InvokeSFApiRequest.htm" />
-  <HelpKINode Title="SolidFire.Element.Api.IpmiConfig class" Url="html/T_SolidFire_Element_Api_IpmiConfig.htm" />
-  <HelpKINode Title="SolidFire.Element.Api.IpmiConfigs class" Url="html/T_SolidFire_Element_Api_IpmiConfigs.htm" />
   <HelpKINode Title="SolidFire.Element.Api.IpmiInfo class" Url="html/T_SolidFire_Element_Api_IpmiInfo.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ISCSISession class" Url="html/T_SolidFire_Element_Api_ISCSISession.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ISolidFireElement interface" Url="html/T_SolidFire_Element_Api_ISolidFireElement.htm" />
@@ -8680,7 +8568,6 @@
   <HelpKINode Title="SolidFire.Element.Api.ListInitiatorsResult class" Url="html/T_SolidFire_Element_Api_ListInitiatorsResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ListISCSISessionsResult class" Url="html/T_SolidFire_Element_Api_ListISCSISessionsResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ListNetworkInterfacesResult class" Url="html/T_SolidFire_Element_Api_ListNetworkInterfacesResult.htm" />
-  <HelpKINode Title="SolidFire.Element.Api.ListNodeFibreChannelPortInfoRequest class" Url="html/T_SolidFire_Element_Api_ListNodeFibreChannelPortInfoRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ListNodeFibreChannelPortInfoResult class" Url="html/T_SolidFire_Element_Api_ListNodeFibreChannelPortInfoResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ListNodeStatsResult class" Url="html/T_SolidFire_Element_Api_ListNodeStatsResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ListPendingActiveNodesResult class" Url="html/T_SolidFire_Element_Api_ListPendingActiveNodesResult.htm" />
@@ -8808,9 +8695,7 @@
   <HelpKINode Title="SolidFire.Element.Api.ResetNodeRequest class" Url="html/T_SolidFire_Element_Api_ResetNodeRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ResetNodeResult class" Url="html/T_SolidFire_Element_Api_ResetNodeResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.RestartNetworkingRequest class" Url="html/T_SolidFire_Element_Api_RestartNetworkingRequest.htm" />
-  <HelpKINode Title="SolidFire.Element.Api.RestartNetworkingResult class" Url="html/T_SolidFire_Element_Api_RestartNetworkingResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.RestartServicesRequest class" Url="html/T_SolidFire_Element_Api_RestartServicesRequest.htm" />
-  <HelpKINode Title="SolidFire.Element.Api.RestartServicesResult class" Url="html/T_SolidFire_Element_Api_RestartServicesResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.RestoreDeletedVolumeRequest class" Url="html/T_SolidFire_Element_Api_RestoreDeletedVolumeRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.RestoreDeletedVolumeResult class" Url="html/T_SolidFire_Element_Api_RestoreDeletedVolumeResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.RollbackToGroupSnapshotRequest class" Url="html/T_SolidFire_Element_Api_RollbackToGroupSnapshotRequest.htm" />
@@ -8862,7 +8747,6 @@
   <HelpKINode Title="SolidFire.Element.Api.StorageContainer class" Url="html/T_SolidFire_Element_Api_StorageContainer.htm" />
   <HelpKINode Title="SolidFire.Element.Api.SupportBundleDetails class" Url="html/T_SolidFire_Element_Api_SupportBundleDetails.htm" />
   <HelpKINode Title="SolidFire.Element.Api.SyncJob class" Url="html/T_SolidFire_Element_Api_SyncJob.htm" />
-  <HelpKINode Title="SolidFire.Element.Api.SystemMemory class" Url="html/T_SolidFire_Element_Api_SystemMemory.htm" />
   <HelpKINode Title="SolidFire.Element.Api.TestConnectEnsembleDetails class" Url="html/T_SolidFire_Element_Api_TestConnectEnsembleDetails.htm" />
   <HelpKINode Title="SolidFire.Element.Api.TestConnectEnsembleRequest class" Url="html/T_SolidFire_Element_Api_TestConnectEnsembleRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.TestConnectEnsembleResult class" Url="html/T_SolidFire_Element_Api_TestConnectEnsembleResult.htm" />
@@ -9275,6 +9159,8 @@
   <HelpKINode Title="SolidFireElement.RemoveVolumesFromVolumeAccessGroupAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_RemoveVolumesFromVolumeAccessGroupAsync.htm" />
   <HelpKINode Title="SolidFireElement.ResetDrives method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ResetDrives.htm" />
   <HelpKINode Title="SolidFireElement.ResetDrivesAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ResetDrivesAsync.htm" />
+  <HelpKINode Title="SolidFireElement.ResetNode method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ResetNode.htm" />
+  <HelpKINode Title="SolidFireElement.ResetNodeAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ResetNodeAsync.htm" />
   <HelpKINode Title="SolidFireElement.RestartNetworking method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_RestartNetworking.htm" />
   <HelpKINode Title="SolidFireElement.RestartNetworkingAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_RestartNetworkingAsync.htm" />
   <HelpKINode Title="SolidFireElement.RestartServices method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_RestartServices.htm" />
@@ -9307,6 +9193,8 @@
   <HelpKINode Title="SolidFireElement.SetSnmpInfoAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_SetSnmpInfoAsync.htm" />
   <HelpKINode Title="SolidFireElement.SetSnmpTrapInfo method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_SetSnmpTrapInfo.htm" />
   <HelpKINode Title="SolidFireElement.SetSnmpTrapInfoAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_SetSnmpTrapInfoAsync.htm" />
+  <HelpKINode Title="SolidFireElement.Shutdown method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_Shutdown.htm" />
+  <HelpKINode Title="SolidFireElement.ShutdownAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ShutdownAsync.htm" />
   <HelpKINode Title="SolidFireElement.SnmpSendTestTraps method" Url="html/M_SolidFire_Element_Api_SolidFireElement_SnmpSendTestTraps.htm" />
   <HelpKINode Title="SolidFireElement.SnmpSendTestTrapsAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_SnmpSendTestTrapsAsync.htm" />
   <HelpKINode Title="SolidFireElement.SolidFireElement constructor" Url="html/M_SolidFire_Element_Api_SolidFireElement__ctor.htm" />
@@ -9537,7 +9425,6 @@
   </HelpKINode>
   <HelpKINode Title="Stderr property" Url="html/P_SolidFire_Element_Api_ResetDriveDetails_Stderr.htm" />
   <HelpKINode Title="Stdout property" Url="html/P_SolidFire_Element_Api_ResetDriveDetails_Stdout.htm" />
-  <HelpKINode Title="Storage property" Url="html/P_SolidFire_Element_Api_HardwareInfo_Storage.htm" />
   <HelpKINode Title="StorageContainer class">
     <HelpKINode Title="StorageContainer Class" Url="html/T_SolidFire_Element_Api_StorageContainer.htm" />
     <HelpKINode Title="about StorageContainer class" Url="html/T_SolidFire_Element_Api_StorageContainer.htm" />
@@ -9640,20 +9527,6 @@
   <HelpKINode Title="SyncJob.TotalBytes property" Url="html/P_SolidFire_Element_Api_SyncJob_TotalBytes.htm" />
   <HelpKINode Title="SyncJob.Type property" Url="html/P_SolidFire_Element_Api_SyncJob_Type.htm" />
   <HelpKINode Title="SyncJobs property" Url="html/P_SolidFire_Element_Api_ListSyncJobsResult_SyncJobs.htm" />
-  <HelpKINode Title="Sysinfo property" Url="html/P_SolidFire_Element_Api_HardwareInfo_Sysinfo.htm" />
-  <HelpKINode Title="System property" Url="html/P_SolidFire_Element_Api_HardwareInfo_System.htm" />
-  <HelpKINode Title="SystemMemory class">
-    <HelpKINode Title="SystemMemory Class" Url="html/T_SolidFire_Element_Api_SystemMemory.htm" />
-    <HelpKINode Title="about SystemMemory class" Url="html/T_SolidFire_Element_Api_SystemMemory.htm" />
-    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_SystemMemory__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_SystemMemory.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_SystemMemory.htm" />
-  </HelpKINode>
-  <HelpKINode Title="SystemMemory property" Url="html/P_SolidFire_Element_Api_HardwareInfo_SystemMemory.htm" />
-  <HelpKINode Title="SystemMemory.Free property" Url="html/P_SolidFire_Element_Api_SystemMemory_Free.htm" />
-  <HelpKINode Title="SystemMemory.SystemMemory constructor" Url="html/M_SolidFire_Element_Api_SystemMemory__ctor.htm" />
-  <HelpKINode Title="SystemMemory.Total property" Url="html/P_SolidFire_Element_Api_SystemMemory_Total.htm" />
-  <HelpKINode Title="SystemMemory.Used property" Url="html/P_SolidFire_Element_Api_SystemMemory_Used.htm" />
   <HelpKINode Title="TargetIP property" Url="html/P_SolidFire_Element_Api_ISCSISession_TargetIP.htm" />
   <HelpKINode Title="TargetName property" Url="html/P_SolidFire_Element_Api_ISCSISession_TargetName.htm" />
   <HelpKINode Title="TargetPortName property" Url="html/P_SolidFire_Element_Api_ISCSISession_TargetPortName.htm" />
@@ -9924,7 +9797,6 @@
     <HelpKINode Title="RpcBase.ToString Method " Url="html/M_SolidFire_Core_RpcBase_ToString.htm" />
     <HelpKINode Title="SinceAttribute.ToString Method " Url="html/M_SolidFire_Core_Attributes_SinceAttribute_ToString.htm" />
   </HelpKINode>
-  <HelpKINode Title="Total property" Url="html/P_SolidFire_Element_Api_SystemMemory_Total.htm" />
   <HelpKINode Title="TotalBytes property" Url="html/P_SolidFire_Element_Api_SyncJob_TotalBytes.htm" />
   <HelpKINode Title="TotalCapacity property" Url="html/P_SolidFire_Element_Api_DriveStats_TotalCapacity.htm" />
   <HelpKINode Title="TotalLatencyUSec property" Url="html/P_SolidFire_Element_Api_VolumeStats_TotalLatencyUSec.htm" />
@@ -9956,7 +9828,6 @@
   <HelpKINode Title="UniqueBlocks property" Url="html/P_SolidFire_Element_Api_ClusterCapacity_UniqueBlocks.htm" />
   <HelpKINode Title="UniqueBlocksUsedSpace property" Url="html/P_SolidFire_Element_Api_ClusterCapacity_UniqueBlocksUsedSpace.htm" />
   <HelpKINode Title="UniqueID property" Url="html/P_SolidFire_Element_Api_ClusterInfo_UniqueID.htm" />
-  <HelpKINode Title="UniqueSensorID property" Url="html/P_SolidFire_Element_Api_IpmiConfig_UniqueSensorID.htm" />
   <HelpKINode Title="UpAndRunning property">
     <HelpKINode Title="NetworkConfig.UpAndRunning Property " Url="html/P_SolidFire_Element_Api_NetworkConfig_UpAndRunning.htm" />
     <HelpKINode Title="PhysicalAdapter.UpAndRunning Property " Url="html/P_SolidFire_Element_Api_PhysicalAdapter_UpAndRunning.htm" />
@@ -10000,7 +9871,6 @@
     <HelpKINode Title="SupportBundleDetails.Url Property " Url="html/P_SolidFire_Element_Api_SupportBundleDetails_Url.htm" />
     <HelpKINode Title="UpdateBulkVolumeStatusResult.Url Property " Url="html/P_SolidFire_Element_Api_UpdateBulkVolumeStatusResult_Url.htm" />
   </HelpKINode>
-  <HelpKINode Title="Used property" Url="html/P_SolidFire_Element_Api_SystemMemory_Used.htm" />
   <HelpKINode Title="UsedCapacity property" Url="html/P_SolidFire_Element_Api_DriveStats_UsedCapacity.htm" />
   <HelpKINode Title="UsedMemory property">
     <HelpKINode Title="DriveStats.UsedMemory Property " Url="html/P_SolidFire_Element_Api_DriveStats_UsedMemory.htm" />
@@ -10059,7 +9929,6 @@
     <HelpKINode Title="DriveConfigInfo.Uuid Property " Url="html/P_SolidFire_Element_Api_DriveConfigInfo_Uuid.htm" />
     <HelpKINode Title="DriveHardware.Uuid Property " Url="html/P_SolidFire_Element_Api_DriveHardware_Uuid.htm" />
     <HelpKINode Title="DriveHardwareInfo.Uuid Property " Url="html/P_SolidFire_Element_Api_DriveHardwareInfo_Uuid.htm" />
-    <HelpKINode Title="HardwareInfo.Uuid Property " Url="html/P_SolidFire_Element_Api_HardwareInfo_Uuid.htm" />
     <HelpKINode Title="Node.Uuid Property " Url="html/P_SolidFire_Element_Api_Node_Uuid.htm" />
     <HelpKINode Title="PendingNode.Uuid Property " Url="html/P_SolidFire_Element_Api_PendingNode_Uuid.htm" />
   </HelpKINode>
@@ -10169,8 +10038,8 @@
   </HelpKINode>
   <HelpKINode Title="VirtualVolumeHostIDs property" Url="html/P_SolidFire_Element_Api_ListVirtualVolumeHostsRequest_VirtualVolumeHostIDs.htm" />
   <HelpKINode Title="VirtualVolumeID property">
-    <HelpKINode Title="GetVirtualVolumeUnsharedChunksRequest.VirtualVolumeID Property " Url="html/P_SolidFire_Element_Api_GetVirtualVolumeUnsharedChunksRequest_VirtualVolumeID.htm" />
     <HelpKINode Title="PrepareVirtualSnapshotRequest.VirtualVolumeID Property " Url="html/P_SolidFire_Element_Api_PrepareVirtualSnapshotRequest_VirtualVolumeID.htm" />
+    <HelpKINode Title="GetVirtualVolumeUnsharedChunksRequest.VirtualVolumeID Property " Url="html/P_SolidFire_Element_Api_GetVirtualVolumeUnsharedChunksRequest_VirtualVolumeID.htm" />
     <HelpKINode Title="PrepareVirtualSnapshotResult.VirtualVolumeID Property " Url="html/P_SolidFire_Element_Api_PrepareVirtualSnapshotResult_VirtualVolumeID.htm" />
     <HelpKINode Title="Snapshot.VirtualVolumeID Property " Url="html/P_SolidFire_Element_Api_Snapshot_VirtualVolumeID.htm" />
     <HelpKINode Title="VirtualVolumeBinding.VirtualVolumeID Property " Url="html/P_SolidFire_Element_Api_VirtualVolumeBinding_VirtualVolumeID.htm" />
