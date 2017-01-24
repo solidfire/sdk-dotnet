@@ -170,7 +170,7 @@ For more examples check out the tutorials in the [examples folder](https://githu
 | 1.0     | Feb 02, 2016   | Accounts, Volumes, Access Groups, Snapshots, and Group Snapshots |
 
 ## License
-Copyright © 2016, 2017 SolidFire, Inc. All rights reserved.
+Copyright © 2016, 2017 NetApp, Inc. All rights reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
