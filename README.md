@@ -1,4 +1,4 @@
-#SolidFire .NET SDK
+# SolidFire .NET SDK
 
 ### Version 1.2 (github)
 
@@ -32,7 +32,7 @@ ___Dependencies (automatically downloaded upon install)___:
 
 ## Documentation
 
-[MSDN Docs](http://solidfire.github.io/sdk-dotnet/help/v1.2/html/R_Project_SolidFire__NET_SDK_Documentation.htm) 
+[MSDN Docs](http://solidfire.github.io/sdk-dotnet/help/v1.2/html/R_Project_NetApp_SolidFire__NET_SDK_Documentation.htm) 
 
 [Release Notes](https://github.com/solidfire/sdk-dotnet/raw/gh-pages/NetApp_SolidFire_Dot_Net_SDK_v1.2_Release_Notes.pdf)
 
@@ -161,7 +161,7 @@ namespace SolidFire.SDK.Examples
 
 For more examples check out the tutorials in the [examples folder](https://github.com/solidfire/sdk-dotnet/tree/gh-pages/examples) of this repo.
 
-## Release History
+## Roadmap
 
 | Version | Release Date   | Notes                                                            |
 |:------- |:---------------|:-----------------------------------------------------------------|
