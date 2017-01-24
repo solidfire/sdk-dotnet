@@ -1,26 +1,14 @@
-# SolidFire .NET SDK <img src="img/net.png" height="50" width="50" >
+#SolidFire .NET SDK
 
-.NET SDK for interacting with SolidFire Element OS
+### Version 1.2 (github)
 
-## Current Release
-Version 1.3.0.109
+![Net Logo](img/net-50.png) 
 
 ## Description
 The SolidFire .NET SDK is a collection of libraries that facilitate integration and orchestration between proprietary systems and third-party applications. The .NET SDK allows developers to deeply integrate SolidFire system API with the C# or Visual Basic programming language. The SolidFire .NET SDK reduces the amount of additional coding time required for integration.
 
-## Compatibility
 
-| Component                          | Version     |
-|:-----------------------------------|:-----------:|
-| .NET                               | 4.6         |
-| (dotnet core) NetStandard          | 1.6         |
-| SolidFire Element OS               | 7.x - 9.0   |
-
-## Getting Help
-
-If you have any questions or comments about this product, contact <ng-sf-host-integrations-sdk@netapp.com> or reach out to the online developer community at [ThePub](http://netapp.io). Your feedback helps us focus our efforts on new features and capabilities.
-
-## Install via Nuget
+## Installation
 
 To install SolidFire.SDK, run the following command in the Package Manager Console
 
@@ -28,17 +16,29 @@ To install SolidFire.SDK, run the following command in the Package Manager Conso
 Install-Package SolidFire.SDK
 ```
 
-___Dependencies___:
+___Dependencies (automatically downloaded upon install)___:
 
 | Component       | Version    |
-|:---------------:|:----------:|
+|:---------------:|:-----------|
 | Newtonsoft.Json | 9.0.1      |
+
+## Compatibility
+
+| Component                          | Version     |
+|:-----------------------------------|:------------|
+| .NET                               | 4.5.1       |
+| (dotnet core) NetStandard          | 1.6         |
+| SolidFire Element OS               | 7.x - 9.0   |
 
 ## Documentation
 
-[MSDN Docs](http://solidfire.github.io/sdk-dotnet/help/v1.2/html/R_Project_NetApp_SolidFire__NET_SDK_Documentation.htm) 
+[MSDN Docs](http://solidfire.github.io/sdk-dotnet/help/v1.2/html/R_Project_SolidFire__NET_SDK_Documentation.htm) 
 
-[Release Notes](https://github.com/solidfire/sdk-dotnet/raw/gh-pages/SolidFire_Dot_NET_SDK_Release_Notes_v1.2.pdf)
+[Release Notes](https://github.com/solidfire/sdk-dotnet/raw/gh-pages/NetApp_SolidFire_Dot_Net_SDK_v1.2_Release_Notes.pdf)
+
+## Getting Help
+
+If you have any questions or comments about this product, open an issue on our [GitHub repo](https://github.com/solidfire/sdk-dotnet) or reach out to the online developer community at [ThePub](http://netapp.io). Your feedback helps us focus our efforts on new features and capabilities.
 
 ## Instructions
 
@@ -161,13 +161,13 @@ namespace SolidFire.SDK.Examples
 
 For more examples check out the tutorials in the [examples folder](https://github.com/solidfire/sdk-dotnet/tree/gh-pages/examples) of this repo.
 
-## Roadmap
+## Release History
 
-| Version | Release Date       | Notes                                                            |
-|:------- |:-------------------|:-----------------------------------------------------------------|
-| 1.0     | February 2, 2016   | Accounts, Volumes, Access Groups, Snapshots, and Group Snapshots |
-| 1.1     | September 20, 2016 | Complete Nitrogen & Majority of Oxygen API Coverage              |
-| 1.2     | January 15, 2017   | Fluorine API Coverage                                            |
+| Version | Release Date   | Notes                                                            |
+|:------- |:---------------|:-----------------------------------------------------------------|
+| 1.2     | Jan 25, 2017   | Fluorine API Coverage                                            |
+| 1.1     | Sep 20, 2016   | Complete Nitrogen & Majority of Oxygen API Coverage              |
+| 1.0     | Feb 02, 2016   | Accounts, Volumes, Access Groups, Snapshots, and Group Snapshots |
 
 ## License
 Copyright © 2016, 2017 SolidFire, Inc. All rights reserved.
