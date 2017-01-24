@@ -239,6 +239,7 @@
     <HelpKINode Title="NetworkConfig.Address Property " Url="html/P_SolidFire_Element_Api_NetworkConfig_Address.htm" />
     <HelpKINode Title="NetworkInterface.Address Property " Url="html/P_SolidFire_Element_Api_NetworkInterface_Address.htm" />
     <HelpKINode Title="PhysicalAdapter.Address Property " Url="html/P_SolidFire_Element_Api_PhysicalAdapter_Address.htm" />
+    <HelpKINode Title="VirtualNetworkAddress.Address Property " Url="html/P_SolidFire_Element_Api_VirtualNetworkAddress_Address.htm" />
   </HelpKINode>
   <HelpKINode Title="AddressBlock class">
     <HelpKINode Title="AddressBlock Class" Url="html/T_SolidFire_Element_Api_AddressBlock.htm" />
@@ -403,7 +404,7 @@
   <HelpKINode Title="ApiSchedule.HasError property" Url="html/P_SolidFire_Element_Api_ApiSchedule_HasError.htm" />
   <HelpKINode Title="ApiSchedule.Hours property" Url="html/P_SolidFire_Element_Api_ApiSchedule_Hours.htm" />
   <HelpKINode Title="ApiSchedule.LastRunStatus property" Url="html/P_SolidFire_Element_Api_ApiSchedule_LastRunStatus.htm" />
-  <HelpKINode Title="ApiSchedule.LastRunTimeStart property" Url="html/P_SolidFire_Element_Api_ApiSchedule_LastRunTimeStart.htm" />
+  <HelpKINode Title="ApiSchedule.LastRunTimeStarted property" Url="html/P_SolidFire_Element_Api_ApiSchedule_LastRunTimeStarted.htm" />
   <HelpKINode Title="ApiSchedule.Minutes property" Url="html/P_SolidFire_Element_Api_ApiSchedule_Minutes.htm" />
   <HelpKINode Title="ApiSchedule.Monthdays property" Url="html/P_SolidFire_Element_Api_ApiSchedule_Monthdays.htm" />
   <HelpKINode Title="ApiSchedule.Paused property" Url="html/P_SolidFire_Element_Api_ApiSchedule_Paused.htm" />
@@ -1560,14 +1561,6 @@
     <HelpKINode Title="Snapshot.CreateTime Property " Url="html/P_SolidFire_Element_Api_Snapshot_CreateTime.htm" />
     <HelpKINode Title="Volume.CreateTime Property " Url="html/P_SolidFire_Element_Api_Volume_CreateTime.htm" />
   </HelpKINode>
-  <HelpKINode Title="CreateVirtualVolumeHost method">
-    <HelpKINode Title="ISolidFireElement.CreateVirtualVolumeHost Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_CreateVirtualVolumeHost.htm" />
-    <HelpKINode Title="SolidFireElement.CreateVirtualVolumeHost Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_CreateVirtualVolumeHost.htm" />
-  </HelpKINode>
-  <HelpKINode Title="CreateVirtualVolumeHostAsync method">
-    <HelpKINode Title="ISolidFireElement.CreateVirtualVolumeHostAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_CreateVirtualVolumeHostAsync.htm" />
-    <HelpKINode Title="SolidFireElement.CreateVirtualVolumeHostAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_CreateVirtualVolumeHostAsync.htm" />
-  </HelpKINode>
   <HelpKINode Title="CreateVirtualVolumeHostRequest class">
     <HelpKINode Title="CreateVirtualVolumeHostRequest Class" Url="html/T_SolidFire_Element_Api_CreateVirtualVolumeHostRequest.htm" />
     <HelpKINode Title="about CreateVirtualVolumeHostRequest class" Url="html/T_SolidFire_Element_Api_CreateVirtualVolumeHostRequest.htm" />
@@ -1929,11 +1922,11 @@
     <HelpKINode Title="DriveHardware.Dev Property " Url="html/P_SolidFire_Element_Api_DriveHardware_Dev.htm" />
     <HelpKINode Title="DriveHardwareInfo.Dev Property " Url="html/P_SolidFire_Element_Api_DriveHardwareInfo_Dev.htm" />
   </HelpKINode>
+  <HelpKINode Title="Devpath property" Url="html/P_SolidFire_Element_Api_DriveHardwareInfo_Devpath.htm" />
   <HelpKINode Title="DevPath property">
     <HelpKINode Title="DriveConfigInfo.DevPath Property " Url="html/P_SolidFire_Element_Api_DriveConfigInfo_DevPath.htm" />
     <HelpKINode Title="DriveHardware.DevPath Property " Url="html/P_SolidFire_Element_Api_DriveHardware_DevPath.htm" />
   </HelpKINode>
-  <HelpKINode Title="Devpath property" Url="html/P_SolidFire_Element_Api_DriveHardwareInfo_Devpath.htm" />
   <HelpKINode Title="DictionaryHashtableConverter class">
     <HelpKINode Title="DictionaryHashtableConverter Class" Url="html/T_SolidFire_Core_Converters_DictionaryHashtableConverter.htm" />
     <HelpKINode Title="about DictionaryHashtableConverter class" Url="html/T_SolidFire_Core_Converters_DictionaryHashtableConverter.htm" />
@@ -2449,6 +2442,7 @@
   </HelpKINode>
   <HelpKINode Title="ExtractResult(Of TResult) method" Url="html/M_SolidFire_Core_ServiceBase_ExtractResult__1.htm" />
   <HelpKINode Title="ExtractResult&lt;TResult&gt; method" Url="html/M_SolidFire_Core_ServiceBase_ExtractResult__1.htm" />
+  <HelpKINode Title="Failed property" Url="html/P_SolidFire_Element_Api_ShutdownResult_Failed.htm" />
   <HelpKINode Title="FailedDieCount property" Url="html/P_SolidFire_Element_Api_DriveStats_FailedDieCount.htm" />
   <HelpKINode Title="Family property" Url="html/P_SolidFire_Element_Api_NetworkConfig_Family.htm" />
   <HelpKINode Title="Faults property" Url="html/P_SolidFire_Element_Api_ListClusterFaultsResult_Faults.htm" />
@@ -3640,14 +3634,6 @@
   </HelpKINode>
   <HelpKINode Title="GetVirtualVolumeCountResult.Count property" Url="html/P_SolidFire_Element_Api_GetVirtualVolumeCountResult_Count.htm" />
   <HelpKINode Title="GetVirtualVolumeCountResult.GetVirtualVolumeCountResult constructor" Url="html/M_SolidFire_Element_Api_GetVirtualVolumeCountResult__ctor.htm" />
-  <HelpKINode Title="GetVirtualVolumeTaskUpdate method">
-    <HelpKINode Title="ISolidFireElement.GetVirtualVolumeTaskUpdate Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetVirtualVolumeTaskUpdate.htm" />
-    <HelpKINode Title="SolidFireElement.GetVirtualVolumeTaskUpdate Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetVirtualVolumeTaskUpdate.htm" />
-  </HelpKINode>
-  <HelpKINode Title="GetVirtualVolumeTaskUpdateAsync method">
-    <HelpKINode Title="ISolidFireElement.GetVirtualVolumeTaskUpdateAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetVirtualVolumeTaskUpdateAsync.htm" />
-    <HelpKINode Title="SolidFireElement.GetVirtualVolumeTaskUpdateAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetVirtualVolumeTaskUpdateAsync.htm" />
-  </HelpKINode>
   <HelpKINode Title="GetVirtualVolumeTaskUpdateRequest class">
     <HelpKINode Title="GetVirtualVolumeTaskUpdateRequest Class" Url="html/T_SolidFire_Element_Api_GetVirtualVolumeTaskUpdateRequest.htm" />
     <HelpKINode Title="about GetVirtualVolumeTaskUpdateRequest class" Url="html/T_SolidFire_Element_Api_GetVirtualVolumeTaskUpdateRequest.htm" />
@@ -3658,14 +3644,6 @@
   <HelpKINode Title="GetVirtualVolumeTaskUpdateRequest.CallingVirtualVolumeHostID property" Url="html/P_SolidFire_Element_Api_GetVirtualVolumeTaskUpdateRequest_CallingVirtualVolumeHostID.htm" />
   <HelpKINode Title="GetVirtualVolumeTaskUpdateRequest.GetVirtualVolumeTaskUpdateRequest constructor" Url="html/M_SolidFire_Element_Api_GetVirtualVolumeTaskUpdateRequest__ctor.htm" />
   <HelpKINode Title="GetVirtualVolumeTaskUpdateRequest.VirtualVolumeTaskID property" Url="html/P_SolidFire_Element_Api_GetVirtualVolumeTaskUpdateRequest_VirtualVolumeTaskID.htm" />
-  <HelpKINode Title="GetVirtualVolumeUnsharedChunks method">
-    <HelpKINode Title="ISolidFireElement.GetVirtualVolumeUnsharedChunks Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetVirtualVolumeUnsharedChunks.htm" />
-    <HelpKINode Title="SolidFireElement.GetVirtualVolumeUnsharedChunks Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetVirtualVolumeUnsharedChunks.htm" />
-  </HelpKINode>
-  <HelpKINode Title="GetVirtualVolumeUnsharedChunksAsync method">
-    <HelpKINode Title="ISolidFireElement.GetVirtualVolumeUnsharedChunksAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetVirtualVolumeUnsharedChunksAsync.htm" />
-    <HelpKINode Title="SolidFireElement.GetVirtualVolumeUnsharedChunksAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetVirtualVolumeUnsharedChunksAsync.htm" />
-  </HelpKINode>
   <HelpKINode Title="GetVirtualVolumeUnsharedChunksRequest class">
     <HelpKINode Title="GetVirtualVolumeUnsharedChunksRequest Class" Url="html/T_SolidFire_Element_Api_GetVirtualVolumeUnsharedChunksRequest.htm" />
     <HelpKINode Title="about GetVirtualVolumeUnsharedChunksRequest class" Url="html/T_SolidFire_Element_Api_GetVirtualVolumeUnsharedChunksRequest.htm" />
@@ -4139,8 +4117,6 @@
   <HelpKINode Title="ISolidFireElement.CreateStorageContainerAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_CreateStorageContainerAsync.htm" />
   <HelpKINode Title="ISolidFireElement.CreateSupportBundle method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_CreateSupportBundle.htm" />
   <HelpKINode Title="ISolidFireElement.CreateSupportBundleAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_CreateSupportBundleAsync.htm" />
-  <HelpKINode Title="ISolidFireElement.CreateVirtualVolumeHost method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_CreateVirtualVolumeHost.htm" />
-  <HelpKINode Title="ISolidFireElement.CreateVirtualVolumeHostAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_CreateVirtualVolumeHostAsync.htm" />
   <HelpKINode Title="ISolidFireElement.CreateVolume method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_CreateVolume.htm" />
   <HelpKINode Title="ISolidFireElement.CreateVolumeAccessGroup method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_CreateVolumeAccessGroup.htm" />
   <HelpKINode Title="ISolidFireElement.CreateVolumeAccessGroupAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_CreateVolumeAccessGroupAsync.htm" />
@@ -4271,10 +4247,6 @@
   <HelpKINode Title="ISolidFireElement.GetSystemStatusAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetSystemStatusAsync.htm" />
   <HelpKINode Title="ISolidFireElement.GetVirtualVolumeCount method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetVirtualVolumeCount.htm" />
   <HelpKINode Title="ISolidFireElement.GetVirtualVolumeCountAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetVirtualVolumeCountAsync.htm" />
-  <HelpKINode Title="ISolidFireElement.GetVirtualVolumeTaskUpdate method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetVirtualVolumeTaskUpdate.htm" />
-  <HelpKINode Title="ISolidFireElement.GetVirtualVolumeTaskUpdateAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetVirtualVolumeTaskUpdateAsync.htm" />
-  <HelpKINode Title="ISolidFireElement.GetVirtualVolumeUnsharedChunks method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetVirtualVolumeUnsharedChunks.htm" />
-  <HelpKINode Title="ISolidFireElement.GetVirtualVolumeUnsharedChunksAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetVirtualVolumeUnsharedChunksAsync.htm" />
   <HelpKINode Title="ISolidFireElement.GetVolumeAccessGroupEfficiency method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetVolumeAccessGroupEfficiency.htm" />
   <HelpKINode Title="ISolidFireElement.GetVolumeAccessGroupEfficiencyAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetVolumeAccessGroupEfficiencyAsync.htm" />
   <HelpKINode Title="ISolidFireElement.GetVolumeAccessGroupLunAssignments method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetVolumeAccessGroupLunAssignments.htm" />
@@ -4411,8 +4383,6 @@
   <HelpKINode Title="ISolidFireElement.ModifyVolumePairAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ModifyVolumePairAsync.htm" />
   <HelpKINode Title="ISolidFireElement.ModifyVolumes method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ModifyVolumes.htm" />
   <HelpKINode Title="ISolidFireElement.ModifyVolumesAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ModifyVolumesAsync.htm" />
-  <HelpKINode Title="ISolidFireElement.PrepareVirtualSnapshot method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_PrepareVirtualSnapshot.htm" />
-  <HelpKINode Title="ISolidFireElement.PrepareVirtualSnapshotAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_PrepareVirtualSnapshotAsync.htm" />
   <HelpKINode Title="ISolidFireElement.PurgeDeletedVolume method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_PurgeDeletedVolume.htm" />
   <HelpKINode Title="ISolidFireElement.PurgeDeletedVolumeAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_PurgeDeletedVolumeAsync.htm" />
   <HelpKINode Title="ISolidFireElement.PurgeDeletedVolumes method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_PurgeDeletedVolumes.htm" />
@@ -4577,9 +4547,9 @@
     <HelpKINode Title="ApiSchedule.LastRunStatus Property " Url="html/P_SolidFire_Element_Api_ApiSchedule_LastRunStatus.htm" />
     <HelpKINode Title="Schedule.LastRunStatus Property " Url="html/P_SolidFire_Element_Api_Schedule_LastRunStatus.htm" />
   </HelpKINode>
-  <HelpKINode Title="LastRunTimeStart property">
-    <HelpKINode Title="ApiSchedule.LastRunTimeStart Property " Url="html/P_SolidFire_Element_Api_ApiSchedule_LastRunTimeStart.htm" />
-    <HelpKINode Title="Schedule.LastRunTimeStart Property " Url="html/P_SolidFire_Element_Api_Schedule_LastRunTimeStart.htm" />
+  <HelpKINode Title="LastRunTimeStarted property">
+    <HelpKINode Title="ApiSchedule.LastRunTimeStarted Property " Url="html/P_SolidFire_Element_Api_ApiSchedule_LastRunTimeStarted.htm" />
+    <HelpKINode Title="Schedule.LastRunTimeStarted Property " Url="html/P_SolidFire_Element_Api_Schedule_LastRunTimeStarted.htm" />
   </HelpKINode>
   <HelpKINode Title="LastUpdateTime property" Url="html/P_SolidFire_Element_Api_AsyncHandle_LastUpdateTime.htm" />
   <HelpKINode Title="Latency property" Url="html/P_SolidFire_Element_Api_PairedCluster_Latency.htm" />
@@ -6518,7 +6488,6 @@
     <HelpKINode Title="NodeFibreChannelPortInfoResult.NodeID Property " Url="html/P_SolidFire_Element_Api_NodeFibreChannelPortInfoResult_NodeID.htm" />
     <HelpKINode Title="NodeStateResult.NodeID Property " Url="html/P_SolidFire_Element_Api_NodeStateResult_NodeID.htm" />
     <HelpKINode Title="NodeStatsInfo.NodeID Property " Url="html/P_SolidFire_Element_Api_NodeStatsInfo_NodeID.htm" />
-    <HelpKINode Title="NodeSystemStatus.NodeID Property " Url="html/P_SolidFire_Element_Api_NodeSystemStatus_NodeID.htm" />
     <HelpKINode Title="NodeWaitingToJoin.NodeID Property " Url="html/P_SolidFire_Element_Api_NodeWaitingToJoin_NodeID.htm" />
     <HelpKINode Title="Service.NodeID Property " Url="html/P_SolidFire_Element_Api_Service_NodeID.htm" />
     <HelpKINode Title="SoftwareVersionInfo.NodeID Property " Url="html/P_SolidFire_Element_Api_SoftwareVersionInfo_NodeID.htm" />
@@ -6543,6 +6512,7 @@
     <HelpKINode Title="ListNodeFibreChannelPortInfoResult.Nodes Property " Url="html/P_SolidFire_Element_Api_ListNodeFibreChannelPortInfoResult_Nodes.htm" />
     <HelpKINode Title="NodeStatsNodes.Nodes Property " Url="html/P_SolidFire_Element_Api_NodeStatsNodes_Nodes.htm" />
     <HelpKINode Title="RemoveNodesRequest.Nodes Property " Url="html/P_SolidFire_Element_Api_RemoveNodesRequest_Nodes.htm" />
+    <HelpKINode Title="ShutdownRequest.Nodes Property " Url="html/P_SolidFire_Element_Api_ShutdownRequest_Nodes.htm" />
     <HelpKINode Title="TestConnectEnsembleDetails.Nodes Property " Url="html/P_SolidFire_Element_Api_TestConnectEnsembleDetails_Nodes.htm" />
   </HelpKINode>
   <HelpKINode Title="NodeStateInfo class">
@@ -6598,25 +6568,6 @@
   </HelpKINode>
   <HelpKINode Title="NodeStatsNodes.Nodes property" Url="html/P_SolidFire_Element_Api_NodeStatsNodes_Nodes.htm" />
   <HelpKINode Title="NodeStatsNodes.NodeStatsNodes constructor" Url="html/M_SolidFire_Element_Api_NodeStatsNodes__ctor.htm" />
-  <HelpKINode Title="NodeSystemStatus class">
-    <HelpKINode Title="NodeSystemStatus Class" Url="html/T_SolidFire_Element_Api_NodeSystemStatus.htm" />
-    <HelpKINode Title="about NodeSystemStatus class" Url="html/T_SolidFire_Element_Api_NodeSystemStatus.htm" />
-    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_NodeSystemStatus__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_NodeSystemStatus.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_NodeSystemStatus.htm" />
-  </HelpKINode>
-  <HelpKINode Title="NodeSystemStatus.NodeID property" Url="html/P_SolidFire_Element_Api_NodeSystemStatus_NodeID.htm" />
-  <HelpKINode Title="NodeSystemStatus.NodeSystemStatus constructor" Url="html/M_SolidFire_Element_Api_NodeSystemStatus__ctor.htm" />
-  <HelpKINode Title="NodeSystemStatus.Result property" Url="html/P_SolidFire_Element_Api_NodeSystemStatus_Result.htm" />
-  <HelpKINode Title="NodeSystemStatusInfo class">
-    <HelpKINode Title="NodeSystemStatusInfo Class" Url="html/T_SolidFire_Element_Api_NodeSystemStatusInfo.htm" />
-    <HelpKINode Title="about NodeSystemStatusInfo class" Url="html/T_SolidFire_Element_Api_NodeSystemStatusInfo.htm" />
-    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_NodeSystemStatusInfo__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_NodeSystemStatusInfo.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_NodeSystemStatusInfo.htm" />
-  </HelpKINode>
-  <HelpKINode Title="NodeSystemStatusInfo.NodeSystemStatusInfo constructor" Url="html/M_SolidFire_Element_Api_NodeSystemStatusInfo__ctor.htm" />
-  <HelpKINode Title="NodeSystemStatusInfo.RebootRequired property" Url="html/P_SolidFire_Element_Api_NodeSystemStatusInfo_RebootRequired.htm" />
   <HelpKINode Title="NodeType property">
     <HelpKINode Title="HardwareConfig.NodeType Property " Url="html/P_SolidFire_Element_Api_HardwareConfig_NodeType.htm" />
     <HelpKINode Title="Platform.NodeType Property " Url="html/P_SolidFire_Element_Api_Platform_NodeType.htm" />
@@ -6874,14 +6825,6 @@
     <HelpKINode Title="DriveHardware.PowerOnHours Property " Url="html/P_SolidFire_Element_Api_DriveHardware_PowerOnHours.htm" />
     <HelpKINode Title="DriveStats.PowerOnHours Property " Url="html/P_SolidFire_Element_Api_DriveStats_PowerOnHours.htm" />
   </HelpKINode>
-  <HelpKINode Title="PrepareVirtualSnapshot method">
-    <HelpKINode Title="ISolidFireElement.PrepareVirtualSnapshot Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_PrepareVirtualSnapshot.htm" />
-    <HelpKINode Title="SolidFireElement.PrepareVirtualSnapshot Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_PrepareVirtualSnapshot.htm" />
-  </HelpKINode>
-  <HelpKINode Title="PrepareVirtualSnapshotAsync method">
-    <HelpKINode Title="ISolidFireElement.PrepareVirtualSnapshotAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_PrepareVirtualSnapshotAsync.htm" />
-    <HelpKINode Title="SolidFireElement.PrepareVirtualSnapshotAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_PrepareVirtualSnapshotAsync.htm" />
-  </HelpKINode>
   <HelpKINode Title="PrepareVirtualSnapshotRequest class">
     <HelpKINode Title="PrepareVirtualSnapshotRequest Class" Url="html/T_SolidFire_Element_Api_PrepareVirtualSnapshotRequest.htm" />
     <HelpKINode Title="about PrepareVirtualSnapshotRequest class" Url="html/T_SolidFire_Element_Api_PrepareVirtualSnapshotRequest.htm" />
@@ -7037,10 +6980,7 @@
     <HelpKINode Title="DriveHardware.ReallocatedSectors Property " Url="html/P_SolidFire_Element_Api_DriveHardware_ReallocatedSectors.htm" />
     <HelpKINode Title="DriveStats.ReallocatedSectors Property " Url="html/P_SolidFire_Element_Api_DriveStats_ReallocatedSectors.htm" />
   </HelpKINode>
-  <HelpKINode Title="RebootRequired property">
-    <HelpKINode Title="GetSystemStatusResult.RebootRequired Property " Url="html/P_SolidFire_Element_Api_GetSystemStatusResult_RebootRequired.htm" />
-    <HelpKINode Title="NodeSystemStatusInfo.RebootRequired Property " Url="html/P_SolidFire_Element_Api_NodeSystemStatusInfo_RebootRequired.htm" />
-  </HelpKINode>
+  <HelpKINode Title="RebootRequired property" Url="html/P_SolidFire_Element_Api_GetSystemStatusResult_RebootRequired.htm" />
   <HelpKINode Title="Recurring property">
     <HelpKINode Title="ApiCreateScheduleRequest.Recurring Property " Url="html/P_SolidFire_Element_Api_ApiCreateScheduleRequest_Recurring.htm" />
     <HelpKINode Title="ApiModifyScheduleRequest.Recurring Property " Url="html/P_SolidFire_Element_Api_ApiModifyScheduleRequest_Recurring.htm" />
@@ -7468,7 +7408,6 @@
     <HelpKINode Title="NodeDriveHardware.Result Property " Url="html/P_SolidFire_Element_Api_NodeDriveHardware_Result.htm" />
     <HelpKINode Title="NodeFibreChannelPortInfoResult.Result Property " Url="html/P_SolidFire_Element_Api_NodeFibreChannelPortInfoResult_Result.htm" />
     <HelpKINode Title="NodeStateResult.Result Property " Url="html/P_SolidFire_Element_Api_NodeStateResult_Result.htm" />
-    <HelpKINode Title="NodeSystemStatus.Result Property " Url="html/P_SolidFire_Element_Api_NodeSystemStatus_Result.htm" />
     <HelpKINode Title="TestConnectEnsembleResult.Result Property " Url="html/P_SolidFire_Element_Api_TestConnectEnsembleResult_Result.htm" />
     <HelpKINode Title="TestConnectMvipResult.Result Property " Url="html/P_SolidFire_Element_Api_TestConnectMvipResult_Result.htm" />
     <HelpKINode Title="TestConnectSvipResult.Result Property " Url="html/P_SolidFire_Element_Api_TestConnectSvipResult_Result.htm" />
@@ -7571,7 +7510,7 @@
   <HelpKINode Title="Schedule.Frequency property" Url="html/P_SolidFire_Element_Api_Schedule_Frequency.htm" />
   <HelpKINode Title="Schedule.HasError property" Url="html/P_SolidFire_Element_Api_Schedule_HasError.htm" />
   <HelpKINode Title="Schedule.LastRunStatus property" Url="html/P_SolidFire_Element_Api_Schedule_LastRunStatus.htm" />
-  <HelpKINode Title="Schedule.LastRunTimeStart property" Url="html/P_SolidFire_Element_Api_Schedule_LastRunTimeStart.htm" />
+  <HelpKINode Title="Schedule.LastRunTimeStarted property" Url="html/P_SolidFire_Element_Api_Schedule_LastRunTimeStarted.htm" />
   <HelpKINode Title="Schedule.Name property" Url="html/P_SolidFire_Element_Api_Schedule_Name.htm" />
   <HelpKINode Title="Schedule.Paused property" Url="html/P_SolidFire_Element_Api_Schedule_Paused.htm" />
   <HelpKINode Title="Schedule.Recurring property" Url="html/P_SolidFire_Element_Api_Schedule_Recurring.htm" />
@@ -7638,11 +7577,11 @@
   </HelpKINode>
   <HelpKINode Title="ScsiBusExternalDriver property" Url="html/P_SolidFire_Element_Api_HardwareConfig_ScsiBusExternalDriver.htm" />
   <HelpKINode Title="ScsiBusInternalDriver property" Url="html/P_SolidFire_Element_Api_HardwareConfig_ScsiBusInternalDriver.htm" />
+  <HelpKINode Title="ScsiCompatID property" Url="html/P_SolidFire_Element_Api_DriveHardwareInfo_ScsiCompatID.htm" />
   <HelpKINode Title="ScsiCompatId property">
     <HelpKINode Title="DriveConfigInfo.ScsiCompatId Property " Url="html/P_SolidFire_Element_Api_DriveConfigInfo_ScsiCompatId.htm" />
     <HelpKINode Title="DriveHardware.ScsiCompatId Property " Url="html/P_SolidFire_Element_Api_DriveHardware_ScsiCompatId.htm" />
   </HelpKINode>
-  <HelpKINode Title="ScsiCompatID property" Url="html/P_SolidFire_Element_Api_DriveHardwareInfo_ScsiCompatID.htm" />
   <HelpKINode Title="ScsiEUIDeviceID property" Url="html/P_SolidFire_Element_Api_Volume_ScsiEUIDeviceID.htm" />
   <HelpKINode Title="ScsiNAADeviceID property">
     <HelpKINode Title="ProtocolEndpoint.ScsiNAADeviceID Property " Url="html/P_SolidFire_Element_Api_ProtocolEndpoint_ScsiNAADeviceID.htm" />
@@ -8075,6 +8014,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_ShutdownRequest.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_ShutdownRequest.htm" />
   </HelpKINode>
+  <HelpKINode Title="ShutdownRequest.Nodes property" Url="html/P_SolidFire_Element_Api_ShutdownRequest_Nodes.htm" />
   <HelpKINode Title="ShutdownRequest.Option property" Url="html/P_SolidFire_Element_Api_ShutdownRequest_Option.htm" />
   <HelpKINode Title="ShutdownRequest.ShutdownRequest constructor" Url="html/M_SolidFire_Element_Api_ShutdownRequest__ctor.htm" />
   <HelpKINode Title="ShutdownResult class">
@@ -8082,8 +8022,11 @@
     <HelpKINode Title="about ShutdownResult class" Url="html/T_SolidFire_Element_Api_ShutdownResult.htm" />
     <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_ShutdownResult__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_ShutdownResult.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_ShutdownResult.htm" />
   </HelpKINode>
+  <HelpKINode Title="ShutdownResult.Failed property" Url="html/P_SolidFire_Element_Api_ShutdownResult_Failed.htm" />
   <HelpKINode Title="ShutdownResult.ShutdownResult constructor" Url="html/M_SolidFire_Element_Api_ShutdownResult__ctor.htm" />
+  <HelpKINode Title="ShutdownResult.Successful property" Url="html/P_SolidFire_Element_Api_ShutdownResult_Successful.htm" />
   <HelpKINode Title="Signature class">
     <HelpKINode Title="Signature Class" Url="html/T_SolidFire_Element_Api_Signature.htm" />
     <HelpKINode Title="about Signature class" Url="html/T_SolidFire_Element_Api_Signature.htm" />
@@ -8652,8 +8595,6 @@
   <HelpKINode Title="SolidFire.Element.Api.NodeStateResult class" Url="html/T_SolidFire_Element_Api_NodeStateResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.NodeStatsInfo class" Url="html/T_SolidFire_Element_Api_NodeStatsInfo.htm" />
   <HelpKINode Title="SolidFire.Element.Api.NodeStatsNodes class" Url="html/T_SolidFire_Element_Api_NodeStatsNodes.htm" />
-  <HelpKINode Title="SolidFire.Element.Api.NodeSystemStatus class" Url="html/T_SolidFire_Element_Api_NodeSystemStatus.htm" />
-  <HelpKINode Title="SolidFire.Element.Api.NodeSystemStatusInfo class" Url="html/T_SolidFire_Element_Api_NodeSystemStatusInfo.htm" />
   <HelpKINode Title="SolidFire.Element.Api.NodeWaitingToJoin class" Url="html/T_SolidFire_Element_Api_NodeWaitingToJoin.htm" />
   <HelpKINode Title="SolidFire.Element.Api.Origin class" Url="html/T_SolidFire_Element_Api_Origin.htm" />
   <HelpKINode Title="SolidFire.Element.Api.PairedCluster class" Url="html/T_SolidFire_Element_Api_PairedCluster.htm" />
@@ -8766,6 +8707,7 @@
   <HelpKINode Title="SolidFire.Element.Api.UpdateBulkVolumeStatusRequest class" Url="html/T_SolidFire_Element_Api_UpdateBulkVolumeStatusRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.UpdateBulkVolumeStatusResult class" Url="html/T_SolidFire_Element_Api_UpdateBulkVolumeStatusResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.VirtualNetwork class" Url="html/T_SolidFire_Element_Api_VirtualNetwork.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.VirtualNetworkAddress class" Url="html/T_SolidFire_Element_Api_VirtualNetworkAddress.htm" />
   <HelpKINode Title="SolidFire.Element.Api.VirtualVolumeBinding class" Url="html/T_SolidFire_Element_Api_VirtualVolumeBinding.htm" />
   <HelpKINode Title="SolidFire.Element.Api.VirtualVolumeHost class" Url="html/T_SolidFire_Element_Api_VirtualVolumeHost.htm" />
   <HelpKINode Title="SolidFire.Element.Api.VirtualVolumeInfo class" Url="html/T_SolidFire_Element_Api_VirtualVolumeInfo.htm" />
@@ -8859,8 +8801,6 @@
   <HelpKINode Title="SolidFireElement.CreateStorageContainerAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_CreateStorageContainerAsync.htm" />
   <HelpKINode Title="SolidFireElement.CreateSupportBundle method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_CreateSupportBundle.htm" />
   <HelpKINode Title="SolidFireElement.CreateSupportBundleAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_CreateSupportBundleAsync.htm" />
-  <HelpKINode Title="SolidFireElement.CreateVirtualVolumeHost method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_CreateVirtualVolumeHost.htm" />
-  <HelpKINode Title="SolidFireElement.CreateVirtualVolumeHostAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_CreateVirtualVolumeHostAsync.htm" />
   <HelpKINode Title="SolidFireElement.CreateVolume method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_CreateVolume.htm" />
   <HelpKINode Title="SolidFireElement.CreateVolumeAccessGroup method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_CreateVolumeAccessGroup.htm" />
   <HelpKINode Title="SolidFireElement.CreateVolumeAccessGroupAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_CreateVolumeAccessGroupAsync.htm" />
@@ -8991,10 +8931,6 @@
   <HelpKINode Title="SolidFireElement.GetSystemStatusAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetSystemStatusAsync.htm" />
   <HelpKINode Title="SolidFireElement.GetVirtualVolumeCount method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetVirtualVolumeCount.htm" />
   <HelpKINode Title="SolidFireElement.GetVirtualVolumeCountAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetVirtualVolumeCountAsync.htm" />
-  <HelpKINode Title="SolidFireElement.GetVirtualVolumeTaskUpdate method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetVirtualVolumeTaskUpdate.htm" />
-  <HelpKINode Title="SolidFireElement.GetVirtualVolumeTaskUpdateAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetVirtualVolumeTaskUpdateAsync.htm" />
-  <HelpKINode Title="SolidFireElement.GetVirtualVolumeUnsharedChunks method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetVirtualVolumeUnsharedChunks.htm" />
-  <HelpKINode Title="SolidFireElement.GetVirtualVolumeUnsharedChunksAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetVirtualVolumeUnsharedChunksAsync.htm" />
   <HelpKINode Title="SolidFireElement.GetVolumeAccessGroupEfficiency method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetVolumeAccessGroupEfficiency.htm" />
   <HelpKINode Title="SolidFireElement.GetVolumeAccessGroupEfficiencyAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetVolumeAccessGroupEfficiencyAsync.htm" />
   <HelpKINode Title="SolidFireElement.GetVolumeAccessGroupLunAssignments method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetVolumeAccessGroupLunAssignments.htm" />
@@ -9131,8 +9067,6 @@
   <HelpKINode Title="SolidFireElement.ModifyVolumePairAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ModifyVolumePairAsync.htm" />
   <HelpKINode Title="SolidFireElement.ModifyVolumes method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ModifyVolumes.htm" />
   <HelpKINode Title="SolidFireElement.ModifyVolumesAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ModifyVolumesAsync.htm" />
-  <HelpKINode Title="SolidFireElement.PrepareVirtualSnapshot method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_PrepareVirtualSnapshot.htm" />
-  <HelpKINode Title="SolidFireElement.PrepareVirtualSnapshotAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_PrepareVirtualSnapshotAsync.htm" />
   <HelpKINode Title="SolidFireElement.PurgeDeletedVolume method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_PurgeDeletedVolume.htm" />
   <HelpKINode Title="SolidFireElement.PurgeDeletedVolumeAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_PurgeDeletedVolumeAsync.htm" />
   <HelpKINode Title="SolidFireElement.PurgeDeletedVolumes method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_PurgeDeletedVolumes.htm" />
@@ -9457,6 +9391,7 @@
   </HelpKINode>
   <HelpKINode Title="StorageContainers property" Url="html/P_SolidFire_Element_Api_ListStorageContainersResult_StorageContainers.htm" />
   <HelpKINode Title="Success property" Url="html/P_SolidFire_Element_Api_AsyncHandle_Success.htm" />
+  <HelpKINode Title="Successful property" Url="html/P_SolidFire_Element_Api_ShutdownResult_Successful.htm" />
   <HelpKINode Title="SumTotalClusterBytes property">
     <HelpKINode Title="GetClusterFullThresholdResult.SumTotalClusterBytes Property " Url="html/P_SolidFire_Element_Api_GetClusterFullThresholdResult_SumTotalClusterBytes.htm" />
     <HelpKINode Title="ModifyClusterFullThresholdResult.SumTotalClusterBytes Property " Url="html/P_SolidFire_Element_Api_ModifyClusterFullThresholdResult_SumTotalClusterBytes.htm" />
@@ -9965,6 +9900,16 @@
   <HelpKINode Title="VirtualNetwork.VirtualNetwork constructor" Url="html/M_SolidFire_Element_Api_VirtualNetwork__ctor.htm" />
   <HelpKINode Title="VirtualNetwork.VirtualNetworkID property" Url="html/P_SolidFire_Element_Api_VirtualNetwork_VirtualNetworkID.htm" />
   <HelpKINode Title="VirtualNetwork.VirtualNetworkTag property" Url="html/P_SolidFire_Element_Api_VirtualNetwork_VirtualNetworkTag.htm" />
+  <HelpKINode Title="VirtualNetworkAddress class">
+    <HelpKINode Title="VirtualNetworkAddress Class" Url="html/T_SolidFire_Element_Api_VirtualNetworkAddress.htm" />
+    <HelpKINode Title="about VirtualNetworkAddress class" Url="html/T_SolidFire_Element_Api_VirtualNetworkAddress.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_VirtualNetworkAddress__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_VirtualNetworkAddress.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_VirtualNetworkAddress.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VirtualNetworkAddress.Address property" Url="html/P_SolidFire_Element_Api_VirtualNetworkAddress_Address.htm" />
+  <HelpKINode Title="VirtualNetworkAddress.VirtualNetworkAddress constructor" Url="html/M_SolidFire_Element_Api_VirtualNetworkAddress__ctor.htm" />
+  <HelpKINode Title="VirtualNetworkAddress.VirtualNetworkID property" Url="html/P_SolidFire_Element_Api_VirtualNetworkAddress_VirtualNetworkID.htm" />
   <HelpKINode Title="VirtualNetworkID property">
     <HelpKINode Title="AddVirtualNetworkResult.VirtualNetworkID Property " Url="html/P_SolidFire_Element_Api_AddVirtualNetworkResult_VirtualNetworkID.htm" />
     <HelpKINode Title="CreateVolumeAccessGroupRequest.VirtualNetworkID Property " Url="html/P_SolidFire_Element_Api_CreateVolumeAccessGroupRequest_VirtualNetworkID.htm" />
@@ -9974,6 +9919,7 @@
     <HelpKINode Title="ModifyVolumeAccessGroupRequest.VirtualNetworkID Property " Url="html/P_SolidFire_Element_Api_ModifyVolumeAccessGroupRequest_VirtualNetworkID.htm" />
     <HelpKINode Title="RemoveVirtualNetworkRequest.VirtualNetworkID Property " Url="html/P_SolidFire_Element_Api_RemoveVirtualNetworkRequest_VirtualNetworkID.htm" />
     <HelpKINode Title="VirtualNetwork.VirtualNetworkID Property " Url="html/P_SolidFire_Element_Api_VirtualNetwork_VirtualNetworkID.htm" />
+    <HelpKINode Title="VirtualNetworkAddress.VirtualNetworkID Property " Url="html/P_SolidFire_Element_Api_VirtualNetworkAddress_VirtualNetworkID.htm" />
   </HelpKINode>
   <HelpKINode Title="VirtualNetworkIDs property" Url="html/P_SolidFire_Element_Api_ListVirtualNetworksRequest_VirtualNetworkIDs.htm" />
   <HelpKINode Title="VirtualNetworks property">
@@ -10038,14 +9984,14 @@
   </HelpKINode>
   <HelpKINode Title="VirtualVolumeHostIDs property" Url="html/P_SolidFire_Element_Api_ListVirtualVolumeHostsRequest_VirtualVolumeHostIDs.htm" />
   <HelpKINode Title="VirtualVolumeID property">
-    <HelpKINode Title="PrepareVirtualSnapshotRequest.VirtualVolumeID Property " Url="html/P_SolidFire_Element_Api_PrepareVirtualSnapshotRequest_VirtualVolumeID.htm" />
     <HelpKINode Title="GetVirtualVolumeUnsharedChunksRequest.VirtualVolumeID Property " Url="html/P_SolidFire_Element_Api_GetVirtualVolumeUnsharedChunksRequest_VirtualVolumeID.htm" />
-    <HelpKINode Title="PrepareVirtualSnapshotResult.VirtualVolumeID Property " Url="html/P_SolidFire_Element_Api_PrepareVirtualSnapshotResult_VirtualVolumeID.htm" />
-    <HelpKINode Title="Snapshot.VirtualVolumeID Property " Url="html/P_SolidFire_Element_Api_Snapshot_VirtualVolumeID.htm" />
     <HelpKINode Title="VirtualVolumeBinding.VirtualVolumeID Property " Url="html/P_SolidFire_Element_Api_VirtualVolumeBinding_VirtualVolumeID.htm" />
     <HelpKINode Title="VirtualVolumeInfo.VirtualVolumeID Property " Url="html/P_SolidFire_Element_Api_VirtualVolumeInfo_VirtualVolumeID.htm" />
-    <HelpKINode Title="Volume.VirtualVolumeID Property " Url="html/P_SolidFire_Element_Api_Volume_VirtualVolumeID.htm" />
     <HelpKINode Title="VolumeStats.VirtualVolumeID Property " Url="html/P_SolidFire_Element_Api_VolumeStats_VirtualVolumeID.htm" />
+    <HelpKINode Title="PrepareVirtualSnapshotRequest.VirtualVolumeID Property " Url="html/P_SolidFire_Element_Api_PrepareVirtualSnapshotRequest_VirtualVolumeID.htm" />
+    <HelpKINode Title="PrepareVirtualSnapshotResult.VirtualVolumeID Property " Url="html/P_SolidFire_Element_Api_PrepareVirtualSnapshotResult_VirtualVolumeID.htm" />
+    <HelpKINode Title="Snapshot.VirtualVolumeID Property " Url="html/P_SolidFire_Element_Api_Snapshot_VirtualVolumeID.htm" />
+    <HelpKINode Title="Volume.VirtualVolumeID Property " Url="html/P_SolidFire_Element_Api_Volume_VirtualVolumeID.htm" />
   </HelpKINode>
   <HelpKINode Title="VirtualvolumeID property" Url="html/P_SolidFire_Element_Api_VirtualVolumeTask_VirtualvolumeID.htm" />
   <HelpKINode Title="VirtualVolumeIDs property">

@@ -7,8 +7,9 @@
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_SolidFire_Element_Api_VolumeStats_AsyncDelay.htm">AsyncDelay</a></td><td><div class="summary">
             The length of time since the volume was last synced with the remote cluster.
             If the volume is not paired, this is null.
-            <br /><br /><br /><b>Note</b>: A target volume in an active replication state always has an async delay of 0 (zero).
-            <br />Target volumes are system-aware during replication and assume async delay is accurate at all times.
+            
+            Note: A target volume in an active replication state always has an async delay of 0 (zero).
+            Target volumes are system-aware during replication and assume async delay is accurate at all times.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_SolidFire_Element_Api_VolumeStats_AverageIOPSize.htm">AverageIOPSize</a></td><td><div class="summary">
             Average size in bytes of recent I/O to the volume in the last 500 milliseconds.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_SolidFire_Element_Api_VolumeStats_BurstIOPSCredit.htm">BurstIOPSCredit</a></td><td><div class="summary">
@@ -20,7 +21,7 @@
             The volume services being migrated to if the volume metadata is getting migrated between volume services.
             A "null" value means the volume is not migrating.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_SolidFire_Element_Api_VolumeStats_LatencyUSec.htm">LatencyUSec</a></td><td><div class="summary">
-            The observed latency time, in microseconds, to complete operations to a volume.<br />
+            The observed latency time, in microseconds, to complete operations to a volume.
             A "0" (zero) value means there is no I/O to the volume.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_SolidFire_Element_Api_VolumeStats_MetadataHosts.htm">MetadataHosts</a></td><td><div class="summary">
             The volume services on which the volume metadata resides.
@@ -61,10 +62,10 @@
             Total provisioned capacity in bytes.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_SolidFire_Element_Api_VolumeStats_VolumeUtilization.htm">VolumeUtilization</a></td><td><div class="summary">
             A floating value that describes how much the client is using the volume.
-            <br /><br />
-            Values:<br />
-             0 = Client is not using the volume<br />
-            1 = Client is using their max<br />
+            
+            Values:
+             0 = Client is not using the volume
+            1 = Client is using their max
             &gt;1 = Client is using their burst
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_SolidFire_Element_Api_VolumeStats_WriteBytes.htm">WriteBytes</a></td><td><div class="summary">
             Total bytes written by clients.

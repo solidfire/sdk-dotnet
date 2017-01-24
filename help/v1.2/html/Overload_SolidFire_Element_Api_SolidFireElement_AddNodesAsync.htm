@@ -2,20 +2,22 @@
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_SolidFire_Element_Api_SolidFireElement_AddNodesAsync_1.htm">AddNodesAsync(CancellationToken, <span id="LST4ACFF926_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4ACFF926_1?cpp=array&lt;");</script>Int64<span id="LST4ACFF926_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4ACFF926_2?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             AddNodes is used to add one or more new nodes to the cluster. When a node is not configured and starts up for the first time you are prompted to configure the node. Once a node is configured it is registered as a "pending node" with the cluster.
-            <br /><br />
+            
             Adding a node to a cluster that has been set up for virtual networking will require a sufficient number of virtual storage IP addresses to allocate a virtual IP to the new node. If there are no virtual IP addresses available for the new node, the AddNode operation will not complete successfully. Use the "ModifyVirtualNetwork" method to add more storage IP addresses to your virtual network.
-            <br /><br />
+            
             The software version on each node in a cluster must be compatible. Run the "ListAllNodes" API to see what versions of software are currently running on the cluster nodes. For an explanation of software version compatibility, see "Node Versioning and Compatibility" in the Element API guide.
-            <br /><br />
+            
             Once a node has been added, the drives on the node are made available and can then be added via the "AddDrives" method to increase the storage capacity of the cluster.
-            <br /><br /><b>Note</b>: It may take several seconds after adding a new Node for it to start up and register the drives as being available.
+            
+            Note: It may take several seconds after adding a new Node for it to start up and register the drives as being available.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_SolidFire_Element_Api_SolidFireElement_AddNodesAsync.htm">AddNodesAsync(AddNodesRequest, CancellationToken)</a></td><td><div class="summary">
             AddNodes is used to add one or more new nodes to the cluster. When a node is not configured and starts up for the first time you are prompted to configure the node. Once a node is configured it is registered as a "pending node" with the cluster.
-            <br /><br />
+            
             Adding a node to a cluster that has been set up for virtual networking will require a sufficient number of virtual storage IP addresses to allocate a virtual IP to the new node. If there are no virtual IP addresses available for the new node, the AddNode operation will not complete successfully. Use the "ModifyVirtualNetwork" method to add more storage IP addresses to your virtual network.
-            <br /><br />
+            
             The software version on each node in a cluster must be compatible. Run the "ListAllNodes" API to see what versions of software are currently running on the cluster nodes. For an explanation of software version compatibility, see "Node Versioning and Compatibility" in the Element API guide.
-            <br /><br />
+            
             Once a node has been added, the drives on the node are made available and can then be added via the "AddDrives" method to increase the storage capacity of the cluster.
-            <br /><br /><b>Note</b>: It may take several seconds after adding a new Node for it to start up and register the drives as being available.
+            
+            Note: It may take several seconds after adding a new Node for it to start up and register the drives as being available.
             </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_SolidFire_Element_Api_SolidFireElement.htm">SolidFireElement Class</a></div><div class="seeAlsoStyle"><a href="N_SolidFire_Element_Api.htm">SolidFire.Element.Api Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">NetApp, Inc.<p><a href="http://www.netapp.com/us/legal/copyright.aspx" target="_blank">Copyright © 2016, 2017 NetApp, Inc. All Rights Reserved.</a></p> </div></body></html>

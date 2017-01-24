@@ -5,12 +5,12 @@
             It is purged (permanently deleted) after the cleanup interval elapses.
             After making a request to delete a volume, any active iSCSI connections to the volume is immediately terminated and no further connections are allowed while the volume is in this state.
             It is not returned in target discovery requests.
-            <br /><br />
+            
             Any snapshots of a volume that has been marked to delete are not affected.
             Snapshots are kept until the volume is purged from the system.
-            <br /><br />
+            
             If a volume is marked for deletion, and it has a bulk volume read or bulk volume write operation in progress, the bulk volume operation is stopped.
-            <br /><br />
+            
             If the volume you delete is paired with a volume, replication between the paired volumes is suspended and no data is transferred to it or from it while in a deleted state.
             The remote volume the deleted volume was paired with enters into a PausedMisconfigured state and data is no longer sent to it or from the deleted volume.
             Until the deleted volume is purged, it can be restored and data transfers resumes.
@@ -21,12 +21,12 @@
             It is purged (permanently deleted) after the cleanup interval elapses.
             After making a request to delete a volume, any active iSCSI connections to the volume is immediately terminated and no further connections are allowed while the volume is in this state.
             It is not returned in target discovery requests.
-            <br /><br />
+            
             Any snapshots of a volume that has been marked to delete are not affected.
             Snapshots are kept until the volume is purged from the system.
-            <br /><br />
+            
             If a volume is marked for deletion, and it has a bulk volume read or bulk volume write operation in progress, the bulk volume operation is stopped.
-            <br /><br />
+            
             If the volume you delete is paired with a volume, replication between the paired volumes is suspended and no data is transferred to it or from it while in a deleted state.
             The remote volume the deleted volume was paired with enters into a PausedMisconfigured state and data is no longer sent to it or from the deleted volume.
             Until the deleted volume is purged, it can be restored and data transfers resumes.

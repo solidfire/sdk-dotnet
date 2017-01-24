@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="2015.1.12.0" projectFile="C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet\help.shfbproj" started="1/3/2017 11:56:02 AM">
+<shfbBuild product="Sandcastle Help File Builder" version="2015.1.12.0" projectFile="C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet\help.shfbproj" started="1/24/2017 10:18:23 AM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -13,26 +13,29 @@ Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
-Source: C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet\src\DotNetSdk\bin\Debug\net46\DotNetSdk.dll
-    Found assembly &#39;C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet\src\DotNetSdk\bin\Debug\net46\DotNetSdk.dll&#39;
-Source: C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet\src\DotNetSdk\bin\Debug\net46\DotNetSdk.xml
+Source: C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet\src\SolidFire.SDK\bin\Debug\net451\SolidFire.SDK.dll
+    Found assembly &#39;C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet\src\SolidFire.SDK\bin\Debug\net451\SolidFire.SDK.dll&#39;
+Source: C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet\src\SolidFire.SDK\bin\Debug\net451\SolidFire.SDK.xml
+
+References to include (excluding framework assemblies):
+    SolidFire.SDK
 
 Copying XML comments files
-    C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet\src\DotNetSdk\bin\Debug\net46\DotNetSdk.xml -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\DotNetSdk.xml
+    C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet\src\SolidFire.SDK\bin\Debug\net451\SolidFire.SDK.xml -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\SolidFire.SDK.xml
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.2630
+</plugIn>    Last step completed in 00:00:00.1300
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.1020
+    Last step completed in 00:00:00.0530
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 1/3/2017 11:56:05 AM.
+Build started 1/24/2017 10:18:25 AM.
 Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -40,8 +43,8 @@ GenerateRefInfo:
   MRefBuilder (v2015.1.12.0)
   Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
-  Loaded 1 assemblies for reflection and 0 dependency assemblies.
-  Wrote information on 7 namespaces, 483 types, and 3439 members
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Wrote information on 7 namespaces, 482 types, and 3408 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2015.1.12.0)
   Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
@@ -51,13 +54,13 @@ Done Building Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\
 
 Build succeeded.
 
-Time Elapsed 00:00:03.20
-    Last step completed in 00:00:03.5723
+Time Elapsed 00:00:03.35
+    Last step completed in 00:00:03.7497
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 1/3/2017 11:56:08 AM.
+Build started 1/24/2017 10:18:29 AM.
 Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2015.1.12.0)
@@ -126,8 +129,6 @@ TransformManifest:
     Unique name M_SolidFire_Element_Api_ISolidFireElement_CreateStorageContainerAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.CreateStorageContainerAsync(System.Threading.CancellationToken,System.String,System.String,System.String)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_CreateSupportBundle_1 generated for M:SolidFire.Element.Api.ISolidFireElement.CreateSupportBundle(System.String,System.String,System.Nullable{System.Int64})
     Unique name M_SolidFire_Element_Api_ISolidFireElement_CreateSupportBundleAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.CreateSupportBundleAsync(System.Threading.CancellationToken,System.String,System.String,System.Nullable{System.Int64})
-    Unique name M_SolidFire_Element_Api_ISolidFireElement_CreateVirtualVolumeHost_1 generated for M:SolidFire.Element.Api.ISolidFireElement.CreateVirtualVolumeHost(System.Nullable{System.Guid},System.Nullable{System.Guid},System.String[],System.Guid[],System.String,System.Nullable{System.Guid})
-    Unique name M_SolidFire_Element_Api_ISolidFireElement_CreateVirtualVolumeHostAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.CreateVirtualVolumeHostAsync(System.Threading.CancellationToken,System.Nullable{System.Guid},System.Nullable{System.Guid},System.String[],System.Guid[],System.String,System.Nullable{System.Guid})
     Unique name M_SolidFire_Element_Api_ISolidFireElement_CreateVolume_1 generated for M:SolidFire.Element.Api.ISolidFireElement.CreateVolume(System.String,System.Int64,System.Int64,System.Boolean,SolidFire.Element.Api.QoS,System.Collections.Hashtable)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_CreateVolumeAccessGroup_1 generated for M:SolidFire.Element.Api.ISolidFireElement.CreateVolumeAccessGroup(System.String,System.String[],System.Int64[],System.Int64[],System.Int64[],System.Collections.Hashtable)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_CreateVolumeAccessGroupAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.CreateVolumeAccessGroupAsync(System.Threading.CancellationToken,System.String,System.String[],System.Int64[],System.Int64[],System.Int64[],System.Collections.Hashtable)
@@ -186,10 +187,6 @@ TransformManifest:
     Unique name M_SolidFire_Element_Api_ISolidFireElement_GetScheduleAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetScheduleAsync(System.Threading.CancellationToken,System.Int64)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_GetStorageContainerEfficiency_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetStorageContainerEfficiency(System.Guid)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_GetStorageContainerEfficiencyAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetStorageContainerEfficiencyAsync(System.Threading.CancellationToken,System.Guid)
-    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetVirtualVolumeTaskUpdate_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetVirtualVolumeTaskUpdate(System.Nullable{System.Guid},System.Nullable{System.Guid})
-    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetVirtualVolumeTaskUpdateAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetVirtualVolumeTaskUpdateAsync(System.Threading.CancellationToken,System.Nullable{System.Guid},System.Nullable{System.Guid})
-    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetVirtualVolumeUnsharedChunks_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetVirtualVolumeUnsharedChunks(System.Nullable{System.Guid},System.Nullable{System.Guid},System.Int64,System.Int64,System.Int64,System.Nullable{System.Guid})
-    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetVirtualVolumeUnsharedChunksAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetVirtualVolumeUnsharedChunksAsync(System.Threading.CancellationToken,System.Nullable{System.Guid},System.Nullable{System.Guid},System.Int64,System.Int64,System.Int64,System.Nullable{System.Guid})
     Unique name M_SolidFire_Element_Api_ISolidFireElement_GetVolumeAccessGroupEfficiency_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetVolumeAccessGroupEfficiency(System.Int64)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_GetVolumeAccessGroupEfficiencyAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetVolumeAccessGroupEfficiencyAsync(System.Threading.CancellationToken,System.Int64)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_GetVolumeAccessGroupLunAssignments_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetVolumeAccessGroupLunAssignments(System.Int64)
@@ -276,8 +273,6 @@ TransformManifest:
     Unique name M_SolidFire_Element_Api_ISolidFireElement_ModifyVolumePairAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ModifyVolumePairAsync(System.Threading.CancellationToken,System.Int64,System.Nullable{System.Boolean},System.String)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_ModifyVolumes_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ModifyVolumes(System.Int64[],System.Nullable{System.Int64},System.String,SolidFire.Element.Api.QoS,System.Nullable{System.Int64},System.Collections.Hashtable)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_ModifyVolumesAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ModifyVolumesAsync(System.Threading.CancellationToken,System.Int64[],System.Nullable{System.Int64},System.String,SolidFire.Element.Api.QoS,System.Nullable{System.Int64},System.Collections.Hashtable)
-    Unique name M_SolidFire_Element_Api_ISolidFireElement_PrepareVirtualSnapshot_1 generated for M:SolidFire.Element.Api.ISolidFireElement.PrepareVirtualSnapshot(System.Nullable{System.Guid},System.String,System.Nullable{System.Boolean},System.Nullable{System.Guid})
-    Unique name M_SolidFire_Element_Api_ISolidFireElement_PrepareVirtualSnapshotAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.PrepareVirtualSnapshotAsync(System.Threading.CancellationToken,System.Nullable{System.Guid},System.String,System.Nullable{System.Boolean},System.Nullable{System.Guid})
     Unique name M_SolidFire_Element_Api_ISolidFireElement_PurgeDeletedVolume_1 generated for M:SolidFire.Element.Api.ISolidFireElement.PurgeDeletedVolume(System.Int64)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_PurgeDeletedVolumeAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.PurgeDeletedVolumeAsync(System.Threading.CancellationToken,System.Int64)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_PurgeDeletedVolumes_1 generated for M:SolidFire.Element.Api.ISolidFireElement.PurgeDeletedVolumes(System.Int64[],System.Int64[],System.Int64[])
@@ -338,8 +333,8 @@ TransformManifest:
     Unique name M_SolidFire_Element_Api_ISolidFireElement_SetSnmpInfoAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.SetSnmpInfoAsync(System.Threading.CancellationToken,SolidFire.Element.Api.SnmpNetwork[],System.Nullable{System.Boolean},System.Nullable{System.Boolean},SolidFire.Element.Api.SnmpV3UsmUser[])
     Unique name M_SolidFire_Element_Api_ISolidFireElement_SetSnmpTrapInfo_1 generated for M:SolidFire.Element.Api.ISolidFireElement.SetSnmpTrapInfo(SolidFire.Element.Api.SnmpTrapRecipient[],System.Boolean,System.Boolean,System.Boolean)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_SetSnmpTrapInfoAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.SetSnmpTrapInfoAsync(System.Threading.CancellationToken,SolidFire.Element.Api.SnmpTrapRecipient[],System.Boolean,System.Boolean,System.Boolean)
-    Unique name M_SolidFire_Element_Api_ISolidFireElement_Shutdown_1 generated for M:SolidFire.Element.Api.ISolidFireElement.Shutdown(System.String)
-    Unique name M_SolidFire_Element_Api_ISolidFireElement_ShutdownAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ShutdownAsync(System.Threading.CancellationToken,System.String)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_Shutdown_1 generated for M:SolidFire.Element.Api.ISolidFireElement.Shutdown(System.Int64[],System.String)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ShutdownAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ShutdownAsync(System.Threading.CancellationToken,System.Int64[],System.String)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_StartBulkVolumeRead_1 generated for M:SolidFire.Element.Api.ISolidFireElement.StartBulkVolumeRead(System.Int64,System.String,System.Nullable{System.Int64},System.String,System.Collections.Hashtable,System.Collections.Hashtable)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_StartBulkVolumeReadAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.StartBulkVolumeReadAsync(System.Threading.CancellationToken,System.Int64,System.String,System.Nullable{System.Int64},System.String,System.Collections.Hashtable,System.Collections.Hashtable)
     Unique name M_SolidFire_Element_Api_ISolidFireElement_StartBulkVolumeWrite_1 generated for M:SolidFire.Element.Api.ISolidFireElement.StartBulkVolumeWrite(System.Int64,System.String,System.String,System.Collections.Hashtable,System.Collections.Hashtable)
@@ -411,8 +406,6 @@ TransformManifest:
     Unique name M_SolidFire_Element_Api_SolidFireElement_CreateStorageContainerAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.CreateStorageContainerAsync(System.Threading.CancellationToken,System.String,System.String,System.String)
     Unique name M_SolidFire_Element_Api_SolidFireElement_CreateSupportBundle_1 generated for M:SolidFire.Element.Api.SolidFireElement.CreateSupportBundle(System.String,System.String,System.Nullable{System.Int64})
     Unique name M_SolidFire_Element_Api_SolidFireElement_CreateSupportBundleAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.CreateSupportBundleAsync(System.Threading.CancellationToken,System.String,System.String,System.Nullable{System.Int64})
-    Unique name M_SolidFire_Element_Api_SolidFireElement_CreateVirtualVolumeHost_1 generated for M:SolidFire.Element.Api.SolidFireElement.CreateVirtualVolumeHost(System.Nullable{System.Guid},System.Nullable{System.Guid},System.String[],System.Guid[],System.String,System.Nullable{System.Guid})
-    Unique name M_SolidFire_Element_Api_SolidFireElement_CreateVirtualVolumeHostAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.CreateVirtualVolumeHostAsync(System.Threading.CancellationToken,System.Nullable{System.Guid},System.Nullable{System.Guid},System.String[],System.Guid[],System.String,System.Nullable{System.Guid})
     Unique name M_SolidFire_Element_Api_SolidFireElement_CreateVolume_1 generated for M:SolidFire.Element.Api.SolidFireElement.CreateVolume(System.String,System.Int64,System.Int64,System.Boolean,SolidFire.Element.Api.QoS,System.Collections.Hashtable)
     Unique name M_SolidFire_Element_Api_SolidFireElement_CreateVolumeAccessGroup_1 generated for M:SolidFire.Element.Api.SolidFireElement.CreateVolumeAccessGroup(System.String,System.String[],System.Int64[],System.Int64[],System.Int64[],System.Collections.Hashtable)
     Unique name M_SolidFire_Element_Api_SolidFireElement_CreateVolumeAccessGroupAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.CreateVolumeAccessGroupAsync(System.Threading.CancellationToken,System.String,System.String[],System.Int64[],System.Int64[],System.Int64[],System.Collections.Hashtable)
@@ -471,10 +464,6 @@ TransformManifest:
     Unique name M_SolidFire_Element_Api_SolidFireElement_GetScheduleAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetScheduleAsync(System.Threading.CancellationToken,System.Int64)
     Unique name M_SolidFire_Element_Api_SolidFireElement_GetStorageContainerEfficiency_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetStorageContainerEfficiency(System.Guid)
     Unique name M_SolidFire_Element_Api_SolidFireElement_GetStorageContainerEfficiencyAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetStorageContainerEfficiencyAsync(System.Threading.CancellationToken,System.Guid)
-    Unique name M_SolidFire_Element_Api_SolidFireElement_GetVirtualVolumeTaskUpdate_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetVirtualVolumeTaskUpdate(System.Nullable{System.Guid},System.Nullable{System.Guid})
-    Unique name M_SolidFire_Element_Api_SolidFireElement_GetVirtualVolumeTaskUpdateAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetVirtualVolumeTaskUpdateAsync(System.Threading.CancellationToken,System.Nullable{System.Guid},System.Nullable{System.Guid})
-    Unique name M_SolidFire_Element_Api_SolidFireElement_GetVirtualVolumeUnsharedChunks_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetVirtualVolumeUnsharedChunks(System.Nullable{System.Guid},System.Nullable{System.Guid},System.Int64,System.Int64,System.Int64,System.Nullable{System.Guid})
-    Unique name M_SolidFire_Element_Api_SolidFireElement_GetVirtualVolumeUnsharedChunksAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetVirtualVolumeUnsharedChunksAsync(System.Threading.CancellationToken,System.Nullable{System.Guid},System.Nullable{System.Guid},System.Int64,System.Int64,System.Int64,System.Nullable{System.Guid})
     Unique name M_SolidFire_Element_Api_SolidFireElement_GetVolumeAccessGroupEfficiency_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetVolumeAccessGroupEfficiency(System.Int64)
     Unique name M_SolidFire_Element_Api_SolidFireElement_GetVolumeAccessGroupEfficiencyAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetVolumeAccessGroupEfficiencyAsync(System.Threading.CancellationToken,System.Int64)
     Unique name M_SolidFire_Element_Api_SolidFireElement_GetVolumeAccessGroupLunAssignments_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetVolumeAccessGroupLunAssignments(System.Int64)
@@ -562,8 +551,6 @@ TransformManifest:
     Unique name M_SolidFire_Element_Api_SolidFireElement_ModifyVolumePairAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.ModifyVolumePairAsync(System.Threading.CancellationToken,System.Int64,System.Nullable{System.Boolean},System.String)
     Unique name M_SolidFire_Element_Api_SolidFireElement_ModifyVolumes_1 generated for M:SolidFire.Element.Api.SolidFireElement.ModifyVolumes(System.Int64[],System.Nullable{System.Int64},System.String,SolidFire.Element.Api.QoS,System.Nullable{System.Int64},System.Collections.Hashtable)
     Unique name M_SolidFire_Element_Api_SolidFireElement_ModifyVolumesAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.ModifyVolumesAsync(System.Threading.CancellationToken,System.Int64[],System.Nullable{System.Int64},System.String,SolidFire.Element.Api.QoS,System.Nullable{System.Int64},System.Collections.Hashtable)
-    Unique name M_SolidFire_Element_Api_SolidFireElement_PrepareVirtualSnapshot_1 generated for M:SolidFire.Element.Api.SolidFireElement.PrepareVirtualSnapshot(System.Nullable{System.Guid},System.String,System.Nullable{System.Boolean},System.Nullable{System.Guid})
-    Unique name M_SolidFire_Element_Api_SolidFireElement_PrepareVirtualSnapshotAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.PrepareVirtualSnapshotAsync(System.Threading.CancellationToken,System.Nullable{System.Guid},System.String,System.Nullable{System.Boolean},System.Nullable{System.Guid})
     Unique name M_SolidFire_Element_Api_SolidFireElement_PurgeDeletedVolume_1 generated for M:SolidFire.Element.Api.SolidFireElement.PurgeDeletedVolume(System.Int64)
     Unique name M_SolidFire_Element_Api_SolidFireElement_PurgeDeletedVolumeAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.PurgeDeletedVolumeAsync(System.Threading.CancellationToken,System.Int64)
     Unique name M_SolidFire_Element_Api_SolidFireElement_PurgeDeletedVolumes_1 generated for M:SolidFire.Element.Api.SolidFireElement.PurgeDeletedVolumes(System.Int64[],System.Int64[],System.Int64[])
@@ -624,8 +611,8 @@ TransformManifest:
     Unique name M_SolidFire_Element_Api_SolidFireElement_SetSnmpInfoAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.SetSnmpInfoAsync(System.Threading.CancellationToken,SolidFire.Element.Api.SnmpNetwork[],System.Nullable{System.Boolean},System.Nullable{System.Boolean},SolidFire.Element.Api.SnmpV3UsmUser[])
     Unique name M_SolidFire_Element_Api_SolidFireElement_SetSnmpTrapInfo_1 generated for M:SolidFire.Element.Api.SolidFireElement.SetSnmpTrapInfo(SolidFire.Element.Api.SnmpTrapRecipient[],System.Boolean,System.Boolean,System.Boolean)
     Unique name M_SolidFire_Element_Api_SolidFireElement_SetSnmpTrapInfoAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.SetSnmpTrapInfoAsync(System.Threading.CancellationToken,SolidFire.Element.Api.SnmpTrapRecipient[],System.Boolean,System.Boolean,System.Boolean)
-    Unique name M_SolidFire_Element_Api_SolidFireElement_Shutdown_1 generated for M:SolidFire.Element.Api.SolidFireElement.Shutdown(System.String)
-    Unique name M_SolidFire_Element_Api_SolidFireElement_ShutdownAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.ShutdownAsync(System.Threading.CancellationToken,System.String)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_Shutdown_1 generated for M:SolidFire.Element.Api.SolidFireElement.Shutdown(System.Int64[],System.String)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ShutdownAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.ShutdownAsync(System.Threading.CancellationToken,System.Int64[],System.String)
     Unique name M_SolidFire_Element_Api_SolidFireElement_StartBulkVolumeRead_1 generated for M:SolidFire.Element.Api.SolidFireElement.StartBulkVolumeRead(System.Int64,System.String,System.Nullable{System.Int64},System.String,System.Collections.Hashtable,System.Collections.Hashtable)
     Unique name M_SolidFire_Element_Api_SolidFireElement_StartBulkVolumeReadAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.StartBulkVolumeReadAsync(System.Threading.CancellationToken,System.Int64,System.String,System.Nullable{System.Int64},System.String,System.Collections.Hashtable,System.Collections.Hashtable)
     Unique name M_SolidFire_Element_Api_SolidFireElement_StartBulkVolumeWrite_1 generated for M:SolidFire.Element.Api.SolidFireElement.StartBulkVolumeWrite(System.Int64,System.String,System.String,System.Collections.Hashtable,System.Collections.Hashtable)
@@ -654,26 +641,26 @@ Done Building Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\
 
 Build succeeded.
 
-Time Elapsed 00:00:25.67
-    Last step completed in 00:00:26.4020
+Time Elapsed 00:00:21.90
+    Last step completed in 00:00:22.5532
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.2670
+    Last step completed in 00:00:00.3003
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0340
+    Last step completed in 00:00:00.0157
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0165
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 1/3/2017 11:56:35 AM.
+Build started 1/24/2017 10:18:52 AM.
 Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2015.1.12.0)
@@ -684,24 +671,24 @@ Done Building Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\
 
 Build succeeded.
 
-Time Elapsed 00:00:00.81
+Time Elapsed 00:00:00.98
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01.2922
+    Last step completed in 00:00:01.3087
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.7621
+    Last step completed in 00:00:01.1077
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\sandcastle.config
-    Last step completed in 00:00:00.1170
+    Last step completed in 00:00:00.1190
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 1/3/2017 11:56:38 AM.
+Build started 1/24/2017 10:18:54 AM.
 Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj&quot; on node 1 (default targets).
 BuildReferenceTopics:
   BuildAssembler (v2015.1.12.0)
@@ -1347,9 +1334,6 @@ BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NodeDr
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NodeDriveHardware.Result] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NodeStateInfo.State] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NodeStatsInfo.NodeID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NodeSystemStatus.NodeID] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NodeSystemStatus.Result] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NodeSystemStatusInfo.RebootRequired] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NodeWaitingToJoin.Cip] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NodeWaitingToJoin.Mip] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.NodeWaitingToJoin.Name] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
@@ -1400,6 +1384,8 @@ BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Servic
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Service.StartedDriveIDs] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Service.Status] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.SetNetworkConfigResult.Network] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ShutdownResult.Failed] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.ShutdownResult.Successful] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Signature.Data] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Signature.Pubkey] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:SolidFire.Element.Api.Signature.Version] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
@@ -1494,22 +1480,22 @@ BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.Element.Api.Weekda
 BuildAssembler : warning : ShowMissingComponent: [T:SolidFire.SDK.Adaptor.ScheduleAdaptor] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.SDK.Adaptor.ScheduleAdaptor.ToApiSchedule(SolidFire.Element.Api.Schedule)] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SolidFire.SDK.Adaptor.ScheduleAdaptor.ToSchedule(SolidFire.Element.Api.ApiSchedule)] Missing &lt;summary&gt; documentation [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj]
-  Processed 5401 topic(s)
-  785 warning(s)
+  Processed 5352 topic(s)
+  784 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 7 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
 Done Building Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\BuildReferenceTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:03:55.80
-    Last step completed in 00:03:56.0950
+Time Elapsed 00:03:13.01
+    Last step completed in 00:03:13.3496
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
 
 Clearing any prior web output
-    Last step completed in 00:00:04.0716
+    Last step completed in 00:00:05.2080
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -1521,11 +1507,11 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing website files in C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\Output\Website
-Processed 5401 HTML files
+Processed 5352 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\WebKI.xml
 Saving website table of contents to C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\WebTOC.xml
-    Last step completed in 00:01:29.2400
+    Last step completed in 00:01:21.4686
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -1606,18 +1592,18 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\Output\Website\icons\TocOpen.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.2\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:01.1298
+    Last step completed in 00:00:02.0201
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0060
+    Last step completed in 00:00:00.0221
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:02:59.1164
+</plugIn>    Last step completed in 00:02:36.2183
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -1691,16 +1677,16 @@ Copied 6600 files
 Copied 6700 files
 Copied 6800 files
 Copied 6900 files
-Copied 6999 files for the website content
-    Last step completed in 00:01:00.1251
+Copied 6933 files for the website content
+    Last step completed in 00:00:18.5647
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:04.0275
+    Last step completed in 00:00:04.1545
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 1/3/2017 12:06:11 PM.  Total time: 00:10:08.8671
+Build completed successfully at 1/24/2017 10:26:35 AM.  Total time: 00:08:12.5730
 
 </buildStep>
 </shfbBuild>

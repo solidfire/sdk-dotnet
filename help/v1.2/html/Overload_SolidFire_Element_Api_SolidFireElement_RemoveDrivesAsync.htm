@@ -6,14 +6,14 @@
             Any data on the drives is removed and migrated to other drives in the cluster before the drive is removed from the cluster. This is an asynchronous method.
             Depending on the total capacity of the drives being removed, it may take several minutes to migrate all of the data.
             Use the "GetAsyncResult" method to check the status of the remove operation.
-            <br /><br />
+            
             When removing multiple drives, use a single "RemoveDrives" method call rather than multiple individual methods with a single drive each.
             This reduces the amount of data balancing that must occur to even stabilize the storage load on the cluster.
-            <br /><br />
+            
             You can also remove drives with a "failed" status using "RemoveDrives".
             When you remove a drive with a "failed" status it is not returned to an "available" or "active" status.
             The drive is unavailable for use in the cluster.
-            <br /><br />
+            
             Use the "ListDrives" method to obtain the driveIDs for the drives you want to remove.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_SolidFire_Element_Api_SolidFireElement_RemoveDrivesAsync.htm">RemoveDrivesAsync(RemoveDrivesRequest, CancellationToken)</a></td><td><div class="summary">
             You can use RemoveDrives to proactively remove drives that are part of the cluster.
@@ -21,13 +21,13 @@
             Any data on the drives is removed and migrated to other drives in the cluster before the drive is removed from the cluster. This is an asynchronous method.
             Depending on the total capacity of the drives being removed, it may take several minutes to migrate all of the data.
             Use the "GetAsyncResult" method to check the status of the remove operation.
-            <br /><br />
+            
             When removing multiple drives, use a single "RemoveDrives" method call rather than multiple individual methods with a single drive each.
             This reduces the amount of data balancing that must occur to even stabilize the storage load on the cluster.
-            <br /><br />
+            
             You can also remove drives with a "failed" status using "RemoveDrives".
             When you remove a drive with a "failed" status it is not returned to an "available" or "active" status.
             The drive is unavailable for use in the cluster.
-            <br /><br />
+            
             Use the "ListDrives" method to obtain the driveIDs for the drives you want to remove.
             </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_SolidFire_Element_Api_SolidFireElement.htm">SolidFireElement Class</a></div><div class="seeAlsoStyle"><a href="N_SolidFire_Element_Api.htm">SolidFire.Element.Api Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">NetApp, Inc.<p><a href="http://www.netapp.com/us/legal/copyright.aspx" target="_blank">Copyright © 2016, 2017 NetApp, Inc. All Rights Reserved.</a></p> </div></body></html>
