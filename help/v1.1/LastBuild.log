@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder" version="2015.1.12.0" projectFile="C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet-public\help.shfbproj" started="9/15/2016 2:50:24 PM">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Locating components in the following folder(s):
+   C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet-public
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2015.1.12.0
+Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet-public\Element\Element.csproj
+    Found project &#39;C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet-public\Element\Element.csproj&#39;
+
+Parsing project files
+    Found assembly &#39;C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet-public\Element\bin\Debug\SolidFire.SDK.dll&#39;
+
+References to include (excluding framework assemblies):
+    Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL
+
+Copying XML comments files
+    C:\Users\ahaid\dev\solidfire\solidfire-sdk-dotnet-public\Element\bin\Debug\SolidFire.SDK.xml -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\SolidFire.SDK.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00.0312
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0313
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Build started 9/15/2016 2:50:26 PM.
+Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  MRefBuilder (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Loaded 1 assemblies for reflection and 2 dependency assemblies.
+  Wrote information on 6 namespaces, 373 types, and 2419 members
+  Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
+  XslTransform (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Done Building Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\GenerateRefInfo.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.32
+    Last step completed in 00:00:05.9631
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Build started 9/15/2016 2:50:32 PM.
+Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\TransformManifest.proj&quot; on node 1 (default targets).
+TransformManifest:
+  XslTransform (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copying file from &quot;reflection.xml&quot; to &quot;reflection.nofilenames&quot;.
+  XslTransform (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+    Unique name M_SolidFire_Core_JsonRpcRequestDispatcher__ctor_1 generated for M:SolidFire.Core.JsonRpcRequestDispatcher.#ctor(System.Uri,System.Net.NetworkCredential,System.Boolean)
+    Unique name M_SolidFire_Core_ServiceBase_SendRequestAsync__1_1 generated for M:SolidFire.Core.ServiceBase.SendRequestAsync``1(System.String,System.Threading.CancellationToken,System.Nullable{System.Int32})
+    Unique name M_SolidFire_Core_Exceptions_ApiServerException__ctor_1 generated for M:SolidFire.Core.Exceptions.ApiServerException.#ctor(System.Int32,System.String,System.String)
+    Unique name M_SolidFire_Core_Exceptions_ConnectionException__ctor_1 generated for M:SolidFire.Core.Exceptions.ConnectionException.#ctor(System.String,System.Exception)
+    Unique name M_SolidFire_Element_ElementFactory_Create_1 generated for M:SolidFire.Element.ElementFactory.Create(System.String,System.String,System.Security.SecureString,System.String,System.Nullable{System.TimeSpan},System.Nullable{System.Int32})
+    Unique name M_SolidFire_Element_ElementFactory_Create_2 generated for M:SolidFire.Element.ElementFactory.Create(System.String,System.String,System.String,System.String,System.Nullable{System.TimeSpan},System.Nullable{System.Int32})
+    Unique name M_SolidFire_Element_ElementFactory_CreateAsync_1 generated for M:SolidFire.Element.ElementFactory.CreateAsync(System.String,System.String,System.Security.SecureString,System.Threading.CancellationToken,System.String,System.Nullable{System.TimeSpan},System.Nullable{System.Int32})
+    Unique name M_SolidFire_Element_ElementFactory_CreateAsync_2 generated for M:SolidFire.Element.ElementFactory.CreateAsync(System.String,System.String,System.String,System.Threading.CancellationToken,System.String,System.Nullable{System.TimeSpan},System.Nullable{System.Int32})
+    Unique name M_SolidFire_Element_Api_CHAPSecret__ctor_1 generated for M:SolidFire.Element.Api.CHAPSecret.#ctor(System.String)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_AddDrives_1 generated for M:SolidFire.Element.Api.ISolidFireElement.AddDrives(SolidFire.Element.Api.NewDrive[])
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_AddDrivesAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.AddDrivesAsync(SolidFire.Element.Api.NewDrive[],System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_AddNodes_1 generated for M:SolidFire.Element.Api.ISolidFireElement.AddNodes(System.Int64[])
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_AddNodesAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.AddNodesAsync(System.Int64[],System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_CancelClone_1 generated for M:SolidFire.Element.Api.ISolidFireElement.CancelClone(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_CancelCloneAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.CancelCloneAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ClearClusterFaults_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ClearClusterFaults(System.String)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ClearClusterFaultsAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ClearClusterFaultsAsync(System.String,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_CompleteClusterPairing_1 generated for M:SolidFire.Element.Api.ISolidFireElement.CompleteClusterPairing(System.String)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_CompleteClusterPairingAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.CompleteClusterPairingAsync(System.String,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_CreateSchedule_1 generated for M:SolidFire.Element.Api.ISolidFireElement.CreateSchedule(SolidFire.Element.Api.Schedule)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_CreateScheduleAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.CreateScheduleAsync(SolidFire.Element.Api.Schedule,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_DeleteSnapshot_1 generated for M:SolidFire.Element.Api.ISolidFireElement.DeleteSnapshot(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_DeleteSnapshotAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.DeleteSnapshotAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_DeleteVolume_1 generated for M:SolidFire.Element.Api.ISolidFireElement.DeleteVolume(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_DeleteVolumeAccessGroup_1 generated for M:SolidFire.Element.Api.ISolidFireElement.DeleteVolumeAccessGroup(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_DeleteVolumeAccessGroupAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.DeleteVolumeAccessGroupAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_DeleteVolumeAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.DeleteVolumeAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_EnableSnmp_1 generated for M:SolidFire.Element.Api.ISolidFireElement.EnableSnmp(System.Boolean)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_EnableSnmpAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.EnableSnmpAsync(System.Boolean,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetAccountByID_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetAccountByID(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetAccountByIDAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetAccountByIDAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetAccountByName_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetAccountByName(System.String)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetAccountByNameAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetAccountByNameAsync(System.String,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetAsyncResult_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetAsyncResult(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetAsyncResultAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetAsyncResultAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetBackupTarget_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetBackupTarget(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetBackupTargetAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetBackupTargetAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetDriveHardwareInfo_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetDriveHardwareInfo(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetDriveHardwareInfoAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetDriveHardwareInfoAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetDriveStats_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetDriveStats(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetDriveStatsAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetDriveStatsAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetNodeStats_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetNodeStats(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetNodeStatsAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetNodeStatsAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetSchedule_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetSchedule(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetScheduleAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetScheduleAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetSystemStatus_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetSystemStatus(System.Boolean)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetSystemStatusAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetSystemStatusAsync(System.Boolean,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetVolumeAccessGroupEfficiency_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetVolumeAccessGroupEfficiency(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetVolumeAccessGroupEfficiencyAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetVolumeAccessGroupEfficiencyAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetVolumeAccessGroupLunAssignments_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetVolumeAccessGroupLunAssignments(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetVolumeAccessGroupLunAssignmentsAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetVolumeAccessGroupLunAssignmentsAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetVolumeStats_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetVolumeStats(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_GetVolumeStatsAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.GetVolumeStatsAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListClusterNetworkInterfaces_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListClusterNetworkInterfaces(System.Boolean)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListClusterNetworkInterfacesAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListClusterNetworkInterfacesAsync(System.Boolean,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListDriveHardware_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListDriveHardware(System.Boolean)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListDriveHardwareAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListDriveHardwareAsync(System.Boolean,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListGroupSnapshots_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListGroupSnapshots(System.Nullable{System.Int64})
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListGroupSnapshotsAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListGroupSnapshotsAsync(System.Nullable{System.Int64},System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListNetworkInterfaces_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListNetworkInterfaces(System.Boolean)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListNetworkInterfacesAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListNetworkInterfacesAsync(System.Boolean,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListNodeFibreChannelPortInfo_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListNodeFibreChannelPortInfo(System.Nullable{System.Boolean})
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListNodeFibreChannelPortInfoAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListNodeFibreChannelPortInfoAsync(System.Nullable{System.Boolean},System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListSnapshots_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListSnapshots(System.Nullable{System.Int64})
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListSnapshotsAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListSnapshotsAsync(System.Nullable{System.Int64},System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListVolumeStatsByVolumeAccessGroup_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListVolumeStatsByVolumeAccessGroup(System.Int64[])
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ListVolumeStatsByVolumeAccessGroupAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ListVolumeStatsByVolumeAccessGroupAsync(System.Int64[],System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ModifySchedule_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ModifySchedule(SolidFire.Element.Api.Schedule)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_ModifyScheduleAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.ModifyScheduleAsync(SolidFire.Element.Api.Schedule,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_PurgeDeletedVolume_1 generated for M:SolidFire.Element.Api.ISolidFireElement.PurgeDeletedVolume(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_PurgeDeletedVolumeAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.PurgeDeletedVolumeAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_RemoveAccount_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RemoveAccount(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_RemoveAccountAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RemoveAccountAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_RemoveBackupTarget_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RemoveBackupTarget(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_RemoveBackupTargetAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RemoveBackupTargetAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_RemoveClusterAdmin_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RemoveClusterAdmin(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_RemoveClusterAdminAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RemoveClusterAdminAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_RemoveClusterPair_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RemoveClusterPair(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_RemoveClusterPairAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RemoveClusterPairAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_RemoveDrives_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RemoveDrives(System.Int64[])
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_RemoveDrivesAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RemoveDrivesAsync(System.Int64[],System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_RemoveNodes_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RemoveNodes(System.Int64[])
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_RemoveNodesAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RemoveNodesAsync(System.Int64[],System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_RemoveVolumePair_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RemoveVolumePair(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_RemoveVolumePairAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RemoveVolumePairAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_RestoreDeletedVolume_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RestoreDeletedVolume(System.Int64)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_RestoreDeletedVolumeAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.RestoreDeletedVolumeAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_SecureEraseDrives_1 generated for M:SolidFire.Element.Api.ISolidFireElement.SecureEraseDrives(System.Int64[])
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_SecureEraseDrivesAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.SecureEraseDrivesAsync(System.Int64[],System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_SetClusterConfig_1 generated for M:SolidFire.Element.Api.ISolidFireElement.SetClusterConfig(SolidFire.Element.Api.SetClusterConfigRequest)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_SetClusterConfigAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.SetClusterConfigAsync(SolidFire.Element.Api.SetClusterConfigRequest,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_SetConfig_1 generated for M:SolidFire.Element.Api.ISolidFireElement.SetConfig(SolidFire.Element.Api.SetConfigRequest)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_SetConfigAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.SetConfigAsync(SolidFire.Element.Api.SetConfigRequest,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_SetLoginSessionInfo_1 generated for M:SolidFire.Element.Api.ISolidFireElement.SetLoginSessionInfo(System.String)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_SetLoginSessionInfoAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.SetLoginSessionInfoAsync(System.String,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_SetNetworkConfig_1 generated for M:SolidFire.Element.Api.ISolidFireElement.SetNetworkConfig(SolidFire.Element.Api.SetNetworkConfigRequest)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_SetNetworkConfigAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.SetNetworkConfigAsync(SolidFire.Element.Api.SetNetworkConfigRequest,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_SetRemoteLoggingHosts_1 generated for M:SolidFire.Element.Api.ISolidFireElement.SetRemoteLoggingHosts(SolidFire.Element.Api.SetRemoteLoggingHostsRequest)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_SetRemoteLoggingHostsAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.SetRemoteLoggingHostsAsync(SolidFire.Element.Api.SetRemoteLoggingHostsRequest,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_TestConnectEnsemble_1 generated for M:SolidFire.Element.Api.ISolidFireElement.TestConnectEnsemble(System.String)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_TestConnectEnsembleAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.TestConnectEnsembleAsync(System.String,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_TestConnectMvip_1 generated for M:SolidFire.Element.Api.ISolidFireElement.TestConnectMvip(System.String)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_TestConnectMvipAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.TestConnectMvipAsync(System.String,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_TestConnectSvip_1 generated for M:SolidFire.Element.Api.ISolidFireElement.TestConnectSvip(System.String)
+    Unique name M_SolidFire_Element_Api_ISolidFireElement_TestConnectSvipAsync_1 generated for M:SolidFire.Element.Api.ISolidFireElement.TestConnectSvipAsync(System.String,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_AddDrives_1 generated for M:SolidFire.Element.Api.SolidFireElement.AddDrives(SolidFire.Element.Api.NewDrive[])
+    Unique name M_SolidFire_Element_Api_SolidFireElement_AddDrivesAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.AddDrivesAsync(SolidFire.Element.Api.NewDrive[],System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_AddNodes_1 generated for M:SolidFire.Element.Api.SolidFireElement.AddNodes(System.Int64[])
+    Unique name M_SolidFire_Element_Api_SolidFireElement_AddNodesAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.AddNodesAsync(System.Int64[],System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_CancelClone_1 generated for M:SolidFire.Element.Api.SolidFireElement.CancelClone(System.Int64)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_CancelCloneAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.CancelCloneAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ClearClusterFaults_1 generated for M:SolidFire.Element.Api.SolidFireElement.ClearClusterFaults(System.String)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ClearClusterFaultsAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.ClearClusterFaultsAsync(System.String,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_CompleteClusterPairing_1 generated for M:SolidFire.Element.Api.SolidFireElement.CompleteClusterPairing(System.String)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_CompleteClusterPairingAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.CompleteClusterPairingAsync(System.String,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_CreateSchedule_1 generated for M:SolidFire.Element.Api.SolidFireElement.CreateSchedule(SolidFire.Element.Api.CreateScheduleRequest)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_CreateSchedule_2 generated for M:SolidFire.Element.Api.SolidFireElement.CreateSchedule(SolidFire.Element.Api.Schedule)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_CreateScheduleAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.CreateScheduleAsync(SolidFire.Element.Api.Schedule,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_DeleteSnapshot_1 generated for M:SolidFire.Element.Api.SolidFireElement.DeleteSnapshot(System.Int64)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_DeleteSnapshotAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.DeleteSnapshotAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_DeleteVolume_1 generated for M:SolidFire.Element.Api.SolidFireElement.DeleteVolume(System.Int64)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_DeleteVolumeAccessGroup_1 generated for M:SolidFire.Element.Api.SolidFireElement.DeleteVolumeAccessGroup(System.Int64)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_DeleteVolumeAccessGroupAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.DeleteVolumeAccessGroupAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_DeleteVolumeAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.DeleteVolumeAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_EnableSnmp_1 generated for M:SolidFire.Element.Api.SolidFireElement.EnableSnmp(System.Boolean)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_EnableSnmpAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.EnableSnmpAsync(System.Boolean,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_GetAccountByID_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetAccountByID(System.Int64)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_GetAccountByIDAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetAccountByIDAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_GetAccountByName_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetAccountByName(System.String)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_GetAccountByNameAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetAccountByNameAsync(System.String,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_GetAsyncResult_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetAsyncResult(System.Int64)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_GetAsyncResultAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetAsyncResultAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_GetBackupTarget_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetBackupTarget(System.Int64)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_GetBackupTargetAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetBackupTargetAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_GetDriveHardwareInfo_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetDriveHardwareInfo(System.Int64)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_GetDriveHardwareInfoAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetDriveHardwareInfoAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_GetDriveStats_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetDriveStats(System.Int64)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_GetDriveStatsAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetDriveStatsAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_GetNodeStats_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetNodeStats(System.Int64)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_GetNodeStatsAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetNodeStatsAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_GetSchedule_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetSchedule(System.Int64)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_GetScheduleAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetScheduleAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_GetSystemStatus_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetSystemStatus(System.Boolean)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_GetSystemStatusAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetSystemStatusAsync(System.Boolean,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_GetVolumeAccessGroupEfficiency_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetVolumeAccessGroupEfficiency(System.Int64)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_GetVolumeAccessGroupEfficiencyAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetVolumeAccessGroupEfficiencyAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_GetVolumeAccessGroupLunAssignments_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetVolumeAccessGroupLunAssignments(System.Int64)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_GetVolumeAccessGroupLunAssignmentsAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetVolumeAccessGroupLunAssignmentsAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_GetVolumeStats_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetVolumeStats(System.Int64)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_GetVolumeStatsAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.GetVolumeStatsAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ListClusterNetworkInterfaces_1 generated for M:SolidFire.Element.Api.SolidFireElement.ListClusterNetworkInterfaces(System.Boolean)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ListClusterNetworkInterfacesAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.ListClusterNetworkInterfacesAsync(System.Boolean,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ListDriveHardware_1 generated for M:SolidFire.Element.Api.SolidFireElement.ListDriveHardware(System.Boolean)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ListDriveHardwareAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.ListDriveHardwareAsync(System.Boolean,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ListGroupSnapshots_1 generated for M:SolidFire.Element.Api.SolidFireElement.ListGroupSnapshots(System.Nullable{System.Int64})
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ListGroupSnapshotsAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.ListGroupSnapshotsAsync(System.Nullable{System.Int64},System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ListNetworkInterfaces_1 generated for M:SolidFire.Element.Api.SolidFireElement.ListNetworkInterfaces(System.Boolean)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ListNetworkInterfacesAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.ListNetworkInterfacesAsync(System.Boolean,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ListNodeFibreChannelPortInfo_1 generated for M:SolidFire.Element.Api.SolidFireElement.ListNodeFibreChannelPortInfo(System.Nullable{System.Boolean})
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ListNodeFibreChannelPortInfoAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.ListNodeFibreChannelPortInfoAsync(System.Nullable{System.Boolean},System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ListSnapshots_1 generated for M:SolidFire.Element.Api.SolidFireElement.ListSnapshots(System.Nullable{System.Int64})
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ListSnapshotsAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.ListSnapshotsAsync(System.Nullable{System.Int64},System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ListVolumeStatsByVolumeAccessGroup_1 generated for M:SolidFire.Element.Api.SolidFireElement.ListVolumeStatsByVolumeAccessGroup(System.Int64[])
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ListVolumeStatsByVolumeAccessGroupAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.ListVolumeStatsByVolumeAccessGroupAsync(System.Int64[],System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ModifySchedule_1 generated for M:SolidFire.Element.Api.SolidFireElement.ModifySchedule(SolidFire.Element.Api.ModifyScheduleRequest)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ModifySchedule_2 generated for M:SolidFire.Element.Api.SolidFireElement.ModifySchedule(SolidFire.Element.Api.Schedule)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_ModifyScheduleAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.ModifyScheduleAsync(SolidFire.Element.Api.Schedule,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_PurgeDeletedVolume_1 generated for M:SolidFire.Element.Api.SolidFireElement.PurgeDeletedVolume(System.Int64)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_PurgeDeletedVolumeAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.PurgeDeletedVolumeAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_RemoveAccount_1 generated for M:SolidFire.Element.Api.SolidFireElement.RemoveAccount(System.Int64)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_RemoveAccountAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.RemoveAccountAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_RemoveBackupTarget_1 generated for M:SolidFire.Element.Api.SolidFireElement.RemoveBackupTarget(System.Int64)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_RemoveBackupTargetAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.RemoveBackupTargetAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_RemoveClusterAdmin_1 generated for M:SolidFire.Element.Api.SolidFireElement.RemoveClusterAdmin(System.Int64)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_RemoveClusterAdminAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.RemoveClusterAdminAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_RemoveClusterPair_1 generated for M:SolidFire.Element.Api.SolidFireElement.RemoveClusterPair(System.Int64)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_RemoveClusterPairAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.RemoveClusterPairAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_RemoveDrives_1 generated for M:SolidFire.Element.Api.SolidFireElement.RemoveDrives(System.Int64[])
+    Unique name M_SolidFire_Element_Api_SolidFireElement_RemoveDrivesAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.RemoveDrivesAsync(System.Int64[],System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_RemoveNodes_1 generated for M:SolidFire.Element.Api.SolidFireElement.RemoveNodes(System.Int64[])
+    Unique name M_SolidFire_Element_Api_SolidFireElement_RemoveNodesAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.RemoveNodesAsync(System.Int64[],System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_RemoveVolumePair_1 generated for M:SolidFire.Element.Api.SolidFireElement.RemoveVolumePair(System.Int64)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_RemoveVolumePairAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.RemoveVolumePairAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_RestoreDeletedVolume_1 generated for M:SolidFire.Element.Api.SolidFireElement.RestoreDeletedVolume(System.Int64)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_RestoreDeletedVolumeAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.RestoreDeletedVolumeAsync(System.Int64,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_SecureEraseDrives_1 generated for M:SolidFire.Element.Api.SolidFireElement.SecureEraseDrives(System.Int64[])
+    Unique name M_SolidFire_Element_Api_SolidFireElement_SecureEraseDrivesAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.SecureEraseDrivesAsync(System.Int64[],System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_SetClusterConfig_1 generated for M:SolidFire.Element.Api.SolidFireElement.SetClusterConfig(SolidFire.Element.Api.SetClusterConfigRequest)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_SetClusterConfigAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.SetClusterConfigAsync(SolidFire.Element.Api.SetClusterConfigRequest,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_SetConfig_1 generated for M:SolidFire.Element.Api.SolidFireElement.SetConfig(SolidFire.Element.Api.SetConfigRequest)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_SetConfigAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.SetConfigAsync(SolidFire.Element.Api.SetConfigRequest,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_SetLoginSessionInfo_1 generated for M:SolidFire.Element.Api.SolidFireElement.SetLoginSessionInfo(System.String)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_SetLoginSessionInfoAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.SetLoginSessionInfoAsync(System.String,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_SetNetworkConfig_1 generated for M:SolidFire.Element.Api.SolidFireElement.SetNetworkConfig(SolidFire.Element.Api.SetNetworkConfigRequest)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_SetNetworkConfigAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.SetNetworkConfigAsync(SolidFire.Element.Api.SetNetworkConfigRequest,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_SetRemoteLoggingHosts_1 generated for M:SolidFire.Element.Api.SolidFireElement.SetRemoteLoggingHosts(SolidFire.Element.Api.SetRemoteLoggingHostsRequest)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_SetRemoteLoggingHostsAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.SetRemoteLoggingHostsAsync(SolidFire.Element.Api.SetRemoteLoggingHostsRequest,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_TestConnectEnsemble_1 generated for M:SolidFire.Element.Api.SolidFireElement.TestConnectEnsemble(System.String)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_TestConnectEnsembleAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.TestConnectEnsembleAsync(System.String,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_TestConnectMvip_1 generated for M:SolidFire.Element.Api.SolidFireElement.TestConnectMvip(System.String)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_TestConnectMvipAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.TestConnectMvipAsync(System.String,System.Threading.CancellationToken)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_TestConnectSvip_1 generated for M:SolidFire.Element.Api.SolidFireElement.TestConnectSvip(System.String)
+    Unique name M_SolidFire_Element_Api_SolidFireElement_TestConnectSvipAsync_1 generated for M:SolidFire.Element.Api.SolidFireElement.TestConnectSvipAsync(System.String,System.Threading.CancellationToken)
+  XslTransform (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Done Building Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\TransformManifest.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.42
+    Last step completed in 00:00:12.4291
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.2076
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0005
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Build started 9/15/2016 2:50:45 PM.
+Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+GenerateIntermediateTOC:
+  XslTransform (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Done Building Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.38
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:03.0476
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00.5429
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\sandcastle.config
+    Last step completed in 00:00:00.1156
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Build started 9/15/2016 2:50:48 PM.
+Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj&quot; on node 1 (default targets).
+BuildReferenceTopics:
+  BuildAssembler (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateArrayContract(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateConstructorParameters(System.Reflection.ConstructorInfo,Newtonsoft.Json.Serialization.JsonPropertyCollection)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateContract(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateDictionaryContract(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateDynamicContract(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateISerializableContract(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateLinqContract(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateMemberValueProvider(System.Reflection.MemberInfo)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateObjectContract(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreatePrimitiveContract(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateProperties(System.Type,Newtonsoft.Json.MemberSerialization)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateProperty(System.Reflection.MemberInfo,Newtonsoft.Json.MemberSerialization)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreatePropertyFromConstructorParameter(Newtonsoft.Json.Serialization.JsonProperty,System.Reflection.ParameterInfo)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateStringContract(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.GetResolvedPropertyName(System.String)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.GetSerializableMembers(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveContract(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveContractConverter(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveDictionaryKey(System.String)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.ResolvePropertyName(System.String)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;P:Newtonsoft.Json.Serialization.DefaultContractResolver.DefaultMembersSearchFlags&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;P:Newtonsoft.Json.Serialization.DefaultContractResolver.DynamicCodeGeneration&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;P:Newtonsoft.Json.Serialization.DefaultContractResolver.IgnoreSerializableAttribute&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;P:Newtonsoft.Json.Serialization.DefaultContractResolver.IgnoreSerializableInterface&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;P:Newtonsoft.Json.Serialization.DefaultContractResolver.NamingStrategy&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;P:Newtonsoft.Json.Serialization.DefaultContractResolver.SerializeCompilerGeneratedMembers&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateArrayContract(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateConstructorParameters(System.Reflection.ConstructorInfo,Newtonsoft.Json.Serialization.JsonPropertyCollection)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateContract(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateDictionaryContract(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateDynamicContract(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateISerializableContract(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateLinqContract(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateMemberValueProvider(System.Reflection.MemberInfo)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateObjectContract(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreatePrimitiveContract(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateProperties(System.Type,Newtonsoft.Json.MemberSerialization)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateProperty(System.Reflection.MemberInfo,Newtonsoft.Json.MemberSerialization)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreatePropertyFromConstructorParameter(Newtonsoft.Json.Serialization.JsonProperty,System.Reflection.ParameterInfo)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateStringContract(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.GetResolvedPropertyName(System.String)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.GetSerializableMembers(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveContract(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveContractConverter(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveDictionaryKey(System.String)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;M:Newtonsoft.Json.Serialization.DefaultContractResolver.ResolvePropertyName(System.String)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;P:Newtonsoft.Json.Serialization.DefaultContractResolver.DefaultMembersSearchFlags&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;P:Newtonsoft.Json.Serialization.DefaultContractResolver.DynamicCodeGeneration&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;P:Newtonsoft.Json.Serialization.DefaultContractResolver.IgnoreSerializableAttribute&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;P:Newtonsoft.Json.Serialization.DefaultContractResolver.IgnoreSerializableInterface&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;P:Newtonsoft.Json.Serialization.DefaultContractResolver.NamingStrategy&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;P:Newtonsoft.Json.Serialization.DefaultContractResolver.SerializeCompilerGeneratedMembers&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.DynamicRpcContractResolver] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.DefaultContractResolver&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SolidFire.Core.DynamicRpcContractResolver.CreateProperties(System.Type,Newtonsoft.Json.MemberSerialization)] Unknown reference link target &#39;T:Newtonsoft.Json.MemberSerialization&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SolidFire.Core.DynamicRpcContractResolver.CreateProperties(System.Type,Newtonsoft.Json.MemberSerialization)] Unknown reference link target &#39;T:Newtonsoft.Json.Serialization.JsonProperty&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SolidFire.Core.ServiceBase.SerializerSettings] Unknown reference link target &#39;T:Newtonsoft.Json.JsonSerializerSettings&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SolidFire.Core.Utilities.MakeNestedHashtable(Newtonsoft.Json.Linq.JObject)] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.AddressBlocksConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.AddressBlocksConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.CanConvert(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.AddressBlocksConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.GetSchema&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.AddressBlocksConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.AddressBlocksConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.AddressBlocksConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.AddressBlocksConverter] Unknown reference link target &#39;P:Newtonsoft.Json.JsonConverter.CanRead&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.AddressBlocksConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.AddressBlocksConverter] Unknown reference link target &#39;P:Newtonsoft.Json.JsonConverter.CanWrite&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.AddressBlocksConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.Converters.AddressBlocksConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.CanConvert(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.Converters.AddressBlocksConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.GetSchema&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.Converters.AddressBlocksConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.Converters.AddressBlocksConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.Converters.AddressBlocksConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.Converters.AddressBlocksConverter] Unknown reference link target &#39;P:Newtonsoft.Json.JsonConverter.CanRead&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.Converters.AddressBlocksConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.Converters.AddressBlocksConverter] Unknown reference link target &#39;P:Newtonsoft.Json.JsonConverter.CanWrite&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.Converters.AddressBlocksConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SolidFire.Core.Converters.AddressBlocksConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)] Unknown reference link target &#39;T:Newtonsoft.Json.JsonReader&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SolidFire.Core.Converters.AddressBlocksConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)] Unknown reference link target &#39;T:Newtonsoft.Json.JsonSerializer&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SolidFire.Core.Converters.AddressBlocksConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)] Unknown reference link target &#39;T:Newtonsoft.Json.JsonWriter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SolidFire.Core.Converters.AddressBlocksConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)] Unknown reference link target &#39;T:Newtonsoft.Json.JsonSerializer&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.AttributesConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.AttributesConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.CanConvert(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.AttributesConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.GetSchema&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.AttributesConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.AttributesConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.AttributesConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.AttributesConverter] Unknown reference link target &#39;P:Newtonsoft.Json.JsonConverter.CanRead&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.AttributesConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.AttributesConverter] Unknown reference link target &#39;P:Newtonsoft.Json.JsonConverter.CanWrite&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.AttributesConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.Converters.AttributesConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.CanConvert(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.Converters.AttributesConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.GetSchema&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.Converters.AttributesConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.Converters.AttributesConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.Converters.AttributesConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.Converters.AttributesConverter] Unknown reference link target &#39;P:Newtonsoft.Json.JsonConverter.CanRead&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.Converters.AttributesConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.Converters.AttributesConverter] Unknown reference link target &#39;P:Newtonsoft.Json.JsonConverter.CanWrite&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.Converters.AttributesConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SolidFire.Core.Converters.AttributesConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)] Unknown reference link target &#39;T:Newtonsoft.Json.JsonReader&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SolidFire.Core.Converters.AttributesConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)] Unknown reference link target &#39;T:Newtonsoft.Json.JsonSerializer&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SolidFire.Core.Converters.AttributesConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)] Unknown reference link target &#39;T:Newtonsoft.Json.JsonWriter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SolidFire.Core.Converters.AttributesConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)] Unknown reference link target &#39;T:Newtonsoft.Json.JsonSerializer&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.CHAPSecretConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.CHAPSecretConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.CanConvert(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.CHAPSecretConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.GetSchema&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.CHAPSecretConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.CHAPSecretConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.CHAPSecretConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.CHAPSecretConverter] Unknown reference link target &#39;P:Newtonsoft.Json.JsonConverter.CanRead&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.CHAPSecretConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.CHAPSecretConverter] Unknown reference link target &#39;P:Newtonsoft.Json.JsonConverter.CanWrite&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.CHAPSecretConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.Converters.CHAPSecretConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.CanConvert(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.Converters.CHAPSecretConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.GetSchema&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.Converters.CHAPSecretConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.Converters.CHAPSecretConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.Converters.CHAPSecretConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.Converters.CHAPSecretConverter] Unknown reference link target &#39;P:Newtonsoft.Json.JsonConverter.CanRead&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.Converters.CHAPSecretConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.Converters.CHAPSecretConverter] Unknown reference link target &#39;P:Newtonsoft.Json.JsonConverter.CanWrite&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.Converters.CHAPSecretConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SolidFire.Core.Converters.CHAPSecretConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)] Unknown reference link target &#39;T:Newtonsoft.Json.JsonReader&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SolidFire.Core.Converters.CHAPSecretConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)] Unknown reference link target &#39;T:Newtonsoft.Json.JsonSerializer&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SolidFire.Core.Converters.CHAPSecretConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)] Unknown reference link target &#39;T:Newtonsoft.Json.JsonWriter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SolidFire.Core.Converters.CHAPSecretConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)] Unknown reference link target &#39;T:Newtonsoft.Json.JsonSerializer&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.EventDetailsConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.EventDetailsConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.CanConvert(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.EventDetailsConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.GetSchema&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.EventDetailsConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.EventDetailsConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.EventDetailsConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.EventDetailsConverter] Unknown reference link target &#39;P:Newtonsoft.Json.JsonConverter.CanRead&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.EventDetailsConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.EventDetailsConverter] Unknown reference link target &#39;P:Newtonsoft.Json.JsonConverter.CanWrite&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SolidFire.Core.Converters.EventDetailsConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.Converters.EventDetailsConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.CanConvert(System.Type)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.Converters.EventDetailsConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.GetSchema&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.Converters.EventDetailsConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.Converters.EventDetailsConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SolidFire.Core.Converters.EventDetailsConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.Converters.EventDetailsConverter] Unknown reference link target &#39;P:Newtonsoft.Json.JsonConverter.CanRead&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.Converters.EventDetailsConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.Converters.EventDetailsConverter] Unknown reference link target &#39;P:Newtonsoft.Json.JsonConverter.CanWrite&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SolidFire.Core.Converters.EventDetailsConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SolidFire.Core.Converters.EventDetailsConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)] Unknown reference link target &#39;T:Newtonsoft.Json.JsonReader&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SolidFire.Core.Converters.EventDetailsConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)] Unknown reference link target &#39;T:Newtonsoft.Json.JsonSerializer&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SolidFire.Core.Converters.EventDetailsConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)] Unknown reference link target &#39;T:Newtonsoft.Json.JsonWriter&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SolidFire.Core.Converters.EventDetailsConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)] Unknown reference link target &#39;T:Newtonsoft.Json.JsonSerializer&#39;. [C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj]
+  Processed 3694 topic(s)
+  199 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 9 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
+Done Building Project &quot;C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\BuildReferenceTopics.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:01:56.57
+    Last step completed in 00:01:57.2508
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+
+Clearing any prior web output
+    Last step completed in 00:00:02.7839
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Sandcastle Help File Builder, version 2015.1.12.0
+Copyright c 2006-2015, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing website files in C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website
+Processed 3694 HTML files
+Sorting keywords and generating See Also indices
+Saving website keyword index to C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\WebKI.xml
+Saving website table of contents to C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\WebTOC.xml
+    Last step completed in 00:00:40.0164
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon-old.ico -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\favicon-old.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help2.css -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\styles\branding-Help2.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\Web.Config
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\Search.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\TocClose.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\TocCollapsed.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\TocExpanded.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\icons\TocOpen.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\scripts\branding-Website.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Users\ahaid\dev\solidfire\github\sdk-dotnet\help\v1.1\Working\Output\Website\scripts\jquery-1.11.0.min.js
+    Last step completed in 00:00:01.3250
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating website table of contents file...
+    Last step completed in 00:00:00.0100
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+Adding lightweight search and TOC elements to each topic...
+</plugIn>    Last step completed in 00:01:27.1168
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 100 files
+Copied 200 files
+Copied 300 files
+Copied 400 files
+Copied 500 files
+Copied 600 files
+Copied 700 files
+Copied 800 files
+Copied 900 files
+Copied 1000 files
+Copied 1100 files
+Copied 1200 files
+Copied 1300 files
+Copied 1400 files
+Copied 1500 files
+Copied 1600 files
+Copied 1700 files
+Copied 1800 files
+Copied 1900 files
+Copied 2000 files
+Copied 2100 files
+Copied 2200 files
+Copied 2300 files
+Copied 2400 files
+Copied 2500 files
+Copied 2600 files
+Copied 2700 files
+Copied 2800 files
+Copied 2900 files
+Copied 3000 files
+Copied 3100 files
+Copied 3200 files
+Copied 3300 files
+Copied 3400 files
+Copied 3500 files
+Copied 3600 files
+Copied 3700 files
+Copied 3800 files
+Copied 3900 files
+Copied 4000 files
+Copied 4100 files
+Copied 4200 files
+Copied 4300 files
+Copied 4400 files
+Copied 4500 files
+Copied 4600 files
+Copied 4700 files
+Copied 4702 files for the website content
+    Last step completed in 00:00:32.2875
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:02.4596
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 9/15/2016 2:55:31 PM.  Total time: 00:05:07.6944
+
+</buildStep>
+</shfbBuild>
