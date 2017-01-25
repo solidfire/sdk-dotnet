@@ -77,7 +77,7 @@ _Send request and handle result Asyncronously_
 // Send the Async request and await the returned Task
 var addAccountResult = await sfe.AddAccountAsync(addAccountRequest, CancellationToken.None);
 // Now pull the account ID from the result object
-var accountID = accountResult.AccountID;
+var accountID = addAccountResult.AccountID;
 ~~~
 
 _Send request and handle result Syncronously_
