@@ -1,6 +1,6 @@
 # SolidFire .NET SDK
 
-### Version 1.2 (github)
+### Version 1.2.1.3 (github)
 
 ![Net Logo](img/net-50.png) 
 
@@ -34,7 +34,7 @@ ___Dependencies (automatically downloaded upon install)___:
 
 [MSDN Docs](http://solidfire.github.io/sdk-dotnet/help/v1.2/html/R_Project_NetApp_SolidFire__NET_SDK_Documentation.htm) 
 
-[Release Notes](https://github.com/solidfire/sdk-dotnet/raw/gh-pages/NetApp_SolidFire_Dot_Net_SDK_v1.2_Release_Notes.pdf)
+[Release Notes](https://github.com/solidfire/sdk-dotnet/raw/gh-pages/NetApp_SolidFire_Dot_Net_SDK_v1.2.1.3_Release_Notes.pdf)
 
 ## Getting Help
 
@@ -165,6 +165,7 @@ For more examples check out the tutorials in the [examples folder](https://githu
 
 | Version | Release Date   | Notes                                                            |
 |:------- |:---------------|:-----------------------------------------------------------------|
+| 1.2.1.3 | Feb 02, 2017   | Fixes rounding error on Version check in ElementFactory.Create   |
 | 1.2     | Jan 25, 2017   | Fluorine API Coverage                                            |
 | 1.1     | Sep 20, 2016   | Complete Nitrogen & Majority of Oxygen API Coverage              |
 | 1.0     | Feb 02, 2016   | Accounts, Volumes, Access Groups, Snapshots, and Group Snapshots |
