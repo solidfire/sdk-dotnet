@@ -155,7 +155,7 @@ namespace SolidFire.SDK.Examples
 }
 ~~~
 
-### [More Examples](https://github.com/solidfire/sdk-dotnet/tree/master/examples)
+### [More Examples](examples)
 
 For more examples check out the tutorials in the [examples folder](https://github.com/solidfire/sdk-dotnet/tree/master/examples) of this repo.
 
