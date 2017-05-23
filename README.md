@@ -1,7 +1,5 @@
 # SolidFire .NET SDK
 
-### Version 1.2 (github)
-
 ![Net Logo](img/net-50.png) 
 
 ## Description
@@ -28,13 +26,13 @@ ___Dependencies (automatically downloaded upon install)___:
 |:-----------------------------------|:------------|
 | .NET                               | 4.5.1       |
 | (dotnet core) NetStandard          | 1.6         |
-| SolidFire Element OS               | 7.x - 9.0   |
+| SolidFire Element OS               | 7.x - 9.1   |
 
 ## Documentation
 
-[MSDN Docs](http://solidfire.github.io/sdk-dotnet/help/v1.2/html/R_Project_NetApp_SolidFire__NET_SDK_Documentation.htm) 
+[MSDN Docs](http://solidfire.github.io/sdk-dotnet/help/html/R_Project_NetApp_SolidFire__NET_SDK_Documentation.htm) 
 
-[Release Notes](https://github.com/solidfire/sdk-dotnet/raw/gh-pages/NetApp_SolidFire_Dot_Net_SDK_v1.2_Release_Notes.pdf)
+[Release Notes](https://github.com/solidfire/sdk-dotnet/raw/master/NetApp_SolidFire_Dot_Net_SDK_Release_Notes.pdf)
 
 ## Getting Help
 
@@ -42,9 +40,9 @@ If you have any questions or comments about this product, open an issue on our [
 
 ## Instructions
 
-### Step 1 - Build a [SolidFireElement](http://solidfire.github.io/sdk-dotnet/help/v1.2/html/T_SolidFire_Element_Api_SolidFireElement.htm) object using the [ElementFactory](http://solidfire.github.io/sdk-dotnet/help/v1.2/html/T_SolidFire_Element_ElementFactory.htm)
+### Step 1 - Build a [SolidFireElement](http://solidfire.github.io/sdk-dotnet/help/html/T_SolidFire_Element_Api_SolidFireElement.htm) object using the [ElementFactory](http://solidfire.github.io/sdk-dotnet/help/html/T_SolidFire_Element_ElementFactory.htm)
 
-This is the preferred way to construct the [SolidFireElement](help/v1.2/html/T_SolidFire_Element_Api_SolidFireElement.htm) object. The [ElementFactory](http://solidfire.github.io/sdk-dotnet/help/v1.2/html/T_SolidFire_Element_ElementFactory.htm) will make a call to the SolidFire cluster using the credentials supplied to test the connection. It will also set the version to communicate with based on the highest number supported by the SDK and Element OS if not supplied. 
+This is the preferred way to construct the [SolidFireElement](help/html/T_SolidFire_Element_Api_SolidFireElement.htm) object. The [ElementFactory](http://solidfire.github.io/sdk-dotnet/help/html/T_SolidFire_Element_ElementFactory.htm) will make a call to the SolidFire cluster using the credentials supplied to test the connection. It will also set the version to communicate with based on the highest number supported by the SDK and Element OS if not supplied. 
 
 ~~~ csharp
 // Use ElementFactory to get a SolidFireElement object.
@@ -53,10 +51,10 @@ var sfe = ElementFactory.Create("ip-address-of-cluster", "username", "password")
 
 ### Step 2 - Create a request object if necessary
 
-Methods in the [SolidFireElement](http://solidfire.github.io/sdk-dotnet/help/v1.2/html/T_SolidFire_Element_Api_SolidFireElement.htm) class can have multiple parameters and will need values supplied before calling it. There are three scenarios in which parameter needs are satisfied. They are: 
+Methods in the [SolidFireElement](http://solidfire.github.io/sdk-dotnet/help/html/T_SolidFire_Element_Api_SolidFireElement.htm) class can have multiple parameters and will need values supplied before calling it. There are three scenarios in which parameter needs are satisfied. They are: 
 
-1. If there are zero (0) parameters, there is no Request object associated with the call (eg: [`GetAPI()`](http://solidfire.github.io/sdk-dotnet/help/v1.2/html/M_SolidFire_Element_Api_SolidFireElement_GetAPI.htm)).
-1. If there is one (1) parameter, you can use a Request object or an overloaded version of the method which will take the single parameter (eg: [`GetAccountByID(int accountID)`](http://solidfire.github.io/sdk-dotnet/help/v1.2/html/M_SolidFire_Element_Api_SolidFireElement_GetAccountByID_1.htm))
+1. If there are zero (0) parameters, there is no Request object associated with the call (eg: [`GetAPI()`](http://solidfire.github.io/sdk-dotnet/help/html/M_SolidFire_Element_Api_SolidFireElement_GetAPI.htm)).
+1. If there is one (1) parameter, you can use a Request object or an overloaded version of the method which will take the single parameter (eg: [`GetAccountByID(int accountID)`](http://solidfire.github.io/sdk-dotnet/help/html/M_SolidFire_Element_Api_SolidFireElement_GetAccountByID_1.htm))
 3. If there are two (2) or more parameters, you must use a Request object to the method. Here is an example:
 
 ~~~csharp
@@ -69,7 +67,7 @@ var addAccountRequest = new AddAccountRequest()
 
 ### Step 3 - Call the API method and retrieve the result
 
-All service methods in [SolidFireElement](http://solidfire.github.io/sdk-dotnet/help/v1.2/html/T_SolidFire_Element_Api_SolidFireElement.htm) call API endpoints syncronously and asyncronously.
+All service methods in [SolidFireElement](http://solidfire.github.io/sdk-dotnet/help/html/T_SolidFire_Element_Api_SolidFireElement.htm) call API endpoints syncronously and asyncronously.
 
 _Send request and handle result Asyncronously_
 
@@ -77,7 +75,7 @@ _Send request and handle result Asyncronously_
 // Send the Async request and await the returned Task
 var addAccountResult = await sfe.AddAccountAsync(addAccountRequest, CancellationToken.None);
 // Now pull the account ID from the result object
-var accountID = addAccountResult.AccountID;
+var accountID = accountResult.AccountID;
 ~~~
 
 _Send request and handle result Syncronously_
@@ -157,17 +155,9 @@ namespace SolidFire.SDK.Examples
 }
 ~~~
 
-### [More Examples](https://github.com/solidfire/sdk-dotnet/tree/gh-pages/examples)
+### [More Examples](https://github.com/solidfire/sdk-dotnet/tree/master/examples)
 
-For more examples check out the tutorials in the [examples folder](https://github.com/solidfire/sdk-dotnet/tree/gh-pages/examples) of this repo.
-
-## Roadmap
-
-| Version | Release Date   | Notes                                                            |
-|:------- |:---------------|:-----------------------------------------------------------------|
-| 1.2     | Jan 25, 2017   | Fluorine API Coverage                                            |
-| 1.1     | Sep 20, 2016   | Complete Nitrogen & Majority of Oxygen API Coverage              |
-| 1.0     | Feb 02, 2016   | Accounts, Volumes, Access Groups, Snapshots, and Group Snapshots |
+For more examples check out the tutorials in the [examples folder](https://github.com/solidfire/sdk-dotnet/tree/master/examples) of this repo.
 
 ## License
 Copyright © 2016, 2017 NetApp, Inc. All rights reserved.
