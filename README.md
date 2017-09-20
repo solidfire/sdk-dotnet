@@ -26,7 +26,7 @@ ___Dependencies (automatically downloaded upon install)___:
 |:-----------------------------------|:------------|
 | .NET                               | 4.5.1       |
 | (dotnet core) NetStandard          | 1.6         |
-| SolidFire Element OS               | 7.x - 9.1   |
+| SolidFire Element OS               | 7.x - 10.0  |
 
 ## Documentation
 
