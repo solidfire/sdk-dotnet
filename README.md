@@ -14,7 +14,7 @@ To install SolidFire.SDK, run the following command in the Package Manager Conso
 Install-Package SolidFire.SDK
 ```
 
-___Dependencies (automatically downloaded upon install)___:
+**Dependencies** (automatically downloaded upon install):
 
 | Component       | Version    |
 |:---------------:|:-----------|
