@@ -14,7 +14,7 @@ To install SolidFire.SDK, run the following command in the Package Manager Conso
 Install-Package SolidFire.SDK
 ```
 
-**Dependencies** (automatically downloaded upon install):
+___Dependencies (automatically downloaded upon install)___:
 
 | Component       | Version    |
 |:---------------:|:-----------|
@@ -25,8 +25,8 @@ Install-Package SolidFire.SDK
 | Component                          | Version     |
 |:-----------------------------------|:------------|
 | .NET                               | 4.5.1       |
-| (dotnet core) NetStandard          | 1.6         |
-| SolidFire Element OS               | 7.x - 10.0  |
+| (dotnet core) NetStandard          | 2.0         |
+| SolidFire Element OS               | 7.x - 11.0  |
 
 ## Documentation
 
