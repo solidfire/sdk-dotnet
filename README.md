@@ -18,21 +18,20 @@ Install-Package SolidFire.SDK
 
 | Component       | Version    |
 |:---------------:|:-----------|
-| Newtonsoft.Json | 9.0.1      |
+| Newtonsoft.Json | 11.0.2      |
 
 ## Compatibility
 
 | Component                          | Version     |
 |:-----------------------------------|:------------|
-| .NET                               | 4.5.1       |
-| (dotnet core) NetStandard          | 1.6         |
-| SolidFire Element OS               | 7.x - 10.0  |
+| .NET Core                          | 2.2         |
+| SolidFire Element OS               | 10.0 - 12.2 |
 
 ## Documentation
 
 [MSDN Docs](http://solidfire.github.io/sdk-dotnet/help/html/R_Project_NetApp_SolidFire__NET_SDK_Documentation.htm) 
 
-[Release Notes](https://github.com/solidfire/sdk-dotnet/raw/master/NetApp_SolidFire_Dot_Net_SDK_Release_Notes.pdf)
+[Release Notes](https://github.com/solidfire/sdk-dotnet/raw/master/NetApp_Element_.NET_SDK_Release_Notes_1.7.pdf)
 
 ## Getting Help
 
@@ -160,7 +159,7 @@ namespace SolidFire.SDK.Examples
 For more examples check out the tutorials in the [examples folder](https://github.com/solidfire/sdk-dotnet/tree/master/examples) of this repo.
 
 ## License
-Copyright © 2016, 2017 NetApp, Inc. All rights reserved.
+Copyright © 2020 NetApp, Inc. All rights reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
