@@ -31,7 +31,7 @@ Install-Package SolidFire.SDK
 
 [MSDN Docs](http://solidfire.github.io/sdk-dotnet/help/html/R_Project_NetApp_SolidFire__NET_SDK_Documentation.htm) 
 
-[Release Notes](https://github.com/solidfire/sdk-dotnet/raw/master/NetApp_Element_.NET_SDK_Release_Notes_1.7.pdf)
+[Release Notes](NetApp_Element_.NET_SDK_Release_Notes_1.7.pdf)
 
 ## Getting Help
 
