@@ -6,10 +6,17 @@
             true: The snapshot is replicated to remote storage.
             false: Default. The snapshot is not replicated.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_SolidFire_Element_Api_ModifyGroupSnapshotRequest_ExpirationTime.htm">ExpirationTime</a></td><td><div class="summary">
-            Sets the time when the snapshot should be
-            removed. If unspecified, the current time is used.
+            Specify the time after which the group snapshot can be removed.
+            If neither 'expirationTime' nor 'retention' is specified for the original group snapshot, the snapshot
+            will be retained until manually deleted.
+            The format is: 
+              ISO 8601 date string for time based expiration, otherwise it will not expire.
+              'null', or not specified, the snapshot is to be retained permanently.
+              'fifo' causes the snapshot to be preserved on a First-In-First-Out basis, relative to other FIFO
+                   snapshots on the volume. The API will fail if no FIFO space is available.
+            Note: The 'retention' option is not supported by ModifyGroupSnapshot.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_SolidFire_Element_Api_ModifyGroupSnapshotRequest_GroupSnapshotID.htm">GroupSnapshotID</a></td><td><div class="summary">
             Specifies the ID of the group of snapshots.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_SolidFire_Element_Api_ModifyGroupSnapshotRequest_SnapMirrorLabel.htm">SnapMirrorLabel</a></td><td><div class="summary">
             Label used by SnapMirror software to specify snapshot retention policy on SnapMirror endpoint.
-            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_SolidFire_Element_Api_ModifyGroupSnapshotRequest.htm">ModifyGroupSnapshotRequest Class</a></div><div class="seeAlsoStyle"><a href="N_SolidFire_Element_Api.htm">SolidFire.Element.Api Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">NetApp, Inc.<p><a href="http://www.netapp.com/us/legal/copyright.aspx" target="_blank">Copyright © 2020 NetApp, Inc. All Rights Reserved.</a></p> </div></body></html>
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_SolidFire_Element_Api_ModifyGroupSnapshotRequest.htm">ModifyGroupSnapshotRequest Class</a></div><div class="seeAlsoStyle"><a href="N_SolidFire_Element_Api.htm">SolidFire.Element.Api Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">NetApp, Inc.<p><a href="http://www.netapp.com/us/legal/copyright.aspx" target="_blank">Copyright © 2021 NetApp, Inc. All Rights Reserved.</a></p> </div></body></html>

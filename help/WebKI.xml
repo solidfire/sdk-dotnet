@@ -34,34 +34,36 @@
   </HelpKINode>
   <HelpKINode Title="Access property">
     <HelpKINode Title="AddIdpClusterAdminRequest.Access Property " Url="html/P_SolidFire_Element_Api_AddIdpClusterAdminRequest_Access.htm" />
-    <HelpKINode Title="CloneMultipleVolumesRequest.Access Property " Url="html/P_SolidFire_Element_Api_CloneMultipleVolumesRequest_Access.htm" />
-    <HelpKINode Title="AddClusterAdminRequest.Access Property " Url="html/P_SolidFire_Element_Api_AddClusterAdminRequest_Access.htm" />
-    <HelpKINode Title="ModifyClusterAdminRequest.Access Property " Url="html/P_SolidFire_Element_Api_ModifyClusterAdminRequest_Access.htm" />
-    <HelpKINode Title="ModifyVolumeRequest.Access Property " Url="html/P_SolidFire_Element_Api_ModifyVolumeRequest_Access.htm" />
-    <HelpKINode Title="Volume.Access Property " Url="html/P_SolidFire_Element_Api_Volume_Access.htm" />
-    <HelpKINode Title="ModifyVolumesRequest.Access Property " Url="html/P_SolidFire_Element_Api_ModifyVolumesRequest_Access.htm" />
-    <HelpKINode Title="SnmpNetwork.Access Property " Url="html/P_SolidFire_Element_Api_SnmpNetwork_Access.htm" />
+    <HelpKINode Title="BreakSnapMirrorVolumeRequest.Access Property " Url="html/P_SolidFire_Element_Api_BreakSnapMirrorVolumeRequest_Access.htm" />
+    <HelpKINode Title="ClusterAdmin.Access Property " Url="html/P_SolidFire_Element_Api_ClusterAdmin_Access.htm" />
     <HelpKINode Title="SnmpV3UsmUser.Access Property " Url="html/P_SolidFire_Element_Api_SnmpV3UsmUser_Access.htm" />
     <HelpKINode Title="AddLdapClusterAdminRequest.Access Property " Url="html/P_SolidFire_Element_Api_AddLdapClusterAdminRequest_Access.htm" />
-    <HelpKINode Title="BreakSnapMirrorVolumeRequest.Access Property " Url="html/P_SolidFire_Element_Api_BreakSnapMirrorVolumeRequest_Access.htm" />
+    <HelpKINode Title="AddClusterAdminRequest.Access Property " Url="html/P_SolidFire_Element_Api_AddClusterAdminRequest_Access.htm" />
     <HelpKINode Title="CloneMultipleVolumeParams.Access Property " Url="html/P_SolidFire_Element_Api_CloneMultipleVolumeParams_Access.htm" />
+    <HelpKINode Title="CloneMultipleVolumesRequest.Access Property " Url="html/P_SolidFire_Element_Api_CloneMultipleVolumesRequest_Access.htm" />
     <HelpKINode Title="CloneVolumeRequest.Access Property " Url="html/P_SolidFire_Element_Api_CloneVolumeRequest_Access.htm" />
-    <HelpKINode Title="ClusterAdmin.Access Property " Url="html/P_SolidFire_Element_Api_ClusterAdmin_Access.htm" />
     <HelpKINode Title="CreateVolumeRequest.Access Property " Url="html/P_SolidFire_Element_Api_CreateVolumeRequest_Access.htm" />
+    <HelpKINode Title="ModifyClusterAdminRequest.Access Property " Url="html/P_SolidFire_Element_Api_ModifyClusterAdminRequest_Access.htm" />
+    <HelpKINode Title="ModifyVolumeRequest.Access Property " Url="html/P_SolidFire_Element_Api_ModifyVolumeRequest_Access.htm" />
+    <HelpKINode Title="ModifyVolumesRequest.Access Property " Url="html/P_SolidFire_Element_Api_ModifyVolumesRequest_Access.htm" />
+    <HelpKINode Title="SnmpNetwork.Access Property " Url="html/P_SolidFire_Element_Api_SnmpNetwork_Access.htm" />
+    <HelpKINode Title="Volume.Access Property " Url="html/P_SolidFire_Element_Api_Volume_Access.htm" />
   </HelpKINode>
   <HelpKINode Title="access property">
-    <HelpKINode Title="AuthConfigType.access Property " Url="html/P_SolidFire_Element_Api_AuthConfigType_access.htm" />
     <HelpKINode Title="AuthMethod.access Property " Url="html/P_SolidFire_Element_Api_AuthMethod_access.htm" />
-    <HelpKINode Title="ProposedNodeErrorCode.access Property " Url="html/P_SolidFire_Element_Api_ProposedNodeErrorCode_access.htm" />
+    <HelpKINode Title="ProtectionScheme.access Property " Url="html/P_SolidFire_Element_Api_ProtectionScheme_access.htm" />
+    <HelpKINode Title="AuthConfigType.access Property " Url="html/P_SolidFire_Element_Api_AuthConfigType_access.htm" />
+    <HelpKINode Title="ProtectionSchemeVisibility.access Property " Url="html/P_SolidFire_Element_Api_ProtectionSchemeVisibility_access.htm" />
+    <HelpKINode Title="CryptoKeyType.access Property " Url="html/P_SolidFire_Element_Api_CryptoKeyType_access.htm" />
     <HelpKINode Title="DriveEncryptionCapabilityType.access Property " Url="html/P_SolidFire_Element_Api_DriveEncryptionCapabilityType_access.htm" />
     <HelpKINode Title="FipsDrivesStatusType.access Property " Url="html/P_SolidFire_Element_Api_FipsDrivesStatusType_access.htm" />
     <HelpKINode Title="MaintenanceMode.access Property " Url="html/P_SolidFire_Element_Api_MaintenanceMode_access.htm" />
+    <HelpKINode Title="ProposedNodeErrorCode.access Property " Url="html/P_SolidFire_Element_Api_ProposedNodeErrorCode_access.htm" />
     <HelpKINode Title="ProtectionDomainType.access Property " Url="html/P_SolidFire_Element_Api_ProtectionDomainType_access.htm" />
-    <HelpKINode Title="ProtectionScheme.access Property " Url="html/P_SolidFire_Element_Api_ProtectionScheme_access.htm" />
     <HelpKINode Title="ProtectionSchemeCategory.access Property " Url="html/P_SolidFire_Element_Api_ProtectionSchemeCategory_access.htm" />
-    <HelpKINode Title="VolumeAccess.access Property " Url="html/P_SolidFire_Element_Api_VolumeAccess_access.htm" />
-    <HelpKINode Title="ProtectionSchemeVisibility.access Property " Url="html/P_SolidFire_Element_Api_ProtectionSchemeVisibility_access.htm" />
     <HelpKINode Title="RemoteClusterSnapshotStatus.access Property " Url="html/P_SolidFire_Element_Api_RemoteClusterSnapshotStatus_access.htm" />
+    <HelpKINode Title="SearRekeyMasterKeyState.access Property " Url="html/P_SolidFire_Element_Api_SearRekeyMasterKeyState_access.htm" />
+    <HelpKINode Title="VolumeAccess.access Property " Url="html/P_SolidFire_Element_Api_VolumeAccess_access.htm" />
   </HelpKINode>
   <HelpKINode Title="AccessGroupList property" Url="html/P_SolidFire_Element_Api_AuthSessionInfo_AccessGroupList.htm" />
   <HelpKINode Title="Account class">
@@ -608,6 +610,7 @@
     <HelpKINode Title="GetAsyncResultRequest.AsyncHandle Property " Url="html/P_SolidFire_Element_Api_GetAsyncResultRequest_AsyncHandle.htm" />
     <HelpKINode Title="MaintenanceModeResult.AsyncHandle Property " Url="html/P_SolidFire_Element_Api_MaintenanceModeResult_AsyncHandle.htm" />
     <HelpKINode Title="PendingActiveNode.AsyncHandle Property " Url="html/P_SolidFire_Element_Api_PendingActiveNode_AsyncHandle.htm" />
+    <HelpKINode Title="RekeySoftwareEncryptionAtRestMasterKeyResult.AsyncHandle Property " Url="html/P_SolidFire_Element_Api_RekeySoftwareEncryptionAtRestMasterKeyResult_AsyncHandle.htm" />
     <HelpKINode Title="SetClusterStructureResult.AsyncHandle Property " Url="html/P_SolidFire_Element_Api_SetClusterStructureResult_AsyncHandle.htm" />
     <HelpKINode Title="StartBulkVolumeReadResult.AsyncHandle Property " Url="html/P_SolidFire_Element_Api_StartBulkVolumeReadResult_AsyncHandle.htm" />
     <HelpKINode Title="StartBulkVolumeWriteResult.AsyncHandle Property " Url="html/P_SolidFire_Element_Api_StartBulkVolumeWriteResult_AsyncHandle.htm" />
@@ -703,6 +706,8 @@
   </HelpKINode>
   <HelpKINode Title="AuthConfigType.access property" Url="html/P_SolidFire_Element_Api_AuthConfigType_access.htm" />
   <HelpKINode Title="AuthConfigType.AuthConfigType constructor" Url="html/M_SolidFire_Element_Api_AuthConfigType__ctor.htm" />
+  <HelpKINode Title="Authentication property" Url="html/P_SolidFire_Element_Api_ISCSISession_Authentication.htm" />
+  <HelpKINode Title="AuthenticationKeyInfo property" Url="html/P_SolidFire_Element_Api_GetEncryptionAtRestInfoResult_AuthenticationKeyInfo.htm" />
   <HelpKINode Title="AuthMethod class">
     <HelpKINode Title="AuthMethod Class" Url="html/T_SolidFire_Element_Api_AuthMethod.htm" />
     <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_AuthMethod__ctor.htm" />
@@ -713,6 +718,7 @@
     <HelpKINode Title="AuthSessionInfo.AuthMethod Property " Url="html/P_SolidFire_Element_Api_AuthSessionInfo_AuthMethod.htm" />
     <HelpKINode Title="ClusterAdmin.AuthMethod Property " Url="html/P_SolidFire_Element_Api_ClusterAdmin_AuthMethod.htm" />
     <HelpKINode Title="DeleteAuthSessionsByUsernameRequest.AuthMethod Property " Url="html/P_SolidFire_Element_Api_DeleteAuthSessionsByUsernameRequest_AuthMethod.htm" />
+    <HelpKINode Title="ISCSIAuthentication.AuthMethod Property " Url="html/P_SolidFire_Element_Api_ISCSIAuthentication_AuthMethod.htm" />
     <HelpKINode Title="ListAuthSessionsByUsernameRequest.AuthMethod Property " Url="html/P_SolidFire_Element_Api_ListAuthSessionsByUsernameRequest_AuthMethod.htm" />
   </HelpKINode>
   <HelpKINode Title="AuthMethod.access property" Url="html/P_SolidFire_Element_Api_AuthMethod_access.htm" />
@@ -1068,6 +1074,7 @@
     <HelpKINode Title="SetNodeSSLCertificateRequest.Certificate Property " Url="html/P_SolidFire_Element_Api_SetNodeSSLCertificateRequest_Certificate.htm" />
     <HelpKINode Title="SetSSLCertificateRequest.Certificate Property " Url="html/P_SolidFire_Element_Api_SetSSLCertificateRequest_Certificate.htm" />
   </HelpKINode>
+  <HelpKINode Title="ChapAlgorithm property" Url="html/P_SolidFire_Element_Api_ISCSIAuthentication_ChapAlgorithm.htm" />
   <HelpKINode Title="CHAPSecret class">
     <HelpKINode Title="CHAPSecret Class" Url="html/T_SolidFire_Element_Api_CHAPSecret.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_SolidFire_Element_Api_CHAPSecret__ctor.htm" />
@@ -1092,6 +1099,7 @@
   <HelpKINode Title="ChapUsername property">
     <HelpKINode Title="CreateInitiator.ChapUsername Property " Url="html/P_SolidFire_Element_Api_CreateInitiator_ChapUsername.htm" />
     <HelpKINode Title="Initiator.ChapUsername Property " Url="html/P_SolidFire_Element_Api_Initiator_ChapUsername.htm" />
+    <HelpKINode Title="ISCSIAuthentication.ChapUsername Property " Url="html/P_SolidFire_Element_Api_ISCSIAuthentication_ChapUsername.htm" />
     <HelpKINode Title="ModifyInitiator.ChapUsername Property " Url="html/P_SolidFire_Element_Api_ModifyInitiator_ChapUsername.htm" />
   </HelpKINode>
   <HelpKINode Title="ChassisName property">
@@ -1539,6 +1547,7 @@
   <HelpKINode Title="ClusterVersionInfo.NodeInternalRevision property" Url="html/P_SolidFire_Element_Api_ClusterVersionInfo_NodeInternalRevision.htm" />
   <HelpKINode Title="ClusterVersionInfo.NodeVersion property" Url="html/P_SolidFire_Element_Api_ClusterVersionInfo_NodeVersion.htm" />
   <HelpKINode Title="Code property" Url="html/P_SolidFire_Element_Api_ClusterFaultInfo_Code.htm" />
+  <HelpKINode Title="Collisions property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_Collisions.htm" />
   <HelpKINode Title="Comment property" Url="html/P_SolidFire_Element_Api_SnapMirrorPolicy_Comment.htm" />
   <HelpKINode Title="CommonName property" Url="html/P_SolidFire_Element_Api_CreatePublicPrivateKeyPairRequest_CommonName.htm" />
   <HelpKINode Title="Community property">
@@ -1816,6 +1825,8 @@
   <HelpKINode Title="CreateGroupSnapshotRequest.Attributes property" Url="html/P_SolidFire_Element_Api_CreateGroupSnapshotRequest_Attributes.htm" />
   <HelpKINode Title="CreateGroupSnapshotRequest.CreateGroupSnapshotRequest constructor" Url="html/M_SolidFire_Element_Api_CreateGroupSnapshotRequest__ctor.htm" />
   <HelpKINode Title="CreateGroupSnapshotRequest.EnableRemoteReplication property" Url="html/P_SolidFire_Element_Api_CreateGroupSnapshotRequest_EnableRemoteReplication.htm" />
+  <HelpKINode Title="CreateGroupSnapshotRequest.EnsureSerialCreation property" Url="html/P_SolidFire_Element_Api_CreateGroupSnapshotRequest_EnsureSerialCreation.htm" />
+  <HelpKINode Title="CreateGroupSnapshotRequest.ExpirationTime property" Url="html/P_SolidFire_Element_Api_CreateGroupSnapshotRequest_ExpirationTime.htm" />
   <HelpKINode Title="CreateGroupSnapshotRequest.Name property" Url="html/P_SolidFire_Element_Api_CreateGroupSnapshotRequest_Name.htm" />
   <HelpKINode Title="CreateGroupSnapshotRequest.Retention property" Url="html/P_SolidFire_Element_Api_CreateGroupSnapshotRequest_Retention.htm" />
   <HelpKINode Title="CreateGroupSnapshotRequest.SnapMirrorLabel property" Url="html/P_SolidFire_Element_Api_CreateGroupSnapshotRequest_SnapMirrorLabel.htm" />
@@ -2145,6 +2156,8 @@
   <HelpKINode Title="CreateSnapshotRequest.Attributes property" Url="html/P_SolidFire_Element_Api_CreateSnapshotRequest_Attributes.htm" />
   <HelpKINode Title="CreateSnapshotRequest.CreateSnapshotRequest constructor" Url="html/M_SolidFire_Element_Api_CreateSnapshotRequest__ctor.htm" />
   <HelpKINode Title="CreateSnapshotRequest.EnableRemoteReplication property" Url="html/P_SolidFire_Element_Api_CreateSnapshotRequest_EnableRemoteReplication.htm" />
+  <HelpKINode Title="CreateSnapshotRequest.EnsureSerialCreation property" Url="html/P_SolidFire_Element_Api_CreateSnapshotRequest_EnsureSerialCreation.htm" />
+  <HelpKINode Title="CreateSnapshotRequest.ExpirationTime property" Url="html/P_SolidFire_Element_Api_CreateSnapshotRequest_ExpirationTime.htm" />
   <HelpKINode Title="CreateSnapshotRequest.Name property" Url="html/P_SolidFire_Element_Api_CreateSnapshotRequest_Name.htm" />
   <HelpKINode Title="CreateSnapshotRequest.Retention property" Url="html/P_SolidFire_Element_Api_CreateSnapshotRequest_Retention.htm" />
   <HelpKINode Title="CreateSnapshotRequest.SnapMirrorLabel property" Url="html/P_SolidFire_Element_Api_CreateSnapshotRequest_SnapMirrorLabel.htm" />
@@ -2274,6 +2287,8 @@
   <HelpKINode Title="CreateVolumeRequest.CreateVolumeRequest constructor" Url="html/M_SolidFire_Element_Api_CreateVolumeRequest__ctor.htm" />
   <HelpKINode Title="CreateVolumeRequest.Enable512e property" Url="html/P_SolidFire_Element_Api_CreateVolumeRequest_Enable512e.htm" />
   <HelpKINode Title="CreateVolumeRequest.EnableSnapMirrorReplication property" Url="html/P_SolidFire_Element_Api_CreateVolumeRequest_EnableSnapMirrorReplication.htm" />
+  <HelpKINode Title="CreateVolumeRequest.FifoSize property" Url="html/P_SolidFire_Element_Api_CreateVolumeRequest_FifoSize.htm" />
+  <HelpKINode Title="CreateVolumeRequest.MinFifoSize property" Url="html/P_SolidFire_Element_Api_CreateVolumeRequest_MinFifoSize.htm" />
   <HelpKINode Title="CreateVolumeRequest.Name property" Url="html/P_SolidFire_Element_Api_CreateVolumeRequest_Name.htm" />
   <HelpKINode Title="CreateVolumeRequest.ProtectionScheme property" Url="html/P_SolidFire_Element_Api_CreateVolumeRequest_ProtectionScheme.htm" />
   <HelpKINode Title="CreateVolumeRequest.Qos property" Url="html/P_SolidFire_Element_Api_CreateVolumeRequest_Qos.htm" />
@@ -2290,6 +2305,14 @@
   <HelpKINode Title="CreateVolumeResult.Volume property" Url="html/P_SolidFire_Element_Api_CreateVolumeResult_Volume.htm" />
   <HelpKINode Title="CreateVolumeResult.VolumeID property" Url="html/P_SolidFire_Element_Api_CreateVolumeResult_VolumeID.htm" />
   <HelpKINode Title="CreationTimestamp property" Url="html/P_SolidFire_Element_Api_SnapMirrorLunInfo_CreationTimestamp.htm" />
+  <HelpKINode Title="CryptoKeyType class">
+    <HelpKINode Title="CryptoKeyType Class" Url="html/T_SolidFire_Element_Api_CryptoKeyType.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_CryptoKeyType__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_CryptoKeyType.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_CryptoKeyType.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CryptoKeyType.access property" Url="html/P_SolidFire_Element_Api_CryptoKeyType_access.htm" />
+  <HelpKINode Title="CryptoKeyType.CryptoKeyType constructor" Url="html/M_SolidFire_Element_Api_CryptoKeyType__ctor.htm" />
   <HelpKINode Title="CurrentBytes property" Url="html/P_SolidFire_Element_Api_SyncJob_CurrentBytes.htm" />
   <HelpKINode Title="CurrentIOPS property" Url="html/P_SolidFire_Element_Api_ClusterCapacity_CurrentIOPS.htm" />
   <HelpKINode Title="CurrentMaxTransferRate property" Url="html/P_SolidFire_Element_Api_SnapMirrorRelationship_CurrentMaxTransferRate.htm" />
@@ -2847,11 +2870,11 @@
     <HelpKINode Title="DriveHardware.Dev Property " Url="html/P_SolidFire_Element_Api_DriveHardware_Dev.htm" />
     <HelpKINode Title="DriveHardwareInfo.Dev Property " Url="html/P_SolidFire_Element_Api_DriveHardwareInfo_Dev.htm" />
   </HelpKINode>
-  <HelpKINode Title="Devpath property" Url="html/P_SolidFire_Element_Api_DriveHardwareInfo_Devpath.htm" />
   <HelpKINode Title="DevPath property">
     <HelpKINode Title="DriveConfigInfo.DevPath Property " Url="html/P_SolidFire_Element_Api_DriveConfigInfo_DevPath.htm" />
     <HelpKINode Title="DriveHardware.DevPath Property " Url="html/P_SolidFire_Element_Api_DriveHardware_DevPath.htm" />
   </HelpKINode>
+  <HelpKINode Title="Devpath property" Url="html/P_SolidFire_Element_Api_DriveHardwareInfo_Devpath.htm" />
   <HelpKINode Title="DictionaryHashtableConverter class">
     <HelpKINode Title="DictionaryHashtableConverter Class" Url="html/T_SolidFire_Core_Converters_DictionaryHashtableConverter.htm" />
     <HelpKINode Title="constructor" Url="html/M_SolidFire_Core_Converters_DictionaryHashtableConverter__ctor.htm" />
@@ -2862,6 +2885,7 @@
   <HelpKINode Title="DictionaryHashtableConverter.DictionaryHashtableConverter constructor" Url="html/M_SolidFire_Core_Converters_DictionaryHashtableConverter__ctor.htm" />
   <HelpKINode Title="DictionaryHashtableConverter.ReadJson method" Url="html/M_SolidFire_Core_Converters_DictionaryHashtableConverter_ReadJson.htm" />
   <HelpKINode Title="DictionaryHashtableConverter.WriteJson method" Url="html/M_SolidFire_Core_Converters_DictionaryHashtableConverter_WriteJson.htm" />
+  <HelpKINode Title="Direction property" Url="html/P_SolidFire_Element_Api_ISCSIAuthentication_Direction.htm" />
   <HelpKINode Title="DisableBmcColdReset method">
     <HelpKINode Title="ISolidFireElement.DisableBmcColdReset Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_DisableBmcColdReset.htm" />
     <HelpKINode Title="SolidFireElement.DisableBmcColdReset Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_DisableBmcColdReset.htm" />
@@ -3547,6 +3571,17 @@
   <HelpKINode Title="EnableSshResult.EnableSshResult constructor" Url="html/M_SolidFire_Element_Api_EnableSshResult__ctor.htm" />
   <HelpKINode Title="EncryptionAtRestState property" Url="html/P_SolidFire_Element_Api_ClusterInfo_EncryptionAtRestState.htm" />
   <HelpKINode Title="EncryptionCapable property" Url="html/P_SolidFire_Element_Api_ClusterConfig_EncryptionCapable.htm" />
+  <HelpKINode Title="EncryptionKeyInfo class">
+    <HelpKINode Title="EncryptionKeyInfo Class" Url="html/T_SolidFire_Element_Api_EncryptionKeyInfo.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_EncryptionKeyInfo__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_EncryptionKeyInfo.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_EncryptionKeyInfo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EncryptionKeyInfo.EncryptionKeyInfo constructor" Url="html/M_SolidFire_Element_Api_EncryptionKeyInfo__ctor.htm" />
+  <HelpKINode Title="EncryptionKeyInfo.KeyCreatedTime property" Url="html/P_SolidFire_Element_Api_EncryptionKeyInfo_KeyCreatedTime.htm" />
+  <HelpKINode Title="EncryptionKeyInfo.KeyID property" Url="html/P_SolidFire_Element_Api_EncryptionKeyInfo_KeyID.htm" />
+  <HelpKINode Title="EncryptionKeyInfo.KeyManagementType property" Url="html/P_SolidFire_Element_Api_EncryptionKeyInfo_KeyManagementType.htm" />
+  <HelpKINode Title="EncryptionKeyInfo.KeyProviderID property" Url="html/P_SolidFire_Element_Api_EncryptionKeyInfo_KeyProviderID.htm" />
   <HelpKINode Title="EndEventID property" Url="html/P_SolidFire_Element_Api_ListEventsRequest_EndEventID.htm" />
   <HelpKINode Title="EndPublishTime property" Url="html/P_SolidFire_Element_Api_ListEventsRequest_EndPublishTime.htm" />
   <HelpKINode Title="EndReportTime property" Url="html/P_SolidFire_Element_Api_ListEventsRequest_EndReportTime.htm" />
@@ -3556,6 +3591,10 @@
     <HelpKINode Title="TestConnectEnsembleRequest.Ensemble Property " Url="html/P_SolidFire_Element_Api_TestConnectEnsembleRequest_Ensemble.htm" />
   </HelpKINode>
   <HelpKINode Title="EnsureArgumentNotNull method" Url="html/M_SolidFire_Core_Extenstions_EnsureArgumentNotNull.htm" />
+  <HelpKINode Title="EnsureSerialCreation property">
+    <HelpKINode Title="CreateGroupSnapshotRequest.EnsureSerialCreation Property " Url="html/P_SolidFire_Element_Api_CreateGroupSnapshotRequest_EnsureSerialCreation.htm" />
+    <HelpKINode Title="CreateSnapshotRequest.EnsureSerialCreation Property " Url="html/P_SolidFire_Element_Api_CreateSnapshotRequest_EnsureSerialCreation.htm" />
+  </HelpKINode>
   <HelpKINode Title="Error property">
     <HelpKINode Title="FipsErrorNodeReportType.Error Property " Url="html/P_SolidFire_Element_Api_FipsErrorNodeReportType_Error.htm" />
     <HelpKINode Title="JsonRpcResponse(T).Error Property " Url="html/P_SolidFire_Core_JsonRpcResponse_1_Error.htm" />
@@ -3620,6 +3659,8 @@
   <HelpKINode Title="EventType property" Url="html/P_SolidFire_Element_Api_ListEventsRequest_EventType.htm" />
   <HelpKINode Title="ExpirationReason property" Url="html/P_SolidFire_Element_Api_Snapshot_ExpirationReason.htm" />
   <HelpKINode Title="ExpirationTime property">
+    <HelpKINode Title="CreateGroupSnapshotRequest.ExpirationTime Property " Url="html/P_SolidFire_Element_Api_CreateGroupSnapshotRequest_ExpirationTime.htm" />
+    <HelpKINode Title="CreateSnapshotRequest.ExpirationTime Property " Url="html/P_SolidFire_Element_Api_CreateSnapshotRequest_ExpirationTime.htm" />
     <HelpKINode Title="ModifyGroupSnapshotRequest.ExpirationTime Property " Url="html/P_SolidFire_Element_Api_ModifyGroupSnapshotRequest_ExpirationTime.htm" />
     <HelpKINode Title="ModifySnapshotRequest.ExpirationTime Property " Url="html/P_SolidFire_Element_Api_ModifySnapshotRequest_ExpirationTime.htm" />
     <HelpKINode Title="Snapshot.ExpirationTime Property " Url="html/P_SolidFire_Element_Api_Snapshot_ExpirationTime.htm" />
@@ -3721,6 +3762,12 @@
   <HelpKINode Title="FibreChannelSession.VolumeAccessGroupID property" Url="html/P_SolidFire_Element_Api_FibreChannelSession_VolumeAccessGroupID.htm" />
   <HelpKINode Title="FibreChannelTargetPortGroup property" Url="html/P_SolidFire_Element_Api_Node_FibreChannelTargetPortGroup.htm" />
   <HelpKINode Title="FibreChannelVolumeAccessMax property" Url="html/P_SolidFire_Element_Api_GetLimitsResult_FibreChannelVolumeAccessMax.htm" />
+  <HelpKINode Title="FifoSize property">
+    <HelpKINode Title="CreateVolumeRequest.FifoSize Property " Url="html/P_SolidFire_Element_Api_CreateVolumeRequest_FifoSize.htm" />
+    <HelpKINode Title="ModifyVolumeRequest.FifoSize Property " Url="html/P_SolidFire_Element_Api_ModifyVolumeRequest_FifoSize.htm" />
+    <HelpKINode Title="ModifyVolumesRequest.FifoSize Property " Url="html/P_SolidFire_Element_Api_ModifyVolumesRequest_FifoSize.htm" />
+    <HelpKINode Title="Volume.FifoSize Property " Url="html/P_SolidFire_Element_Api_Volume_FifoSize.htm" />
+  </HelpKINode>
   <HelpKINode Title="Files property" Url="html/P_SolidFire_Element_Api_SupportBundleDetails_Files.htm" />
   <HelpKINode Title="FinalTimeout property" Url="html/P_SolidFire_Element_Api_AuthSessionInfo_FinalTimeout.htm" />
   <HelpKINode Title="FipsDriveConfiguration property" Url="html/P_SolidFire_Element_Api_ClusterConfig_FipsDriveConfiguration.htm" />
@@ -3770,6 +3817,7 @@
     <HelpKINode Title="ControlPowerRequest.Force Property " Url="html/P_SolidFire_Element_Api_ControlPowerRequest_Force.htm" />
     <HelpKINode Title="GetClusterStateRequest.Force Property " Url="html/P_SolidFire_Element_Api_GetClusterStateRequest_Force.htm" />
     <HelpKINode Title="GetNvramInfoRequest.Force Property " Url="html/P_SolidFire_Element_Api_GetNvramInfoRequest_Force.htm" />
+    <HelpKINode Title="GetPatchInfoRequest.Force Property " Url="html/P_SolidFire_Element_Api_GetPatchInfoRequest_Force.htm" />
     <HelpKINode Title="ListDriveHardwareRequest.Force Property " Url="html/P_SolidFire_Element_Api_ListDriveHardwareRequest_Force.htm" />
     <HelpKINode Title="ResetDrivesRequest.Force Property " Url="html/P_SolidFire_Element_Api_ResetDrivesRequest_Force.htm" />
     <HelpKINode Title="ResetNodeRequest.Force Property " Url="html/P_SolidFire_Element_Api_ResetNodeRequest_Force.htm" />
@@ -4380,6 +4428,23 @@
   <HelpKINode Title="GetEfficiencyResult.MissingVolumes property" Url="html/P_SolidFire_Element_Api_GetEfficiencyResult_MissingVolumes.htm" />
   <HelpKINode Title="GetEfficiencyResult.ThinProvisioning property" Url="html/P_SolidFire_Element_Api_GetEfficiencyResult_ThinProvisioning.htm" />
   <HelpKINode Title="GetEfficiencyResult.Timestamp property" Url="html/P_SolidFire_Element_Api_GetEfficiencyResult_Timestamp.htm" />
+  <HelpKINode Title="GetEncryptionAtRestInfo method">
+    <HelpKINode Title="ISolidFireElement.GetEncryptionAtRestInfo Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetEncryptionAtRestInfo.htm" />
+    <HelpKINode Title="SolidFireElement.GetEncryptionAtRestInfo Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_GetEncryptionAtRestInfo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetEncryptionAtRestInfoAsync method">
+    <HelpKINode Title="ISolidFireElement.GetEncryptionAtRestInfoAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetEncryptionAtRestInfoAsync.htm" />
+    <HelpKINode Title="SolidFireElement.GetEncryptionAtRestInfoAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_GetEncryptionAtRestInfoAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetEncryptionAtRestInfoResult class">
+    <HelpKINode Title="GetEncryptionAtRestInfoResult Class" Url="html/T_SolidFire_Element_Api_GetEncryptionAtRestInfoResult.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_GetEncryptionAtRestInfoResult__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_GetEncryptionAtRestInfoResult.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_GetEncryptionAtRestInfoResult.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetEncryptionAtRestInfoResult.AuthenticationKeyInfo property" Url="html/P_SolidFire_Element_Api_GetEncryptionAtRestInfoResult_AuthenticationKeyInfo.htm" />
+  <HelpKINode Title="GetEncryptionAtRestInfoResult.GetEncryptionAtRestInfoResult constructor" Url="html/M_SolidFire_Element_Api_GetEncryptionAtRestInfoResult__ctor.htm" />
+  <HelpKINode Title="GetEncryptionAtRestInfoResult.State property" Url="html/P_SolidFire_Element_Api_GetEncryptionAtRestInfoResult_State.htm" />
   <HelpKINode Title="GetFeatureStatus method">
     <HelpKINode Title="ISolidFireElement.GetFeatureStatus Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetFeatureStatus.htm" />
     <HelpKINode Title="SolidFireElement.GetFeatureStatus Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetFeatureStatus.htm" />
@@ -4935,6 +5000,30 @@
   </HelpKINode>
   <HelpKINode Title="GetOriginResult.GetOriginResult constructor" Url="html/M_SolidFire_Element_Api_GetOriginResult__ctor.htm" />
   <HelpKINode Title="GetOriginResult.Nodes property" Url="html/P_SolidFire_Element_Api_GetOriginResult_Nodes.htm" />
+  <HelpKINode Title="GetPatchInfo method">
+    <HelpKINode Title="ISolidFireElement.GetPatchInfo Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetPatchInfo.htm" />
+    <HelpKINode Title="SolidFireElement.GetPatchInfo Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetPatchInfo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetPatchInfoAsync method">
+    <HelpKINode Title="ISolidFireElement.GetPatchInfoAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetPatchInfoAsync.htm" />
+    <HelpKINode Title="SolidFireElement.GetPatchInfoAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetPatchInfoAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetPatchInfoRequest class">
+    <HelpKINode Title="GetPatchInfoRequest Class" Url="html/T_SolidFire_Element_Api_GetPatchInfoRequest.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_GetPatchInfoRequest__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_GetPatchInfoRequest.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_GetPatchInfoRequest.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetPatchInfoRequest.Force property" Url="html/P_SolidFire_Element_Api_GetPatchInfoRequest_Force.htm" />
+  <HelpKINode Title="GetPatchInfoRequest.GetPatchInfoRequest constructor" Url="html/M_SolidFire_Element_Api_GetPatchInfoRequest__ctor.htm" />
+  <HelpKINode Title="GetPatchInfoResult class">
+    <HelpKINode Title="GetPatchInfoResult Class" Url="html/T_SolidFire_Element_Api_GetPatchInfoResult.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_GetPatchInfoResult__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_GetPatchInfoResult.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_GetPatchInfoResult.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetPatchInfoResult.GetPatchInfoResult constructor" Url="html/M_SolidFire_Element_Api_GetPatchInfoResult__ctor.htm" />
+  <HelpKINode Title="GetPatchInfoResult.Patches property" Url="html/P_SolidFire_Element_Api_GetPatchInfoResult_Patches.htm" />
   <HelpKINode Title="GetPendingOperation method">
     <HelpKINode Title="ISolidFireElement.GetPendingOperation Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetPendingOperation.htm" />
     <HelpKINode Title="SolidFireElement.GetPendingOperation Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_GetPendingOperation.htm" />
@@ -5144,6 +5233,25 @@
   <HelpKINode Title="GetSnmpTrapInfoResult.ClusterFaultTrapsEnabled property" Url="html/P_SolidFire_Element_Api_GetSnmpTrapInfoResult_ClusterFaultTrapsEnabled.htm" />
   <HelpKINode Title="GetSnmpTrapInfoResult.GetSnmpTrapInfoResult constructor" Url="html/M_SolidFire_Element_Api_GetSnmpTrapInfoResult__ctor.htm" />
   <HelpKINode Title="GetSnmpTrapInfoResult.TrapRecipients property" Url="html/P_SolidFire_Element_Api_GetSnmpTrapInfoResult_TrapRecipients.htm" />
+  <HelpKINode Title="GetSoftwareEncryptionAtRestInfo method">
+    <HelpKINode Title="ISolidFireElement.GetSoftwareEncryptionAtRestInfo Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetSoftwareEncryptionAtRestInfo.htm" />
+    <HelpKINode Title="SolidFireElement.GetSoftwareEncryptionAtRestInfo Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_GetSoftwareEncryptionAtRestInfo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetSoftwareEncryptionAtRestInfoAsync method">
+    <HelpKINode Title="ISolidFireElement.GetSoftwareEncryptionAtRestInfoAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetSoftwareEncryptionAtRestInfoAsync.htm" />
+    <HelpKINode Title="SolidFireElement.GetSoftwareEncryptionAtRestInfoAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_GetSoftwareEncryptionAtRestInfoAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetSoftwareEncryptionAtRestInfoResult class">
+    <HelpKINode Title="GetSoftwareEncryptionAtRestInfoResult Class" Url="html/T_SolidFire_Element_Api_GetSoftwareEncryptionAtRestInfoResult.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_GetSoftwareEncryptionAtRestInfoResult__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_GetSoftwareEncryptionAtRestInfoResult.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_GetSoftwareEncryptionAtRestInfoResult.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetSoftwareEncryptionAtRestInfoResult.GetSoftwareEncryptionAtRestInfoResult constructor" Url="html/M_SolidFire_Element_Api_GetSoftwareEncryptionAtRestInfoResult__ctor.htm" />
+  <HelpKINode Title="GetSoftwareEncryptionAtRestInfoResult.MasterKeyInfo property" Url="html/P_SolidFire_Element_Api_GetSoftwareEncryptionAtRestInfoResult_MasterKeyInfo.htm" />
+  <HelpKINode Title="GetSoftwareEncryptionAtRestInfoResult.RekeyMasterKeyAsyncResultID property" Url="html/P_SolidFire_Element_Api_GetSoftwareEncryptionAtRestInfoResult_RekeyMasterKeyAsyncResultID.htm" />
+  <HelpKINode Title="GetSoftwareEncryptionAtRestInfoResult.State property" Url="html/P_SolidFire_Element_Api_GetSoftwareEncryptionAtRestInfoResult_State.htm" />
+  <HelpKINode Title="GetSoftwareEncryptionAtRestInfoResult.Version property" Url="html/P_SolidFire_Element_Api_GetSoftwareEncryptionAtRestInfoResult_Version.htm" />
   <HelpKINode Title="GetSshInfo method">
     <HelpKINode Title="ISolidFireElement.GetSshInfo Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetSshInfo.htm" />
     <HelpKINode Title="SolidFireElement.GetSshInfo Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_GetSshInfo.htm" />
@@ -5715,6 +5823,17 @@
   <HelpKINode Title="IsBalanced property" Url="html/P_SolidFire_Element_Api_BinAssignmentProperties_IsBalanced.htm" />
   <HelpKINode Title="IsConnected property" Url="html/P_SolidFire_Element_Api_SnapMirrorEndpoint_IsConnected.htm" />
   <HelpKINode Title="IsConnectionCompatible method" Url="html/M_SolidFire_Core_Utilities_IsConnectionCompatible.htm" />
+  <HelpKINode Title="ISCSIAuthentication class">
+    <HelpKINode Title="ISCSIAuthentication Class" Url="html/T_SolidFire_Element_Api_ISCSIAuthentication.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_ISCSIAuthentication__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_ISCSIAuthentication.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_ISCSIAuthentication.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ISCSIAuthentication.AuthMethod property" Url="html/P_SolidFire_Element_Api_ISCSIAuthentication_AuthMethod.htm" />
+  <HelpKINode Title="ISCSIAuthentication.ChapAlgorithm property" Url="html/P_SolidFire_Element_Api_ISCSIAuthentication_ChapAlgorithm.htm" />
+  <HelpKINode Title="ISCSIAuthentication.ChapUsername property" Url="html/P_SolidFire_Element_Api_ISCSIAuthentication_ChapUsername.htm" />
+  <HelpKINode Title="ISCSIAuthentication.Direction property" Url="html/P_SolidFire_Element_Api_ISCSIAuthentication_Direction.htm" />
+  <HelpKINode Title="ISCSIAuthentication.ISCSIAuthentication constructor" Url="html/M_SolidFire_Element_Api_ISCSIAuthentication__ctor.htm" />
   <HelpKINode Title="IscsiPort property" Url="html/P_SolidFire_Element_Api_Service_IscsiPort.htm" />
   <HelpKINode Title="ISCSISession class">
     <HelpKINode Title="ISCSISession Class" Url="html/T_SolidFire_Element_Api_ISCSISession.htm" />
@@ -5724,6 +5843,7 @@
   </HelpKINode>
   <HelpKINode Title="ISCSISession.AccountID property" Url="html/P_SolidFire_Element_Api_ISCSISession_AccountID.htm" />
   <HelpKINode Title="ISCSISession.AccountName property" Url="html/P_SolidFire_Element_Api_ISCSISession_AccountName.htm" />
+  <HelpKINode Title="ISCSISession.Authentication property" Url="html/P_SolidFire_Element_Api_ISCSISession_Authentication.htm" />
   <HelpKINode Title="ISCSISession.CreateTime property" Url="html/P_SolidFire_Element_Api_ISCSISession_CreateTime.htm" />
   <HelpKINode Title="ISCSISession.DriveID property" Url="html/P_SolidFire_Element_Api_ISCSISession_DriveID.htm" />
   <HelpKINode Title="ISCSISession.DriveIDs property" Url="html/P_SolidFire_Element_Api_ISCSISession_DriveIDs.htm" />
@@ -5970,6 +6090,8 @@
   <HelpKINode Title="ISolidFireElement.GetDriveHardwareInfoAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetDriveHardwareInfoAsync.htm" />
   <HelpKINode Title="ISolidFireElement.GetDriveStats method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetDriveStats.htm" />
   <HelpKINode Title="ISolidFireElement.GetDriveStatsAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetDriveStatsAsync.htm" />
+  <HelpKINode Title="ISolidFireElement.GetEncryptionAtRestInfo method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetEncryptionAtRestInfo.htm" />
+  <HelpKINode Title="ISolidFireElement.GetEncryptionAtRestInfoAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetEncryptionAtRestInfoAsync.htm" />
   <HelpKINode Title="ISolidFireElement.GetFeatureStatus method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetFeatureStatus.htm" />
   <HelpKINode Title="ISolidFireElement.GetFeatureStatusAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetFeatureStatusAsync.htm" />
   <HelpKINode Title="ISolidFireElement.GetFipsReport method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetFipsReport.htm" />
@@ -6022,6 +6144,8 @@
   <HelpKINode Title="ISolidFireElement.GetOntapVersionInfoAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetOntapVersionInfoAsync.htm" />
   <HelpKINode Title="ISolidFireElement.GetOrigin method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetOrigin.htm" />
   <HelpKINode Title="ISolidFireElement.GetOriginAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetOriginAsync.htm" />
+  <HelpKINode Title="ISolidFireElement.GetPatchInfo method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetPatchInfo.htm" />
+  <HelpKINode Title="ISolidFireElement.GetPatchInfoAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_GetPatchInfoAsync.htm" />
   <HelpKINode Title="ISolidFireElement.GetPendingOperation method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetPendingOperation.htm" />
   <HelpKINode Title="ISolidFireElement.GetPendingOperationAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetPendingOperationAsync.htm" />
   <HelpKINode Title="ISolidFireElement.GetProtectionDomainLayout method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetProtectionDomainLayout.htm" />
@@ -6044,6 +6168,8 @@
   <HelpKINode Title="ISolidFireElement.GetSnmpStateAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetSnmpStateAsync.htm" />
   <HelpKINode Title="ISolidFireElement.GetSnmpTrapInfo method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetSnmpTrapInfo.htm" />
   <HelpKINode Title="ISolidFireElement.GetSnmpTrapInfoAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetSnmpTrapInfoAsync.htm" />
+  <HelpKINode Title="ISolidFireElement.GetSoftwareEncryptionAtRestInfo method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetSoftwareEncryptionAtRestInfo.htm" />
+  <HelpKINode Title="ISolidFireElement.GetSoftwareEncryptionAtRestInfoAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetSoftwareEncryptionAtRestInfoAsync.htm" />
   <HelpKINode Title="ISolidFireElement.GetSshInfo method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetSshInfo.htm" />
   <HelpKINode Title="ISolidFireElement.GetSshInfoAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetSshInfoAsync.htm" />
   <HelpKINode Title="ISolidFireElement.GetSSLCertificate method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_GetSSLCertificate.htm" />
@@ -6128,6 +6254,8 @@
   <HelpKINode Title="ISolidFireElement.ListKeyServersKmipAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_ListKeyServersKmipAsync.htm" />
   <HelpKINode Title="ISolidFireElement.ListNetworkInterfaces method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListNetworkInterfaces.htm" />
   <HelpKINode Title="ISolidFireElement.ListNetworkInterfacesAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListNetworkInterfacesAsync.htm" />
+  <HelpKINode Title="ISolidFireElement.ListNetworkInterfaceStats method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListNetworkInterfaceStats.htm" />
+  <HelpKINode Title="ISolidFireElement.ListNetworkInterfaceStatsAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListNetworkInterfaceStatsAsync.htm" />
   <HelpKINode Title="ISolidFireElement.ListNodeFibreChannelPortInfo method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListNodeFibreChannelPortInfo.htm" />
   <HelpKINode Title="ISolidFireElement.ListNodeFibreChannelPortInfoAsync method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListNodeFibreChannelPortInfoAsync.htm" />
   <HelpKINode Title="ISolidFireElement.ListNodeStats method" Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListNodeStats.htm" />
@@ -6252,6 +6380,8 @@
   <HelpKINode Title="ISolidFireElement.PurgeDeletedVolumesAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_PurgeDeletedVolumesAsync.htm" />
   <HelpKINode Title="ISolidFireElement.QuiesceSnapMirrorRelationship method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_QuiesceSnapMirrorRelationship.htm" />
   <HelpKINode Title="ISolidFireElement.QuiesceSnapMirrorRelationshipAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_QuiesceSnapMirrorRelationshipAsync.htm" />
+  <HelpKINode Title="ISolidFireElement.RekeySoftwareEncryptionAtRestMasterKey method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_RekeySoftwareEncryptionAtRestMasterKey.htm" />
+  <HelpKINode Title="ISolidFireElement.RekeySoftwareEncryptionAtRestMasterKeyAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_RekeySoftwareEncryptionAtRestMasterKeyAsync.htm" />
   <HelpKINode Title="ISolidFireElement.RemoveAccount method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_RemoveAccount.htm" />
   <HelpKINode Title="ISolidFireElement.RemoveAccountAsync method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_RemoveAccountAsync.htm" />
   <HelpKINode Title="ISolidFireElement.RemoveBackupTarget method" Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_RemoveBackupTarget.htm" />
@@ -6432,9 +6562,15 @@
     <HelpKINode Title="StartBulkVolumeWriteResult.Key Property " Url="html/P_SolidFire_Element_Api_StartBulkVolumeWriteResult_Key.htm" />
     <HelpKINode Title="UpdateBulkVolumeStatusRequest.Key Property " Url="html/P_SolidFire_Element_Api_UpdateBulkVolumeStatusRequest_Key.htm" />
   </HelpKINode>
+  <HelpKINode Title="KeyCreatedTime property" Url="html/P_SolidFire_Element_Api_EncryptionKeyInfo_KeyCreatedTime.htm" />
   <HelpKINode Title="KeyID property">
     <HelpKINode Title="Drive.KeyID Property " Url="html/P_SolidFire_Element_Api_Drive_KeyID.htm" />
     <HelpKINode Title="DriveInfo.KeyID Property " Url="html/P_SolidFire_Element_Api_DriveInfo_KeyID.htm" />
+    <HelpKINode Title="EncryptionKeyInfo.KeyID Property " Url="html/P_SolidFire_Element_Api_EncryptionKeyInfo_KeyID.htm" />
+  </HelpKINode>
+  <HelpKINode Title="KeyManagementType property">
+    <HelpKINode Title="EncryptionKeyInfo.KeyManagementType Property " Url="html/P_SolidFire_Element_Api_EncryptionKeyInfo_KeyManagementType.htm" />
+    <HelpKINode Title="RekeySoftwareEncryptionAtRestMasterKeyRequest.KeyManagementType Property " Url="html/P_SolidFire_Element_Api_RekeySoftwareEncryptionAtRestMasterKeyRequest_KeyManagementType.htm" />
   </HelpKINode>
   <HelpKINode Title="KeyProviderID property">
     <HelpKINode Title="AddKeyServerToProviderKmipRequest.KeyProviderID Property " Url="html/P_SolidFire_Element_Api_AddKeyServerToProviderKmipRequest_KeyProviderID.htm" />
@@ -6442,10 +6578,12 @@
     <HelpKINode Title="Drive.KeyProviderID Property " Url="html/P_SolidFire_Element_Api_Drive_KeyProviderID.htm" />
     <HelpKINode Title="DriveInfo.KeyProviderID Property " Url="html/P_SolidFire_Element_Api_DriveInfo_KeyProviderID.htm" />
     <HelpKINode Title="EnableEncryptionAtRestRequest.KeyProviderID Property " Url="html/P_SolidFire_Element_Api_EnableEncryptionAtRestRequest_KeyProviderID.htm" />
+    <HelpKINode Title="EncryptionKeyInfo.KeyProviderID Property " Url="html/P_SolidFire_Element_Api_EncryptionKeyInfo_KeyProviderID.htm" />
     <HelpKINode Title="GetKeyProviderKmipRequest.KeyProviderID Property " Url="html/P_SolidFire_Element_Api_GetKeyProviderKmipRequest_KeyProviderID.htm" />
     <HelpKINode Title="KeyProviderKmip.KeyProviderID Property " Url="html/P_SolidFire_Element_Api_KeyProviderKmip_KeyProviderID.htm" />
     <HelpKINode Title="KeyServerKmip.KeyProviderID Property " Url="html/P_SolidFire_Element_Api_KeyServerKmip_KeyProviderID.htm" />
     <HelpKINode Title="ListKeyServersKmipRequest.KeyProviderID Property " Url="html/P_SolidFire_Element_Api_ListKeyServersKmipRequest_KeyProviderID.htm" />
+    <HelpKINode Title="RekeySoftwareEncryptionAtRestMasterKeyRequest.KeyProviderID Property " Url="html/P_SolidFire_Element_Api_RekeySoftwareEncryptionAtRestMasterKeyRequest_KeyProviderID.htm" />
     <HelpKINode Title="TestKeyProviderKmipRequest.KeyProviderID Property " Url="html/P_SolidFire_Element_Api_TestKeyProviderKmipRequest_KeyProviderID.htm" />
   </HelpKINode>
   <HelpKINode Title="KeyProviderIsActive property">
@@ -7212,6 +7350,22 @@
   </HelpKINode>
   <HelpKINode Title="ListNetworkInterfacesResult.Interfaces property" Url="html/P_SolidFire_Element_Api_ListNetworkInterfacesResult_Interfaces.htm" />
   <HelpKINode Title="ListNetworkInterfacesResult.ListNetworkInterfacesResult constructor" Url="html/M_SolidFire_Element_Api_ListNetworkInterfacesResult__ctor.htm" />
+  <HelpKINode Title="ListNetworkInterfaceStats method">
+    <HelpKINode Title="ISolidFireElement.ListNetworkInterfaceStats Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListNetworkInterfaceStats.htm" />
+    <HelpKINode Title="SolidFireElement.ListNetworkInterfaceStats Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_ListNetworkInterfaceStats.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ListNetworkInterfaceStatsAsync method">
+    <HelpKINode Title="ISolidFireElement.ListNetworkInterfaceStatsAsync Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListNetworkInterfaceStatsAsync.htm" />
+    <HelpKINode Title="SolidFireElement.ListNetworkInterfaceStatsAsync Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_ListNetworkInterfaceStatsAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ListNetworkInterfaceStatsResult class">
+    <HelpKINode Title="ListNetworkInterfaceStatsResult Class" Url="html/T_SolidFire_Element_Api_ListNetworkInterfaceStatsResult.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_ListNetworkInterfaceStatsResult__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_ListNetworkInterfaceStatsResult.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_ListNetworkInterfaceStatsResult.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ListNetworkInterfaceStatsResult.ListNetworkInterfaceStatsResult constructor" Url="html/M_SolidFire_Element_Api_ListNetworkInterfaceStatsResult__ctor.htm" />
+  <HelpKINode Title="ListNetworkInterfaceStatsResult.NetworkInterfaceStats property" Url="html/P_SolidFire_Element_Api_ListNetworkInterfaceStatsResult_NetworkInterfaceStats.htm" />
   <HelpKINode Title="ListNodeFibreChannelPortInfo method">
     <HelpKINode Title="ISolidFireElement.ListNodeFibreChannelPortInfo Method " Url="html/M_SolidFire_Element_Api_ISolidFireElement_ListNodeFibreChannelPortInfo.htm" />
     <HelpKINode Title="SolidFireElement.ListNodeFibreChannelPortInfo Method " Url="html/M_SolidFire_Element_Api_SolidFireElement_ListNodeFibreChannelPortInfo.htm" />
@@ -8186,6 +8340,7 @@
     <HelpKINode Title="SetNodeSupplementalTlsCiphersResult.MandatoryCiphers Property " Url="html/P_SolidFire_Element_Api_SetNodeSupplementalTlsCiphersResult_MandatoryCiphers.htm" />
     <HelpKINode Title="SetSupplementalTlsCiphersResult.MandatoryCiphers Property " Url="html/P_SolidFire_Element_Api_SetSupplementalTlsCiphersResult_MandatoryCiphers.htm" />
   </HelpKINode>
+  <HelpKINode Title="MasterKeyInfo property" Url="html/P_SolidFire_Element_Api_GetSoftwareEncryptionAtRestInfoResult_MasterKeyInfo.htm" />
   <HelpKINode Title="MaxEvents property" Url="html/P_SolidFire_Element_Api_ListEventsRequest_MaxEvents.htm" />
   <HelpKINode Title="MaxIOPS property">
     <HelpKINode Title="ClusterCapacity.MaxIOPS Property " Url="html/P_SolidFire_Element_Api_ClusterCapacity_MaxIOPS.htm" />
@@ -8257,6 +8412,12 @@
     <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Core_Exceptions_MethodNotFoundException.htm" />
   </HelpKINode>
   <HelpKINode Title="MethodNotFoundException.MethodNotFoundException constructor" Url="html/M_SolidFire_Core_Exceptions_MethodNotFoundException__ctor.htm" />
+  <HelpKINode Title="MinFifoSize property">
+    <HelpKINode Title="CreateVolumeRequest.MinFifoSize Property " Url="html/P_SolidFire_Element_Api_CreateVolumeRequest_MinFifoSize.htm" />
+    <HelpKINode Title="ModifyVolumeRequest.MinFifoSize Property " Url="html/P_SolidFire_Element_Api_ModifyVolumeRequest_MinFifoSize.htm" />
+    <HelpKINode Title="ModifyVolumesRequest.MinFifoSize Property " Url="html/P_SolidFire_Element_Api_ModifyVolumesRequest_MinFifoSize.htm" />
+    <HelpKINode Title="Volume.MinFifoSize Property " Url="html/P_SolidFire_Element_Api_Volume_MinFifoSize.htm" />
+  </HelpKINode>
   <HelpKINode Title="MinIOPS property">
     <HelpKINode Title="QoS.MinIOPS Property " Url="html/P_SolidFire_Element_Api_QoS_MinIOPS.htm" />
     <HelpKINode Title="SetDefaultQoSRequest.MinIOPS Property " Url="html/P_SolidFire_Element_Api_SetDefaultQoSRequest_MinIOPS.htm" />
@@ -8872,6 +9033,8 @@
   <HelpKINode Title="ModifyVolumeRequest.AssociateWithQoSPolicy property" Url="html/P_SolidFire_Element_Api_ModifyVolumeRequest_AssociateWithQoSPolicy.htm" />
   <HelpKINode Title="ModifyVolumeRequest.Attributes property" Url="html/P_SolidFire_Element_Api_ModifyVolumeRequest_Attributes.htm" />
   <HelpKINode Title="ModifyVolumeRequest.EnableSnapMirrorReplication property" Url="html/P_SolidFire_Element_Api_ModifyVolumeRequest_EnableSnapMirrorReplication.htm" />
+  <HelpKINode Title="ModifyVolumeRequest.FifoSize property" Url="html/P_SolidFire_Element_Api_ModifyVolumeRequest_FifoSize.htm" />
+  <HelpKINode Title="ModifyVolumeRequest.MinFifoSize property" Url="html/P_SolidFire_Element_Api_ModifyVolumeRequest_MinFifoSize.htm" />
   <HelpKINode Title="ModifyVolumeRequest.ModifyVolumeRequest constructor" Url="html/M_SolidFire_Element_Api_ModifyVolumeRequest__ctor.htm" />
   <HelpKINode Title="ModifyVolumeRequest.Qos property" Url="html/P_SolidFire_Element_Api_ModifyVolumeRequest_Qos.htm" />
   <HelpKINode Title="ModifyVolumeRequest.QosPolicyID property" Url="html/P_SolidFire_Element_Api_ModifyVolumeRequest_QosPolicyID.htm" />
@@ -8904,6 +9067,8 @@
   <HelpKINode Title="ModifyVolumesRequest.AssociateWithQoSPolicy property" Url="html/P_SolidFire_Element_Api_ModifyVolumesRequest_AssociateWithQoSPolicy.htm" />
   <HelpKINode Title="ModifyVolumesRequest.Attributes property" Url="html/P_SolidFire_Element_Api_ModifyVolumesRequest_Attributes.htm" />
   <HelpKINode Title="ModifyVolumesRequest.EnableSnapMirrorReplication property" Url="html/P_SolidFire_Element_Api_ModifyVolumesRequest_EnableSnapMirrorReplication.htm" />
+  <HelpKINode Title="ModifyVolumesRequest.FifoSize property" Url="html/P_SolidFire_Element_Api_ModifyVolumesRequest_FifoSize.htm" />
+  <HelpKINode Title="ModifyVolumesRequest.MinFifoSize property" Url="html/P_SolidFire_Element_Api_ModifyVolumesRequest_MinFifoSize.htm" />
   <HelpKINode Title="ModifyVolumesRequest.ModifyVolumesRequest constructor" Url="html/M_SolidFire_Element_Api_ModifyVolumesRequest__ctor.htm" />
   <HelpKINode Title="ModifyVolumesRequest.Qos property" Url="html/P_SolidFire_Element_Api_ModifyVolumesRequest_Qos.htm" />
   <HelpKINode Title="ModifyVolumesRequest.QosPolicyID property" Url="html/P_SolidFire_Element_Api_ModifyVolumesRequest_QosPolicyID.htm" />
@@ -8979,6 +9144,7 @@
     <HelpKINode Title="ModifyVirtualNetworkRequest.Name Property " Url="html/P_SolidFire_Element_Api_ModifyVirtualNetworkRequest_Name.htm" />
     <HelpKINode Title="ModifyVolumeAccessGroupRequest.Name Property " Url="html/P_SolidFire_Element_Api_ModifyVolumeAccessGroupRequest_Name.htm" />
     <HelpKINode Title="NetworkInterface.Name Property " Url="html/P_SolidFire_Element_Api_NetworkInterface_Name.htm" />
+    <HelpKINode Title="NetworkInterfaceStats.Name Property " Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_Name.htm" />
     <HelpKINode Title="Node.Name Property " Url="html/P_SolidFire_Element_Api_Node_Name.htm" />
     <HelpKINode Title="NodeWaitingToJoin.Name Property " Url="html/P_SolidFire_Element_Api_NodeWaitingToJoin_Name.htm" />
     <HelpKINode Title="PendingNode.Name Property " Url="html/P_SolidFire_Element_Api_PendingNode_Name.htm" />
@@ -9144,6 +9310,31 @@
   <HelpKINode Title="NetworkInterface.Type property" Url="html/P_SolidFire_Element_Api_NetworkInterface_Type.htm" />
   <HelpKINode Title="NetworkInterface.VirtualNetworkTag property" Url="html/P_SolidFire_Element_Api_NetworkInterface_VirtualNetworkTag.htm" />
   <HelpKINode Title="NetworkInterfaces property" Url="html/P_SolidFire_Element_Api_GetNetworkConfigResult_NetworkInterfaces.htm" />
+  <HelpKINode Title="NetworkInterfaceStats class">
+    <HelpKINode Title="NetworkInterfaceStats Class" Url="html/T_SolidFire_Element_Api_NetworkInterfaceStats.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_NetworkInterfaceStats__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_NetworkInterfaceStats.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_NetworkInterfaceStats.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NetworkInterfaceStats property" Url="html/P_SolidFire_Element_Api_ListNetworkInterfaceStatsResult_NetworkInterfaceStats.htm" />
+  <HelpKINode Title="NetworkInterfaceStats.Collisions property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_Collisions.htm" />
+  <HelpKINode Title="NetworkInterfaceStats.Name property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_Name.htm" />
+  <HelpKINode Title="NetworkInterfaceStats.NetworkInterfaceStats constructor" Url="html/M_SolidFire_Element_Api_NetworkInterfaceStats__ctor.htm" />
+  <HelpKINode Title="NetworkInterfaceStats.RxBytes property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_RxBytes.htm" />
+  <HelpKINode Title="NetworkInterfaceStats.RxCrcErrors property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_RxCrcErrors.htm" />
+  <HelpKINode Title="NetworkInterfaceStats.RxDropped property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_RxDropped.htm" />
+  <HelpKINode Title="NetworkInterfaceStats.RxErrors property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_RxErrors.htm" />
+  <HelpKINode Title="NetworkInterfaceStats.RxFifoErrors property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_RxFifoErrors.htm" />
+  <HelpKINode Title="NetworkInterfaceStats.RxFrameErrors property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_RxFrameErrors.htm" />
+  <HelpKINode Title="NetworkInterfaceStats.RxLengthErrors property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_RxLengthErrors.htm" />
+  <HelpKINode Title="NetworkInterfaceStats.RxMissedErrors property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_RxMissedErrors.htm" />
+  <HelpKINode Title="NetworkInterfaceStats.RxOverErrors property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_RxOverErrors.htm" />
+  <HelpKINode Title="NetworkInterfaceStats.RxPackets property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_RxPackets.htm" />
+  <HelpKINode Title="NetworkInterfaceStats.TxBytes property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_TxBytes.htm" />
+  <HelpKINode Title="NetworkInterfaceStats.TxCarrierErrors property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_TxCarrierErrors.htm" />
+  <HelpKINode Title="NetworkInterfaceStats.TxErrors property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_TxErrors.htm" />
+  <HelpKINode Title="NetworkInterfaceStats.TxFifoErrors property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_TxFifoErrors.htm" />
+  <HelpKINode Title="NetworkInterfaceStats.TxPackets property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_TxPackets.htm" />
   <HelpKINode Title="NetworkMask property" Url="html/P_SolidFire_Element_Api_SnapMirrorNetworkInterface_NetworkMask.htm" />
   <HelpKINode Title="NetworkParams class">
     <HelpKINode Title="NetworkParams Class" Url="html/T_SolidFire_Element_Api_NetworkParams.htm" />
@@ -9525,6 +9716,7 @@
     <HelpKINode Title="SnmpV3UsmUser.Password Property " Url="html/P_SolidFire_Element_Api_SnmpV3UsmUser_Password.htm" />
     <HelpKINode Title="TestLdapAuthenticationRequest.Password Property " Url="html/P_SolidFire_Element_Api_TestLdapAuthenticationRequest_Password.htm" />
   </HelpKINode>
+  <HelpKINode Title="Patches property" Url="html/P_SolidFire_Element_Api_GetPatchInfoResult_Patches.htm" />
   <HelpKINode Title="Path property">
     <HelpKINode Title="DriveConfigInfo.Path Property " Url="html/P_SolidFire_Element_Api_DriveConfigInfo_Path.htm" />
     <HelpKINode Title="DriveHardware.Path Property " Url="html/P_SolidFire_Element_Api_DriveHardware_Path.htm" />
@@ -10085,6 +10277,32 @@
     <HelpKINode Title="ScheduleObject.Recurring Property " Url="html/P_SolidFire_Element_Api_ScheduleObject_Recurring.htm" />
   </HelpKINode>
   <HelpKINode Title="Recursive property" Url="html/P_SolidFire_Element_Api_ListVirtualVolumesRequest_Recursive.htm" />
+  <HelpKINode Title="RekeyMasterKeyAsyncResultID property" Url="html/P_SolidFire_Element_Api_GetSoftwareEncryptionAtRestInfoResult_RekeyMasterKeyAsyncResultID.htm" />
+  <HelpKINode Title="RekeySoftwareEncryptionAtRestMasterKey method">
+    <HelpKINode Title="ISolidFireElement.RekeySoftwareEncryptionAtRestMasterKey Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_RekeySoftwareEncryptionAtRestMasterKey.htm" />
+    <HelpKINode Title="SolidFireElement.RekeySoftwareEncryptionAtRestMasterKey Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_RekeySoftwareEncryptionAtRestMasterKey.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RekeySoftwareEncryptionAtRestMasterKeyAsync method">
+    <HelpKINode Title="ISolidFireElement.RekeySoftwareEncryptionAtRestMasterKeyAsync Method " Url="html/Overload_SolidFire_Element_Api_ISolidFireElement_RekeySoftwareEncryptionAtRestMasterKeyAsync.htm" />
+    <HelpKINode Title="SolidFireElement.RekeySoftwareEncryptionAtRestMasterKeyAsync Method " Url="html/Overload_SolidFire_Element_Api_SolidFireElement_RekeySoftwareEncryptionAtRestMasterKeyAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RekeySoftwareEncryptionAtRestMasterKeyRequest class">
+    <HelpKINode Title="RekeySoftwareEncryptionAtRestMasterKeyRequest Class" Url="html/T_SolidFire_Element_Api_RekeySoftwareEncryptionAtRestMasterKeyRequest.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_RekeySoftwareEncryptionAtRestMasterKeyRequest__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_RekeySoftwareEncryptionAtRestMasterKeyRequest.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_RekeySoftwareEncryptionAtRestMasterKeyRequest.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RekeySoftwareEncryptionAtRestMasterKeyRequest.KeyManagementType property" Url="html/P_SolidFire_Element_Api_RekeySoftwareEncryptionAtRestMasterKeyRequest_KeyManagementType.htm" />
+  <HelpKINode Title="RekeySoftwareEncryptionAtRestMasterKeyRequest.KeyProviderID property" Url="html/P_SolidFire_Element_Api_RekeySoftwareEncryptionAtRestMasterKeyRequest_KeyProviderID.htm" />
+  <HelpKINode Title="RekeySoftwareEncryptionAtRestMasterKeyRequest.RekeySoftwareEncryptionAtRestMasterKeyRequest constructor" Url="html/M_SolidFire_Element_Api_RekeySoftwareEncryptionAtRestMasterKeyRequest__ctor.htm" />
+  <HelpKINode Title="RekeySoftwareEncryptionAtRestMasterKeyResult class">
+    <HelpKINode Title="RekeySoftwareEncryptionAtRestMasterKeyResult Class" Url="html/T_SolidFire_Element_Api_RekeySoftwareEncryptionAtRestMasterKeyResult.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_RekeySoftwareEncryptionAtRestMasterKeyResult__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_RekeySoftwareEncryptionAtRestMasterKeyResult.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_RekeySoftwareEncryptionAtRestMasterKeyResult.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RekeySoftwareEncryptionAtRestMasterKeyResult.AsyncHandle property" Url="html/P_SolidFire_Element_Api_RekeySoftwareEncryptionAtRestMasterKeyResult_AsyncHandle.htm" />
+  <HelpKINode Title="RekeySoftwareEncryptionAtRestMasterKeyResult.RekeySoftwareEncryptionAtRestMasterKeyResult constructor" Url="html/M_SolidFire_Element_Api_RekeySoftwareEncryptionAtRestMasterKeyResult__ctor.htm" />
   <HelpKINode Title="RelationshipID property" Url="html/P_SolidFire_Element_Api_ListSnapMirrorRelationshipsRequest_RelationshipID.htm" />
   <HelpKINode Title="RelationshipStatus property" Url="html/P_SolidFire_Element_Api_SnapMirrorRelationship_RelationshipStatus.htm" />
   <HelpKINode Title="RelationshipType property" Url="html/P_SolidFire_Element_Api_CreateSnapMirrorRelationshipRequest_RelationshipType.htm" />
@@ -10777,6 +10995,16 @@
   </HelpKINode>
   <HelpKINode Title="RunSync(Of T) method" Url="html/M_SolidFire_Element_ElementFactory_RunSync__1.htm" />
   <HelpKINode Title="RunSync&lt;T&gt; method" Url="html/M_SolidFire_Element_ElementFactory_RunSync__1.htm" />
+  <HelpKINode Title="RxBytes property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_RxBytes.htm" />
+  <HelpKINode Title="RxCrcErrors property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_RxCrcErrors.htm" />
+  <HelpKINode Title="RxDropped property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_RxDropped.htm" />
+  <HelpKINode Title="RxErrors property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_RxErrors.htm" />
+  <HelpKINode Title="RxFifoErrors property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_RxFifoErrors.htm" />
+  <HelpKINode Title="RxFrameErrors property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_RxFrameErrors.htm" />
+  <HelpKINode Title="RxLengthErrors property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_RxLengthErrors.htm" />
+  <HelpKINode Title="RxMissedErrors property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_RxMissedErrors.htm" />
+  <HelpKINode Title="RxOverErrors property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_RxOverErrors.htm" />
+  <HelpKINode Title="RxPackets property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_RxPackets.htm" />
   <HelpKINode Title="SamplePeriodMSec property">
     <HelpKINode Title="VirtualVolumeStats.SamplePeriodMSec Property " Url="html/P_SolidFire_Element_Api_VirtualVolumeStats_SamplePeriodMSec.htm" />
     <HelpKINode Title="VolumeStats.SamplePeriodMSec Property " Url="html/P_SolidFire_Element_Api_VolumeStats_SamplePeriodMSec.htm" />
@@ -10936,6 +11164,14 @@
     <HelpKINode Title="LdapConfiguration.SearchBindDN Property " Url="html/P_SolidFire_Element_Api_LdapConfiguration_SearchBindDN.htm" />
   </HelpKINode>
   <HelpKINode Title="SearchBindPassword property" Url="html/P_SolidFire_Element_Api_EnableLdapAuthenticationRequest_SearchBindPassword.htm" />
+  <HelpKINode Title="SearRekeyMasterKeyState class">
+    <HelpKINode Title="SearRekeyMasterKeyState Class" Url="html/T_SolidFire_Element_Api_SearRekeyMasterKeyState.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SolidFire_Element_Api_SearRekeyMasterKeyState__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SolidFire_Element_Api_SearRekeyMasterKeyState.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SolidFire_Element_Api_SearRekeyMasterKeyState.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SearRekeyMasterKeyState.access property" Url="html/P_SolidFire_Element_Api_SearRekeyMasterKeyState_access.htm" />
+  <HelpKINode Title="SearRekeyMasterKeyState.SearRekeyMasterKeyState constructor" Url="html/M_SolidFire_Element_Api_SearRekeyMasterKeyState__ctor.htm" />
   <HelpKINode Title="SecLevel property" Url="html/P_SolidFire_Element_Api_SnmpV3UsmUser_SecLevel.htm" />
   <HelpKINode Title="SecondaryProviderID property" Url="html/P_SolidFire_Element_Api_ProtocolEndpoint_SecondaryProviderID.htm" />
   <HelpKINode Title="Secret property" Url="html/P_SolidFire_Element_Api_CHAPSecret_Secret.htm" />
@@ -12269,6 +12505,7 @@
   <HelpKINode Title="SolidFire.Element.Api.CreateVolumeAccessGroupResult class" Url="html/T_SolidFire_Element_Api_CreateVolumeAccessGroupResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.CreateVolumeRequest class" Url="html/T_SolidFire_Element_Api_CreateVolumeRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.CreateVolumeResult class" Url="html/T_SolidFire_Element_Api_CreateVolumeResult.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.CryptoKeyType class" Url="html/T_SolidFire_Element_Api_CryptoKeyType.htm" />
   <HelpKINode Title="SolidFire.Element.Api.DayOfWeek class" Url="html/T_SolidFire_Element_Api_DayOfWeek.htm" />
   <HelpKINode Title="SolidFire.Element.Api.DaysOfMonthFrequency class" Url="html/T_SolidFire_Element_Api_DaysOfMonthFrequency.htm" />
   <HelpKINode Title="SolidFire.Element.Api.DaysOfWeekFrequency class" Url="html/T_SolidFire_Element_Api_DaysOfWeekFrequency.htm" />
@@ -12340,6 +12577,7 @@
   <HelpKINode Title="SolidFire.Element.Api.EnableSnmpRequest class" Url="html/T_SolidFire_Element_Api_EnableSnmpRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.EnableSnmpResult class" Url="html/T_SolidFire_Element_Api_EnableSnmpResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.EnableSshResult class" Url="html/T_SolidFire_Element_Api_EnableSshResult.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.EncryptionKeyInfo class" Url="html/T_SolidFire_Element_Api_EncryptionKeyInfo.htm" />
   <HelpKINode Title="SolidFire.Element.Api.EventInfo class" Url="html/T_SolidFire_Element_Api_EventInfo.htm" />
   <HelpKINode Title="SolidFire.Element.Api.FeatureObject class" Url="html/T_SolidFire_Element_Api_FeatureObject.htm" />
   <HelpKINode Title="SolidFire.Element.Api.FibreChannelPortInfo class" Url="html/T_SolidFire_Element_Api_FibreChannelPortInfo.htm" />
@@ -12386,6 +12624,7 @@
   <HelpKINode Title="SolidFire.Element.Api.GetDriveStatsRequest class" Url="html/T_SolidFire_Element_Api_GetDriveStatsRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetDriveStatsResult class" Url="html/T_SolidFire_Element_Api_GetDriveStatsResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetEfficiencyResult class" Url="html/T_SolidFire_Element_Api_GetEfficiencyResult.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.GetEncryptionAtRestInfoResult class" Url="html/T_SolidFire_Element_Api_GetEncryptionAtRestInfoResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetFeatureStatusRequest class" Url="html/T_SolidFire_Element_Api_GetFeatureStatusRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetFeatureStatusResult class" Url="html/T_SolidFire_Element_Api_GetFeatureStatusResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetFipsReportResult class" Url="html/T_SolidFire_Element_Api_GetFipsReportResult.htm" />
@@ -12423,6 +12662,8 @@
   <HelpKINode Title="SolidFire.Element.Api.GetOriginNode class" Url="html/T_SolidFire_Element_Api_GetOriginNode.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetOriginNodeResult class" Url="html/T_SolidFire_Element_Api_GetOriginNodeResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetOriginResult class" Url="html/T_SolidFire_Element_Api_GetOriginResult.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.GetPatchInfoRequest class" Url="html/T_SolidFire_Element_Api_GetPatchInfoRequest.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.GetPatchInfoResult class" Url="html/T_SolidFire_Element_Api_GetPatchInfoResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetPendingOperationResult class" Url="html/T_SolidFire_Element_Api_GetPendingOperationResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetProtectionDomainLayoutResult class" Url="html/T_SolidFire_Element_Api_GetProtectionDomainLayoutResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetProtectionSchemesResult class" Url="html/T_SolidFire_Element_Api_GetProtectionSchemesResult.htm" />
@@ -12437,6 +12678,7 @@
   <HelpKINode Title="SolidFire.Element.Api.GetSnmpInfoResult class" Url="html/T_SolidFire_Element_Api_GetSnmpInfoResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetSnmpStateResult class" Url="html/T_SolidFire_Element_Api_GetSnmpStateResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetSnmpTrapInfoResult class" Url="html/T_SolidFire_Element_Api_GetSnmpTrapInfoResult.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.GetSoftwareEncryptionAtRestInfoResult class" Url="html/T_SolidFire_Element_Api_GetSoftwareEncryptionAtRestInfoResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetSshInfoResult class" Url="html/T_SolidFire_Element_Api_GetSshInfoResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetSSLCertificateResult class" Url="html/T_SolidFire_Element_Api_GetSSLCertificateResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.GetStorageContainerEfficiencyRequest class" Url="html/T_SolidFire_Element_Api_GetStorageContainerEfficiencyRequest.htm" />
@@ -12463,6 +12705,7 @@
   <HelpKINode Title="SolidFire.Element.Api.Initiator class" Url="html/T_SolidFire_Element_Api_Initiator.htm" />
   <HelpKINode Title="SolidFire.Element.Api.InvokeSFApiRequest class" Url="html/T_SolidFire_Element_Api_InvokeSFApiRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.IpmiInfo class" Url="html/T_SolidFire_Element_Api_IpmiInfo.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.ISCSIAuthentication class" Url="html/T_SolidFire_Element_Api_ISCSIAuthentication.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ISCSISession class" Url="html/T_SolidFire_Element_Api_ISCSISession.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ISolidFireElement interface" Url="html/T_SolidFire_Element_Api_ISolidFireElement.htm" />
   <HelpKINode Title="SolidFire.Element.Api.KeyProviderKmip class" Url="html/T_SolidFire_Element_Api_KeyProviderKmip.htm" />
@@ -12511,6 +12754,7 @@
   <HelpKINode Title="SolidFire.Element.Api.ListKeyServersKmipRequest class" Url="html/T_SolidFire_Element_Api_ListKeyServersKmipRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ListKeyServersKmipResult class" Url="html/T_SolidFire_Element_Api_ListKeyServersKmipResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ListNetworkInterfacesResult class" Url="html/T_SolidFire_Element_Api_ListNetworkInterfacesResult.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.ListNetworkInterfaceStatsResult class" Url="html/T_SolidFire_Element_Api_ListNetworkInterfaceStatsResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ListNodeFibreChannelPortInfoResult class" Url="html/T_SolidFire_Element_Api_ListNodeFibreChannelPortInfoResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ListNodeStatsResult class" Url="html/T_SolidFire_Element_Api_ListNodeStatsResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ListPendingActiveNodesResult class" Url="html/T_SolidFire_Element_Api_ListPendingActiveNodesResult.htm" />
@@ -12630,6 +12874,7 @@
   <HelpKINode Title="SolidFire.Element.Api.NetworkConfig class" Url="html/T_SolidFire_Element_Api_NetworkConfig.htm" />
   <HelpKINode Title="SolidFire.Element.Api.NetworkConfigParams class" Url="html/T_SolidFire_Element_Api_NetworkConfigParams.htm" />
   <HelpKINode Title="SolidFire.Element.Api.NetworkInterface class" Url="html/T_SolidFire_Element_Api_NetworkInterface.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.NetworkInterfaceStats class" Url="html/T_SolidFire_Element_Api_NetworkInterfaceStats.htm" />
   <HelpKINode Title="SolidFire.Element.Api.NetworkParams class" Url="html/T_SolidFire_Element_Api_NetworkParams.htm" />
   <HelpKINode Title="SolidFire.Element.Api.NewDrive class" Url="html/T_SolidFire_Element_Api_NewDrive.htm" />
   <HelpKINode Title="SolidFire.Element.Api.Node class" Url="html/T_SolidFire_Element_Api_Node.htm" />
@@ -12674,6 +12919,8 @@
   <HelpKINode Title="SolidFire.Element.Api.QuiesceSnapMirrorRelationshipRequest class" Url="html/T_SolidFire_Element_Api_QuiesceSnapMirrorRelationshipRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.QuiesceSnapMirrorRelationshipResult class" Url="html/T_SolidFire_Element_Api_QuiesceSnapMirrorRelationshipResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.QuintileHistogram class" Url="html/T_SolidFire_Element_Api_QuintileHistogram.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.RekeySoftwareEncryptionAtRestMasterKeyRequest class" Url="html/T_SolidFire_Element_Api_RekeySoftwareEncryptionAtRestMasterKeyRequest.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.RekeySoftwareEncryptionAtRestMasterKeyResult class" Url="html/T_SolidFire_Element_Api_RekeySoftwareEncryptionAtRestMasterKeyResult.htm" />
   <HelpKINode Title="SolidFire.Element.Api.RemoteClusterSnapshotStatus class" Url="html/T_SolidFire_Element_Api_RemoteClusterSnapshotStatus.htm" />
   <HelpKINode Title="SolidFire.Element.Api.RemoteReplication class" Url="html/T_SolidFire_Element_Api_RemoteReplication.htm" />
   <HelpKINode Title="SolidFire.Element.Api.RemoveAccountRequest class" Url="html/T_SolidFire_Element_Api_RemoveAccountRequest.htm" />
@@ -12723,6 +12970,7 @@
   <HelpKINode Title="SolidFire.Element.Api.ScheduleInfo class" Url="html/T_SolidFire_Element_Api_ScheduleInfo.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ScheduleInfoObject class" Url="html/T_SolidFire_Element_Api_ScheduleInfoObject.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ScheduleObject class" Url="html/T_SolidFire_Element_Api_ScheduleObject.htm" />
+  <HelpKINode Title="SolidFire.Element.Api.SearRekeyMasterKeyState class" Url="html/T_SolidFire_Element_Api_SearRekeyMasterKeyState.htm" />
   <HelpKINode Title="SolidFire.Element.Api.SecureEraseDrivesRequest class" Url="html/T_SolidFire_Element_Api_SecureEraseDrivesRequest.htm" />
   <HelpKINode Title="SolidFire.Element.Api.Service class" Url="html/T_SolidFire_Element_Api_Service.htm" />
   <HelpKINode Title="SolidFire.Element.Api.ServiceReplicaBudget class" Url="html/T_SolidFire_Element_Api_ServiceReplicaBudget.htm" />
@@ -13070,6 +13318,8 @@
   <HelpKINode Title="SolidFireElement.GetDriveHardwareInfoAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetDriveHardwareInfoAsync.htm" />
   <HelpKINode Title="SolidFireElement.GetDriveStats method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetDriveStats.htm" />
   <HelpKINode Title="SolidFireElement.GetDriveStatsAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetDriveStatsAsync.htm" />
+  <HelpKINode Title="SolidFireElement.GetEncryptionAtRestInfo method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetEncryptionAtRestInfo.htm" />
+  <HelpKINode Title="SolidFireElement.GetEncryptionAtRestInfoAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetEncryptionAtRestInfoAsync.htm" />
   <HelpKINode Title="SolidFireElement.GetFeatureStatus method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetFeatureStatus.htm" />
   <HelpKINode Title="SolidFireElement.GetFeatureStatusAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetFeatureStatusAsync.htm" />
   <HelpKINode Title="SolidFireElement.GetFipsReport method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetFipsReport.htm" />
@@ -13122,6 +13372,8 @@
   <HelpKINode Title="SolidFireElement.GetOntapVersionInfoAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetOntapVersionInfoAsync.htm" />
   <HelpKINode Title="SolidFireElement.GetOrigin method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetOrigin.htm" />
   <HelpKINode Title="SolidFireElement.GetOriginAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetOriginAsync.htm" />
+  <HelpKINode Title="SolidFireElement.GetPatchInfo method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetPatchInfo.htm" />
+  <HelpKINode Title="SolidFireElement.GetPatchInfoAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_GetPatchInfoAsync.htm" />
   <HelpKINode Title="SolidFireElement.GetPendingOperation method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetPendingOperation.htm" />
   <HelpKINode Title="SolidFireElement.GetPendingOperationAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetPendingOperationAsync.htm" />
   <HelpKINode Title="SolidFireElement.GetProtectionDomainLayout method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetProtectionDomainLayout.htm" />
@@ -13144,6 +13396,8 @@
   <HelpKINode Title="SolidFireElement.GetSnmpStateAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetSnmpStateAsync.htm" />
   <HelpKINode Title="SolidFireElement.GetSnmpTrapInfo method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetSnmpTrapInfo.htm" />
   <HelpKINode Title="SolidFireElement.GetSnmpTrapInfoAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetSnmpTrapInfoAsync.htm" />
+  <HelpKINode Title="SolidFireElement.GetSoftwareEncryptionAtRestInfo method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetSoftwareEncryptionAtRestInfo.htm" />
+  <HelpKINode Title="SolidFireElement.GetSoftwareEncryptionAtRestInfoAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetSoftwareEncryptionAtRestInfoAsync.htm" />
   <HelpKINode Title="SolidFireElement.GetSshInfo method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetSshInfo.htm" />
   <HelpKINode Title="SolidFireElement.GetSshInfoAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetSshInfoAsync.htm" />
   <HelpKINode Title="SolidFireElement.GetSSLCertificate method" Url="html/M_SolidFire_Element_Api_SolidFireElement_GetSSLCertificate.htm" />
@@ -13228,6 +13482,8 @@
   <HelpKINode Title="SolidFireElement.ListKeyServersKmipAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_ListKeyServersKmipAsync.htm" />
   <HelpKINode Title="SolidFireElement.ListNetworkInterfaces method" Url="html/M_SolidFire_Element_Api_SolidFireElement_ListNetworkInterfaces.htm" />
   <HelpKINode Title="SolidFireElement.ListNetworkInterfacesAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_ListNetworkInterfacesAsync.htm" />
+  <HelpKINode Title="SolidFireElement.ListNetworkInterfaceStats method" Url="html/M_SolidFire_Element_Api_SolidFireElement_ListNetworkInterfaceStats.htm" />
+  <HelpKINode Title="SolidFireElement.ListNetworkInterfaceStatsAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_ListNetworkInterfaceStatsAsync.htm" />
   <HelpKINode Title="SolidFireElement.ListNodeFibreChannelPortInfo method" Url="html/M_SolidFire_Element_Api_SolidFireElement_ListNodeFibreChannelPortInfo.htm" />
   <HelpKINode Title="SolidFireElement.ListNodeFibreChannelPortInfoAsync method" Url="html/M_SolidFire_Element_Api_SolidFireElement_ListNodeFibreChannelPortInfoAsync.htm" />
   <HelpKINode Title="SolidFireElement.ListNodeStats method" Url="html/M_SolidFire_Element_Api_SolidFireElement_ListNodeStats.htm" />
@@ -13352,6 +13608,8 @@
   <HelpKINode Title="SolidFireElement.PurgeDeletedVolumesAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_PurgeDeletedVolumesAsync.htm" />
   <HelpKINode Title="SolidFireElement.QuiesceSnapMirrorRelationship method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_QuiesceSnapMirrorRelationship.htm" />
   <HelpKINode Title="SolidFireElement.QuiesceSnapMirrorRelationshipAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_QuiesceSnapMirrorRelationshipAsync.htm" />
+  <HelpKINode Title="SolidFireElement.RekeySoftwareEncryptionAtRestMasterKey method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_RekeySoftwareEncryptionAtRestMasterKey.htm" />
+  <HelpKINode Title="SolidFireElement.RekeySoftwareEncryptionAtRestMasterKeyAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_RekeySoftwareEncryptionAtRestMasterKeyAsync.htm" />
   <HelpKINode Title="SolidFireElement.RemoveAccount method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_RemoveAccount.htm" />
   <HelpKINode Title="SolidFireElement.RemoveAccountAsync method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_RemoveAccountAsync.htm" />
   <HelpKINode Title="SolidFireElement.RemoveBackupTarget method" Url="html/Overload_SolidFire_Element_Api_SolidFireElement_RemoveBackupTarget.htm" />
@@ -13684,6 +13942,8 @@
     <HelpKINode Title="CreatePublicPrivateKeyPairRequest.State Property " Url="html/P_SolidFire_Element_Api_CreatePublicPrivateKeyPairRequest_State.htm" />
     <HelpKINode Title="FibreChannelPortInfo.State Property " Url="html/P_SolidFire_Element_Api_FibreChannelPortInfo_State.htm" />
     <HelpKINode Title="GetClusterStateResult.State Property " Url="html/P_SolidFire_Element_Api_GetClusterStateResult_State.htm" />
+    <HelpKINode Title="GetEncryptionAtRestInfoResult.State Property " Url="html/P_SolidFire_Element_Api_GetEncryptionAtRestInfoResult_State.htm" />
+    <HelpKINode Title="GetSoftwareEncryptionAtRestInfoResult.State Property " Url="html/P_SolidFire_Element_Api_GetSoftwareEncryptionAtRestInfoResult_State.htm" />
     <HelpKINode Title="NodeStateInfo.State Property " Url="html/P_SolidFire_Element_Api_NodeStateInfo_State.htm" />
     <HelpKINode Title="RemoteReplication.State Property " Url="html/P_SolidFire_Element_Api_RemoteReplication_State.htm" />
     <HelpKINode Title="SnapMirrorLunInfo.State Property " Url="html/P_SolidFire_Element_Api_SnapMirrorLunInfo_State.htm" />
@@ -14244,6 +14504,11 @@
     <HelpKINode Title="SetSnmpTrapInfoRequest.TrapRecipients Property " Url="html/P_SolidFire_Element_Api_SetSnmpTrapInfoRequest_TrapRecipients.htm" />
   </HelpKINode>
   <HelpKINode Title="Tuesday enumeration member" Url="html/T_SolidFire_Element_Api_Weekday.htm" />
+  <HelpKINode Title="TxBytes property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_TxBytes.htm" />
+  <HelpKINode Title="TxCarrierErrors property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_TxCarrierErrors.htm" />
+  <HelpKINode Title="TxErrors property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_TxErrors.htm" />
+  <HelpKINode Title="TxFifoErrors property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_TxFifoErrors.htm" />
+  <HelpKINode Title="TxPackets property" Url="html/P_SolidFire_Element_Api_NetworkInterfaceStats_TxPackets.htm" />
   <HelpKINode Title="Type property">
     <HelpKINode Title="BulkVolumeJob.Type Property " Url="html/P_SolidFire_Element_Api_BulkVolumeJob_Type.htm" />
     <HelpKINode Title="ClusterFaultInfo.Type Property " Url="html/P_SolidFire_Element_Api_ClusterFaultInfo_Type.htm" />
@@ -14455,6 +14720,7 @@
     <HelpKINode Title="DriveHardware.Version Property " Url="html/P_SolidFire_Element_Api_DriveHardware_Version.htm" />
     <HelpKINode Title="DriveHardwareInfo.Version Property " Url="html/P_SolidFire_Element_Api_DriveHardwareInfo_Version.htm" />
     <HelpKINode Title="GetBootstrapConfigResult.Version Property " Url="html/P_SolidFire_Element_Api_GetBootstrapConfigResult_Version.htm" />
+    <HelpKINode Title="GetSoftwareEncryptionAtRestInfoResult.Version Property " Url="html/P_SolidFire_Element_Api_GetSoftwareEncryptionAtRestInfoResult_Version.htm" />
     <HelpKINode Title="NodeWaitingToJoin.Version Property " Url="html/P_SolidFire_Element_Api_NodeWaitingToJoin_Version.htm" />
     <HelpKINode Title="PairedCluster.Version Property " Url="html/P_SolidFire_Element_Api_PairedCluster_Version.htm" />
     <HelpKINode Title="Signature.Version Property " Url="html/P_SolidFire_Element_Api_Signature_Version.htm" />
@@ -14560,14 +14826,14 @@
     <HelpKINode Title="VirtualVolumeTask.VirtualVolumeHostID Property " Url="html/P_SolidFire_Element_Api_VirtualVolumeTask_VirtualVolumeHostID.htm" />
   </HelpKINode>
   <HelpKINode Title="VirtualVolumeHostIDs property" Url="html/P_SolidFire_Element_Api_ListVirtualVolumeHostsRequest_VirtualVolumeHostIDs.htm" />
-  <HelpKINode Title="VirtualvolumeID property" Url="html/P_SolidFire_Element_Api_VirtualVolumeTask_VirtualvolumeID.htm" />
   <HelpKINode Title="VirtualVolumeID property">
-    <HelpKINode Title="Snapshot.VirtualVolumeID Property " Url="html/P_SolidFire_Element_Api_Snapshot_VirtualVolumeID.htm" />
     <HelpKINode Title="VirtualVolumeBinding.VirtualVolumeID Property " Url="html/P_SolidFire_Element_Api_VirtualVolumeBinding_VirtualVolumeID.htm" />
     <HelpKINode Title="VirtualVolumeInfo.VirtualVolumeID Property " Url="html/P_SolidFire_Element_Api_VirtualVolumeInfo_VirtualVolumeID.htm" />
+    <HelpKINode Title="Snapshot.VirtualVolumeID Property " Url="html/P_SolidFire_Element_Api_Snapshot_VirtualVolumeID.htm" />
     <HelpKINode Title="VirtualVolumeStats.VirtualVolumeID Property " Url="html/P_SolidFire_Element_Api_VirtualVolumeStats_VirtualVolumeID.htm" />
     <HelpKINode Title="Volume.VirtualVolumeID Property " Url="html/P_SolidFire_Element_Api_Volume_VirtualVolumeID.htm" />
   </HelpKINode>
+  <HelpKINode Title="VirtualvolumeID property" Url="html/P_SolidFire_Element_Api_VirtualVolumeTask_VirtualvolumeID.htm" />
   <HelpKINode Title="VirtualVolumeIDs property">
     <HelpKINode Title="ListVirtualVolumesRequest.VirtualVolumeIDs Property " Url="html/P_SolidFire_Element_Api_ListVirtualVolumesRequest_VirtualVolumeIDs.htm" />
     <HelpKINode Title="ListVolumeStatsByVirtualVolumeRequest.VirtualVolumeIDs Property " Url="html/P_SolidFire_Element_Api_ListVolumeStatsByVirtualVolumeRequest_VirtualVolumeIDs.htm" />
@@ -14681,9 +14947,11 @@
   <HelpKINode Title="Volume.DeleteTime property" Url="html/P_SolidFire_Element_Api_Volume_DeleteTime.htm" />
   <HelpKINode Title="Volume.Enable512e property" Url="html/P_SolidFire_Element_Api_Volume_Enable512e.htm" />
   <HelpKINode Title="Volume.EnableSnapMirrorReplication property" Url="html/P_SolidFire_Element_Api_Volume_EnableSnapMirrorReplication.htm" />
+  <HelpKINode Title="Volume.FifoSize property" Url="html/P_SolidFire_Element_Api_Volume_FifoSize.htm" />
   <HelpKINode Title="Volume.Iqn property" Url="html/P_SolidFire_Element_Api_Volume_Iqn.htm" />
   <HelpKINode Title="Volume.LastAccessTime property" Url="html/P_SolidFire_Element_Api_Volume_LastAccessTime.htm" />
   <HelpKINode Title="Volume.LastAccessTimeIO property" Url="html/P_SolidFire_Element_Api_Volume_LastAccessTimeIO.htm" />
+  <HelpKINode Title="Volume.MinFifoSize property" Url="html/P_SolidFire_Element_Api_Volume_MinFifoSize.htm" />
   <HelpKINode Title="Volume.Name property" Url="html/P_SolidFire_Element_Api_Volume_Name.htm" />
   <HelpKINode Title="Volume.PreviousProtectionScheme property" Url="html/P_SolidFire_Element_Api_Volume_PreviousProtectionScheme.htm" />
   <HelpKINode Title="Volume.PurgeTime property" Url="html/P_SolidFire_Element_Api_Volume_PurgeTime.htm" />
