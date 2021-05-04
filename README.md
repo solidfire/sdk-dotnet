@@ -25,13 +25,13 @@ Install-Package SolidFire.SDK
 | Component                          | Version     |
 |:-----------------------------------|:------------|
 | .NET Core                          | 2.2         |
-| SolidFire Element OS               | 10.0 - 12.2 |
+| SolidFire Element OS               | 11.8 - 12.3 |
 
 ## Documentation
 
 [MSDN Docs](http://solidfire.github.io/sdk-dotnet/help/html/R_Project_NetApp_SolidFire__NET_SDK_Documentation.htm) 
 
-[Release Notes](NetApp_Element_.NET_SDK_Release_Notes_1.7.pdf)
+[Release Notes](NetApp_Element_.NET_SDK_12.3_Release_Notes.pdf)
 
 ## Getting Help
 
@@ -66,9 +66,9 @@ var addAccountRequest = new AddAccountRequest()
 
 ### Step 3 - Call the API method and retrieve the result
 
-All service methods in [SolidFireElement](http://solidfire.github.io/sdk-dotnet/help/html/T_SolidFire_Element_Api_SolidFireElement.htm) call API endpoints syncronously and asyncronously.
+All service methods in [SolidFireElement](http://solidfire.github.io/sdk-dotnet/help/html/T_SolidFire_Element_Api_SolidFireElement.htm) call API endpoints synchronously and asynchronously.
 
-_Send request and handle result Asyncronously_
+_Send request and handle result Asynchronously_
 
 ~~~ csharp
 // Send the Async request and await the returned Task
@@ -77,7 +77,7 @@ var addAccountResult = await sfe.AddAccountAsync(addAccountRequest, Cancellation
 var accountID = accountResult.AccountID;
 ~~~
 
-_Send request and handle result Syncronously_
+_Send request and handle result Synchronously_
 
 ~~~ csharp
 // Send the request and wait for the result then pull the AccountID
@@ -138,7 +138,7 @@ namespace SolidFire.SDK.Examples
             // Send the request and wait for the result then pull Iqn of the first Volume returned
             var iqn = sfe.ListVolumes(listVolumesRequest).Volumes.First().Iqn;
 
-            // ------- EXAMPLE 4 - MODIFY A VOLUME ASYNCRONOUSLY --------- //
+            // ------- EXAMPLE 4 - MODIFY A VOLUME ASYNCHRONOUSLY --------- //
             // Create a request object to modify a volume
             var modifyVolumeRequest = new ModifyVolumeRequest()
             {
@@ -154,12 +154,12 @@ namespace SolidFire.SDK.Examples
 }
 ~~~
 
-### [More Examples](https://github.com/solidfire/sdk-dotnet/tree/master/examples)
+### [More Examples](examples)
 
-For more examples check out the tutorials in the [examples folder](https://github.com/solidfire/sdk-dotnet/tree/master/examples) of this repo.
+For more examples check out the tutorials in the [examples folder](examples) of this repo.
 
 ## License
-Copyright © 2020 NetApp, Inc. All rights reserved.
+Copyright © 2021 NetApp, Inc. All rights reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -170,4 +170,4 @@ You may obtain a copy of the License at
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions andlimitations under the License.
+See the License for the specific language governing permissions and limitations under the License.
