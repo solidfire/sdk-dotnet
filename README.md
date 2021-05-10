@@ -25,7 +25,7 @@ Install-Package SolidFire.SDK
 | Component                          | Version     |
 |:-----------------------------------|:------------|
 | .NET Core                          | 2.2         |
-| SolidFire Element OS               | 11.8 - 12.3 |
+| SolidFire Element OS               | 11.0 - 12.3 |
 
 ## Documentation
 
